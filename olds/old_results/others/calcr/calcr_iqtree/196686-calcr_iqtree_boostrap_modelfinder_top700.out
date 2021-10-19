@@ -1,0 +1,997 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Aug  4 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    cn01 (AVX512, FMA3, 251 GB RAM)
+Command: iqtree2 -s /cta/users/ofkonar/work/resources/fasta/others/calcr_filtered_fastas_blast_msa.fasta -B 1000 -alrt 1000 -T AUTO --threads-max 24 --prefix calcr_iqtree_boostrap_modelfinder
+Seed:    68817 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jul  1 11:35:18 2021
+Kernel:  AVX+FMA - auto-detect threads (24 CPU cores detected)
+
+Reading alignment file /cta/users/ofkonar/work/resources/fasta/others/calcr_filtered_fastas_blast_msa.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 700 sequences with 3676 columns, 3014 distinct patterns
+1388 parsimony-informative, 915 singleton sites, 1373 constant sites
+                                Gap/Ambiguity  Composition  p-value
+   1  tr|E9FUN7|E9FUN7_DAPPU           84.82%    failed      0.00%
+   2  tr|E9HEC5|E9HEC5_DAPPU           85.26%    passed     65.34%
+   3  tr|E9HF82|E9HF82_DAPPU           89.74%    passed     43.80%
+   4  tr|E2ADW1|E2ADW1_CAMFO           88.98%    passed     24.24%
+   5  tr|B0S4Y6|B0S4Y6_DANRE           84.36%    failed      4.01%
+   6  tr|F1QFW7|F1QFW7_DANRE           90.81%    passed     18.95%
+   7  tr|F1QGZ1|F1QGZ1_DANRE           85.26%    passed     70.66%
+   8  tr|F1R4K2|F1R4K2_DANRE           83.73%    passed     92.01%
+   9  tr|F1RBM7|F1RBM7_DANRE           83.68%    passed      7.14%
+  10  tr|I3IRX3|I3IRX3_DANRE           87.32%    failed      2.42%
+  11  sp|Q68EK2|CALRL_DANRE            87.21%    passed     31.39%
+  12  tr|Q9PVD3|Q9PVD3_DANRE           85.42%    passed     37.95%
+  13  tr|X1WHD4|X1WHD4_DANRE           88.30%    failed      4.14%
+  14  tr|B4ZY91|B4ZY91_CHICK           87.51%    passed     25.86%
+  15  tr|C5HV42|C5HV42_CHICK           87.57%    passed     61.34%
+  16  tr|C7S302|C7S302_CHICK           85.36%    passed     16.04%
+  17  tr|F1NS14|F1NS14_CHICK           88.57%    passed     33.65%
+  18  tr|F1P200|F1P200_CHICK           87.87%    passed     27.55%
+  19  tr|F1P5E1|F1P5E1_CHICK           87.24%    passed     96.11%
+  20  sp|Q90812|CRFR1_CHICK            88.57%    passed     33.11%
+  21  sp|O35659|GLP1R_MOUSE            87.40%    failed      3.18%
+  22  sp|P41593|PTH1R_MOUSE            83.92%    failed      2.17%
+  23  sp|P97751|VIPR1_MOUSE            87.51%    passed     27.04%
+  24  sp|Q60748|CRFR2_MOUSE            88.82%    passed     39.80%
+  25  sp|Q60755|CALCR_MOUSE            85.50%    passed     65.70%
+  26  sp|Q91V95|PTH2R_MOUSE            85.15%    passed     68.35%
+  27  sp|Q9R1W5|CALRL_MOUSE            87.40%    passed     40.66%
+  28  tr|W5JAX3|W5JAX3_ANODA           83.84%    failed      0.00%
+  29  tr|W5JX54|W5JX54_ANODA           85.12%    failed      0.00%
+  30  tr|M3Y190|M3Y190_MUSPF           88.11%    passed     17.65%
+  31  tr|M3Y9S7|M3Y9S7_MUSPF           86.29%    passed     65.90%
+  32  tr|M3YLF0|M3YLF0_MUSPF           87.87%    passed     50.52%
+  33  tr|M3YUG1|M3YUG1_MUSPF           83.79%    failed      0.03%
+  34  tr|A0A0B4KF12|A0A0B4KF12_DROME   83.60%    failed      0.00%
+  35  sp|Q9W4Y2|PDFR_DROME             81.80%    failed      0.01%
+  36  tr|A0A3B3ICV4|A0A3B3ICV4_ORYLA   80.28%    passed     46.00%
+  37  tr|A0A3B3IIJ1|A0A3B3IIJ1_ORYLA   87.05%    passed     79.23%
+  38  tr|H2L308|H2L308_ORYLA           87.73%    passed     87.14%
+  39  tr|H2L647|H2L647_ORYLA           86.51%    passed     36.05%
+  40  tr|H2LM29|H2LM29_ORYLA           84.98%    passed     57.94%
+  41  tr|H2MTE1|H2MTE1_ORYLA           85.42%    passed     53.14%
+  42  tr|H2MV63|H2MV63_ORYLA           84.71%    passed     39.33%
+  43  tr|B4J5C4|B4J5C4_DROGR           84.79%    failed      0.65%
+  44  tr|A0A2I3GJZ9|A0A2I3GJZ9_NOMLE   85.04%    passed     74.10%
+  45  tr|G1R2W9|G1R2W9_NOMLE           84.39%    failed      0.01%
+  46  tr|G1R3Z2|G1R3Z2_NOMLE           87.46%    passed     40.07%
+  47  tr|G1RYV7|G1RYV7_NOMLE           88.11%    passed     33.51%
+  48  tr|G1RZK7|G1RZK7_NOMLE           86.15%    passed     62.20%
+  49  tr|G1P7Q0|G1P7Q0_MYOLU           86.43%    passed     51.01%
+  50  tr|G1PBN2|G1PBN2_MYOLU           85.64%    passed     61.99%
+  51  tr|G1PHU2|G1PHU2_MYOLU           88.74%    passed     24.90%
+  52  tr|G1PQT1|G1PQT1_MYOLU           87.35%    passed     76.46%
+  53  tr|G1PXM2|G1PXM2_MYOLU           88.85%    passed     42.91%
+  54  tr|G3GXI2|G3GXI2_CRIGR           85.34%    passed     64.00%
+  55  tr|G3HRJ5|G3HRJ5_CRIGR           88.41%    passed     42.13%
+  56  tr|B4HQH4|B4HQH4_DROSE           88.00%    failed      0.80%
+  57  tr|A0A2I2Y7U1|A0A2I2Y7U1_GORGO   86.15%    passed     74.08%
+  58  tr|G3QN16|G3QN16_GORGO           87.46%    passed     37.25%
+  59  tr|G3QNP3|G3QNP3_GORGO           87.57%    passed     13.14%
+  60  tr|G3RLB1|G3RLB1_GORGO           85.04%    passed     78.56%
+  61  tr|G3SA64|G3SA64_GORGO           88.08%    passed     44.29%
+  62  tr|G3SK12|G3SK12_GORGO           84.06%    failed      0.27%
+  63  tr|C3ZX18|C3ZX18_BRAFL           89.42%    passed     43.31%
+  64  tr|B7QES5|B7QES5_IXOSC           92.33%    passed     71.08%
+  65  tr|H2P835|H2P835_PONAB           87.95%    passed     34.34%
+  66  tr|H2P8G3|H2P8G3_PONAB           85.04%    passed     63.16%
+  67  tr|H2PAX3|H2PAX3_PONAB           84.03%    failed      0.04%
+  68  tr|H2PMH1|H2PMH1_PONAB           88.08%    passed     47.20%
+  69  tr|H2PMX1|H2PMX1_PONAB           86.67%    passed     79.33%
+  70  sp|Q5RAQ1|PTH1R_PONAB            83.84%    failed      0.14%
+  71  tr|G1MQV4|G1MQV4_MELGA           88.60%    passed     42.12%
+  72  tr|G1MSW0|G1MSW0_MELGA           87.30%    passed     11.08%
+  73  tr|G1MV09|G1MV09_MELGA           85.75%    passed     33.51%
+  74  tr|G1MZI1|G1MZI1_MELGA           87.35%    passed     72.75%
+  75  tr|G1N9Z7|G1N9Z7_MELGA           93.09%    passed     74.14%
+  76  tr|G1NDT0|G1NDT0_MELGA           88.14%    passed     32.17%
+  77  tr|G1NNM2|G1NNM2_MELGA           93.85%    passed     43.17%
+  78  sp|Q91085|VIPR_MELGA             87.57%    passed      5.65%
+  79  tr|G1KEL2|G1KEL2_ANOCA           88.49%    passed     33.98%
+  80  tr|G1KFK2|G1KFK2_ANOCA           87.79%    failed      3.33%
+  81  tr|G1KKX5|G1KKX5_ANOCA           85.58%    passed     71.88%
+  82  tr|G1KNG6|G1KNG6_ANOCA           87.24%    passed     95.86%
+  83  tr|G1KUI1|G1KUI1_ANOCA           88.79%    passed     12.36%
+  84  tr|H9G4S5|H9G4S5_ANOCA           87.32%    passed     42.87%
+  85  tr|H9G9J1|H9G9J1_ANOCA           86.89%    passed     68.43%
+  86  tr|G1T397|G1T397_RABIT           83.98%    failed      0.04%
+  87  tr|G1T4R1|G1T4R1_RABIT           87.57%    passed      8.73%
+  88  tr|G1T6G0|G1T6G0_RABIT           87.35%    passed     37.72%
+  89  tr|G1TV01|G1TV01_RABIT           85.55%    passed     74.02%
+  90  tr|G1U8A0|G1U8A0_RABIT           88.82%    passed     52.25%
+  91  sp|P79222|CALCR_RABIT            87.11%    passed     91.01%
+  92  tr|Q293B3|Q293B3_DROPS           84.06%    failed      0.02%
+  93  tr|Q29FU0|Q29FU0_DROPS           86.29%    failed      2.23%
+  94  tr|B3XXF2|B3XXF2_CANLF           87.05%    passed     93.83%
+  95  tr|E2R4R1|E2R4R1_CANLF           88.11%    passed     28.18%
+  96  tr|F1PI78|F1PI78_CANLF           87.43%    passed     35.85%
+  97  sp|Q9TU31|PTH1R_CANLF            83.81%    failed      0.01%
+  98  tr|A0A2I3RAK9|A0A2I3RAK9_PANTR   87.00%    passed     17.03%
+  99  tr|A0A2I3S8B3|A0A2I3S8B3_PANTR   86.15%    passed     74.16%
+ 100  tr|A0A2I3T1V9|A0A2I3T1V9_PANTR   87.57%    passed     15.36%
+ 101  tr|A0A2I3TIE1|A0A2I3TIE1_PANTR   88.08%    passed     37.96%
+ 102  tr|H2QJB7|H2QJB7_PANTR           85.04%    passed     74.89%
+ 103  tr|H2QMH6|H2QMH6_PANTR           83.87%    failed      0.05%
+ 104  tr|F7G721|F7G721_ORNAN           91.70%    passed     59.60%
+ 105  tr|F6R731|F6R731_MONDO           84.09%    failed      2.13%
+ 106  tr|F7BR47|F7BR47_MONDO           85.07%    passed     77.44%
+ 107  tr|F7C0S0|F7C0S0_MONDO           87.35%    passed     47.09%
+ 108  tr|H9H7E3|H9H7E3_MONDO           87.30%    failed      2.83%
+ 109  tr|F6YHG4|F6YHG4_HORSE           87.08%    passed     96.84%
+ 110  tr|F7BDX2|F7BDX2_HORSE           87.40%    passed     38.13%
+ 111  tr|F7CLK8|F7CLK8_HORSE           88.98%    passed     22.67%
+ 112  tr|F7D3V7|F7D3V7_HORSE           89.64%    failed      4.30%
+ 113  tr|B0WQT0|B0WQT0_CULQU           85.64%    failed      0.03%
+ 114  tr|B0WXR4|B0WXR4_CULQU           87.73%    passed     57.12%
+ 115  tr|B0X5H4|B0X5H4_CULQU           88.85%    passed      8.34%
+ 116  tr|W5NRE5|W5NRE5_SHEEP           86.21%    passed      7.60%
+ 117  tr|W5NZL6|W5NZL6_SHEEP           86.62%    failed      0.04%
+ 118  tr|W5PDF3|W5PDF3_SHEEP           89.06%    passed     63.16%
+ 119  tr|W5Q4Y4|W5Q4Y4_SHEEP           87.40%    passed     30.13%
+ 120  tr|W5QCN9|W5QCN9_SHEEP           84.74%    passed     26.70%
+ 121  tr|K7J018|K7J018_NASVI           89.36%    failed      1.58%
+ 122  tr|K7JRN8|K7JRN8_NASVI           87.57%    passed     24.31%
+ 123  sp|P23811|SCTR_RAT               87.79%    failed      0.92%
+ 124  sp|P25961|PTH1R_RAT              83.92%    failed      0.75%
+ 125  sp|P30083|VIPR1_RAT              87.51%    passed     18.00%
+ 126  sp|P32214|CALCR_RAT              85.96%    passed     58.52%
+ 127  sp|P32301|GLP1R_RAT              87.40%    failed      4.04%
+ 128  sp|P47866|CRFR2_RAT              88.82%    passed     42.37%
+ 129  sp|P70555|PTH2R_RAT              85.23%    passed     57.62%
+ 130  sp|Q63118|CALRL_RAT              87.38%    passed     42.46%
+ 131  tr|A0A3B5Q066|A0A3B5Q066_XIPMA   87.00%    passed     55.51%
+ 132  tr|A0A3B5QHA7|A0A3B5QHA7_XIPMA   88.30%    failed      4.14%
+ 133  tr|A0A3B5QP01|A0A3B5QP01_XIPMA   86.07%    passed     30.37%
+ 134  tr|A0A3B5QQ48|A0A3B5QQ48_XIPMA   85.39%    passed      7.65%
+ 135  tr|M3ZDL9|M3ZDL9_XIPMA           87.87%    passed     54.33%
+ 136  tr|M3ZEN5|M3ZEN5_XIPMA           78.07%    failed      4.58%
+ 137  tr|M3ZIE1|M3ZIE1_XIPMA           85.04%    passed     39.30%
+ 138  tr|M3ZUF6|M3ZUF6_XIPMA           85.04%    passed      9.03%
+ 139  tr|M4A0M0|M4A0M0_XIPMA           87.46%    passed     27.67%
+ 140  tr|M4A521|M4A521_XIPMA           87.98%    passed     11.39%
+ 141  tr|M4ARD0|M4ARD0_XIPMA           88.19%    passed      9.82%
+ 142  tr|A0A088A7A3|A0A088A7A3_APIME   86.86%    failed      1.68%
+ 143  tr|A0A088AMJ5|A0A088AMJ5_APIME   84.47%    failed      1.70%
+ 144  tr|H9JK76|H9JK76_BOMMO           88.93%    failed      0.00%
+ 145  tr|I3J9R4|I3J9R4_ORENI           85.83%    passed     27.59%
+ 146  tr|I3JAC3|I3JAC3_ORENI           87.00%    passed     45.26%
+ 147  tr|I3JJK8|I3JJK8_ORENI           87.16%    passed     31.95%
+ 148  tr|I3JRS5|I3JRS5_ORENI           88.22%    failed      1.98%
+ 149  tr|I3JRS7|I3JRS7_ORENI           86.37%    passed     26.59%
+ 150  tr|I3JSN5|I3JSN5_ORENI           87.95%    passed     19.53%
+ 151  tr|I3JSQ0|I3JSQ0_ORENI           84.22%    passed     64.25%
+ 152  tr|I3JXK1|I3JXK1_ORENI           78.02%    failed      0.92%
+ 153  tr|I3K0C9|I3K0C9_ORENI           84.71%    passed     35.71%
+ 154  tr|I3KES9|I3KES9_ORENI           87.89%    passed     15.23%
+ 155  tr|I3KNZ1|I3KNZ1_ORENI           88.14%    passed      8.97%
+ 156  tr|A0A287D0D7|A0A287D0D7_ICTTR   88.14%    passed     25.04%
+ 157  tr|I3M129|I3M129_ICTTR           87.46%    passed     21.39%
+ 158  tr|I3M1M7|I3M1M7_ICTTR           83.87%    failed      0.18%
+ 159  tr|I3M889|I3M889_ICTTR           87.13%    failed      3.60%
+ 160  tr|I3MI40|I3MI40_ICTTR           86.48%    passed     72.59%
+ 161  tr|I3MJT4|I3MJT4_ICTTR           85.15%    passed     67.40%
+ 162  tr|I3MQT5|I3MQT5_ICTTR           87.54%    passed     18.27%
+ 163  tr|H0WG39|H0WG39_OTOGA           86.97%    passed     83.13%
+ 164  tr|H0WM87|H0WM87_OTOGA           87.40%    failed      2.12%
+ 165  tr|H0WPT5|H0WPT5_OTOGA           87.40%    passed     63.54%
+ 166  tr|H0X8V4|H0X8V4_OTOGA           88.82%    passed     58.28%
+ 167  tr|H0XG58|H0XG58_OTOGA           83.79%    failed      0.30%
+ 168  tr|H2RYJ9|H2RYJ9_TAKRU           84.77%    failed      0.74%
+ 169  tr|H2SQB1|H2SQB1_TAKRU           85.99%    passed     62.02%
+ 170  tr|H2SWF2|H2SWF2_TAKRU           87.00%    passed     73.41%
+ 171  tr|H2TXV2|H2TXV2_TAKRU           86.83%    passed     39.13%
+ 172  tr|H2TZ10|H2TZ10_TAKRU           86.78%    failed      4.32%
+ 173  tr|H2UEU1|H2UEU1_TAKRU           85.64%    passed     41.21%
+ 174  tr|H2UQC1|H2UQC1_TAKRU           78.40%    failed      2.42%
+ 175  tr|H2V7A6|H2V7A6_TAKRU           88.47%    failed      3.35%
+ 176  tr|K1PCG7|K1PCG7_CRAGI           84.52%    passed     33.91%
+ 177  tr|K1PRE3|K1PRE3_CRAGI           87.32%    passed      5.79%
+ 178  tr|K1PX27|K1PX27_CRAGI           90.40%    passed     11.09%
+ 179  tr|K1Q447|K1Q447_CRAGI           87.54%    passed     44.50%
+ 180  tr|K1QCA3|K1QCA3_CRAGI           79.00%    failed      0.00%
+ 181  tr|A0A286XV25|A0A286XV25_CAVPO   88.14%    passed     42.36%
+ 182  tr|H0UV86|H0UV86_CAVPO           87.38%    passed     64.13%
+ 183  tr|H0V1W6|H0V1W6_CAVPO           83.95%    failed      0.23%
+ 184  tr|H0V8Y8|H0V8Y8_CAVPO           87.11%    passed     89.13%
+ 185  tr|H0VTD3|H0VTD3_CAVPO           87.40%    failed      0.69%
+ 186  tr|H0VY34|H0VY34_CAVPO           85.88%    passed     77.20%
+ 187  sp|O08893|CALCR_CAVPO            87.00%    passed     88.91%
+ 188  sp|P30988|CALCR_HUMAN            86.18%    passed     90.75%
+ 189  sp|P32241|VIPR1_HUMAN            87.57%    passed     14.76%
+ 190  sp|P49190|PTH2R_HUMAN            85.04%    passed     76.17%
+ 191  sp|Q03431|PTH1R_HUMAN            83.87%    failed      0.05%
+ 192  sp|Q13324|CRFR2_HUMAN            88.82%    passed     68.70%
+ 193  sp|Q16602|CALRL_HUMAN            87.46%    passed     35.21%
+ 194  tr|A0A1D5R219|A0A1D5R219_MACMU   87.57%    passed     15.95%
+ 195  tr|F6X1C0|F6X1C0_MACMU           87.46%    passed     38.66%
+ 196  tr|F7D5C8|F7D5C8_MACMU           86.56%    passed     86.18%
+ 197  tr|F7GM38|F7GM38_MACMU           85.04%    passed     75.56%
+ 198  tr|F7HSL1|F7HSL1_MACMU           88.30%    passed     17.65%
+ 199  tr|G5ANK3|G5ANK3_HETGA           86.72%    passed     84.87%
+ 200  tr|G5ANQ5|G5ANQ5_HETGA           79.46%    failed      0.00%
+ 201  tr|G5BZH4|G5BZH4_HETGA           88.60%    passed     64.18%
+ 202  tr|Q7PQE3|Q7PQE3_ANOGA           84.71%    failed      0.00%
+ 203  tr|W4YR81|W4YR81_STRPU           84.68%    passed     33.27%
+ 204  tr|A0A212ETG2|A0A212ETG2_DANPL   88.82%    passed      5.78%
+ 205  tr|A0A212F398|A0A212F398_DANPL   89.25%    failed      0.00%
+ 206  tr|D6WM84|D6WM84_TRICA           88.98%    passed     62.38%
+ 207  tr|K7FB39|K7FB39_PELSI           87.79%    passed     25.08%
+ 208  tr|K7FMC3|K7FMC3_PELSI           87.27%    passed     21.39%
+ 209  tr|K7FTH8|K7FTH8_PELSI           86.13%    passed     13.75%
+ 210  tr|K7FUB6|K7FUB6_PELSI           86.13%    passed     64.80%
+ 211  tr|K7G408|K7G408_PELSI           89.85%    passed     12.59%
+ 212  tr|K7G4C8|K7G4C8_PELSI           86.13%    passed     97.69%
+ 213  tr|H3BZA7|H3BZA7_TETNG           89.61%    passed     28.29%
+ 214  tr|H3C5B9|H3C5B9_TETNG           85.36%    passed     25.67%
+ 215  tr|H3CTY8|H3CTY8_TETNG           87.00%    passed     77.53%
+ 216  tr|H3CZ38|H3CZ38_TETNG           87.38%    failed      2.72%
+ 217  tr|H3D2S0|H3D2S0_TETNG           88.11%    passed      6.32%
+ 218  tr|H3D5B9|H3D5B9_TETNG           88.47%    passed     17.99%
+ 219  tr|H3DK74|H3DK74_TETNG           78.26%    failed      2.25%
+ 220  tr|H3DNL7|H3DNL7_TETNG           85.50%    passed     10.11%
+ 221  tr|G3NCR5|G3NCR5_GASAC           86.92%    passed     82.16%
+ 222  tr|G3NJY2|G3NJY2_GASAC           88.19%    passed     12.12%
+ 223  tr|G3NLR5|G3NLR5_GASAC           88.87%    passed     48.82%
+ 224  tr|G3NSK8|G3NSK8_GASAC           77.94%    passed     11.39%
+ 225  tr|G3NYJ0|G3NYJ0_GASAC           85.88%    passed     24.07%
+ 226  tr|G3PQ03|G3PQ03_GASAC           87.35%    passed     64.00%
+ 227  tr|G3PZE3|G3PZE3_GASAC           88.74%    passed     46.84%
+ 228  tr|G3PZF8|G3PZF8_GASAC           85.53%    passed     73.85%
+ 229  tr|G3SQK5|G3SQK5_LOXAF           90.15%    passed      8.34%
+ 230  tr|G3STV8|G3STV8_LOXAF           87.49%    passed     17.84%
+ 231  tr|G3T4R4|G3T4R4_LOXAF           85.72%    passed     62.61%
+ 232  tr|G3UAP7|G3UAP7_LOXAF           87.02%    passed     93.11%
+ 233  tr|G3VH46|G3VH46_SARHA           84.11%    failed      1.00%
+ 234  tr|G3VMZ0|G3VMZ0_SARHA           85.72%    passed     95.17%
+ 235  tr|G3VXP1|G3VXP1_SARHA           87.38%    passed     30.78%
+ 236  tr|G3W7S7|G3W7S7_SARHA           87.87%    passed     27.24%
+ 237  tr|G3WU25|G3WU25_SARHA           88.06%    passed     16.99%
+ 238  tr|H0YPK8|H0YPK8_TAEGU           85.58%    passed     23.14%
+ 239  tr|H0YQ17|H0YQ17_TAEGU           88.79%    passed     26.77%
+ 240  tr|H0YTE5|H0YTE5_TAEGU           87.51%    passed     98.77%
+ 241  tr|H0YUL7|H0YUL7_TAEGU           89.47%    passed     82.43%
+ 242  tr|H0YYC5|H0YYC5_TAEGU           88.57%    passed     42.95%
+ 243  tr|H0ZLG4|H0ZLG4_TAEGU           87.35%    passed     82.52%
+ 244  tr|H1A052|H1A052_TAEGU           95.48%    passed     18.40%
+ 245  tr|B4N613|B4N613_DROWI           84.41%    failed      0.06%
+ 246  tr|B4NEI4|B4NEI4_DROWI           87.08%    failed      0.66%
+ 247  tr|A0A0P9BQX4|A0A0P9BQX4_DROAN   79.95%    failed      0.00%
+ 248  tr|B3MGX1|B3MGX1_DROAN           84.22%    failed      0.15%
+ 249  tr|B3MS26|B3MS26_DROAN           86.45%    passed      9.71%
+ 250  tr|X1WIB5|X1WIB5_ACYPI           87.32%    passed     60.78%
+ 251  tr|F6PTV6|F6PTV6_XENTR           88.71%    passed     19.37%
+ 252  tr|F6UEW9|F6UEW9_XENTR           89.06%    failed      0.31%
+ 253  tr|F6WIV3|F6WIV3_XENTR           83.98%    passed     68.58%
+ 254  tr|F6XPB2|F6XPB2_XENTR           88.63%    passed     43.33%
+ 255  tr|F7B4V2|F7B4V2_XENTR           86.86%    passed     27.67%
+ 256  sp|Q0P4Y4|CALRL_XENTR            87.16%    passed     20.60%
+ 257  tr|F6V0N3|F6V0N3_CIOIN           89.20%    passed      5.63%
+ 258  tr|F6YCW2|F6YCW2_CIOIN           88.49%    failed      1.45%
+ 259  tr|F6ZUZ5|F6ZUZ5_CIOIN           89.09%    failed      2.83%
+ 260  tr|A0A2R8MXQ7|A0A2R8MXQ7_CALJA   87.57%    failed      2.17%
+ 261  tr|F6QHQ8|F6QHQ8_CALJA           95.59%    passed     18.00%
+ 262  tr|F6SZI7|F6SZI7_CALJA           95.38%    passed     53.91%
+ 263  tr|F6YRQ5|F6YRQ5_CALJA           87.16%    passed     42.36%
+ 264  tr|F7C038|F7C038_CALJA           92.98%    passed     71.08%
+ 265  tr|F7FQZ1|F7FQZ1_CALJA           87.57%    passed     73.05%
+ 266  tr|F7I3C1|F7I3C1_CALJA           85.04%    passed     59.73%
+ 267  tr|U3FMV0|U3FMV0_CALJA           83.90%    failed      0.01%
+ 268  tr|A0A0G2KBD0|A0A0G2KBD0_PIG     87.40%    passed     22.47%
+ 269  tr|A0A286ZSJ2|A0A286ZSJ2_PIG     88.11%    passed     13.97%
+ 270  tr|F1RVR1|F1RVR1_PIG             87.40%    failed      2.30%
+ 271  tr|F1SST8|F1SST8_PIG             85.04%    passed     22.63%
+ 272  sp|P25117|CALCR_PIG              86.45%    passed     10.40%
+ 273  sp|P50133|PTH1R_PIG              84.09%    failed      0.92%
+ 274  sp|Q8WN93|CALRL_PIG              87.43%    passed     20.20%
+ 275  tr|E2C9M9|E2C9M9_HARSA           85.58%    passed     36.02%
+ 276  tr|H3A3T7|H3A3T7_LATCH           87.35%    passed     17.23%
+ 277  tr|H3AW65|H3AW65_LATCH           88.00%    passed      9.00%
+ 278  tr|H3AX68|H3AX68_LATCH           85.36%    passed     63.59%
+ 279  tr|H3B125|H3B125_LATCH           85.15%    passed     19.00%
+ 280  tr|H3B8N4|H3B8N4_LATCH           89.77%    passed     10.13%
+ 281  tr|M3XJ31|M3XJ31_LATCH           87.38%    passed     22.36%
+ 282  tr|B4GBY6|B4GBY6_DROPE           84.55%    failed      0.05%
+ 283  tr|B4LLZ0|B4LLZ0_DROVI           88.22%    failed      0.25%
+ 284  tr|B4M8A9|B4M8A9_DROVI           83.05%    failed      0.02%
+ 285  tr|Q16X05|Q16X05_AEDAE           88.71%    passed      8.76%
+ 286  tr|D2H8H9|D2H8H9_AILME           85.69%    passed     60.52%
+ 287  tr|G1LJH2|G1LJH2_AILME           88.79%    passed     33.60%
+ 288  tr|G1LRN6|G1LRN6_AILME           87.40%    passed     14.74%
+ 289  tr|G1MHC6|G1MHC6_AILME           84.96%    passed     58.90%
+ 290  tr|E0VE04|E0VE04_PEDHC           87.81%    passed      7.05%
+ 291  tr|E0VIW3|E0VIW3_PEDHC           88.85%    failed      0.00%
+ 292  tr|E0VT86|E0VT86_PEDHC           89.23%    passed     24.92%
+ 293  tr|G7NY72|G7NY72_MACFA           87.57%    passed     14.11%
+ 294  tr|G7P0H1|G7P0H1_MACFA           88.11%    passed     25.80%
+ 295  tr|G7P1D4|G7P1D4_MACFA           86.72%    passed     73.87%
+ 296  tr|G7PL02|G7PL02_MACFA           87.46%    passed     40.95%
+ 297  tr|G7PLB3|G7PLB3_MACFA           85.04%    passed     75.56%
+ 298  sp|A6QP74|CALRL_BOVIN            87.43%    passed     25.68%
+ 299  tr|E1B7Q8|E1B7Q8_BOVIN           85.04%    passed     44.28%
+ 300  tr|F1MF07|F1MF07_BOVIN           87.54%    passed      5.15%
+ 301  tr|F1MFI6|F1MFI6_BOVIN           88.82%    passed     44.85%
+ 302  tr|F1N6Y3|F1N6Y3_BOVIN           83.98%    failed      0.05%
+ 303  tr|F6Q8B6|F6Q8B6_BOVIN           85.64%    failed      2.06%
+ 304  tr|G3N3V9|G3N3V9_BOVIN           87.40%    passed     26.82%
+ 305  sp|Q1LZF7|PTH1R_BOVIN            83.98%    failed      0.06%
+ 306  tr|A0A0Q9XEN2|A0A0Q9XEN2_DROMO   86.43%    passed      6.07%
+ 307  tr|B4KLM4|B4KLM4_DROMO           83.71%    failed      0.00%
+ 308  tr|L5JZ92|L5JZ92_PTEAL           86.72%    passed     30.69%
+ 309  tr|L5KI25|L5KI25_PTEAL           78.56%    failed      0.00%
+ 310  tr|L5KLU6|L5KLU6_PTEAL           88.19%    passed     62.01%
+ 311  tr|L5KPR7|L5KPR7_PTEAL           88.85%    passed     46.64%
+ 312  tr|A0A2I2U988|A0A2I2U988_FELCA   84.14%    failed      0.05%
+ 313  tr|A0A337SIF8|A0A337SIF8_FELCA   87.43%    passed     17.71%
+ 314  tr|A0A337SPT7|A0A337SPT7_FELCA   86.53%    passed     82.91%
+ 315  tr|A0A337SUD5|A0A337SUD5_FELCA   87.51%    passed     22.15%
+ 316  tr|M3W1C0|M3W1C0_FELCA           85.04%    passed     26.87%
+ 317  tr|M3W5V1|M3W5V1_FELCA           87.51%    failed      3.81%
+ 318  tr|T1JAY3|T1JAY3_STRMM           89.61%    passed     14.45%
+ 319  tr|R7T7Q8|R7T7Q8_CAPTE           87.62%    passed     41.10%
+ 320  tr|R7TYV0|R7TYV0_CAPTE           86.94%    failed      4.52%
+ 321  tr|R7UK82|R7UK82_CAPTE           89.91%    passed     17.22%
+ 322  tr|R7UVQ3|R7UVQ3_CAPTE           87.57%    passed     61.18%
+ 323  tr|R7V373|R7V373_CAPTE           89.47%    failed      0.93%
+ 324  tr|R7V8G0|R7V8G0_CAPTE           87.95%    passed      8.21%
+ 325  tr|R7VAC2|R7VAC2_CAPTE           86.56%    passed     12.93%
+ 326  tr|T1G164|T1G164_HELRO           90.75%    failed      4.97%
+ 327  tr|T1H976|T1H976_RHOPR           87.43%    failed      0.36%
+ 328  tr|T1HL11|T1HL11_RHOPR           90.15%    passed     34.53%
+ 329  tr|T1KEV0|T1KEV0_TETUR           86.34%    failed      0.00%
+ 330  tr|T1KMN8|T1KMN8_TETUR           88.22%    failed      1.36%
+ 331  tr|U3JE10|U3JE10_FICAL           87.92%    passed     21.77%
+ 332  tr|U3JPH5|U3JPH5_FICAL           87.30%    passed     72.88%
+ 333  tr|U3JQ47|U3JQ47_FICAL           85.72%    failed      2.74%
+ 334  tr|U3JRU3|U3JRU3_FICAL           85.36%    passed     12.92%
+ 335  tr|U3JVL8|U3JVL8_FICAL           88.76%    passed     22.66%
+ 336  tr|U3K060|U3K060_FICAL           89.61%    passed     35.12%
+ 337  tr|U3K726|U3K726_FICAL           87.24%    passed     92.37%
+ 338  tr|R0LAQ1|R0LAQ1_ANAPL           86.94%    passed     37.54%
+ 339  tr|U3I706|U3I706_ANAPL           87.27%    passed     76.31%
+ 340  tr|U3ISB2|U3ISB2_ANAPL           87.19%    passed     95.42%
+ 341  tr|U3ITT2|U3ITT2_ANAPL           87.95%    passed     10.15%
+ 342  tr|U3IUL3|U3IUL3_ANAPL           88.74%    passed     32.22%
+ 343  tr|A0A3B1J5X3|A0A3B1J5X3_ASTMX   83.13%    failed      2.86%
+ 344  tr|A0A3B1JCX9|A0A3B1JCX9_ASTMX   91.10%    passed      6.56%
+ 345  tr|A0A3B1JEV0|A0A3B1JEV0_ASTMX   84.77%    passed     37.24%
+ 346  tr|A0A3B1JGQ5|A0A3B1JGQ5_ASTMX   85.26%    passed     11.49%
+ 347  tr|A0A3B1JU81|A0A3B1JU81_ASTMX   88.11%    failed      0.00%
+ 348  tr|A0A3B1K2E4|A0A3B1K2E4_ASTMX   88.71%    passed     23.86%
+ 349  tr|A0A3B1K9W8|A0A3B1K9W8_ASTMX   88.71%    failed      0.39%
+ 350  tr|A0A3B1KEU7|A0A3B1KEU7_ASTMX   85.28%    passed     46.94%
+ 351  tr|A0A3B1KJZ2|A0A3B1KJZ2_ASTMX   87.84%    failed      0.70%
+ 352  tr|W5L4I9|W5L4I9_ASTMX           87.87%    passed     71.87%
+ 353  tr|W5M1B0|W5M1B0_LEPOC           85.31%    passed     23.33%
+ 354  tr|W5MCX6|W5MCX6_LEPOC           87.08%    passed     38.63%
+ 355  tr|W5MG41|W5MG41_LEPOC           86.97%    passed     21.61%
+ 356  tr|W5MT69|W5MT69_LEPOC           84.85%    passed     22.69%
+ 357  tr|W5MXV9|W5MXV9_LEPOC           87.27%    passed     52.26%
+ 358  tr|W5N1E7|W5N1E7_LEPOC           85.26%    passed     31.58%
+ 359  tr|W5N6R6|W5N6R6_LEPOC           87.87%    passed      8.32%
+ 360  tr|A0A067R1M3|A0A067R1M3_ZOONE   91.24%    passed     13.71%
+ 361  tr|A0A067R2J3|A0A067R2J3_ZOONE   86.29%    passed     63.07%
+ 362  tr|A0A067R9A4|A0A067R9A4_ZOONE   91.16%    passed     12.69%
+ 363  tr|A0A087XR62|A0A087XR62_POEFO   85.20%    failed      1.33%
+ 364  tr|A0A087Y2M0|A0A087Y2M0_POEFO   85.09%    passed     16.18%
+ 365  tr|A0A087Y5N4|A0A087Y5N4_POEFO   78.35%    failed      4.03%
+ 366  tr|A0A087Y6N0|A0A087Y6N0_POEFO   88.19%    passed     11.04%
+ 367  tr|A0A087Y7L1|A0A087Y7L1_POEFO   87.43%    passed     59.72%
+ 368  tr|A0A087Y881|A0A087Y881_POEFO   86.97%    passed     39.89%
+ 369  tr|A0A087YBN2|A0A087YBN2_POEFO   87.00%    passed     60.54%
+ 370  tr|A0A096M4M9|A0A096M4M9_POEFO   88.28%    passed      5.02%
+ 371  tr|A0A096MT91|A0A096MT91_PAPAN   87.57%    passed     15.95%
+ 372  tr|A0A096MV88|A0A096MV88_PAPAN   88.28%    passed     34.64%
+ 373  tr|A0A096MW59|A0A096MW59_PAPAN   87.16%    passed     33.55%
+ 374  tr|A0A096MXH3|A0A096MXH3_PAPAN   85.04%    passed     83.92%
+ 375  tr|A0A096NZZ1|A0A096NZZ1_PAPAN   85.94%    passed     83.00%
+ 376  tr|A0A091D080|A0A091D080_FUKDA   86.75%    passed     56.23%
+ 377  tr|A0A091DS28|A0A091DS28_FUKDA   84.11%    failed      0.70%
+ 378  tr|A0A0D9RC95|A0A0D9RC95_CHLSB   85.12%    passed     86.23%
+ 379  tr|A0A0D9RJ74|A0A0D9RJ74_CHLSB   87.16%    passed     33.55%
+ 380  tr|A0A0D9RJQ2|A0A0D9RJQ2_CHLSB   86.72%    passed     63.18%
+ 381  tr|A0A0D9RQ28|A0A0D9RQ28_CHLSB   88.82%    passed     55.66%
+ 382  tr|A0A0D9RW55|A0A0D9RW55_CHLSB   87.57%    passed     18.22%
+ 383  tr|U4UHU1|U4UHU1_DENPD           88.36%    passed     17.52%
+ 384  tr|U4UTT6|U4UTT6_DENPD           88.82%    passed     14.33%
+ 385  tr|V3ZNP4|V3ZNP4_LOTGI           89.36%    passed     28.76%
+ 386  tr|V4B0M5|V4B0M5_LOTGI           89.01%    failed      4.09%
+ 387  tr|V4B0Q8|V4B0Q8_LOTGI           85.45%    failed      2.86%
+ 388  tr|V4B1K4|V4B1K4_LOTGI           87.32%    passed     26.19%
+ 389  tr|V4B2D2|V4B2D2_LOTGI           90.02%    passed     10.42%
+ 390  tr|V4BGI5|V4BGI5_LOTGI           87.27%    passed      7.85%
+ 391  tr|A0A084VTN4|A0A084VTN4_ANOSI   85.28%    failed      0.02%
+ 392  tr|A0A0P7U736|A0A0P7U736_9TELE   88.66%    passed     31.28%
+ 393  tr|A0A0P7V4N4|A0A0P7V4N4_9TELE   85.69%    passed     39.72%
+ 394  tr|A0A0P7WDK9|A0A0P7WDK9_9TELE   84.22%    passed     24.32%
+ 395  tr|A0A0P7WIG9|A0A0P7WIG9_9TELE   85.01%    passed     16.77%
+ 396  tr|A0A0P7XC04|A0A0P7XC04_9TELE   83.68%    passed     77.31%
+ 397  tr|A0A0L0C3J0|A0A0L0C3J0_LUCCU   85.45%    passed      5.25%
+ 398  tr|A0A0L0CGZ8|A0A0L0CGZ8_LUCCU   77.64%    failed      0.00%
+ 399  tr|A0A151LZI9|A0A151LZI9_ALLMI   85.36%    passed     15.09%
+ 400  tr|A0A151M0U5|A0A151M0U5_ALLMI   87.49%    passed     40.64%
+ 401  tr|A0A151MQ56|A0A151MQ56_ALLMI   86.62%    passed     95.59%
+ 402  tr|A0A151N9F2|A0A151N9F2_ALLMI   84.90%    passed     77.30%
+ 403  tr|A0A151NA97|A0A151NA97_ALLMI   87.73%    passed     62.92%
+ 404  tr|A0A151PBQ7|A0A151PBQ7_ALLMI   85.15%    passed     28.14%
+ 405  tr|A0A151PDE7|A0A151PDE7_ALLMI   88.76%    passed     28.36%
+ 406  tr|A0A151PDN7|A0A151PDN7_ALLMI   87.87%    passed     55.95%
+ 407  tr|A0A0Q3LT60|A0A0Q3LT60_AMAAE   85.42%    passed     11.20%
+ 408  tr|A0A0Q3TFN3|A0A0Q3TFN3_AMAAE   88.63%    passed     36.93%
+ 409  tr|A0A0Q3TZQ3|A0A0Q3TZQ3_AMAAE   86.94%    passed     98.17%
+ 410  tr|A0A0Q3U406|A0A0Q3U406_AMAAE   87.30%    passed     71.23%
+ 411  tr|A0A0Q3XAN0|A0A0Q3XAN0_AMAAE   87.87%    passed      9.54%
+ 412  tr|A0A091E6Q4|A0A091E6Q4_CORBR   87.73%    passed     86.14%
+ 413  tr|A0A091EE64|A0A091EE64_CORBR   89.20%    passed     91.81%
+ 414  tr|A0A091EQX3|A0A091EQX3_CORBR   89.80%    passed     16.69%
+ 415  tr|A0A091F0N6|A0A091F0N6_CORBR   87.81%    passed     50.60%
+ 416  tr|A0A091FBK9|A0A091FBK9_CORBR   85.58%    passed     29.29%
+ 417  tr|A0A091FY15|A0A091FY15_CORBR   88.76%    passed     27.90%
+ 418  tr|A0A026WP15|A0A026WP15_OOCBI   87.51%    passed      8.58%
+ 419  tr|A0A026WU35|A0A026WU35_OOCBI   86.83%    passed     49.07%
+ 420  tr|A0A091ILM2|A0A091ILM2_EGRGA   88.14%    passed     32.70%
+ 421  tr|A0A091ILV1|A0A091ILV1_EGRGA   89.20%    passed     93.60%
+ 422  tr|A0A091IN59|A0A091IN59_EGRGA   89.64%    passed     22.03%
+ 423  tr|A0A091J7N1|A0A091J7N1_EGRGA   86.92%    passed     21.73%
+ 424  tr|A0A091JB16|A0A091JB16_EGRGA   85.69%    passed     23.74%
+ 425  tr|A0A091JJG7|A0A091JJG7_EGRGA   87.76%    passed     84.71%
+ 426  tr|A0A091JK49|A0A091JK49_EGRGA   88.76%    passed     25.25%
+ 427  tr|A0A194QZ92|A0A194QZ92_PAPMA   86.37%    failed      0.93%
+ 428  tr|A0A194RD82|A0A194RD82_PAPMA   89.23%    failed      0.00%
+ 429  tr|A0A093PVH2|A0A093PVH2_9PASS   88.76%    passed     33.55%
+ 430  tr|A0A093Q3A4|A0A093Q3A4_9PASS   89.20%    passed     96.60%
+ 431  tr|A0A093SB36|A0A093SB36_9PASS   85.45%    passed     25.26%
+ 432  tr|A0A194PF90|A0A194PF90_PAPXU   86.56%    failed      0.18%
+ 433  tr|A0A194PS72|A0A194PS72_PAPXU   89.23%    failed      0.00%
+ 434  tr|A0A091V129|A0A091V129_NIPNI   89.80%    passed     25.42%
+ 435  tr|A0A091V2T7|A0A091V2T7_NIPNI   86.59%    passed     22.79%
+ 436  tr|A0A091V5M6|A0A091V5M6_NIPNI   89.12%    passed     94.85%
+ 437  tr|A0A091VZI1|A0A091VZI1_NIPNI   88.14%    passed     40.60%
+ 438  tr|A0A091WEE7|A0A091WEE7_NIPNI   87.76%    passed     81.83%
+ 439  tr|A0A091X6A9|A0A091X6A9_NIPNI   85.69%    passed     17.32%
+ 440  tr|A0A091X6E1|A0A091X6E1_NIPNI   88.76%    passed     21.43%
+ 441  tr|A0A087QNL5|A0A087QNL5_APTFO   87.76%    passed     80.69%
+ 442  tr|A0A087QVM7|A0A087QVM7_APTFO   88.76%    passed     24.12%
+ 443  tr|A0A087R5F0|A0A087R5F0_APTFO   85.61%    passed     45.22%
+ 444  tr|A0A087RAP5|A0A087RAP5_APTFO   88.14%    passed     29.68%
+ 445  tr|A0A087RFP9|A0A087RFP9_APTFO   89.20%    passed     92.68%
+ 446  tr|A0A087RIN7|A0A087RIN7_APTFO   88.93%    passed     53.93%
+ 447  tr|A0A0L8IBN1|A0A0L8IBN1_OCTBM   89.91%    passed     51.18%
+ 448  tr|A0A093H4H6|A0A093H4H6_STRCA   87.76%    passed     84.55%
+ 449  tr|A0A093HEB8|A0A093HEB8_STRCA   89.20%    passed     96.52%
+ 450  tr|A0A093HHC8|A0A093HHC8_STRCA   88.76%    passed     20.08%
+ 451  tr|A0A093HQW3|A0A093HQW3_STRCA   89.50%    passed     25.60%
+ 452  tr|A0A093I2P1|A0A093I2P1_STRCA   85.58%    passed     20.09%
+ 453  tr|A0A091W3W1|A0A091W3W1_OPIHO   87.76%    passed     84.55%
+ 454  tr|A0A091WB06|A0A091WB06_OPIHO   89.20%    passed     95.30%
+ 455  tr|A0A091WDG9|A0A091WDG9_OPIHO   85.61%    passed     48.12%
+ 456  tr|A0A091WP34|A0A091WP34_OPIHO   89.80%    passed     31.77%
+ 457  tr|A0A099Z2C7|A0A099Z2C7_TINGU   87.16%    passed     38.75%
+ 458  tr|A0A099ZGY2|A0A099ZGY2_TINGU   91.92%    passed     62.34%
+ 459  tr|A0A099ZHM7|A0A099ZHM7_TINGU   87.00%    passed     36.29%
+ 460  tr|A0A099ZTK0|A0A099ZTK0_TINGU   89.20%    passed     97.50%
+ 461  tr|A0A091FX64|A0A091FX64_9AVES   88.76%    passed     23.98%
+ 462  tr|A0A091GEM4|A0A091GEM4_9AVES   85.58%    passed     15.61%
+ 463  tr|A0A091GHE4|A0A091GHE4_9AVES   87.76%    passed     80.23%
+ 464  tr|A0A091GKK5|A0A091GKK5_9AVES   89.20%    passed     97.68%
+ 465  tr|A0A0L7QNH9|A0A0L7QNH9_9HYME   85.61%    failed      0.70%
+ 466  tr|A0A0L7R0S4|A0A0L7R0S4_9HYME   80.74%    failed      2.22%
+ 467  tr|A0A0A0A4A8|A0A0A0A4A8_CHAVO   89.20%    passed     96.05%
+ 468  tr|A0A0A0A5B4|A0A0A0A5B4_CHAVO   88.76%    passed     27.10%
+ 469  tr|A0A0A0ADV4|A0A0A0ADV4_CHAVO   89.80%    passed     29.22%
+ 470  tr|A0A0A0ADX1|A0A0A0ADX1_CHAVO   86.59%    passed     15.45%
+ 471  tr|A0A0A0ARY3|A0A0A0ARY3_CHAVO   87.76%    passed     84.71%
+ 472  tr|A0A2I0LN68|A0A2I0LN68_COLLI   85.09%    failed      4.76%
+ 473  tr|A0A2I0LSE1|A0A2I0LSE1_COLLI   88.66%    passed     38.23%
+ 474  tr|A0A2I0MIN0|A0A2I0MIN0_COLLI   87.76%    passed     83.70%
+ 475  tr|A0A2I0MQC0|A0A2I0MQC0_COLLI   84.33%    passed      7.57%
+ 476  tr|A0A2I0MRA1|A0A2I0MRA1_COLLI   87.24%    passed     95.18%
+ 477  tr|A0A2I0MRD7|A0A2I0MRD7_COLLI   87.81%    passed     19.14%
+ 478  tr|A0A093FZB8|A0A093FZB8_DRYPU   89.12%    passed     98.74%
+ 479  tr|A0A093G7Y6|A0A093G7Y6_DRYPU   86.59%    passed      6.50%
+ 480  tr|A0A093G9J0|A0A093G9J0_DRYPU   87.76%    passed     73.40%
+ 481  tr|A0A093GB14|A0A093GB14_DRYPU   88.76%    passed     27.10%
+ 482  tr|A0A093GX82|A0A093GX82_DRYPU   85.69%    passed     24.19%
+ 483  tr|A0A091HNU7|A0A091HNU7_CALAN   89.66%    passed     34.85%
+ 484  tr|A0A091HWR7|A0A091HWR7_CALAN   86.34%    passed     37.63%
+ 485  tr|A0A091HYQ8|A0A091HYQ8_CALAN   89.20%    passed     97.22%
+ 486  tr|A0A091I736|A0A091I736_CALAN   87.76%    passed     72.07%
+ 487  tr|A0A091IJ22|A0A091IJ22_CALAN   88.76%    passed     34.24%
+ 488  tr|A0A154PCD4|A0A154PCD4_9HYME   84.58%    passed     80.01%
+ 489  tr|A0A162CGB3|A0A162CGB3_9CRUS   84.90%    failed      0.02%
+ 490  tr|A0A164XLH6|A0A164XLH6_9CRUS   86.92%    passed     22.26%
+ 491  tr|A0A3Q0IXJ0|A0A3Q0IXJ0_DIACI   89.04%    failed      2.54%
+ 492  tr|A0A1S2ZPI0|A0A1S2ZPI0_ERIEU   86.70%    passed     46.47%
+ 493  tr|A0A1S3A5C7|A0A1S3A5C7_ERIEU   87.43%    passed     58.48%
+ 494  tr|A0A1S3W4N3|A0A1S3W4N3_ERIEU   88.68%    passed     48.06%
+ 495  tr|A0A1S3WQ07|A0A1S3WQ07_ERIEU   85.72%    failed      0.42%
+ 496  tr|A0A1S3FHW9|A0A1S3FHW9_DIPOR   88.00%    failed      4.59%
+ 497  tr|A0A1S3FZK2|A0A1S3FZK2_DIPOR   86.04%    passed     79.10%
+ 498  tr|A0A1S3G8Y6|A0A1S3G8Y6_DIPOR   87.21%    passed     61.55%
+ 499  tr|A0A1S3GA24|A0A1S3GA24_DIPOR   84.06%    failed      0.80%
+ 500  tr|A0A1S3GGA0|A0A1S3GGA0_DIPOR   86.26%    passed     72.89%
+ 501  tr|A0A1S3GP49|A0A1S3GP49_DIPOR   88.82%    passed     53.43%
+ 502  tr|A0A1S3HUP5|A0A1S3HUP5_LINUN   80.96%    failed      0.09%
+ 503  tr|A0A1S3IKV9|A0A1S3IKV9_LINUN   88.06%    passed     29.88%
+ 504  tr|A0A1S3INA9|A0A1S3INA9_LINUN   86.04%    passed     25.34%
+ 505  tr|A0A1S3JSK6|A0A1S3JSK6_LINUN   86.72%    failed      1.25%
+ 506  tr|A0A1S3K7X2|A0A1S3K7X2_LINUN   86.97%    failed      1.35%
+ 507  tr|A0A1S3KFE3|A0A1S3KFE3_LINUN   84.30%    failed      0.01%
+ 508  tr|A0A2R2MNS9|A0A2R2MNS9_LINUN   88.96%    passed     25.68%
+ 509  tr|A0A1S3LIZ9|A0A1S3LIZ9_SALSA   86.89%    passed     81.30%
+ 510  tr|A0A1S3LZC6|A0A1S3LZC6_SALSA   85.12%    failed      3.82%
+ 511  tr|A0A1S3M5N2|A0A1S3M5N2_SALSA   83.62%    passed     74.23%
+ 512  tr|A0A1S3MFQ7|A0A1S3MFQ7_SALSA   85.99%    passed     80.25%
+ 513  tr|A0A1S3MR53|A0A1S3MR53_SALSA   84.98%    passed     72.19%
+ 514  tr|A0A1S3MUA1|A0A1S3MUA1_SALSA   85.01%    passed     88.08%
+ 515  tr|A0A1S3MX65|A0A1S3MX65_SALSA   86.70%    passed     24.67%
+ 516  tr|A0A1S3MX90|A0A1S3MX90_SALSA   86.94%    passed     68.92%
+ 517  tr|A0A1S3MXA7|A0A1S3MXA7_SALSA   89.53%    failed      0.00%
+ 518  tr|A0A1S3NF47|A0A1S3NF47_SALSA   84.22%    failed      2.96%
+ 519  tr|A0A1S3NXD7|A0A1S3NXD7_SALSA   87.00%    passed     71.67%
+ 520  tr|A0A1S3PMK3|A0A1S3PMK3_SALSA   85.12%    passed     14.52%
+ 521  tr|A0A1S3PQQ4|A0A1S3PQQ4_SALSA   87.00%    passed     65.53%
+ 522  tr|A0A1S3Q274|A0A1S3Q274_SALSA   82.51%    passed     40.04%
+ 523  tr|A0A1S3R3K4|A0A1S3R3K4_SALSA   85.26%    passed     19.86%
+ 524  tr|A0A0M4EIX2|A0A0M4EIX2_DROBS   88.68%    passed     14.53%
+ 525  tr|A0A1D2MYP8|A0A1D2MYP8_ORCCI   86.70%    failed      0.09%
+ 526  tr|A0A1J1IHS0|A0A1J1IHS0_9DIPT   87.62%    failed      3.75%
+ 527  tr|A0A1J1IVL4|A0A1J1IVL4_9DIPT   88.41%    passed     39.84%
+ 528  tr|A0A1J1J1H9|A0A1J1J1H9_9DIPT   88.63%    failed      1.79%
+ 529  tr|A0A1L8EL90|A0A1L8EL90_XENLA   90.04%    passed     19.25%
+ 530  tr|A0A1L8EN96|A0A1L8EN96_XENLA   85.61%    passed      8.93%
+ 531  tr|A0A1L8EPU1|A0A1L8EPU1_XENLA   85.09%    passed     56.77%
+ 532  tr|A0A1L8ESI1|A0A1L8ESI1_XENLA   88.71%    passed     12.22%
+ 533  tr|A0A1L8EXE0|A0A1L8EXE0_XENLA   86.94%    passed     26.61%
+ 534  tr|A0A1L8F3F8|A0A1L8F3F8_XENLA   86.75%    failed      0.02%
+ 535  tr|A0A1L8F842|A0A1L8F842_XENLA   85.77%    failed      0.31%
+ 536  tr|A0A1L8FQB6|A0A1L8FQB6_XENLA   88.19%    passed     11.64%
+ 537  tr|A0A1L8FQK5|A0A1L8FQK5_XENLA   88.76%    failed      4.72%
+ 538  tr|A0A1L8FQY8|A0A1L8FQY8_XENLA   87.05%    passed     94.44%
+ 539  tr|A0A1L8FUY7|A0A1L8FUY7_XENLA   85.34%    passed     12.73%
+ 540  tr|A0A1L8FV17|A0A1L8FV17_XENLA   88.76%    passed      5.25%
+ 541  tr|A0A1L8FVV6|A0A1L8FVV6_XENLA   85.45%    passed     82.86%
+ 542  tr|A0A1L8G0Z9|A0A1L8G0Z9_XENLA   87.79%    passed     19.31%
+ 543  tr|A0A1L8G6V7|A0A1L8G6V7_XENLA   87.70%    passed      5.49%
+ 544  tr|A0A1D1VBC8|A0A1D1VBC8_RAMVA   85.42%    passed     16.48%
+ 545  tr|A0A1D1VDH1|A0A1D1VDH1_RAMVA   87.60%    passed     72.80%
+ 546  tr|A0A1U7U3B6|A0A1U7U3B6_TARSY   88.68%    passed     42.90%
+ 547  tr|A0A1U7U6N0|A0A1U7U6N0_TARSY   88.08%    passed     24.18%
+ 548  tr|A0A1U7U965|A0A1U7U965_TARSY   87.11%    passed     71.10%
+ 549  tr|A0A1U7UVM9|A0A1U7UVM9_TARSY   83.87%    failed      0.10%
+ 550  tr|A0A3Q0DLA2|A0A3Q0DLA2_TARSY   87.40%    passed     62.47%
+ 551  tr|A0A1U7RRM1|A0A1U7RRM1_ALLSI   87.30%    passed     49.28%
+ 552  tr|A0A1U7RS28|A0A1U7RS28_ALLSI   87.76%    passed     34.11%
+ 553  tr|A0A1U7RU26|A0A1U7RU26_ALLSI   87.70%    passed     97.46%
+ 554  tr|A0A1U7S932|A0A1U7S932_ALLSI   85.36%    passed     16.87%
+ 555  tr|A0A1U7SC26|A0A1U7SC26_ALLSI   83.90%    passed     68.57%
+ 556  tr|A0A1U8D7Y1|A0A1U8D7Y1_ALLSI   88.66%    passed     56.56%
+ 557  tr|A0A3Q0GHM3|A0A3Q0GHM3_ALLSI   88.93%    passed     36.81%
+ 558  tr|A0A1U7QWB5|A0A1U7QWB5_MESAU   87.54%    failed      4.13%
+ 559  tr|A0A1U8CN20|A0A1U8CN20_MESAU   87.35%    passed     74.10%
+ 560  tr|A0A3Q0CKL8|A0A3Q0CKL8_MESAU   87.40%    failed      0.39%
+ 561  tr|A0A3Q0CYC4|A0A3Q0CYC4_MESAU   83.46%    failed      2.46%
+ 562  tr|A0A3Q0D7K7|A0A3Q0D7K7_MESAU   84.68%    passed      7.98%
+ 563  tr|A0A1V4JQ64|A0A1V4JQ64_PATFA   88.68%    passed     58.35%
+ 564  tr|A0A1V4JQU3|A0A1V4JQU3_PATFA   85.53%    passed      9.77%
+ 565  tr|A0A1V4K8D3|A0A1V4K8D3_PATFA   77.26%    failed      0.14%
+ 566  tr|A0A1V4KD75|A0A1V4KD75_PATFA   85.47%    passed     96.15%
+ 567  tr|A0A1V4KDU8|A0A1V4KDU8_PATFA   84.33%    passed      8.60%
+ 568  tr|A0A1V4KLE8|A0A1V4KLE8_PATFA   88.76%    passed     20.90%
+ 569  tr|A0A2I4B9I2|A0A2I4B9I2_9TELE   87.87%    passed     47.35%
+ 570  tr|A0A2I4BIA6|A0A2I4BIA6_9TELE   87.68%    passed     12.87%
+ 571  tr|A0A2I4BNT6|A0A2I4BNT6_9TELE   84.98%    passed      8.73%
+ 572  tr|A0A2I4BR97|A0A2I4BR97_9TELE   88.14%    passed     26.40%
+ 573  tr|A0A2I4BST2|A0A2I4BST2_9TELE   86.32%    passed     25.67%
+ 574  tr|A0A2I4C7B4|A0A2I4C7B4_9TELE   78.35%    passed     13.91%
+ 575  tr|A0A2I4CJZ4|A0A2I4CJZ4_9TELE   84.39%    passed     55.94%
+ 576  tr|A0A2I4CWB0|A0A2I4CWB0_9TELE   87.05%    passed     63.02%
+ 577  tr|A0A2I4CY35|A0A2I4CY35_9TELE   85.39%    passed     37.61%
+ 578  tr|A0A1W4UAF3|A0A1W4UAF3_DROFC   83.60%    failed      0.00%
+ 579  tr|A0A1W4V8E9|A0A1W4V8E9_DROFC   80.09%    failed      0.00%
+ 580  tr|A0A1W4X1S2|A0A1W4X1S2_AGRPL   88.68%    passed      6.34%
+ 581  tr|A0A1W4XSW4|A0A1W4XSW4_AGRPL   88.71%    passed     24.90%
+ 582  tr|A0A1V9X237|A0A1V9X237_9ACAR   85.01%    passed     22.45%
+ 583  tr|A0A060VQ86|A0A060VQ86_ONCMY   87.00%    passed     83.41%
+ 584  tr|A0A060W249|A0A060W249_ONCMY   89.69%    passed     88.92%
+ 585  tr|A0A060X166|A0A060X166_ONCMY   94.29%    passed      5.54%
+ 586  tr|A0A060XBD2|A0A060XBD2_ONCMY   86.89%    passed     81.74%
+ 587  tr|A0A060YD53|A0A060YD53_ONCMY   85.26%    passed     80.75%
+ 588  tr|A0A060YFI8|A0A060YFI8_ONCMY   92.79%    passed     36.88%
+ 589  tr|A0A060YS14|A0A060YS14_ONCMY   88.57%    passed     22.08%
+ 590  tr|A0A218U9P8|A0A218U9P8_9PASE   88.76%    passed     34.46%
+ 591  tr|A0A218UDU3|A0A218UDU3_9PASE   88.68%    passed     42.37%
+ 592  tr|A0A218UFD0|A0A218UFD0_9PASE   87.24%    passed     69.84%
+ 593  tr|A0A218V191|A0A218V191_9PASE   87.24%    passed     95.01%
+ 594  tr|A0A226MQI8|A0A226MQI8_CALSU   94.50%    passed     68.42%
+ 595  tr|A0A226MQJ0|A0A226MQJ0_CALSU   93.09%    passed     74.14%
+ 596  tr|A0A226N054|A0A226N054_CALSU   87.62%    passed     26.84%
+ 597  tr|A0A226NDE5|A0A226NDE5_CALSU   89.69%    passed     42.92%
+ 598  tr|A0A226NUS2|A0A226NUS2_COLVI   88.68%    passed     44.70%
+ 599  tr|A0A226P6K7|A0A226P6K7_COLVI   87.24%    passed     21.99%
+ 600  tr|A0A226PDG3|A0A226PDG3_COLVI   88.44%    passed     15.78%
+ 601  tr|A0A226PX86|A0A226PX86_COLVI   95.76%    passed     70.07%
+ 602  tr|A0A226PYJ9|A0A226PYJ9_COLVI   93.09%    passed     74.14%
+ 603  tr|A0A2A4JS52|A0A2A4JS52_HELVI   88.68%    passed     11.67%
+ 604  tr|A0A2D0PVY4|A0A2D0PVY4_ICTPU   84.09%    passed     96.89%
+ 605  tr|A0A2D0Q6C8|A0A2D0Q6C8_ICTPU   84.06%    failed      1.89%
+ 606  tr|A0A2D0QJJ9|A0A2D0QJJ9_ICTPU   87.89%    failed      1.18%
+ 607  tr|A0A2D0R4R5|A0A2D0R4R5_ICTPU   85.26%    passed     23.21%
+ 608  tr|A0A2D0R7Q8|A0A2D0R7Q8_ICTPU   87.21%    passed     51.00%
+ 609  tr|A0A2D0R8D1|A0A2D0R8D1_ICTPU   87.19%    passed     51.04%
+ 610  tr|A0A2D0R9Y8|A0A2D0R9Y8_ICTPU   85.39%    passed     51.49%
+ 611  tr|A0A2D0S5H8|A0A2D0S5H8_ICTPU   87.13%    passed     21.71%
+ 612  tr|A0A2D0S7X0|A0A2D0S7X0_ICTPU   85.15%    passed     24.42%
+ 613  tr|A0A2D0SJ96|A0A2D0SJ96_ICTPU   86.67%    passed     44.77%
+ 614  tr|A0A2D0TA96|A0A2D0TA96_ICTPU   88.03%    passed      7.50%
+ 615  tr|A0A2G8JWA7|A0A2G8JWA7_STIJA   86.78%    failed      1.63%
+ 616  tr|A0A2G8KNL6|A0A2G8KNL6_STIJA   90.26%    failed      1.35%
+ 617  tr|A0A2G8L1D4|A0A2G8L1D4_STIJA   84.98%    failed      2.01%
+ 618  tr|A0A2K5L3B1|A0A2K5L3B1_CERAT   86.70%    passed     81.22%
+ 619  tr|A0A2K5MI98|A0A2K5MI98_CERAT   87.16%    passed     33.55%
+ 620  tr|A0A2K5N7R1|A0A2K5N7R1_CERAT   87.57%    passed     16.90%
+ 621  tr|A0A2K5P2B8|A0A2K5P2B8_CERAT   88.28%    passed     23.93%
+ 622  tr|A0A2K6CYU7|A0A2K6CYU7_MACNE   87.16%    passed     30.23%
+ 623  tr|A0A2K6DE31|A0A2K6DE31_MACNE   88.28%    passed     25.17%
+ 624  tr|A0A2K6DYJ7|A0A2K6DYJ7_MACNE   87.49%    passed      6.56%
+ 625  tr|A0A2K6DZQ3|A0A2K6DZQ3_MACNE   85.94%    passed     81.95%
+ 626  tr|A0A2K5XKT7|A0A2K5XKT7_MANLE   86.70%    passed     81.22%
+ 627  tr|A0A2K5XM83|A0A2K5XM83_MANLE   88.03%    passed     37.28%
+ 628  tr|A0A2K5XR27|A0A2K5XR27_MANLE   87.46%    passed     34.56%
+ 629  tr|A0A2K5ZFZ1|A0A2K5ZFZ1_MANLE   85.04%    passed     77.16%
+ 630  tr|A0A2K6AGF9|A0A2K6AGF9_MANLE   88.28%    passed     22.34%
+ 631  tr|A0A2J7PNW2|A0A2J7PNW2_9NEOP   85.69%    passed     22.06%
+ 632  tr|A0A2J7RB34|A0A2J7RB34_9NEOP   86.56%    passed     66.15%
+ 633  tr|A0A2R8ZBP6|A0A2R8ZBP6_PANPA   85.28%    passed     80.09%
+ 634  tr|A0A2R8ZIZ6|A0A2R8ZIZ6_PANPA   87.57%    passed     15.36%
+ 635  tr|A0A2R8ZSG9|A0A2R8ZSG9_PANPA   86.15%    passed     74.16%
+ 636  tr|A0A2R9BFB8|A0A2R9BFB8_PANPA   82.70%    failed      0.01%
+ 637  tr|A0A2R9BTU9|A0A2R9BTU9_PANPA   88.08%    passed     45.29%
+ 638  tr|A0A2R9C0G9|A0A2R9C0G9_PANPA   86.83%    passed     21.79%
+ 639  tr|A0A210PFY0|A0A210PFY0_MIZYE   88.22%    passed     35.96%
+ 640  tr|A0A210PGZ6|A0A210PGZ6_MIZYE   84.98%    passed     41.12%
+ 641  tr|A0A210PI29|A0A210PI29_MIZYE   86.72%    passed     38.45%
+ 642  tr|A0A210PS73|A0A210PS73_MIZYE   85.64%    passed      9.76%
+ 643  tr|A0A210PSK4|A0A210PSK4_MIZYE   88.71%    passed     47.28%
+ 644  tr|A0A210PTZ9|A0A210PTZ9_MIZYE   85.34%    passed     61.26%
+ 645  tr|A0A210PZ56|A0A210PZ56_MIZYE   85.45%    failed      1.86%
+ 646  tr|A0A210PZJ8|A0A210PZJ8_MIZYE   85.04%    failed      0.29%
+ 647  tr|A0A210Q023|A0A210Q023_MIZYE   87.38%    passed     24.43%
+ 648  tr|A0A210Q0W2|A0A210Q0W2_MIZYE   85.96%    passed     14.51%
+ 649  tr|A0A210QG39|A0A210QG39_MIZYE   87.73%    passed     51.62%
+ 650  tr|A0A210R1W7|A0A210R1W7_MIZYE   81.66%    failed      0.00%
+ 651  tr|A0A2A3EEL6|A0A2A3EEL6_APICC   86.56%    failed      4.72%
+ 652  tr|A0A2P8XJ43|A0A2P8XJ43_BLAGE   88.08%    passed     80.41%
+ 653  tr|A0A2U4APY9|A0A2U4APY9_TURTR   85.75%    failed      4.66%
+ 654  tr|A0A2U4B211|A0A2U4B211_TURTR   87.43%    passed     48.30%
+ 655  tr|A0A2U4BNA1|A0A2U4BNA1_TURTR   85.15%    passed     78.06%
+ 656  tr|A0A2U3VCX7|A0A2U3VCX7_ODORO   87.40%    passed     12.83%
+ 657  tr|A0A2U3VH65|A0A2U3VH65_ODORO   87.00%    passed     81.63%
+ 658  tr|A0A2U3VUZ6|A0A2U3VUZ6_ODORO   84.06%    failed      0.06%
+ 659  tr|A0A2U3WR40|A0A2U3WR40_ODORO   87.40%    failed      0.15%
+ 660  tr|A0A2U3ZUK1|A0A2U3ZUK1_ODORO   88.11%    passed     34.91%
+ 661  tr|A0A2U3X6F2|A0A2U3X6F2_LEPWE   88.85%    passed     20.37%
+ 662  tr|A0A2U3XNE7|A0A2U3XNE7_LEPWE   89.34%    passed     88.28%
+ 663  tr|A0A2U9AWA5|A0A2U9AWA5_SCOMX   87.43%    passed     32.47%
+ 664  tr|A0A2U9BIP7|A0A2U9BIP7_SCOMX   85.42%    passed     18.62%
+ 665  tr|A0A2U9BIU8|A0A2U9BIU8_SCOMX   88.74%    passed     26.26%
+ 666  tr|A0A2U9BKT5|A0A2U9BKT5_SCOMX   87.87%    passed     20.36%
+ 667  tr|A0A2U9BYD0|A0A2U9BYD0_SCOMX   86.29%    passed     13.04%
+ 668  tr|A0A2U9C884|A0A2U9C884_SCOMX   78.29%    passed     42.19%
+ 669  tr|A0A2U9CDA2|A0A2U9CDA2_SCOMX   85.04%    passed     16.83%
+ 670  tr|A0A2U9CSV5|A0A2U9CSV5_SCOMX   84.93%    passed     22.53%
+ 671  tr|A0A2U9CYT9|A0A2U9CYT9_SCOMX   73.83%    passed      5.91%
+ 672  tr|A0A2Y9D640|A0A2Y9D640_TRIMA   87.60%    passed      9.44%
+ 673  tr|A0A2Y9D658|A0A2Y9D658_TRIMA   83.98%    failed      0.13%
+ 674  tr|A0A2Y9DP62|A0A2Y9DP62_TRIMA   85.04%    passed     46.83%
+ 675  tr|A0A2Y9E2F5|A0A2Y9E2F5_TRIMA   87.35%    passed     43.03%
+ 676  tr|A0A2Y9EAQ7|A0A2Y9EAQ7_TRIMA   87.13%    passed     92.25%
+ 677  tr|A0A2Y9ILQ1|A0A2Y9ILQ1_ENHLU   87.43%    passed     33.73%
+ 678  tr|A0A2Y9IZ39|A0A2Y9IZ39_ENHLU   83.90%    failed      0.04%
+ 679  tr|A0A2Y9JM77|A0A2Y9JM77_ENHLU   86.83%    passed     66.85%
+ 680  tr|A0A2Y9JMG3|A0A2Y9JMG3_ENHLU   88.08%    passed     20.07%
+ 681  tr|A0A2Y9JPL5|A0A2Y9JPL5_ENHLU   87.40%    failed      0.29%
+ 682  tr|A0A2Y9MLQ5|A0A2Y9MLQ5_DELLE   87.43%    passed     48.30%
+ 683  tr|A0A2Y9N1W7|A0A2Y9N1W7_DELLE   85.15%    passed     71.13%
+ 684  tr|A0A2Y9N7N3|A0A2Y9N7N3_DELLE   83.62%    failed      0.04%
+ 685  tr|A0A2Y9NX78|A0A2Y9NX78_DELLE   87.40%    passed      6.61%
+ 686  tr|A0A2Y9PGI2|A0A2Y9PGI2_DELLE   85.75%    passed      7.21%
+ 687  tr|A0A2Y9ERA3|A0A2Y9ERA3_PHYCD   87.54%    passed     15.46%
+ 688  tr|A0A2Y9EY64|A0A2Y9EY64_PHYCD   87.40%    passed     42.50%
+ 689  tr|A0A2Y9FLT0|A0A2Y9FLT0_PHYCD   83.98%    failed      0.40%
+ 690  tr|A0A2Y9FV40|A0A2Y9FV40_PHYCD   88.11%    passed     37.31%
+ 691  tr|A0A2Y9SK94|A0A2Y9SK94_PHYCD   87.40%    failed      3.60%
+ 692  tr|A0A2Y9SS07|A0A2Y9SS07_PHYCD   85.15%    passed     75.87%
+ 693  tr|A0A2Y9T518|A0A2Y9T518_PHYCD   88.71%    passed     21.00%
+ 694  tr|A0A2Y9TFP0|A0A2Y9TFP0_PHYCD   86.18%    passed     13.50%
+ 695  tr|A0A384BQC4|A0A384BQC4_URSMA   87.40%    passed     88.02%
+ 696  tr|A0A384BTH1|A0A384BTH1_URSMA   87.40%    passed     11.56%
+ 697  tr|A0A383ZJN7|A0A383ZJN7_BALAS   88.11%    passed     32.33%
+ 698  tr|A0A384B1Q4|A0A384B1Q4_BALAS   87.54%    passed     10.04%
+ 699  tr|A0A384B8G1|A0A384B8G1_BALAS   85.53%    failed      4.16%
+ 700  tr|A0A384B942|A0A384B942_BALAS   87.40%    passed     45.69%
+WARNING: 700 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                            86.89%  149 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: tr|A0A226MQJ0|A0A226MQJ0_CALSU is identical to tr|G1N9Z7|G1N9Z7_MELGA but kept for subsequent analysis
+NOTE: tr|A0A2R8ZSG9|A0A2R8ZSG9_PANPA is identical to tr|A0A2I3S8B3|A0A2I3S8B3_PANTR but kept for subsequent analysis
+NOTE: tr|A0A2R8ZIZ6|A0A2R8ZIZ6_PANPA is identical to tr|A0A2I3T1V9|A0A2I3T1V9_PANTR but kept for subsequent analysis
+NOTE: tr|A0A096MT91|A0A096MT91_PAPAN is identical to tr|A0A1D5R219|A0A1D5R219_MACMU but kept for subsequent analysis
+NOTE: tr|G7PLB3|G7PLB3_MACFA is identical to tr|F7GM38|F7GM38_MACMU but kept for subsequent analysis
+NOTE: tr|A0A0D9RJ74|A0A0D9RJ74_CHLSB is identical to tr|A0A096MW59|A0A096MW59_PAPAN but kept for subsequent analysis
+NOTE: tr|A0A0A0ARY3|A0A0A0ARY3_CHAVO is identical to tr|A0A091JJG7|A0A091JJG7_EGRGA but kept for subsequent analysis
+NOTE: tr|A0A093GB14|A0A093GB14_DRYPU is identical to tr|A0A0A0A5B4|A0A0A0A5B4_CHAVO but kept for subsequent analysis
+NOTE: tr|A0A2K5XKT7|A0A2K5XKT7_MANLE is identical to tr|A0A2K5L3B1|A0A2K5L3B1_CERAT but kept for subsequent analysis
+NOTE: tr|A0A2Y9MLQ5|A0A2Y9MLQ5_DELLE is identical to tr|A0A2U4B211|A0A2U4B211_TURTR but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: tr|A0A226PYJ9|A0A226PYJ9_COLVI (identical to tr|G1N9Z7|G1N9Z7_MELGA) is ignored but added at the end
+NOTE: tr|A0A2K5MI98|A0A2K5MI98_CERAT (identical to tr|A0A096MW59|A0A096MW59_PAPAN) is ignored but added at the end
+Alignment was printed to calcr_iqtree_boostrap_modelfinder.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to calcr_iqtree_boostrap_modelfinder.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 1.790 seconds
+Measuring multi-threading efficiency up to 24 CPU cores
+3 trees examined
+Threads: 1 / Time: 31.907 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -615615
+Threads: 2 / Time: 17.537 sec / Speedup: 1.819 / Efficiency: 91% / LogL: -615615
+Threads: 3 / Time: 12.462 sec / Speedup: 2.560 / Efficiency: 85% / LogL: -615615
+Threads: 4 / Time: 9.599 sec / Speedup: 3.324 / Efficiency: 83% / LogL: -615615
+Threads: 5 / Time: 8.483 sec / Speedup: 3.761 / Efficiency: 75% / LogL: -615615
+Threads: 6 / Time: 7.101 sec / Speedup: 4.493 / Efficiency: 75% / LogL: -615615
+Threads: 7 / Time: 6.017 sec / Speedup: 5.303 / Efficiency: 76% / LogL: -615615
+Threads: 8 / Time: 5.880 sec / Speedup: 5.427 / Efficiency: 68% / LogL: -615615
+Threads: 9 / Time: 5.292 sec / Speedup: 6.029 / Efficiency: 67% / LogL: -615615
+Threads: 10 / Time: 4.888 sec / Speedup: 6.528 / Efficiency: 65% / LogL: -615615
+Threads: 11 / Time: 5.122 sec / Speedup: 6.229 / Efficiency: 57% / LogL: -615615
+Threads: 12 / Time: 4.465 sec / Speedup: 7.145 / Efficiency: 60% / LogL: -615615
+Threads: 13 / Time: 4.608 sec / Speedup: 6.924 / Efficiency: 53% / LogL: -615615
+Threads: 14 / Time: 4.201 sec / Speedup: 7.594 / Efficiency: 54% / LogL: -615615
+Threads: 15 / Time: 3.806 sec / Speedup: 8.382 / Efficiency: 56% / LogL: -615615
+Threads: 16 / Time: 3.908 sec / Speedup: 8.164 / Efficiency: 51% / LogL: -615615
+Threads: 17 / Time: 3.631 sec / Speedup: 8.788 / Efficiency: 52% / LogL: -615615
+Threads: 18 / Time: 3.445 sec / Speedup: 9.261 / Efficiency: 51% / LogL: -615615
+Threads: 19 / Time: 3.597 sec / Speedup: 8.870 / Efficiency: 47% / LogL: -615615
+BEST NUMBER OF THREADS: 18
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -212723.020
+2. Current log-likelihood: -212721.825
+Optimal log-likelihood: -212721.501
+Proportion of invariable sites: 0.002
+Gamma shape alpha: 0.778
+Parameters optimization took 2 rounds (3.907 sec)
+Time for fast ML tree search: 40.345 seconds
+
+NOTE: ModelFinder requires 3285 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 3676) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            224579.005   1393 451944.010   453645.887   460593.956
+  2  LG+I          224225.110   1394 451238.219   452943.287   459894.374
+  3  LG+G4         212758.740   1394 428305.479   430010.547   436961.634
+  4  LG+I+G4       212721.467   1395 428232.934   429941.197   436895.298
+  5  LG+R2         215882.206   1395 434554.412   436262.675   443216.777
+  6  LG+R3         213712.163   1397 430218.327   431932.994   438893.111
+  7  LG+R4         212516.464   1399 427830.929   429552.018   436518.132
+  8  LG+R5         212148.870   1401 427099.739   428827.269   435799.361
+  9  LG+R6         211934.217   1403 426674.434   428408.423   435386.475
+ 10  LG+R7         211759.946   1405 426329.893   428070.360   435054.353
+ 11  LG+R8         211699.429   1407 426212.858   427959.821   434949.738
+ 12  LG+R9         211631.312   1409 426080.625   427834.102   434829.924
+ 13  LG+R10        211613.592   1411 426049.184   427809.195   434810.902
+ 26  LG+F+R10      212106.789   1430 427073.577   428896.588   435953.277
+ 39  WAG+R10       211439.846   1411 425701.693   427461.703   434463.411
+ 52  WAG+F+R10     211475.233   1430 425810.467   427633.478   434690.167
+ 65  JTT+R10       209945.324   1411 422712.648   424472.659   431474.366
+ 78  JTT+F+R10     210105.083   1430 423070.167   424893.178   431949.867
+ 91  JTTDCMut+R10  210038.416   1411 422898.832   424658.842   431660.550
+104  JTTDCMut+F+R10 210175.587   1430 423211.174   425034.186   432090.875
+117  DCMut+R10     213833.859   1411 430489.717   432249.728   439251.435
+130  DCMut+F+R10   212538.847   1430 427937.694   429760.705   436817.394
+143  VT+R10        211224.717   1411 425271.433   427031.444   434033.151
+156  VT+F+R10      211611.637   1430 426083.274   427906.285   434962.974
+169  PMB+R10       213041.555   1411 428905.110   430665.121   437666.828
+182  PMB+F+R10     213714.993   1430 430289.987   432112.998   439169.687
+195  Blosum62+R10  213546.487   1411 429914.974   431674.985   438676.692
+208  Blosum62+F+R10 213852.385   1430 430564.771   432387.782   439444.471
+221  Dayhoff+R10   213831.046   1411 430484.092   432244.103   439245.810
+234  Dayhoff+F+R10 212535.012   1430 427930.023   429753.035   436809.723
+247  mtREV+R10     219261.763   1411 441345.527   443105.538   450107.245
+260  mtREV+F+R10   214708.350   1430 432276.700   434099.711   441156.400
+273  mtART+R10     224135.798   1411 451093.596   452853.607   459855.315
+286  mtART+F+R10   219164.297   1430 441188.593   443011.604   450068.293
+299  mtZOA+R10     218160.803   1411 439143.607   440903.617   447905.325
+312  mtZOA+F+R10   215196.191   1430 433252.381   435075.392   442132.081
+325  mtMet+R10     217995.418   1411 438812.837   440572.847   447574.555
+338  mtMet+F+R10   213000.314   1430 428860.628   430683.639   437740.328
+351  mtVer+R10     219285.154   1411 441392.307   443152.318   450154.026
+364  mtVer+F+R10   215326.600   1430 433513.200   435336.211   442392.900
+377  mtInv+R10     219935.741   1411 442693.482   444453.492   451455.200
+390  mtInv+F+R10   212433.478   1430 427726.957   429549.968   436606.657
+403  mtMAM+R10     223594.043   1411 450010.086   451770.097   458771.804
+416  mtMAM+F+R10   218800.124   1430 440460.248   442283.259   449339.948
+429  HIVb+R10      213639.072   1411 430100.143   431860.154   438861.861
+442  HIVb+F+R10    213343.494   1430 429546.987   431369.998   438426.687
+455  HIVw+R10      220239.701   1411 443301.402   445061.413   452063.120
+468  HIVw+F+R10    216776.800   1430 436413.600   438236.611   445293.300
+481  FLU+R10       213309.072   1411 429440.143   431200.154   438201.861
+494  FLU+F+R10     212417.754   1430 427695.508   429518.519   436575.208
+507  rtREV+R10     214050.907   1411 430923.814   432683.824   439685.532
+520  rtREV+F+R10   213839.588   1430 430539.176   432362.187   439418.876
+533  cpREV+R10     212635.848   1411 428093.696   429853.706   436855.414
+546  cpREV+F+R10   212709.757   1430 428279.514   430102.526   437159.215
+Akaike Information Criterion:           JTT+R10
+Corrected Akaike Information Criterion: JTT+R10
+Bayesian Information Criterion:         JTT+R10
+Best-fit model: JTT+R10 chosen according to BIC
+
+All model information printed to calcr_iqtree_boostrap_modelfinder.model.gz
+CPU time for ModelFinder: 419242.060 seconds (116h:27m:22s)
+Wall-clock time for ModelFinder: 23957.218 seconds (6h:39m:17s)
+Generating 1000 samples for ultrafast bootstrap (seed: 68817)...
+
+NOTE: 3285 MB RAM (3 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -209945.324
+Optimal log-likelihood: -209945.254
+Site proportion and rates:  (0.035,0.020) (0.033,0.064) (0.057,0.128) (0.098,0.214) (0.117,0.353) (0.172,0.520) (0.088,0.781) (0.080,1.010) (0.174,1.505) (0.146,2.932)
+Parameters optimization took 1 rounds (38.375 sec)
+Computing ML distances based on estimated model parameters... 136.896 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.632 seconds
+Log-likelihood of BIONJ tree: -213647.305
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 180.420 second
+Computing log-likelihood of 98 initial trees ... 206.816 seconds
+Current best score: -209945.254
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -209912.882
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -209845.285
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -209827.659
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -209809.585
+Iteration 10 / LogL: -209906.240 / Time: 0h:30m:21s
+Iteration 20 / LogL: -209844.821 / Time: 0h:50m:13s
+Finish initializing candidate tree set (20)
+Current best tree score: -209809.585 / CPU time: 2914.795
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -209802.617
+Iteration 30 / LogL: -209813.142 / Time: 1h:1m:38s (3h:28m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -209801.761
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -209785.302
+Iteration 40 / LogL: -209785.302 / Time: 1h:14m:27s (3h:10m:56s left)
+Iteration 50 / LogL: -209899.120 / Time: 1h:24m:16s (2h:34m:46s left)
+Log-likelihood cutoff on original alignment: -209900.245
+Iteration 60 / LogL: -209884.689 / Time: 1h:34m:43s (2h:8m:26s left)
+Iteration 70 / LogL: -209794.442 / Time: 1h:44m:29s (1h:46m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 72: -209771.111
+Iteration 80 / LogL: -209787.484 / Time: 1h:55m:44s (2h:14m:47s left)
+Iteration 90 / LogL: -209935.470 / Time: 2h:6m:44s (1h:56m:46s left)
+Iteration 100 / LogL: -209813.419 / Time: 2h:17m:55s (1h:40m:18s left)
+Log-likelihood cutoff on original alignment: -209889.313
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.985
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -209930.406 / Time: 2h:28m:0s (2h:2m:12s left)
+Iteration 120 / LogL: -209788.567 / Time: 2h:39m:7s (1h:46m:58s left)
+Iteration 130 / LogL: -209790.348 / Time: 2h:48m:49s (1h:31m:36s left)
+Iteration 140 / LogL: -209838.122 / Time: 2h:59m:27s (1h:17m:27s left)
+Iteration 150 / LogL: -209776.830 / Time: 3h:10m:24s (1h:3m:53s left)
+Log-likelihood cutoff on original alignment: -209884.144
+Iteration 160 / LogL: -209883.419 / Time: 3h:20m:24s (0h:50m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 163: -209765.403
+Iteration 170 / LogL: -209784.852 / Time: 3h:32m:1s (1h:56m:40s left)
+Iteration 180 / LogL: -209884.635 / Time: 3h:42m:14s (1h:43m:3s left)
+Iteration 190 / LogL: -209775.133 / Time: 3h:52m:9s (1h:29m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 194: -209762.425
+Iteration 200 / LogL: -209796.969 / Time: 4h:4m:50s (1h:55m:39s left)
+Log-likelihood cutoff on original alignment: -209884.144
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Iteration 210 / LogL: -209777.850 / Time: 4h:16m:8s (1h:50m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 213: -209761.328
+Iteration 220 / LogL: -209947.347 / Time: 4h:26m:25s (1h:53m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 226: -209760.899
+Iteration 230 / LogL: -209783.489 / Time: 4h:37m:30s (1h:56m:20s left)
+Iteration 240 / LogL: -209809.919 / Time: 4h:47m:52s (1h:43m:35s left)
+Iteration 250 / LogL: -209818.887 / Time: 4h:58m:33s (1h:31m:7s left)
+Log-likelihood cutoff on original alignment: -209879.746
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 252: -209752.897
+Iteration 260 / LogL: -209777.876 / Time: 5h:9m:34s (1h:49m:57s left)
+Iteration 270 / LogL: -209917.547 / Time: 5h:20m:31s (1h:37m:42s left)
+Iteration 280 / LogL: -209843.773 / Time: 5h:31m:26s (1h:25m:31s left)
+Iteration 290 / LogL: -209781.798 / Time: 5h:41m:47s (1h:13m:19s left)
+Iteration 300 / LogL: -209845.461 / Time: 5h:53m:17s (1h:1m:26s left)
+Log-likelihood cutoff on original alignment: -209879.746
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -209766.347 / Time: 6h:4m:31s (1h:46m:10s left)
+Iteration 320 / LogL: -209825.469 / Time: 6h:16m:10s (1h:34m:20s left)
+Iteration 330 / LogL: -209764.418 / Time: 6h:26m:58s (1h:22m:20s left)
+Iteration 340 / LogL: -209794.859 / Time: 6h:37m:12s (1h:10m:18s left)
+Iteration 350 / LogL: -209877.228 / Time: 6h:48m:30s (0h:58m:31s left)
+Log-likelihood cutoff on original alignment: -209879.746
+Iteration 360 / LogL: -209758.570 / Time: 6h:59m:52s (0h:46m:46s left)
+Iteration 370 / LogL: -209909.352 / Time: 7h:11m:8s (0h:35m:3s left)
+Iteration 380 / LogL: -209782.366 / Time: 7h:21m:22s (0h:23m:17s left)
+Iteration 390 / LogL: -209761.268 / Time: 7h:33m:42s (0h:11m:39s left)
+Iteration 400 / LogL: -209839.873 / Time: 7h:45m:9s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -209879.746
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+TREE SEARCH COMPLETED AFTER 400 ITERATIONS / Time: 7h:45m:13s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -209752.897
+2. Current log-likelihood: -209752.875
+3. Current log-likelihood: -209752.854
+4. Current log-likelihood: -209752.824
+5. Current log-likelihood: -209752.807
+6. Current log-likelihood: -209752.789
+7. Current log-likelihood: -209752.762
+8. Current log-likelihood: -209752.747
+9. Current log-likelihood: -209752.733
+10. Current log-likelihood: -209752.721
+11. Current log-likelihood: -209752.710
+Optimal log-likelihood: -209752.696
+Site proportion and rates:  (0.034,0.019) (0.034,0.064) (0.058,0.128) (0.094,0.213) (0.122,0.348) (0.174,0.520) (0.082,0.782) (0.076,0.990) (0.176,1.477) (0.150,2.917)
+Parameters optimization took 11 rounds (138.725 sec)
+BEST SCORE FOUND : -209752.696
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -209752.596 > -209752.696
+9.480 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file calcr_iqtree_boostrap_modelfinder.splits.nex
+Total tree length: 387.930
+
+Total number of iterations: 400
+CPU time used for tree search: 485581.836 sec (134h:53m:1s)
+Wall-clock time used for tree search: 27814.507 sec (7h:43m:34s)
+Total CPU time used: 489796.980 sec (136h:3m:16s)
+Total wall-clock time used: 28064.824 sec (7h:47m:44s)
+
+Computing bootstrap consensus tree...
+Reading input file calcr_iqtree_boostrap_modelfinder.splits.nex...
+698 taxa and 3433 splits.
+Consensus tree written to calcr_iqtree_boostrap_modelfinder.contree
+Reading input trees file calcr_iqtree_boostrap_modelfinder.contree
+Log-likelihood of consensus tree: -209744.987
+
+Analysis results written to: 
+  IQ-TREE report:                calcr_iqtree_boostrap_modelfinder.iqtree
+  Maximum-likelihood tree:       calcr_iqtree_boostrap_modelfinder.treefile
+  Likelihood distances:          calcr_iqtree_boostrap_modelfinder.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          calcr_iqtree_boostrap_modelfinder.splits.nex
+  Consensus tree:                calcr_iqtree_boostrap_modelfinder.contree
+  Screen log file:               calcr_iqtree_boostrap_modelfinder.log
+
+Date and Time: Fri Jul  2 02:03:17 2021

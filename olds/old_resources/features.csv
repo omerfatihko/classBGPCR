@@ -1,0 +1,5 @@
+Features,GCGR,GIPR,GLP1R,GLP2R,source
+G protein,Gs,Gs,Gs,Gs,https://gpcrdb.org/signprot/couplings
+dimerization,GLP1R-GIPR-GLP2R,GLP1R-GCGR-GLP2R,SCTR-GIPR-GCGR-GLP2R,SCTR-GLP1R-GCGR-GIPR,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313782/ 
+ligand,,,,,
+Post-translational modifications,,,,,

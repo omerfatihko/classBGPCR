@@ -1,0 +1,89 @@
+sp|P41587|VIPR2_HUMAN,Vasoactive intestinal polypeptide receptor 2 OS=Homo sapiens OX=9606 GN=VIPR2 PE=1 SV=2,9606
+tr|A0A2I2Z359|A0A2I2Z359_GORGO,Uncharacterized protein OS=Gorilla gorilla gorilla OX=9595 PE=3 SV=1,9595
+tr|A0A2R8ZTG4|A0A2R8ZTG4_PANPA,Uncharacterized protein OS=Pan paniscus OX=9597 PE=3 SV=1,9597
+tr|H2QVP2|H2QVP2_PANTR,Vasoactive intestinal peptide receptor 2 OS=Pan troglodytes OX=9598 GN=VIPR2 PE=3 SV=2,9598
+tr|H2PP71|H2PP71_PONAB,Vasoactive intestinal peptide receptor 2 OS=Pongo abelii OX=9601 GN=VIPR2 PE=3 SV=1,9601
+tr|G1QMW7|G1QMW7_NOMLE,Uncharacterized protein OS=Nomascus leucogenys OX=61853 GN=VIPR2 PE=3 SV=2,61853
+tr|G7P2K2|G7P2K2_MACFA,Uncharacterized protein (Fragment) OS=Macaca fascicularis OX=9541 GN=EGM_13155 PE=3 SV=1,9541
+tr|A0A2K6CQ94|A0A2K6CQ94_MACNE,Vasoactive intestinal peptide receptor 2 OS=Macaca nemestrina OX=9545 GN=VIPR2 PE=3 SV=1,9545
+tr|A0A1D5Q8N3|A0A1D5Q8N3_MACMU,Vasoactive intestinal peptide receptor 2 OS=Macaca mulatta OX=9544 GN=VIPR2 PE=3 SV=1,9544
+tr|A0A2K5P3F2|A0A2K5P3F2_CERAT,Vasoactive intestinal peptide receptor 2 OS=Cercocebus atys OX=9531 GN=VIPR2 PE=3 SV=1,9531
+tr|A0A2K5Y2C6|A0A2K5Y2C6_MANLE,Vasoactive intestinal peptide receptor 2 OS=Mandrillus leucophaeus OX=9568 GN=VIPR2 PE=3 SV=1,9568
+tr|A0A0D9R247|A0A0D9R247_CHLSB,Vasoactive intestinal peptide receptor 2 OS=Chlorocebus sabaeus OX=60711 GN=VIPR2 PE=3 SV=1,60711
+tr|A0A2I3N0J8|A0A2I3N0J8_PAPAN,Vasoactive intestinal peptide receptor 2 OS=Papio anubis OX=9555 GN=VIPR2 PE=3 SV=1,9555
+tr|F6XPK0|F6XPK0_CALJA,Vasoactive intestinal peptide receptor 2 OS=Callithrix jacchus OX=9483 GN=VIPR2 PE=3 SV=2,9483
+tr|A0A287DEJ6|A0A287DEJ6_ICTTR,Uncharacterized protein OS=Ictidomys tridecemlineatus OX=43179 PE=3 SV=1,43179
+tr|H0WY86|H0WY86_OTOGA,Vasoactive intestinal peptide receptor 2 OS=Otolemur garnettii OX=30611 GN=VIPR2 PE=3 SV=1,30611
+tr|A0A3Q0DCP8|A0A3Q0DCP8_TARSY,vasoactive intestinal polypeptide receptor 2 OS=Tarsius syrichta OX=1868482 GN=VIPR2 PE=4 SV=1,1868482
+tr|H0V744|H0V744_CAVPO,Uncharacterized protein OS=Cavia porcellus OX=10141 GN=Vipr2 PE=3 SV=2,10141
+tr|G5BHJ1|G5BHJ1_HETGA,Vasoactive intestinal polypeptide receptor 2 OS=Heterocephalus glaber OX=10181 GN=GW7_06245 PE=3 SV=1,10181
+tr|A0A091ENU1|A0A091ENU1_FUKDA,Vasoactive intestinal polypeptide receptor 2 OS=Fukomys damarensis OX=885580 GN=H920_01293 PE=3 SV=1,885580
+tr|A0A1S3GJW9|A0A1S3GJW9_DIPOR,vasoactive intestinal polypeptide receptor 2 OS=Dipodomys ordii OX=10020 GN=Vipr2 PE=3 SV=1,10020
+tr|G3I7F0|G3I7F0_CRIGR,Vasoactive intestinal polypeptide receptor 2 OS=Cricetulus griseus OX=10029 GN=I79_019439 PE=3 SV=1,10029
+tr|A0A1U7QZQ9|A0A1U7QZQ9_MESAU,vasoactive intestinal polypeptide receptor 2 OS=Mesocricetus auratus OX=10036 GN=Vipr2 PE=3 SV=1,10036
+sp|P41588|VIPR2_MOUSE,Vasoactive intestinal polypeptide receptor 2 OS=Mus musculus OX=10090 GN=Vipr2 PE=1 SV=1,10090
+sp|P35000|VIPR2_RAT,Vasoactive intestinal polypeptide receptor 2 OS=Rattus norvegicus OX=10116 GN=Vipr2 PE=2 SV=1,10116
+tr|G1SJS9|G1SJS9_RABIT,Vasoactive intestinal peptide receptor 2 OS=Oryctolagus cuniculus OX=9986 GN=VIPR2 PE=3 SV=2,9986
+tr|M3WAP4|M3WAP4_FELCA,Vasoactive intestinal peptide receptor 2 OS=Felis catus OX=9685 GN=VIPR2 PE=3 SV=1,9685
+tr|F1P7Q6|F1P7Q6_CANLF,Vasoactive intestinal peptide receptor 2 OS=Canis lupus familiaris OX=9615 GN=VIPR2 PE=3 SV=2,9615
+tr|M3YEW9|M3YEW9_MUSPF,Vasoactive intestinal peptide receptor 2 OS=Mustela putorius furo OX=9669 GN=VIPR2 PE=3 SV=1,9669
+tr|A0A2Y9KK92|A0A2Y9KK92_ENHLU,vasoactive intestinal polypeptide receptor 2 OS=Enhydra lutris kenyoni OX=391180 GN=LOC111154427 PE=3 SV=1,391180
+tr|A0A2U3WYD4|A0A2U3WYD4_ODORO,vasoactive intestinal polypeptide receptor 2 isoform X1 OS=Odobenus rosmarus divergens OX=9708 GN=VIPR2 PE=3 SV=1,9708
+tr|A0A2U3XGY7|A0A2U3XGY7_LEPWE,vasoactive intestinal polypeptide receptor 2 OS=Leptonychotes weddellii OX=9713 GN=VIPR2 PE=3 SV=1,9713
+tr|A0A384BXB6|A0A384BXB6_URSMA,vasoactive intestinal polypeptide receptor 2 OS=Ursus maritimus OX=29073 GN=VIPR2 PE=3 SV=1,29073
+tr|G1LPG6|G1LPG6_AILME,Uncharacterized protein OS=Ailuropoda melanoleuca OX=9646 PE=3 SV=1,9646
+tr|H9GZT8|H9GZT8_HORSE,Vasoactive intestinal peptide receptor 2 OS=Equus caballus OX=9796 GN=VIPR2 PE=3 SV=1,9796
+tr|A0A1S3AMM0|A0A1S3AMM0_ERIEU,vasoactive intestinal polypeptide receptor 2 isoform X1 OS=Erinaceus europaeus OX=9365 GN=VIPR2 PE=3 SV=1,9365
+tr|L5L6Z2|L5L6Z2_PTEAL,Vasoactive intestinal polypeptide receptor 2 OS=Pteropus alecto OX=9402 GN=PAL_GLEAN10003602 PE=3 SV=1,9402
+tr|G1PY89|G1PY89_MYOLU,Uncharacterized protein OS=Myotis lucifugus OX=59463 GN=VIPR2 PE=3 SV=1,59463
+tr|F1MIT6|F1MIT6_BOVIN,Vasoactive intestinal peptide receptor 2 OS=Bos taurus OX=9913 GN=VIPR2 PE=3 SV=2,9913
+tr|W5PKZ4|W5PKZ4_SHEEP,Vasoactive intestinal peptide receptor 2 OS=Ovis aries OX=9940 GN=VIPR2 PE=3 SV=1,9940
+tr|A0A287ACB8|A0A287ACB8_PIG,Uncharacterized protein OS=Sus scrofa OX=9823 GN=VIPR2 PE=1 SV=1,9823
+tr|A0A2Y9NRD0|A0A2Y9NRD0_DELLE,vasoactive intestinal polypeptide receptor 2 isoform X1 OS=Delphinapterus leucas OX=9749 GN=VIPR2 PE=3 SV=1,9749
+tr|A0A2Y9TG63|A0A2Y9TG63_PHYCD,vasoactive intestinal polypeptide receptor 2 isoform X1 OS=Physeter catodon OX=9755 GN=VIPR2 PE=3 SV=1,9755
+tr|A0A383YS42|A0A383YS42_BALAS,vasoactive intestinal polypeptide receptor 2 OS=Balaenoptera acutorostrata scammoni OX=310752 GN=VIPR2 PE=3 SV=1,310752
+tr|A0A2U4AY84|A0A2U4AY84_TURTR,vasoactive intestinal polypeptide receptor 2 OS=Tursiops truncatus OX=9739 GN=VIPR2 PE=3 SV=1,9739
+tr|G3SS81|G3SS81_LOXAF,Uncharacterized protein OS=Loxodonta africana OX=9785 PE=3 SV=1,9785
+tr|A0A2Y9E2F1|A0A2Y9E2F1_TRIMA,vasoactive intestinal polypeptide receptor 2 OS=Trichechus manatus latirostris OX=127582 GN=LOC101349834 PE=3 SV=1,127582
+tr|F7CG94|F7CG94_MONDO,Vasoactive intestinal peptide receptor 2 OS=Monodelphis domestica OX=13616 GN=VIPR2 PE=3 SV=2,13616
+tr|G3WNG9|G3WNG9_SARHA,Uncharacterized protein OS=Sarcophilus harrisii OX=9305 PE=3 SV=1,9305
+tr|F6WU01|F6WU01_ORNAN,Uncharacterized protein OS=Ornithorhynchus anatinus OX=9258 PE=3 SV=1,9258
+tr|G1KAG6|G1KAG6_ANOCA,Uncharacterized protein OS=Anolis carolinensis OX=28377 GN=vipr2 PE=3 SV=2,28377
+tr|A0A1U7S3P2|A0A1U7S3P2_ALLSI,vasoactive intestinal polypeptide receptor 2 OS=Alligator sinensis OX=38654 GN=VIPR2 PE=3 SV=1,38654
+tr|A0A151PCZ0|A0A151PCZ0_ALLMI,Vasoactive intestinal polypeptide receptor 2 isoform B OS=Alligator mississippiensis OX=8496 GN=VIPR2-1 PE=3 SV=1,8496
+tr|A0A099ZJB5|A0A099ZJB5_TINGU,Vasoactive intestinal polypeptide receptor 2 (Fragment) OS=Tinamus guttatus OX=94827 GN=N309_07538 PE=3 SV=1,94827
+tr|A0A093K690|A0A093K690_STRCA,Vasoactive intestinal polypeptide receptor 2 (Fragment) OS=Struthio camelus australis OX=441894 GN=N308_06775 PE=3 SV=1,441894
+tr|U3J6K8|U3J6K8_ANAPL,Vasoactive intestinal peptide receptor 2 OS=Anas platyrhynchos OX=8839 GN=VIPR2 PE=3 SV=1,8839
+tr|G1N143|G1N143_MELGA,Vasoactive intestinal peptide receptor 2 OS=Meleagris gallopavo OX=9103 GN=VIPR2 PE=3 SV=2,9103
+tr|Q56IA1|Q56IA1_CHICK,VPAC2 receptor OS=Gallus gallus OX=9031 GN=VPAC2 PE=2 SV=1,9031
+tr|A0A093GI94|A0A093GI94_DRYPU,Vasoactive intestinal polypeptide receptor 2 (Fragment) OS=Dryobates pubescens OX=118200 GN=N307_00542 PE=3 SV=1,118200
+tr|A0A091VNA7|A0A091VNA7_OPIHO,Vasoactive intestinal polypeptide receptor 2 (Fragment) OS=Opisthocomus hoazin OX=30419 GN=N306_00727 PE=3 SV=1,30419
+tr|A0A091UNG8|A0A091UNG8_NIPNI,Vasoactive intestinal polypeptide receptor 2 (Fragment) OS=Nipponia nippon OX=128390 GN=Y956_00150 PE=3 SV=1,128390
+tr|A0A091IRJ2|A0A091IRJ2_CALAN,Vasoactive intestinal polypeptide receptor 2 (Fragment) OS=Calypte anna OX=9244 GN=N300_04205 PE=3 SV=1,9244
+tr|A0A087R0U6|A0A087R0U6_APTFO,Vasoactive intestinal polypeptide receptor 2 (Fragment) OS=Aptenodytes forsteri OX=9233 GN=AS27_06950 PE=3 SV=1,9233
+tr|A0A0A0AJS0|A0A0A0AJS0_CHAVO,Vasoactive intestinal polypeptide receptor 2 (Fragment) OS=Charadrius vociferus OX=50402 GN=N301_05998 PE=3 SV=1,50402
+tr|A0A091IU07|A0A091IU07_EGRGA,Vasoactive intestinal polypeptide receptor 2 (Fragment) OS=Egretta garzetta OX=188379 GN=Z169_03604 PE=3 SV=1,188379
+tr|A0A091FXC4|A0A091FXC4_9AVES,Vasoactive intestinal polypeptide receptor 2 (Fragment) OS=Cuculus canorus OX=55661 GN=N303_03811 PE=3 SV=1,55661
+tr|A0A0Q3USQ2|A0A0Q3USQ2_AMAAE,Vasoactive intestinal polypeptide receptor 2-like protein OS=Amazona aestiva OX=12930 GN=AAES_75591 PE=3 SV=1,12930
+tr|A0A1V4KLL5|A0A1V4KLL5_PATFA,Vasoactive intestinal polypeptide receptor 2 OS=Patagioenas fasciata monilis OX=372326 GN=VIPR2 PE=3 SV=1,372326
+tr|A0A2I0MQV6|A0A2I0MQV6_COLLI,Vasoactive intestinal peptide receptor 2 OS=Columba livia OX=8932 GN=VIPR2 PE=3 SV=1,8932
+tr|A0A091EHH2|A0A091EHH2_CORBR,Vasoactive intestinal polypeptide receptor 2 (Fragment) OS=Corvus brachyrhynchos OX=85066 GN=N302_12133 PE=3 SV=1,85066
+tr|U3JWU4|U3JWU4_FICAL,Vasoactive intestinal peptide receptor 2 OS=Ficedula albicollis OX=59894 GN=VIPR2 PE=3 SV=1,59894
+tr|A0A218UTB0|A0A218UTB0_9PASE,Vasoactive intestinal polypeptide receptor 2 OS=Lonchura striata domestica OX=299123 GN=VIPR2 PE=3 SV=1,299123
+tr|A0A093Q6F1|A0A093Q6F1_9PASS,Vasoactive intestinal polypeptide receptor 2 (Fragment) OS=Manacus vitellinus OX=328815 GN=N305_14670 PE=3 SV=1,328815
+tr|K7FMV5|K7FMV5_PELSI,Vasoactive intestinal peptide receptor 2 OS=Pelodiscus sinensis OX=13735 GN=VIPR2 PE=3 SV=1,13735
+tr|B1WBH3|B1WBH3_XENTR,LOC100145780 protein OS=Xenopus tropicalis OX=8364 GN=vipr2 PE=2 SV=1,8364
+tr|A0A1L8FVA9|A0A1L8FVA9_XENLA,Uncharacterized protein OS=Xenopus laevis OX=8355 GN=XELAEV_18030696mg PE=3 SV=1,8355
+tr|W5N3J5|W5N3J5_LEPOC,Vasoactive intestinal peptide receptor 2 OS=Lepisosteus oculatus OX=7918 PE=3 SV=1,7918
+tr|A0A3B1IHD8|A0A3B1IHD8_ASTMX,Uncharacterized protein OS=Astyanax mexicanus OX=7994 PE=3 SV=1,7994
+tr|A0A1S3LVW9|A0A1S3LVW9_SALSA,vasoactive intestinal polypeptide receptor 2-like OS=Salmo salar OX=8030 GN=LOC106568823 PE=3 SV=1,8030
+tr|A0A060W5S4|A0A060W5S4_ONCMY,Uncharacterized protein OS=Oncorhynchus mykiss OX=8022 GN=GSONMT00067522001 PE=4 SV=1,8022
+tr|G3PZZ7|G3PZZ7_GASAC,Uncharacterized protein OS=Gasterosteus aculeatus OX=69293 PE=3 SV=1,69293
+tr|I3KC93|I3KC93_ORENI,Uncharacterized protein OS=Oreochromis niloticus OX=8128 GN=vipr2 PE=3 SV=1,8128
+tr|H2SPB9|H2SPB9_TAKRU,Uncharacterized protein OS=Takifugu rubripes OX=31033 PE=4 SV=2,31033
+tr|H3CRC2|H3CRC2_TETNG,Uncharacterized protein OS=Tetraodon nigroviridis OX=99883 PE=3 SV=1,99883
+tr|A0A2U9BHY5|A0A2U9BHY5_SCOMX,Putative vasoactive intestinal polypeptide receptor 2 OS=Scophthalmus maximus OX=52904 GN=SMAX5B_004638 PE=3 SV=1,52904
+tr|H2LMX1|H2LMX1_ORYLA,Uncharacterized protein OS=Oryzias latipes OX=8090 PE=3 SV=2,8090
+tr|A0A2I4CBY2|A0A2I4CBY2_9TELE,vasoactive intestinal polypeptide receptor 2 isoform X1 OS=Austrofundulus limnaeus OX=52670 GN=vipr2 PE=3 SV=1,52670
+tr|A0A087XVS6|A0A087XVS6_POEFO,Uncharacterized protein OS=Poecilia formosa OX=48698 PE=3 SV=2,48698
+tr|M3ZWI2|M3ZWI2_XIPMA,Uncharacterized protein OS=Xiphophorus maculatus OX=8083 PE=3 SV=2,8083

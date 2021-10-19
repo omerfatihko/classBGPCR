@@ -1,0 +1,2415 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Families data</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table><table class="compact display dataTable no-footer" id="familiestabletab" role="grid" aria-describedby="familiestabletab_info"><thead>
+                <tr role="row" style=""><th colspan="1" rowspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 3px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th colspan="1" style="text-align: left; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 80px;" rowspan="1"><div class="dataTables_sizing" style="overflow: hidden;">
+                        Source
+                    </div></th><th colspan="4" style="text-align: left; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 434px;" rowspan="1"><div class="dataTables_sizing" style="overflow: hidden;">
+                        Receptor
+                    </div></th><th colspan="4" style="text-align: left; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 220px;" rowspan="1"><div class="dataTables_sizing" style="overflow: hidden;">
+                        Guide to Pharmacology
+                        
+                    </div></th><th colspan="4" style="text-align: left; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 350px;" rowspan="1"><div class="dataTables_sizing" style="overflow: hidden;">
+                        Log(Emax/EC50)
+
+
+
+                        <span data-toggle="popover" data-placement="bottom" class="glyphicon glyphicon-info-sign" title="" data-content="Max of G protein family members" data-original-title="Info">
+                        </span>
+                        
+                    </div></th><th colspan="4" style="text-align: left; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 350px;" rowspan="1"><div class="dataTables_sizing" style="overflow: hidden;">
+                        pEC50
+                        <span data-toggle="popover" data-placement="bottom" class="glyphicon glyphicon-info-sign" title="" data-content="Max of G protein family members" data-original-title="Info">
+                        </span>
+                        
+                    </div></th><th colspan="4" style="text-align: left; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 350px;" rowspan="1"><div class="dataTables_sizing" style="overflow: hidden;">
+                        Emax
+                        <span data-toggle="popover" data-placement="bottom" class="glyphicon glyphicon-info-sign" title="" data-content="Max of G protein family members" data-original-title="Info">
+                        </span>
+                        
+                    </div></th></tr>
+
+                <tr role="row" style=""><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 3px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 80px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 40px;"><div class="dataTables_sizing" style="overflow: hidden;">Cl</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 200px;"><div class="dataTables_sizing" style="overflow: hidden;">ResFam</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 60px;"><div class="dataTables_sizing" style="overflow: hidden;">
+                        <div>
+                            <div>Uniprot</div>
+                            <div></div>
+                        </div>
+                    </div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 80px;"><div class="dataTables_sizing" style="overflow: hidden;">IUPHAR</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 40px;"><div class="dataTables_sizing" style="overflow: hidden;">Gs</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 40px;"><div class="dataTables_sizing" style="overflow: hidden;">Gi/o</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 40px;"><div class="dataTables_sizing" style="overflow: hidden;">Gq/11</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 46px;"><div class="dataTables_sizing" style="overflow: hidden;">G12/13</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;">Gs</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;">Gi/o</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;">Gq/11</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;">G12/13</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;">Gs</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;">Gi/o</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;">Gq/11</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;">G12/13</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;">Gs</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;">Gi/o</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;">Gq/11</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;">G12/13</div></th></tr>
+
+                <tr role="row" style=""><th class="no-sort checkbox_tr sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 13px;"><div class="dataTables_sizing" style="overflow: hidden;"><input class="select-all" type="checkbox" onclick="select_all(this)"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 80px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting_asc" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column descending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 40px;" aria-sort="ascending"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 200px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 60px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 80px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 40px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 40px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 40px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 46px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th><th class="sorting" aria-controls="familiestabletab" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; width: 74px;"><div class="dataTables_sizing" style="overflow: hidden;"></div></th></tr>
+
+                </thead>
+                
+
+                <tbody>
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                            
+                    
+                
+
+                <tr data-source="Inoue" role="row" class="odd"> 
+                            <td class="text-center"><input class="alt" type="checkbox"></td>
+
+
+                            
+                                <td>Inoue</td>
+                            
+                            <td class="sorting_1">B1  </td>
+                            <td>Glucagon</td>
+                            <td class="uniprot1">
+
+                                <a href="https://www.uniprot.org/uniprot/P48546" target="_blank">GIPR</a>
+                            </td>
+                            <td class="text-left">
+                                <a href="https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=248" target="_blank">GIP</a>
+
+                            </td>
+                            <td>1'</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+
+                            
+                                <td>8.23</td>
+                            
+                                <td>0.0</td>
+                            
+                                <td>0.0</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+                                <td>8.48</td>
+                            
+                                <td>0.0</td>
+                            
+                                <td>0.0</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+                                <td>56.05</td>
+                            
+                                <td>0.0</td>
+                            
+                                <td>0.0</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+
+                        </tr><tr data-source="Bouvier" role="row" class="even"> 
+                            <td class="text-center"><input class="alt" type="checkbox"></td>
+
+
+                            
+                                <td>Bouvier</td>
+                            
+                            <td class="sorting_1">B1  </td>
+                            <td>Glucagon</td>
+                            <td class="uniprot1">
+
+                                <a href="https://www.uniprot.org/uniprot/P48546" target="_blank">GIPR</a>
+                            </td>
+                            <td class="text-left">
+                                <a href="https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=248" target="_blank">GIP</a>
+
+                            </td>
+                            <td>1'</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+
+                            
+                                <td>10.36</td>
+                            
+                                <td>8.82</td>
+                            
+                                <td>8.82</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+                                <td>10.47</td>
+                            
+                                <td>9.29</td>
+                            
+                                <td>9.09</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+                                <td>77.06</td>
+                            
+                                <td>33.66</td>
+                            
+                                <td>54.37</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+
+                        </tr><tr data-source="2" role="row" class="odd"> 
+                            <td class="text-center"><input class="alt" type="checkbox"></td>
+
+
+                            
+                                <td>GPCRdb</td>
+                            
+                            <td class="sorting_1">B1  </td>
+                            <td>Glucagon</td>
+                            <td class="uniprot1">
+
+                                <a href="https://www.uniprot.org/uniprot/P48546" target="_blank">GIPR</a>
+                            </td>
+                            <td class="text-left">
+                                <a href="https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=248" target="_blank">GIP</a>
+
+                            </td>
+                            <td>1'</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+
+                            
+                                <td>10.36</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+
+                            
+                                <td>10.47</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+
+                            
+                                <td>77.06</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+
+                            
+
+                        </tr><tr data-source="Bouvier" role="row" class="even"> 
+                            <td class="text-center"><input class="alt" type="checkbox"></td>
+
+
+                            
+                                <td>Bouvier</td>
+                            
+                            <td class="sorting_1">B1  </td>
+                            <td>Glucagon</td>
+                            <td class="uniprot1">
+
+                                <a href="https://www.uniprot.org/uniprot/P43220" target="_blank">GLP1R</a>
+                            </td>
+                            <td class="text-left">
+                                <a href="https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=249" target="_blank">GLP-1</a>
+
+                            </td>
+                            <td>1'</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+
+                            
+                                <td>10.57</td>
+                            
+                                <td>7.83</td>
+                            
+                                <td>8.2</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+                                <td>10.62</td>
+                            
+                                <td>8.52</td>
+                            
+                                <td>8.58</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+                                <td>89.34</td>
+                            
+                                <td>20.47</td>
+                            
+                                <td>42.16</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+
+                        </tr><tr data-source="2" role="row" class="odd"> 
+                            <td class="text-center"><input class="alt" type="checkbox"></td>
+
+
+                            
+                                <td>GPCRdb</td>
+                            
+                            <td class="sorting_1">B1  </td>
+                            <td>Glucagon</td>
+                            <td class="uniprot1">
+
+                                <a href="https://www.uniprot.org/uniprot/P43220" target="_blank">GLP1R</a>
+                            </td>
+                            <td class="text-left">
+                                <a href="https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=249" target="_blank">GLP-1</a>
+
+                            </td>
+                            <td>1'</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+
+                            
+                                <td>10.57</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+
+                            
+                                <td>10.62</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+
+                            
+                                <td>89.34</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+
+                            
+
+                        </tr><tr data-source="Bouvier" role="row" class="even"> 
+                            <td class="text-center"><input class="alt" type="checkbox"></td>
+
+
+                            
+                                <td>Bouvier</td>
+                            
+                            <td class="sorting_1">B1  </td>
+                            <td>Glucagon</td>
+                            <td class="uniprot1">
+
+                                <a href="https://www.uniprot.org/uniprot/O95838" target="_blank">GLP2R</a>
+                            </td>
+                            <td class="text-left">
+                                <a href="https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=250" target="_blank">GLP-2</a>
+
+                            </td>
+                            <td>1'</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+
+                            
+                                <td>10.08</td>
+                            
+                                <td>8.79</td>
+                            
+                                <td>7.58</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+                                <td>10.1</td>
+                            
+                                <td>9.23</td>
+                            
+                                <td>8.24</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+                                <td>95.75</td>
+                            
+                                <td>35.65</td>
+                            
+                                <td>21.9</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+
+                        </tr><tr data-source="2" role="row" class="odd"> 
+                            <td class="text-center"><input class="alt" type="checkbox"></td>
+
+
+                            
+                                <td>GPCRdb</td>
+                            
+                            <td class="sorting_1">B1  </td>
+                            <td>Glucagon</td>
+                            <td class="uniprot1">
+
+                                <a href="https://www.uniprot.org/uniprot/O95838" target="_blank">GLP2R</a>
+                            </td>
+                            <td class="text-left">
+                                <a href="https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=250" target="_blank">GLP-2</a>
+
+                            </td>
+                            <td>1'</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+
+                            
+                                <td>10.08</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+
+                            
+                                <td>10.1</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+
+                            
+                                <td>95.75</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+
+                            
+
+                        </tr><tr data-source="Bouvier" role="row" class="even"> 
+                            <td class="text-center"><input class="alt" type="checkbox"></td>
+
+
+                            
+                                <td>Bouvier</td>
+                            
+                            <td class="sorting_1">B1  </td>
+                            <td>Glucagon</td>
+                            <td class="uniprot1">
+
+                                <a href="https://www.uniprot.org/uniprot/P47871" target="_blank">GLR</a>
+                            </td>
+                            <td class="text-left">
+                                <a href="https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=251" target="_blank">glucagon</a>
+
+                            </td>
+                            <td>1'</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+
+                            
+                                <td>10.88</td>
+                            
+                                <td>8.58</td>
+                            
+                                <td>8.87</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+                                <td>11.1</td>
+                            
+                                <td>8.85</td>
+                            
+                                <td>9.12</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+                                <td>59.98</td>
+                            
+                                <td>60.37</td>
+                            
+                                <td>56.11</td>
+                            
+                                <td>0.0</td>
+                            
+
+                            
+
+                        </tr><tr data-source="2" role="row" class="odd"> 
+                            <td class="text-center"><input class="alt" type="checkbox"></td>
+
+
+                            
+                                <td>GPCRdb</td>
+                            
+                            <td class="sorting_1">B1  </td>
+                            <td>Glucagon</td>
+                            <td class="uniprot1">
+
+                                <a href="https://www.uniprot.org/uniprot/P47871" target="_blank">GLR</a>
+                            </td>
+                            <td class="text-left">
+                                <a href="https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=251" target="_blank">glucagon</a>
+
+                            </td>
+                            <td>1'</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+
+                            
+                                <td>10.88</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+
+                            
+                                <td>11.1</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+
+                            
+                                <td>59.98</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+                                <td>-</td>
+                            
+
+                            
+
+                        </tr></tbody>
+
+
+            </table></table></body></html>

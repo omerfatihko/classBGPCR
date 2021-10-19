@@ -1,0 +1,16 @@
+#fasta file'lari birlestirmek icin
+time cat /cta/users/ofkonar/work/database/canonical_reference_proteomes/*.fasta > /cta/users/ofkonar/work/database/canonical_unified_fasta/unified_fasta.fasta
+
+#SBATCH -o ../../results/gcgr/%a
+
+#blastp query
+blastp -query crf1_human.fasta -db gcgr_human.fasta
+
+module load python-3.7.4-gcc-9.2.0-qom5xda
+module load py-numpy-1.17.3-gcc-9.2.0-sk2xj77
+module load py-pandas-0.25.1-gcc-9.2.0-divscg7
+
+#tum output dosyalarini output klasorune tasima
+mv *.out ~/outputs/
+
+msa_vipr2_blast_fastas_top700

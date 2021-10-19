@@ -1,0 +1,17 @@
+,GPCRdb,GPCRdb,GPCRdb,GPCRdb,GPCRdb,GPCRdb,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,STRING,MINT,MINT,MINT,MINT,MINT,MINT,IntAct,IntAct,IntAct,IntAct
+,Gs,Gi-o,Gq-11,G12-13,ARRB1,ARRB2,ADCY5,ADCYAP1,ADM,ADM2,ADRBK1,AGTR1,ARRB1,ARRB2,ATG5,AVPR1B,CALCA,CALCB,CRFR1,CRH,CRHBP,CTSK,DPP4,FZD5,GCG,GIP,GH1,GHRH,GHRL,GLP1R,GNAI1,GNAQ,GNAS,GNB1,GNG2,GNG7,GNRHR,GPR123,GRM1,IAPP,INS,LHX3,LHX4,LRP6,NTRK2,PGRMC1,POMC,POU1F1,PPIP5K2,PRL,PROP1,PTH,PTH1R,PTH2,PTHLH,RAMP1,RAMP2,RAMP3,SCT,SLC9A3R1,SLC9A3R2,UCN,UCN2,UCN3,VIP,VIPR1,VIPR2,WASL,CALM3,DBNDD2,HLA-A,PASK,RGS14,YWHAH,DLG1,SCRIB,GPRASP1,GPRASP2
+CALCR,1,,2,,1,1,,,1,,,,,,,,1,1,,,,1,,,,,,,,,,,1,1,,,,,,1,,,,,,,,,,,,,,,,1,1,1,,,,,,,,,,,1,,,,,,,,1,1
+CALRL,,,,,,,,,1,1,,,,,,,1,1,,,,,,,,,,,,,,,1,,,,,,1,1,,,,,,,,,,,,,,,,1,1,1,,,,,,,,,,,,,,,,,,,,
+CRFR1,1,,2,,1,1,,,,,,,,1,,1,,,,1,1,,,,,,,,,,1,,1,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,1,1,1,,,,,1,,,,,,1,1,,
+CRFR2,1,,2,,1,1,,,,,,,,,,,,,1,1,1,,,,,,,,1,,,,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,,,,,,,,,,,,,,
+GCGR,1,,,,1,1,,,,,,,,,,,,,,,,,,,1,,,,,,1,1,1,1,1,,,,,,1,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,
+GHRHR,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,,1,,,,1,,,,,1,1,,,,,1,,1,1,,,,,,,,,,,,,,1,,,,,,,,,,,,,
+GIPR,1,,,,1,1,1,1,,,,,,,,,,,,,,,,,1,1,,,,,,,1,,,,,,,,,,,,,,1,,,,,,,,,,,,1,,,,,,1,,,,,,,,,,,,,
+GLP1R,1,,,,1,1,,,,,1,,1,,,,,,,,,,1,,1,1,,,,,,,1,1,1,,,,,,1,,,,,1,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,
+GLP2R,1,,,,1,1,,,,,,,,,,,,,,,,,,,1,,,,,1,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,1,,,,1,,,,,,,,,
+PACR,1,,1,,,,,1,,,,,,,,,,,,,,,,,1,,,1,,,,,1,,1,,,,,,,,,,1,,,,,,,,,,,,,,1,,,,,,1,,,,1,,,,,,,,,
+PTH1R,1,,2,,1,1,,,,,,,1,1,,,,,,,,,,,,,,,,,,1,1,,,,,,,,,,,1,,,,,,,,1,,1,1,,,,,1,1,,,,,,,,1,,,1,,1,,,,
+PTH2R,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,,,,,,,1,,,,,,,1,,,,,,,,,
+SCTR,,,,,,,,1,,,,1,,,,,,,,,,,,,1,,,,,,,,1,1,1,,,1,,,,,,,,,,,,,,,,,,,,1,1,,,,,,1,,,,1,,,,,,,,,
+VIPR1,1,2,2,,1,1,,1,,,,,,,1,,,,,,,,,,1,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,1,1,,1,,,,,,1,,1,1,1,,1,,,,,,,
+VIPR2,,,,,,,,1,,,,,,,,,,,,,,,,,1,1,,1,,,,,1,,,1,,,,,,,,,,,,,1,,,,,,,,,,1,,,,,,1,1,,,,1,,,1,,,,,

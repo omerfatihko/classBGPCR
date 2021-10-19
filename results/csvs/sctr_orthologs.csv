@@ -1,0 +1,189 @@
+tr|A0A087QNN1|A0A087QNN1_APTFO,Secretin receptor (Fragment) OS=Aptenodytes forsteri OX=9233 GN=AS27_08193 PE=3 SV=1,9233
+tr|A0A093REA1|A0A093REA1_PYGAD,Secretin receptor (Fragment) OS=Pygoscelis adeliae OX=9238 GN=AS28_05486 PE=3 SV=1,9238
+tr|A0A091P0B8|A0A091P0B8_HALAL,Secretin receptor (Fragment) OS=Haliaeetus albicilla OX=8969 GN=N329_09571 PE=3 SV=1,8969
+tr|A0A663DM13|A0A663DM13_AQUCH,Secretin receptor OS=Aquila chrysaetos chrysaetos OX=223781 GN=SCTR PE=4 SV=1,223781
+tr|A0A094L9W4|A0A094L9W4_ANTCR,Secretin receptor (Fragment) OS=Antrostomus carolinensis OX=279965 GN=N321_05941 PE=3 SV=1,279965
+tr|A0A091LH31|A0A091LH31_CATAU,Secretin receptor (Fragment) OS=Cathartes aura OX=43455 GN=N323_10648 PE=3 SV=1,43455
+tr|U3IM16|U3IM16_ANAPP,Secretin receptor OS=Anas platyrhynchos platyrhynchos OX=8840 GN=SCTR PE=4 SV=2,8840
+tr|A0A670ICY0|A0A670ICY0_PODMU,Secretin receptor OS=Podarcis muralis OX=64176 GN=SCTR PE=3 SV=1,64176
+tr|A0A6J2WIG1|A0A6J2WIG1_CHACN,secretin receptor-like OS=Chanos chanos OX=29144 GN=LOC115823566 PE=4 SV=1,29144
+tr|A0A4W2FPX7|A0A4W2FPX7_BOBOX,Secretin receptor OS=Bos indicus x Bos taurus OX=30522 GN=SCTR PE=4 SV=1,30522
+tr|A0A6P3J6M4|A0A6P3J6M4_BISBI,secretin receptor OS=Bison bison bison OX=43346 GN=SCTR PE=4 SV=1,43346
+tr|A0A6I8QYN2|A0A6I8QYN2_XENTR,Uncharacterized protein OS=Xenopus tropicalis OX=8364 PE=3 SV=2,8364
+tr|F8RUA9|F8RUA9_XENLA,Secretin receptor OS=Xenopus laevis OX=8355 GN=sctr.L PE=2 SV=1,8355
+tr|A0A3Q1GV62|A0A3Q1GV62_9TELE,Vasoactive intestinal polypeptide receptor-like OS=Acanthochromis polyacanthus OX=80966 PE=4 SV=1,80966
+tr|A0A672YC48|A0A672YC48_9TELE,Uncharacterized protein OS=Sphaeramia orbicularis OX=375764 GN=LOC115436526 PE=4 SV=1,375764
+tr|A0A3Q2IKD1|A0A3Q2IKD1_HORSE,Secretin receptor OS=Equus caballus OX=9796 GN=SCTR PE=4 SV=1,9796
+tr|A0A2K6LB78|A0A2K6LB78_RHIBE,Uncharacterized protein OS=Rhinopithecus bieti OX=61621 GN=SCTR PE=4 SV=1,61621
+tr|A0A2K6RF28|A0A2K6RF28_RHIRO,Uncharacterized protein OS=Rhinopithecus roxellana OX=61622 GN=SCTR PE=4 SV=1,61622
+tr|A0A2K5IP66|A0A2K5IP66_COLAP,Secretin receptor OS=Colobus angolensis palliatus OX=336983 PE=4 SV=1,336983
+tr|A0A0D9RVJ5|A0A0D9RVJ5_CHLSB,Secretin receptor OS=Chlorocebus sabaeus OX=60711 GN=SCTR PE=4 SV=1,60711
+tr|A0A096MQK5|A0A096MQK5_PAPAN,Secretin receptor OS=Papio anubis OX=9555 GN=SCTR PE=4 SV=1,9555
+tr|A0A2K5Y3M2|A0A2K5Y3M2_MANLE,Secretin receptor OS=Mandrillus leucophaeus OX=9568 GN=SCTR PE=4 SV=1,9568
+tr|A0A2K5MG90|A0A2K5MG90_CERAT,Secretin receptor OS=Cercocebus atys OX=9531 GN=SCTR PE=4 SV=1,9531
+tr|F6TRW6|F6TRW6_MACMU,Secretin receptor OS=Macaca mulatta OX=9544 GN=SCTR PE=4 SV=2,9544
+tr|A0A2K5W7H9|A0A2K5W7H9_MACFA,Secretin receptor OS=Macaca fascicularis OX=9541 GN=SCTR PE=4 SV=2,9541
+tr|A0A2K6E6E3|A0A2K6E6E3_MACNE,Secretin receptor OS=Macaca nemestrina OX=9545 GN=SCTR PE=4 SV=1,9545
+tr|A0A3Q1M5G0|A0A3Q1M5G0_BOVIN,Secretin receptor OS=Bos taurus OX=9913 GN=SCTR PE=4 SV=1,9913
+tr|A0A6P5DL81|A0A6P5DL81_BOSIN,secretin receptor OS=Bos indicus OX=9915 GN=SCTR PE=4 SV=1,9915
+tr|L8HPK2|L8HPK2_9CETA,Secretin receptor (Fragment) OS=Bos mutus OX=72004 GN=M91_16002 PE=4 SV=1,72004
+tr|G1P1I6|G1P1I6_MYOLU,Secretin receptor OS=Myotis lucifugus OX=59463 GN=SCTR PE=4 SV=1,59463
+tr|S7PZS5|S7PZS5_MYOBR,Secretin receptor OS=Myotis brandtii OX=109478 GN=D623_10019051 PE=4 SV=1,109478
+tr|A0A671EA41|A0A671EA41_RHIFE,Secretin receptor OS=Rhinolophus ferrumequinum OX=59479 GN=SCTR PE=4 SV=1,59479
+tr|A0A7E6DKK9|A0A7E6DKK9_9CHIR,secretin receptor OS=Phyllostomus discolor OX=89673 GN=SCTR PE=4 SV=1,89673
+tr|L5JYL5|L5JYL5_PTEAL,Secretin receptor (Fragment) OS=Pteropus alecto OX=9402 GN=PAL_GLEAN10025791 PE=4 SV=1,9402
+tr|A0A6P6CQS7|A0A6P6CQS7_PTEVA,secretin receptor OS=Pteropus vampyrus OX=132908 GN=SCTR PE=4 SV=1,132908
+tr|A0A6J3D4C6|A0A6J3D4C6_AYTFU,secretin receptor OS=Aythya fuligula OX=219594 GN=SCTR PE=4 SV=1,219594
+tr|A0A6A5E0W6|A0A6A5E0W6_PERFL,Uncharacterized protein OS=Perca fluviatilis OX=8168 GN=PFLUV_G00271350 PE=4 SV=1,8168
+tr|A0A6J2QXY2|A0A6J2QXY2_COTGO,vasoactive intestinal polypeptide receptor-like OS=Cottoperca gobio OX=56716 GN=LOC115018003 PE=4 SV=1,56716
+tr|H2LHY9|H2LHY9_ORYLA,Uncharacterized protein OS=Oryzias latipes OX=8090 GN=LOC101169670 PE=4 SV=2,8090
+tr|A0A437DJP7|A0A437DJP7_ORYJA,Uncharacterized protein OS=Oryzias javanicus OX=123683 GN=OJAV_G00015960 PE=4 SV=1,123683
+tr|A0A6P7K9V1|A0A6P7K9V1_9TELE,vasoactive intestinal polypeptide receptor-like OS=Parambassis ranga OX=210632 GN=LOC114451698 PE=4 SV=1,210632
+tr|L8Y5M7|L8Y5M7_TUPCH,Secretin receptor OS=Tupaia chinensis OX=246437 GN=TREES_T100004799 PE=4 SV=1,246437
+tr|G3H5D7|G3H5D7_CRIGR,Secretin receptor OS=Cricetulus griseus OX=10029 GN=I79_005524 PE=4 SV=1,10029
+tr|A0A1U8BZI8|A0A1U8BZI8_MESAU,secretin receptor isoform X1 OS=Mesocricetus auratus OX=10036 GN=Sctr PE=4 SV=1,10036
+tr|A0A6I9LDP5|A0A6I9LDP5_PERMB,secretin receptor OS=Peromyscus maniculatus bairdii OX=230844 GN=Sctr PE=4 SV=1,230844
+sp|Q5FWI2|SCTR_MOUSE,Secretin receptor OS=Mus musculus OX=10090 GN=Sctr PE=1 SV=1,10090
+sp|P23811|SCTR_RAT,Secretin receptor OS=Rattus norvegicus OX=10116 GN=Sctr PE=1 SV=1,10116
+tr|A0A1S3FHW9|A0A1S3FHW9_DIPOR,secretin receptor isoform X1 OS=Dipodomys ordii OX=10020 GN=Sctr PE=4 SV=1,10020
+tr|G5AW90|G5AW90_HETGA,Secretin receptor OS=Heterocephalus glaber OX=10181 GN=GW7_17738 PE=4 SV=1,10181
+tr|A0A091DCI7|A0A091DCI7_FUKDA,Secretin receptor OS=Fukomys damarensis OX=885580 GN=H920_08761 PE=4 SV=1,885580
+tr|H0VT27|H0VT27_CAVPO,Secretin receptor OS=Cavia porcellus OX=10141 GN=SCTR PE=4 SV=2,10141
+tr|A0A6P6E0E8|A0A6P6E0E8_OCTDE,secretin receptor isoform X1 OS=Octodon degus OX=10160 GN=Sctr PE=4 SV=1,10160
+tr|I3M8I3|I3M8I3_ICTTR,Secretin receptor OS=Ictidomys tridecemlineatus OX=43179 GN=SCTR PE=4 SV=2,43179
+tr|A0A5E4AT72|A0A5E4AT72_MARMO,Uncharacterized protein OS=Marmota monax OX=9995 GN=MONAX_5E004523 PE=4 SV=1,9995
+tr|A0A3Q7MU50|A0A3Q7MU50_CALUR,secretin receptor OS=Callorhinus ursinus OX=34884 GN=SCTR PE=4 SV=1,34884
+tr|R0LJJ8|R0LJJ8_ANAPL,Secretin receptor (Fragment) OS=Anas platyrhynchos OX=8839 GN=Anapl_10104 PE=3 SV=1,8839
+tr|A0A673I082|A0A673I082_9TELE,Secretin receptor-like OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107752604 PE=4 SV=1,307959
+tr|A0A671R882|A0A671R882_9TELE,Secretin receptor-like OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107670318 PE=4 SV=1,1608454
+tr|A0A3N0Z545|A0A3N0Z545_ANAGA,Secretin receptor OS=Anabarilius grahami OX=495550 GN=DPX16_7023 PE=4 SV=1,495550
+tr|A0A6P6KPL3|A0A6P6KPL3_CARAU,secretin receptor-like OS=Carassius auratus OX=7957 GN=LOC113053427 PE=4 SV=1,7957
+tr|A0A3B1JFR3|A0A3B1JFR3_ASTMX,Uncharacterized protein OS=Astyanax mexicanus OX=7994 PE=4 SV=1,7994
+tr|A0A5N5PD64|A0A5N5PD64_PANHP,Uncharacterized protein OS=Pangasianodon hypophthalmus OX=310915 GN=PHYPO_G00207180 PE=4 SV=1,310915
+tr|W5PSN2|W5PSN2_SHEEP,Uncharacterized protein OS=Ovis aries OX=9940 GN=SCTR PE=4 SV=1,9940
+tr|A0A452FS30|A0A452FS30_CAPHI,Secretin receptor OS=Capra hircus OX=9925 GN=SCTR PE=4 SV=1,9925
+tr|A0A5J5MLH0|A0A5J5MLH0_MUNRE,Uncharacterized protein (Fragment) OS=Muntiacus reevesi OX=9886 GN=FD755_008733 PE=4 SV=1,9886
+tr|A0A6J0Z7R0|A0A6J0Z7R0_ODOVR,secretin receptor OS=Odocoileus virginianus texanus OX=9880 GN=SCTR PE=4 SV=1,9880
+tr|A0A384AWH5|A0A384AWH5_BALAS,secretin receptor-like OS=Balaenoptera acutorostrata scammoni OX=310752 GN=LOC103018074 PE=4 SV=1,310752
+tr|A0A643BM27|A0A643BM27_BALPH,Uncharacterized protein OS=Balaenoptera physalus OX=9770 GN=E2I00_018302 PE=4 SV=1,9770
+tr|A0A2Y9EJX1|A0A2Y9EJX1_PHYMC,secretin receptor OS=Physeter macrocephalus OX=9755 GN=SCTR PE=4 SV=1,9755
+tr|A0A2Y9MGZ7|A0A2Y9MGZ7_DELLE,secretin receptor OS=Delphinapterus leucas OX=9749 GN=SCTR PE=4 SV=1,9749
+tr|A0A4U1EHZ0|A0A4U1EHZ0_MONMO,Uncharacterized protein OS=Monodon monoceros OX=40151 GN=EI555_014528 PE=3 SV=1,40151
+tr|A0A6J3RNY5|A0A6J3RNY5_TURTR,secretin receptor OS=Tursiops truncatus OX=9739 GN=SCTR PE=4 SV=1,9739
+tr|A0A340YHX2|A0A340YHX2_LIPVE,LOW QUALITY PROTEIN: secretin receptor OS=Lipotes vexillifer OX=118797 GN=SCTR PE=4 SV=1,118797
+tr|S9XW05|S9XW05_CAMFR,Secretin receptor OS=Camelus ferus OX=419612 GN=CB1_001533027 PE=4 SV=1,419612
+tr|A0A5N4E5P8|A0A5N4E5P8_CAMDR,Secretin receptor OS=Camelus dromedarius OX=9838 GN=Cadr_000006688 PE=4 SV=1,9838
+tr|A0A6J3ALR9|A0A6J3ALR9_VICPA,secretin receptor OS=Vicugna pacos OX=30538 GN=SCTR PE=4 SV=1,30538
+tr|I3LFB5|I3LFB5_PIG,Secretin receptor OS=Sus scrofa OX=9823 GN=SCTR PE=4 SV=3,9823
+tr|A0A3Q7XHR7|A0A3Q7XHR7_URSAR,secretin receptor OS=Ursus arctos horribilis OX=116960 GN=SCTR PE=4 SV=1,116960
+tr|A0A452QNJ9|A0A452QNJ9_URSAM,Secretin receptor OS=Ursus americanus OX=9643 GN=SCTR PE=4 SV=1,9643
+tr|A0A384BP42|A0A384BP42_URSMA,secretin receptor OS=Ursus maritimus OX=29073 GN=SCTR PE=4 SV=1,29073
+tr|A0A7N5K130|A0A7N5K130_AILME,Secretin receptor OS=Ailuropoda melanoleuca OX=9646 GN=SCTR PE=4 SV=1,9646
+tr|M3XPF0|M3XPF0_MUSPF,Secretin receptor OS=Mustela putorius furo OX=9669 GN=SCTR PE=4 SV=1,9669
+tr|A0A2Y9INL5|A0A2Y9INL5_ENHLU,secretin receptor OS=Enhydra lutris kenyoni OX=391180 GN=LOC111140948 PE=4 SV=1,391180
+tr|A0A7F8QXZ8|A0A7F8QXZ8_LEPWE,secretin receptor OS=Leptonychotes weddellii OX=9713 GN=SCTR PE=4 SV=1,9713
+tr|A0A2Y9HPE4|A0A2Y9HPE4_NEOSC,secretin receptor OS=Neomonachus schauinslandi OX=29088 GN=SCTR PE=3 SV=1,29088
+tr|A0A2U3W944|A0A2U3W944_ODORO,secretin receptor OS=Odobenus rosmarus divergens OX=9708 GN=SCTR PE=4 SV=1,9708
+tr|F1P7Q3|F1P7Q3_CANLF,Secretin receptor OS=Canis lupus familiaris OX=9615 GN=SCTR PE=4 SV=3,9615
+tr|A0A3Q7V1E0|A0A3Q7V1E0_VULVU,secretin receptor isoform X1 OS=Vulpes vulpes OX=9627 GN=SCTR PE=4 SV=1,9627
+tr|A0A6J1Z4S7|A0A6J1Z4S7_ACIJB,secretin receptor isoform X1 OS=Acinonyx jubatus OX=32536 GN=SCTR PE=4 SV=1,32536
+tr|A0A6P6IA26|A0A6P6IA26_PUMCO,secretin receptor OS=Puma concolor OX=9696 GN=SCTR PE=4 SV=1,9696
+tr|A0A5F5XCY0|A0A5F5XCY0_FELCA,Secretin receptor OS=Felis catus OX=9685 GN=SCTR PE=4 SV=1,9685
+tr|A0A485MKM9|A0A485MKM9_LYNPA,Secretin receptor OS=Lynx pardinus OX=191816 GN=LYPA_23C003020 PE=4 SV=1,191816
+tr|A0A673SSZ7|A0A673SSZ7_SURSU,Secretin receptor OS=Suricata suricatta OX=37032 GN=SCTR PE=4 SV=1,37032
+tr|A0A6G1AFL2|A0A6G1AFL2_CROCR,SCTR protein (Fragment) OS=Crocuta crocuta OX=9678 GN=Sctr PE=4 SV=1,9678
+tr|A0A2I0TR80|A0A2I0TR80_LIMLA,Secretin receptor OS=Limosa lapponica baueri OX=1758121 GN=llap_13381 PE=4 SV=1,1758121
+tr|A0A091FM96|A0A091FM96_9AVES,Secretin receptor (Fragment) OS=Cuculus canorus OX=55661 GN=N303_07873 PE=3 SV=1,55661
+tr|A0A091GRA4|A0A091GRA4_BUCRH,Secretin receptor (Fragment) OS=Buceros rhinoceros silvestris OX=175836 GN=N320_08520 PE=3 SV=1,175836
+tr|G1NI86|G1NI86_MELGA,Secretin receptor OS=Meleagris gallopavo OX=9103 GN=SCTR PE=4 SV=2,9103
+tr|A0A669PH32|A0A669PH32_PHACC,Secretin receptor OS=Phasianus colchicus OX=9054 PE=3 SV=1,9054
+tr|A0A1S2ZUQ3|A0A1S2ZUQ3_ERIEU,secretin receptor OS=Erinaceus europaeus OX=9365 GN=SCTR PE=4 SV=1,9365
+tr|G3SXX0|G3SXX0_LOXAF,Secretin receptor OS=Loxodonta africana OX=9785 GN=SCTR PE=4 SV=1,9785
+tr|A0A2Y9G1L0|A0A2Y9G1L0_TRIMA,secretin receptor OS=Trichechus manatus latirostris OX=127582 GN=LOC101361735 PE=4 SV=1,127582
+tr|A0A6I9K3F7|A0A6I9K3F7_CHRAS,secretin receptor OS=Chrysochloris asiatica OX=185453 GN=SCTR PE=4 SV=1,185453
+tr|H2QIM4|H2QIM4_PANTR,Secretin receptor OS=Pan troglodytes OX=9598 GN=SCTR PE=4 SV=1,9598
+tr|A0A2R8ZBW6|A0A2R8ZBW6_PANPA,Secretin receptor OS=Pan paniscus OX=9597 GN=SCTR PE=4 SV=1,9597
+tr|H2P7C5|H2P7C5_PONAB,Secretin receptor OS=Pongo abelii OX=9601 GN=SCTR PE=4 SV=1,9601
+tr|G3SA07|G3SA07_GORGO,Secretin receptor OS=Gorilla gorilla gorilla OX=9595 GN=SCTR PE=4 SV=1,9595
+sp|P47872|SCTR_HUMAN,Secretin receptor OS=Homo sapiens OX=9606 GN=SCTR PE=1 SV=2,9606
+tr|G1RH59|G1RH59_NOMLE,Uncharacterized protein OS=Nomascus leucogenys OX=61853 GN=SCTR PE=4 SV=1,61853
+tr|A0A2K5Q1A3|A0A2K5Q1A3_CEBIM,Secretin receptor OS=Cebus imitator OX=2715852 GN=SCTR PE=4 SV=1,2715852
+tr|A0A6J3FM84|A0A6J3FM84_SAPAP,secretin receptor OS=Sapajus apella OX=9515 GN=SCTR PE=4 SV=1,9515
+tr|A0A2K6S1I2|A0A2K6S1I2_SAIBB,Secretin receptor OS=Saimiri boliviensis boliviensis OX=39432 GN=SCTR PE=4 SV=1,39432
+tr|A0A2K5DHX1|A0A2K5DHX1_AOTNA,Secretin receptor OS=Aotus nancymaae OX=37293 GN=SCTR PE=4 SV=1,37293
+tr|F7FCP0|F7FCP0_CALJA,Secretin receptor OS=Callithrix jacchus OX=9483 GN=SCTR PE=4 SV=3,9483
+tr|G1STM3|G1STM3_RABIT,Secretin receptor OS=Oryctolagus cuniculus OX=9986 GN=SCTR PE=4 SV=3,9986
+tr|H0WGS3|H0WGS3_OTOGA,Secretin receptor OS=Otolemur garnettii OX=30611 GN=SCTR PE=4 SV=1,30611
+tr|A0A2K6EYB3|A0A2K6EYB3_PROCO,Secretin receptor OS=Propithecus coquereli OX=379532 GN=SCTR PE=4 SV=1,379532
+tr|A0A1U7UQZ2|A0A1U7UQZ2_CARSF,secretin receptor OS=Carlito syrichta OX=1868482 GN=SCTR PE=4 SV=1,1868482
+tr|A0A4X2KRN0|A0A4X2KRN0_VOMUR,Secretin receptor OS=Vombatus ursinus OX=29139 GN=SCTR PE=4 SV=1,29139
+tr|A0A6P5IC55|A0A6P5IC55_PHACI,secretin receptor isoform X1 OS=Phascolarctos cinereus OX=38626 GN=SCTR PE=4 SV=1,38626
+tr|G3WU25|G3WU25_SARHA,Secretin receptor OS=Sarcophilus harrisii OX=9305 GN=SCTR PE=4 SV=1,9305
+tr|F6R8T5|F6R8T5_MONDO,Uncharacterized protein OS=Monodelphis domestica OX=13616 GN=SCTR PE=4 SV=2,13616
+tr|A0A6I8PAU6|A0A6I8PAU6_ORNAN,Uncharacterized protein OS=Ornithorhynchus anatinus OX=9258 GN=SCTR PE=4 SV=1,9258
+tr|U3KGR0|U3KGR0_FICAL,Secretin receptor OS=Ficedula albicollis OX=59894 GN=SCTR PE=4 SV=1,59894
+tr|A0A6I9HBW2|A0A6I9HBW2_GEOFO,secretin receptor OS=Geospiza fortis OX=48883 GN=SCTR PE=4 SV=1,48883
+tr|A0A3L8SNG1|A0A3L8SNG1_CHLGU,Uncharacterized protein OS=Chloebia gouldiae OX=44316 GN=DV515_00005660 PE=4 SV=1,44316
+tr|H0ZVD5|H0ZVD5_TAEGU,Secretin receptor OS=Taeniopygia guttata OX=59729 GN=SCTR PE=4 SV=2,59729
+tr|A0A091F1E9|A0A091F1E9_CORBR,Secretin receptor (Fragment) OS=Corvus brachyrhynchos OX=85066 GN=N302_02317 PE=3 SV=1,85066
+tr|A0A3M0KZM4|A0A3M0KZM4_HIRRU,Uncharacterized protein OS=Hirundo rustica rustica OX=333673 GN=DUI87_04655 PE=4 SV=1,333673
+tr|A0A093PUZ9|A0A093PUZ9_9PASS,Secretin receptor (Fragment) OS=Manacus vitellinus OX=328815 GN=N305_07490 PE=3 SV=1,328815
+tr|A0A6J2GVU0|A0A6J2GVU0_9PASS,secretin receptor OS=Pipra filicauda OX=649802 GN=SCTR PE=3 SV=2,649802
+tr|A0A091MN47|A0A091MN47_9PASS,Secretin receptor (Fragment) OS=Acanthisitta chloris OX=57068 GN=N310_09647 PE=3 SV=1,57068
+tr|A0A091S7T5|A0A091S7T5_NESNO,Secretin receptor (Fragment) OS=Nestor notabilis OX=176057 GN=N333_02606 PE=3 SV=1,176057
+tr|A0A672TJC8|A0A672TJC8_STRHB,Secretin receptor OS=Strigops habroptila OX=2489341 GN=SCTR PE=4 SV=1,2489341
+tr|A0A0Q3TR17|A0A0Q3TR17_AMAAE,Secretin receptor OS=Amazona aestiva OX=12930 GN=AAES_64173 PE=4 SV=1,12930
+tr|A0A091VFX4|A0A091VFX4_OPIHO,Secretin receptor (Fragment) OS=Opisthocomus hoazin OX=30419 GN=N306_09324 PE=3 SV=1,30419
+tr|A0A094KW54|A0A094KW54_PODCR,Secretin receptor (Fragment) OS=Podiceps cristatus OX=345573 GN=N338_12243 PE=3 SV=1,345573
+tr|A0A2I0MGK9|A0A2I0MGK9_COLLI,Secretin receptor OS=Columba livia OX=8932 GN=SCTR PE=3 SV=1,8932
+tr|A0A1V4K7A8|A0A1V4K7A8_PATFA,Secretin receptor OS=Patagioenas fasciata monilis OX=372326 GN=SCTR PE=3 SV=1,372326
+tr|A0A091IUW3|A0A091IUW3_CALAN,Secretin receptor (Fragment) OS=Calypte anna OX=9244 GN=N300_03658 PE=3 SV=1,9244
+tr|A0A091JD35|A0A091JD35_EGRGA,Secretin receptor (Fragment) OS=Egretta garzetta OX=188379 GN=Z169_07838 PE=3 SV=1,188379
+tr|A0A093R3Q0|A0A093R3Q0_PHACA,Secretin receptor (Fragment) OS=Phalacrocorax carbo OX=9209 GN=N336_01498 PE=3 SV=1,9209
+tr|A0A093C5P9|A0A093C5P9_9AVES,Secretin receptor (Fragment) OS=Pterocles gutturalis OX=240206 GN=N339_12394 PE=4 SV=1,240206
+tr|A0A091U9U0|A0A091U9U0_PHORB,Secretin receptor (Fragment) OS=Phoenicopterus ruber ruber OX=9218 GN=N337_07469 PE=3 SV=1,9218
+tr|A0A093L8L3|A0A093L8L3_EURHL,Secretin receptor (Fragment) OS=Eurypyga helias OX=54383 GN=N326_05761 PE=3 SV=1,54383
+tr|A0A093ILW6|A0A093ILW6_FULGA,Secretin receptor (Fragment) OS=Fulmarus glacialis OX=30455 GN=N327_07347 PE=3 SV=1,30455
+tr|A0A091QCR1|A0A091QCR1_MERNU,Secretin receptor (Fragment) OS=Merops nubicus OX=57421 GN=N331_08095 PE=3 SV=1,57421
+tr|A0A091NIS2|A0A091NIS2_APAVI,Secretin receptor (Fragment) OS=Apaloderma vittatum OX=57397 GN=N311_02012 PE=3 SV=1,57397
+tr|A0A091UP36|A0A091UP36_NIPNI,Secretin receptor (Fragment) OS=Nipponia nippon OX=128390 GN=Y956_05746 PE=3 SV=1,128390
+tr|A0A091TH97|A0A091TH97_PELCR,Secretin receptor (Fragment) OS=Pelecanus crispus OX=36300 GN=N334_12597 PE=3 SV=1,36300
+tr|A0A091MK11|A0A091MK11_CARIC,Secretin receptor (Fragment) OS=Cariama cristata OX=54380 GN=N322_03505 PE=3 SV=1,54380
+tr|A0A0A0AMI0|A0A0A0AMI0_CHAVO,Secretin receptor (Fragment) OS=Charadrius vociferus OX=50402 GN=N301_09523 PE=3 SV=1,50402
+tr|A0A091KZX7|A0A091KZX7_9GRUI,Secretin receptor (Fragment) OS=Chlamydotis macqueenii OX=187382 GN=N324_04339 PE=3 SV=1,187382
+tr|A0A663N758|A0A663N758_ATHCN,Secretin receptor OS=Athene cunicularia OX=194338 PE=4 SV=1,194338
+tr|A0A091TPZ6|A0A091TPZ6_PHALP,Secretin receptor (Fragment) OS=Phaethon lepturus OX=97097 GN=N335_02443 PE=3 SV=1,97097
+tr|A0A093GU56|A0A093GU56_DRYPU,Secretin receptor (Fragment) OS=Dryobates pubescens OX=118200 GN=N307_11380 PE=3 SV=1,118200
+tr|A0A093CRR2|A0A093CRR2_TAUER,Secretin receptor (Fragment) OS=Tauraco erythrolophus OX=121530 GN=N340_10309 PE=3 SV=1,121530
+tr|D2CP28|D2CP28_CHICK,Secretin receptor OS=Gallus gallus OX=9031 GN=SCTR PE=2 SV=1,9031
+tr|A0A2P4THZ1|A0A2P4THZ1_BAMTH,G_PROTEIN_RECEP_F2_4 domain-containing protein OS=Bambusicola thoracicus OX=9083 GN=CIB84_000261 PE=4 SV=1,9083
+tr|A0A093JVG3|A0A093JVG3_STRCA,Secretin receptor (Fragment) OS=Struthio camelus australis OX=441894 GN=N308_08222 PE=3 SV=1,441894
+tr|A0A099YTP2|A0A099YTP2_TINGU,Secretin receptor (Fragment) OS=Tinamus guttatus OX=94827 GN=N309_06902 PE=4 SV=1,94827
+tr|A0A151M0U5|A0A151M0U5_ALLMI,Secretin receptor OS=Alligator mississippiensis OX=8496 GN=SCTR PE=3 SV=1,8496
+tr|A0A1U7RS28|A0A1U7RS28_ALLSI,secretin receptor OS=Alligator sinensis OX=38654 GN=SCTR PE=3 SV=1,38654
+tr|A0A4D9EAL7|A0A4D9EAL7_9SAUR,Claudin-8-like OS=Platysternon megacephalum OX=55544 GN=DR999_PMT09467 PE=3 SV=1,55544
+tr|A0A674JB60|A0A674JB60_TERCA,Secretin receptor OS=Terrapene carolina triunguis OX=2587831 GN=SCTR PE=4 SV=1,2587831
+tr|A0A452J4K4|A0A452J4K4_9SAUR,Secretin receptor OS=Gopherus agassizii OX=38772 PE=3 SV=1,38772
+tr|K7F648|K7F648_PELSI,Uncharacterized protein OS=Pelodiscus sinensis OX=13735 GN=SCTR PE=3 SV=1,13735
+tr|A0A6J1TR27|A0A6J1TR27_9SAUR,secretin receptor OS=Notechis scutatus OX=8663 GN=SCTR PE=4 SV=1,8663
+tr|A0A6P9D8U0|A0A6P9D8U0_PANGU,secretin receptor OS=Pantherophis guttatus OX=94885 GN=SCTR PE=4 SV=1,94885
+tr|H9G4H4|H9G4H4_ANOCA,Uncharacterized protein OS=Anolis carolinensis OX=28377 GN=SCTR PE=4 SV=2,28377
+tr|A0A6J0SFZ7|A0A6J0SFZ7_9SAUR,secretin receptor OS=Pogona vitticeps OX=103695 GN=SCTR PE=4 SV=1,103695
+tr|A0A402F6W4|A0A402F6W4_9SAUR,Uncharacterized protein OS=Paroedura picta OX=143630 GN=parPi_0013770 PE=3 SV=1,143630
+tr|A0A6P7YNY5|A0A6P7YNY5_9AMPH,secretin receptor OS=Microcaecilia unicolor OX=1415580 GN=SCTR PE=3 SV=1,1415580
+tr|A0A6P8QNL1|A0A6P8QNL1_GEOSA,secretin receptor OS=Geotrypetes seraphini OX=260995 GN=SCTR PE=3 SV=1,260995
+tr|A0A6P8ETK6|A0A6P8ETK6_CLUHA,secretin receptor OS=Clupea harengus OX=7950 GN=LOC105911717 PE=3 SV=1,7950
+tr|A0A3Q2X5B3|A0A3Q2X5B3_HAPBU,Secretin receptor OS=Haplochromis burtoni OX=8153 PE=4 SV=1,8153
+tr|A0A668VET7|A0A668VET7_OREAU,Uncharacterized protein OS=Oreochromis aureus OX=47969 PE=4 SV=1,47969
+tr|A0A669DZP2|A0A669DZP2_ORENI,Uncharacterized protein OS=Oreochromis niloticus OX=8128 GN=LOC102075509 PE=4 SV=1,8128
+tr|A0A672IIP4|A0A672IIP4_SALFA,Uncharacterized protein OS=Salarias fasciatus OX=181472 GN=sctr PE=4 SV=1,181472
+tr|A0A1S3MRH5|A0A1S3MRH5_SALSA,secretin receptor-like isoform X1 OS=Salmo salar OX=8030 GN=LOC106574429 PE=4 SV=1,8030
+tr|A0A401NKQ9|A0A401NKQ9_SCYTO,Uncharacterized protein OS=Scyliorhinus torazame OX=75743 GN=scyTo_0009342 PE=4 SV=1,75743
+tr|A0A4W3HJ89|A0A4W3HJ89_CALMI,Uncharacterized protein OS=Callorhinchus milii OX=7868 GN=sctr PE=4 SV=1,7868
+tr|W5M678|W5M678_LEPOC,Secretin receptor OS=Lepisosteus oculatus OX=7918 GN=SCTR PE=3 SV=1,7918
+tr|A0A4W5Q4D9|A0A4W5Q4D9_9TELE,Uncharacterized protein OS=Hucho hucho OX=62062 PE=4 SV=1,62062
+tr|A0A673YWQ4|A0A673YWQ4_SALTR,Secretin receptor-like OS=Salmo trutta OX=8032 GN=LOC115196071 PE=4 SV=1,8032
+tr|A0A667ZN58|A0A667ZN58_9TELE,Uncharacterized protein OS=Myripristis murdjan OX=586833 PE=4 SV=1,586833
+tr|A0A3P8ZM74|A0A3P8ZM74_ESOLU,Secretin receptor OS=Esox lucius OX=8010 PE=3 SV=1,8010
+tr|A0A3Q1H302|A0A3Q1H302_ANATE,Uncharacterized protein OS=Anabas testudineus OX=64144 PE=4 SV=2,64144
+tr|A0A3Q3L2M8|A0A3Q3L2M8_9TELE,Secretin receptor-like OS=Mastacembelus armatus OX=205130 PE=4 SV=1,205130

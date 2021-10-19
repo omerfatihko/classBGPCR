@@ -1,0 +1,5 @@
+sbatch /cta/users/ofkonar/work/komutlar/new_commands/msa_gipr_glp2r_orthologs.sh
+sbatch /cta/users/ofkonar/work/komutlar/new_commands/msa_gipr_glp1r_orthologs.sh
+sbatch /cta/users/ofkonar/work/komutlar/new_commands/msa_gcgr_glp1r_orthologs.sh
+sbatch /cta/users/ofkonar/work/komutlar/new_commands/msa_gcgr_glp2r_orthologs.sh
+sbatch /cta/users/ofkonar/work/komutlar/new_commands/msa_glp1r_glp2r_orthologs.sh

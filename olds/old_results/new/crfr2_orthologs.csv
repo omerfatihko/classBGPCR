@@ -1,0 +1,92 @@
+sp|Q13324|CRFR2_HUMAN,Corticotropin-releasing factor receptor 2 OS=Homo sapiens OX=9606 GN=CRHR2 PE=1 SV=2,9606
+tr|A0A0D9RQ28|A0A0D9RQ28_CHLSB,Corticotropin releasing hormone receptor 2 OS=Chlorocebus sabaeus OX=60711 GN=CRHR2 PE=3 SV=1,60711
+tr|F6Q592|F6Q592_HORSE,Corticotropin releasing hormone receptor 2 OS=Equus caballus OX=9796 GN=CRHR2 PE=3 SV=1,9796
+tr|A0A2Y9FX56|A0A2Y9FX56_TRIMA,corticotropin-releasing factor receptor 2 OS=Trichechus manatus latirostris OX=127582 GN=LOC101354427 PE=3 SV=1,127582
+tr|G1U8A0|G1U8A0_RABIT,Corticotropin releasing hormone receptor 2 OS=Oryctolagus cuniculus OX=9986 GN=CRHR2 PE=3 SV=2,9986
+tr|F1MFI6|F1MFI6_BOVIN,Corticotropin releasing hormone receptor 2 OS=Bos taurus OX=9913 GN=CRHR2 PE=3 SV=2,9913
+tr|A0A2Y9NXR3|A0A2Y9NXR3_DELLE,corticotropin-releasing factor receptor 2 isoform X1 OS=Delphinapterus leucas OX=9749 GN=CRHR2 PE=3 SV=1,9749
+tr|L5KPR7|L5KPR7_PTEAL,Corticotropin-releasing factor receptor 2 OS=Pteropus alecto OX=9402 GN=PAL_GLEAN10021886 PE=3 SV=1,9402
+tr|G1LJH2|G1LJH2_AILME,Corticotropin releasing hormone receptor 2 OS=Ailuropoda melanoleuca OX=9646 GN=CRHR2 PE=3 SV=1,9646
+tr|G3HJM1|G3HJM1_CRIGR,Corticotropin-releasing factor receptor 2 OS=Cricetulus griseus OX=10029 GN=I79_010869 PE=3 SV=1,10029
+sp|P47866|CRFR2_RAT,Corticotropin-releasing factor receptor 2 OS=Rattus norvegicus OX=10116 GN=Crhr2 PE=1 SV=2,10116
+sp|Q60748|CRFR2_MOUSE,Corticotropin-releasing factor receptor 2 OS=Mus musculus OX=10090 GN=Crhr2 PE=1 SV=2,10090
+tr|A0A337S408|A0A337S408_FELCA,Corticotropin releasing hormone receptor 2 OS=Felis catus OX=9685 GN=CRHR2 PE=3 SV=1,9685
+tr|A0A384BQ07|A0A384BQ07_URSMA,corticotropin-releasing factor receptor 2 OS=Ursus maritimus OX=29073 GN=CRHR2 PE=3 SV=1,29073
+tr|E2R4R1|E2R4R1_CANLF,Corticotropin releasing hormone receptor 2 OS=Canis lupus familiaris OX=9615 GN=CRHR2 PE=3 SV=2,9615
+tr|A0A2U3XZU2|A0A2U3XZU2_LEPWE,corticotropin-releasing factor receptor 2 OS=Leptonychotes weddellii OX=9713 GN=CRHR2 PE=3 SV=1,9713
+tr|A0A2U3ZUK1|A0A2U3ZUK1_ODORO,corticotropin-releasing factor receptor 2 isoform X1 OS=Odobenus rosmarus divergens OX=9708 GN=CRHR2 PE=3 SV=1,9708
+tr|A0A2Y9JMG3|A0A2Y9JMG3_ENHLU,corticotropin-releasing factor receptor 2 isoform X1 OS=Enhydra lutris kenyoni OX=391180 GN=LOC111147340 PE=3 SV=1,391180
+tr|M3Y190|M3Y190_MUSPF,Corticotropin releasing hormone receptor 2 OS=Mustela putorius furo OX=9669 GN=CRHR2 PE=3 SV=1,9669
+tr|A0A286ZSJ2|A0A286ZSJ2_PIG,Corticotropin releasing hormone receptor 2 OS=Sus scrofa OX=9823 GN=CRHR2 PE=3 SV=1,9823
+tr|W5PDF3|W5PDF3_SHEEP,Corticotropin releasing hormone receptor 2 OS=Ovis aries OX=9940 GN=CRHR2 PE=3 SV=1,9940
+tr|A0A383ZJN7|A0A383ZJN7_BALAS,corticotropin-releasing factor receptor 2 isoform X1 OS=Balaenoptera acutorostrata scammoni OX=310752 GN=CRHR2 PE=3 SV=1,310752
+tr|A0A2Y9FV40|A0A2Y9FV40_PHYCD,corticotropin-releasing factor receptor 2 isoform X1 OS=Physeter catodon OX=9755 GN=CRHR2 PE=3 SV=1,9755
+tr|A0A2U4AY48|A0A2U4AY48_TURTR,corticotropin-releasing factor receptor 2 OS=Tursiops truncatus OX=9739 GN=CRHR2 PE=3 SV=1,9739
+tr|A0A1U7U6N0|A0A1U7U6N0_TARSY,corticotropin-releasing factor receptor 2 OS=Tarsius syrichta OX=1868482 GN=CRHR2 PE=3 SV=1,1868482
+tr|G3SQK5|G3SQK5_LOXAF,Corticotropin releasing hormone receptor 2 OS=Loxodonta africana OX=9785 GN=CRHR2 PE=3 SV=1,9785
+tr|A0A287D0D7|A0A287D0D7_ICTTR,Corticotropin releasing hormone receptor 2 OS=Ictidomys tridecemlineatus OX=43179 GN=CRHR2 PE=3 SV=1,43179
+tr|A0A3Q0CWP4|A0A3Q0CWP4_MESAU,corticotropin-releasing factor receptor 2 isoform X1 OS=Mesocricetus auratus OX=10036 GN=Crhr2 PE=4 SV=1,10036
+tr|A0A286XV25|A0A286XV25_CAVPO,Corticotropin releasing hormone receptor 2 OS=Cavia porcellus OX=10141 GN=CRHR2 PE=3 SV=1,10141
+tr|A0A096MV88|A0A096MV88_PAPAN,Corticotropin releasing hormone receptor 2 OS=Papio anubis OX=9555 GN=CRHR2 PE=3 SV=2,9555
+tr|A0A2K6AGF9|A0A2K6AGF9_MANLE,Corticotropin releasing hormone receptor 2 OS=Mandrillus leucophaeus OX=9568 GN=CRHR2 PE=3 SV=1,9568
+tr|A0A2K5P2B8|A0A2K5P2B8_CERAT,Corticotropin releasing hormone receptor 2 OS=Cercocebus atys OX=9531 GN=CRHR2 PE=3 SV=1,9531
+tr|F7HSL1|F7HSL1_MACMU,Corticotropin releasing hormone receptor 2 OS=Macaca mulatta OX=9544 GN=CRHR2 PE=3 SV=2,9544
+tr|A0A2K6DE31|A0A2K6DE31_MACNE,Corticotropin releasing hormone receptor 2 OS=Macaca nemestrina OX=9545 GN=CRHR2 PE=3 SV=1,9545
+tr|G7P0H1|G7P0H1_MACFA,Uncharacterized protein OS=Macaca fascicularis OX=9541 GN=EGM_12645 PE=3 SV=1,9541
+tr|H2PMH1|H2PMH1_PONAB,CRHR2 isoform 2 OS=Pongo abelii OX=9601 GN=CRHR2 PE=3 SV=1,9601
+tr|F7FQZ1|F7FQZ1_CALJA,Corticotropin releasing hormone receptor 2 OS=Callithrix jacchus OX=9483 GN=CRHR2 PE=3 SV=2,9483
+tr|G1RYV7|G1RYV7_NOMLE,Corticotropin releasing hormone receptor 2 OS=Nomascus leucogenys OX=61853 GN=CRHR2 PE=3 SV=2,61853
+tr|A0A2R9BTU9|A0A2R9BTU9_PANPA,Corticotropin releasing hormone receptor 2 OS=Pan paniscus OX=9597 GN=CRHR2 PE=3 SV=1,9597
+tr|A0A2I3TIE1|A0A2I3TIE1_PANTR,CRHR2 isoform 2 OS=Pan troglodytes OX=9598 GN=CRHR2 PE=3 SV=1,9598
+tr|G3SA64|G3SA64_GORGO,Corticotropin releasing hormone receptor 2 OS=Gorilla gorilla gorilla OX=9595 PE=3 SV=1,9595
+tr|H0X8V4|H0X8V4_OTOGA,Corticotropin releasing hormone receptor 2 OS=Otolemur garnettii OX=30611 GN=CRHR2 PE=3 SV=1,30611
+tr|A0A1S3AI78|A0A1S3AI78_ERIEU,corticotropin-releasing factor receptor 2 OS=Erinaceus europaeus OX=9365 GN=CRHR2 PE=3 SV=1,9365
+tr|A0A1S3GP49|A0A1S3GP49_DIPOR,corticotropin-releasing factor receptor 2 OS=Dipodomys ordii OX=10020 GN=Crhr2 PE=3 SV=1,10020
+tr|G1PXM2|G1PXM2_MYOLU,Corticotropin releasing hormone receptor 2 OS=Myotis lucifugus OX=59463 GN=CRHR2 PE=3 SV=1,59463
+tr|A0A091DKD1|A0A091DKD1_FUKDA,Corticotropin-releasing factor receptor 2 OS=Fukomys damarensis OX=885580 GN=H920_07076 PE=3 SV=1,885580
+tr|G5BRN0|G5BRN0_HETGA,Corticotropin-releasing factor receptor 2 OS=Heterocephalus glaber OX=10181 GN=GW7_21727 PE=3 SV=1,10181
+tr|G3VA83|G3VA83_SARHA,Uncharacterized protein OS=Sarcophilus harrisii OX=9305 PE=3 SV=1,9305
+tr|F6XXE3|F6XXE3_MONDO,Corticotropin releasing hormone receptor 2 OS=Monodelphis domestica OX=13616 GN=CRHR2 PE=3 SV=2,13616
+tr|F7G3N2|F7G3N2_ORNAN,Uncharacterized protein OS=Ornithorhynchus anatinus OX=9258 PE=3 SV=1,9258
+tr|G1KEL2|G1KEL2_ANOCA,Uncharacterized protein OS=Anolis carolinensis OX=28377 GN=crhr2 PE=3 SV=2,28377
+tr|A0A3Q0GHM3|A0A3Q0GHM3_ALLSI,corticotropin-releasing factor receptor 2 OS=Alligator sinensis OX=38654 GN=CRHR2 PE=4 SV=1,38654
+tr|A0A2I0MRJ5|A0A2I0MRJ5_COLLI,Corticotropin releasing hormone receptor 2 OS=Columba livia OX=8932 GN=CRHR2 PE=3 SV=1,8932
+tr|A0A151PDE7|A0A151PDE7_ALLMI,Corticotropin-releasing factor receptor 1 isoform B OS=Alligator mississippiensis OX=8496 GN=CRHR1 PE=3 SV=1,8496
+tr|A0A093HHC8|A0A093HHC8_STRCA,Corticotropin-releasing factor receptor 2 OS=Struthio camelus australis OX=441894 GN=N308_11005 PE=3 SV=1,441894
+tr|A0A1V4KLE8|A0A1V4KLE8_PATFA,Corticotropin-releasing factor receptor 2 OS=Patagioenas fasciata monilis OX=372326 GN=CRHR2 PE=3 SV=1,372326
+tr|A0A091FX64|A0A091FX64_9AVES,Corticotropin-releasing factor receptor 2 OS=Cuculus canorus OX=55661 GN=N303_03750 PE=3 SV=1,55661
+tr|U3JVL8|U3JVL8_FICAL,Uncharacterized protein OS=Ficedula albicollis OX=59894 GN=CRHR2 PE=3 SV=1,59894
+tr|A0A091FY15|A0A091FY15_CORBR,Corticotropin-releasing factor receptor 2 OS=Corvus brachyrhynchos OX=85066 GN=N302_04426 PE=3 SV=1,85066
+tr|A0A218U9P8|A0A218U9P8_9PASE,Corticotropin-releasing factor receptor 2 OS=Lonchura striata domestica OX=299123 GN=CRHR2_1 PE=3 SV=1,299123
+tr|H0YQ17|H0YQ17_TAEGU,Uncharacterized protein OS=Taeniopygia guttata OX=59729 GN=CRHR2 PE=3 SV=1,59729
+tr|A0A093GB14|A0A093GB14_DRYPU,Corticotropin-releasing factor receptor 2 OS=Dryobates pubescens OX=118200 GN=N307_02818 PE=3 SV=1,118200
+tr|A0A0A0A5B4|A0A0A0A5B4_CHAVO,Corticotropin-releasing factor receptor 2 OS=Charadrius vociferus OX=50402 GN=N301_00268 PE=3 SV=1,50402
+tr|A0A091JK49|A0A091JK49_EGRGA,Corticotropin-releasing factor receptor 2 OS=Egretta garzetta OX=188379 GN=Z169_01021 PE=3 SV=1,188379
+tr|A0A091WW07|A0A091WW07_OPIHO,Corticotropin-releasing factor receptor 2 (Fragment) OS=Opisthocomus hoazin OX=30419 GN=N306_07664 PE=3 SV=1,30419
+tr|A0A093PVH2|A0A093PVH2_9PASS,Corticotropin-releasing factor receptor 2 OS=Manacus vitellinus OX=328815 GN=N305_13134 PE=3 SV=1,328815
+tr|A0A091IJ22|A0A091IJ22_CALAN,Corticotropin-releasing factor receptor 2 OS=Calypte anna OX=9244 GN=N300_12071 PE=3 SV=1,9244
+tr|A0A099YWM3|A0A099YWM3_TINGU,Corticotropin-releasing factor receptor 2 (Fragment) OS=Tinamus guttatus OX=94827 GN=N309_13295 PE=3 SV=1,94827
+tr|A0A0Q3URF9|A0A0Q3URF9_AMAAE,Corticotropin-releasing factor receptor 2 OS=Amazona aestiva OX=12930 GN=AAES_122661 PE=3 SV=1,12930
+tr|A0A087QVM7|A0A087QVM7_APTFO,Corticotropin-releasing factor receptor 2 OS=Aptenodytes forsteri OX=9233 GN=AS27_14609 PE=3 SV=1,9233
+tr|A0A091X6E1|A0A091X6E1_NIPNI,Corticotropin-releasing factor receptor 2 OS=Nipponia nippon OX=128390 GN=Y956_03900 PE=3 SV=1,128390
+tr|A0A226NYW7|A0A226NYW7_COLVI,Uncharacterized protein OS=Colinus virginianus OX=9014 GN=H355_007673 PE=4 SV=1,9014
+tr|A0A226N892|A0A226N892_CALSU,Uncharacterized protein OS=Callipepla squamata OX=9009 GN=ASZ78_016211 PE=3 SV=1,9009
+tr|U3IUL3|U3IUL3_ANAPL,Corticotropin releasing hormone receptor 2 OS=Anas platyrhynchos OX=8839 GN=CRHR2 PE=3 SV=1,8839
+tr|G1MVU8|G1MVU8_MELGA,Corticotropin releasing hormone receptor 2 OS=Meleagris gallopavo OX=9103 GN=CRHR2 PE=3 SV=1,9103
+tr|F1NGG4|F1NGG4_CHICK,Uncharacterized protein OS=Gallus gallus OX=9031 GN=CRHR2 PE=3 SV=1,9031
+tr|K7G408|K7G408_PELSI,Uncharacterized protein OS=Pelodiscus sinensis OX=13735 PE=3 SV=1,13735
+tr|A0A2D0R824|A0A2D0R824_ICTPU,corticotropin-releasing factor receptor 2-like OS=Ictalurus punctatus OX=7998 GN=LOC108267257 PE=3 SV=1,7998
+tr|A0A3B1K2E4|A0A3B1K2E4_ASTMX,Uncharacterized protein OS=Astyanax mexicanus OX=7994 PE=3 SV=1,7994
+tr|A0A0P7XB33|A0A0P7XB33_9TELE,Corticotropin-releasing factor receptor 2-like (Fragment) OS=Scleropages formosus OX=113540 GN=Z043_107302 PE=3 SV=1,113540
+tr|W5MTB4|W5MTB4_LEPOC,Uncharacterized protein OS=Lepisosteus oculatus OX=7918 PE=3 SV=1,7918
+tr|E7F9Q0|E7F9Q0_DANRE,Uncharacterized protein OS=Danio rerio OX=7955 GN=LOC100335005 PE=3 SV=2,7955
+tr|H2ZVY9|H2ZVY9_LATCH,Uncharacterized protein OS=Latimeria chalumnae OX=7897 GN=LOC102351980 PE=3 SV=1,7897
+tr|H3BZA7|H3BZA7_TETNG,Uncharacterized protein OS=Tetraodon nigroviridis OX=99883 PE=3 SV=1,99883
+tr|H2UD75|H2UD75_TAKRU,Uncharacterized protein OS=Takifugu rubripes OX=31033 PE=3 SV=2,31033
+tr|G3PZE3|G3PZE3_GASAC,Uncharacterized protein OS=Gasterosteus aculeatus OX=69293 PE=3 SV=1,69293
+tr|A0A2U9BIU8|A0A2U9BIU8_SCOMX,Corticotropin releasing factor receptor type 2.2 OS=Scophthalmus maximus OX=52904 GN=SMAX5B_006140 PE=3 SV=1,52904
+tr|I3JSN5|I3JSN5_ORENI,Uncharacterized protein OS=Oreochromis niloticus OX=8128 GN=LOC100692941 PE=3 SV=1,8128
+tr|H2MTE9|H2MTE9_ORYLA,Corticotropin releasing hormone receptor 2 OS=Oryzias latipes OX=8090 GN=CRHR2 PE=3 SV=2,8090
+tr|A0A2I4CY16|A0A2I4CY16_9TELE,corticotropin-releasing factor receptor 2 OS=Austrofundulus limnaeus OX=52670 GN=crhr2 PE=3 SV=1,52670
+tr|A0A087Y299|A0A087Y299_POEFO,Uncharacterized protein OS=Poecilia formosa OX=48698 PE=3 SV=2,48698
+tr|M3ZUH9|M3ZUH9_XIPMA,Uncharacterized protein OS=Xiphophorus maculatus OX=8083 PE=3 SV=1,8083

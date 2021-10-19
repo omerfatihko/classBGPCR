@@ -1,0 +1,80 @@
+sp|Q16602|CALRL_HUMAN,Calcitonin gene-related peptide type 1 receptor OS=Homo sapiens OX=9606 GN=CALCRL PE=1 SV=2,9606
+tr|G1R3Z2|G1R3Z2_NOMLE,Calcitonin receptor like receptor OS=Nomascus leucogenys OX=61853 GN=CALCRL PE=3 SV=3,61853
+tr|H2P835|H2P835_PONAB,Calcitonin receptor like receptor OS=Pongo abelii OX=9601 GN=CALCRL PE=3 SV=1,9601
+tr|G3QN16|G3QN16_GORGO,Calcitonin receptor like receptor OS=Gorilla gorilla gorilla OX=9595 PE=3 SV=2,9595
+tr|A0A2R9C0G9|A0A2R9C0G9_PANPA,Calcitonin receptor like receptor OS=Pan paniscus OX=9597 GN=CALCRL PE=3 SV=1,9597
+tr|A0A2I3RAK9|A0A2I3RAK9_PANTR,Calcitonin receptor like receptor OS=Pan troglodytes OX=9598 GN=CALCRL PE=3 SV=1,9598
+tr|G7PL02|G7PL02_MACFA,Uncharacterized protein OS=Macaca fascicularis OX=9541 GN=EGM_04135 PE=3 SV=1,9541
+tr|F6X1C0|F6X1C0_MACMU,Calcitonin gene-related peptide type 1 receptor OS=Macaca mulatta OX=9544 GN=CALCRL PE=2 SV=2,9544
+tr|A0A2K5XR27|A0A2K5XR27_MANLE,Calcitonin receptor like receptor OS=Mandrillus leucophaeus OX=9568 GN=CALCRL PE=3 SV=1,9568
+tr|A0A2K6CYU7|A0A2K6CYU7_MACNE,Calcitonin receptor like receptor OS=Macaca nemestrina OX=9545 GN=CALCRL PE=3 SV=1,9545
+tr|A0A0D9RJ74|A0A0D9RJ74_CHLSB,Calcitonin receptor like receptor OS=Chlorocebus sabaeus OX=60711 GN=CALCRL PE=3 SV=1,60711
+tr|A0A2K5MI98|A0A2K5MI98_CERAT,Calcitonin receptor like receptor OS=Cercocebus atys OX=9531 GN=CALCRL PE=3 SV=1,9531
+tr|A0A096MW59|A0A096MW59_PAPAN,Calcitonin receptor like receptor OS=Papio anubis OX=9555 GN=CALCRL PE=3 SV=1,9555
+tr|F6YRQ5|F6YRQ5_CALJA,Calcitonin receptor like receptor OS=Callithrix jacchus OX=9483 GN=CALCRL PE=3 SV=1,9483
+tr|A0A3Q0DLA2|A0A3Q0DLA2_TARSY,calcitonin gene-related peptide type 1 receptor OS=Tarsius syrichta OX=1868482 GN=CALCRL PE=4 SV=1,1868482
+tr|H0WPT5|H0WPT5_OTOGA,Calcitonin receptor like receptor OS=Otolemur garnettii OX=30611 GN=CALCRL PE=3 SV=1,30611
+tr|G1T6G0|G1T6G0_RABIT,Calcitonin receptor like receptor OS=Oryctolagus cuniculus OX=9986 GN=CALCRL PE=3 SV=1,9986
+tr|I3M129|I3M129_ICTTR,Calcitonin receptor like receptor OS=Ictidomys tridecemlineatus OX=43179 GN=CALCRL PE=3 SV=2,43179
+tr|A0A1S3G8Y6|A0A1S3G8Y6_DIPOR,calcitonin gene-related peptide type 1 receptor OS=Dipodomys ordii OX=10020 GN=Calcrl PE=3 SV=1,10020
+tr|A0A1U8CN20|A0A1U8CN20_MESAU,calcitonin gene-related peptide type 1 receptor OS=Mesocricetus auratus OX=10036 GN=Calcrl PE=3 SV=1,10036
+tr|G3HRJ5|G3HRJ5_CRIGR,Calcitonin gene-related peptide type 1 receptor OS=Cricetulus griseus OX=10029 GN=I79_013440 PE=4 SV=1,10029
+sp|Q63118|CALRL_RAT,Calcitonin gene-related peptide type 1 receptor OS=Rattus norvegicus OX=10116 GN=Calcrl PE=2 SV=1,10116
+sp|Q9R1W5|CALRL_MOUSE,Calcitonin gene-related peptide type 1 receptor OS=Mus musculus OX=10090 GN=Calcrl PE=1 SV=2,10090
+tr|F7BDX2|F7BDX2_HORSE,Calcitonin receptor like receptor OS=Equus caballus OX=9796 GN=CALCRL PE=3 SV=1,9796
+tr|L5JZ92|L5JZ92_PTEAL,Calcitonin related peptide type 1 receptor OS=Pteropus alecto OX=9402 GN=PAL_GLEAN10026050 PE=3 SV=1,9402
+tr|G1PQT1|G1PQT1_MYOLU,Calcitonin receptor like receptor OS=Myotis lucifugus OX=59463 GN=CALCRL PE=3 SV=1,59463
+tr|A0A337SIF8|A0A337SIF8_FELCA,Calcitonin receptor like receptor OS=Felis catus OX=9685 GN=CALCRL PE=3 SV=1,9685
+tr|F1PI78|F1PI78_CANLF,Calcitonin receptor like receptor OS=Canis lupus familiaris OX=9615 GN=CALCRL PE=3 SV=2,9615
+tr|A0A2Y9ILQ1|A0A2Y9ILQ1_ENHLU,calcitonin gene-related peptide type 1 receptor OS=Enhydra lutris kenyoni OX=391180 GN=LOC111141074 PE=3 SV=1,391180
+tr|M3YLF0|M3YLF0_MUSPF,Calcitonin receptor like receptor OS=Mustela putorius furo OX=9669 GN=CALCRL PE=3 SV=1,9669
+tr|A0A2U3X6F2|A0A2U3X6F2_LEPWE,calcitonin gene-related peptide type 1 receptor OS=Leptonychotes weddellii OX=9713 GN=CALCRL PE=3 SV=1,9713
+tr|A0A2U3VCX7|A0A2U3VCX7_ODORO,calcitonin gene-related peptide type 1 receptor OS=Odobenus rosmarus divergens OX=9708 GN=CALCRL PE=3 SV=1,9708
+tr|A0A384BTH1|A0A384BTH1_URSMA,calcitonin gene-related peptide type 1 receptor isoform X1 OS=Ursus maritimus OX=29073 GN=CALCRL PE=3 SV=1,29073
+tr|G1LRN6|G1LRN6_AILME,Calcitonin receptor like receptor OS=Ailuropoda melanoleuca OX=9646 GN=CALCRL PE=3 SV=1,9646
+tr|A0A2Y9E2F5|A0A2Y9E2F5_TRIMA,calcitonin gene-related peptide type 1 receptor OS=Trichechus manatus latirostris OX=127582 GN=LOC101355728 PE=3 SV=1,127582
+tr|G3STV8|G3STV8_LOXAF,Calcitonin receptor like receptor OS=Loxodonta africana OX=9785 GN=CALCRL PE=3 SV=1,9785
+tr|A0A384B942|A0A384B942_BALAS,calcitonin gene-related peptide type 1 receptor isoform X1 OS=Balaenoptera acutorostrata scammoni OX=310752 GN=CALCRL PE=3 SV=1,310752
+tr|A0A2Y9EY64|A0A2Y9EY64_PHYCD,calcitonin gene-related peptide type 1 receptor OS=Physeter catodon OX=9755 GN=CALCRL PE=3 SV=1,9755
+tr|A0A2Y9MLQ5|A0A2Y9MLQ5_DELLE,calcitonin gene-related peptide type 1 receptor OS=Delphinapterus leucas OX=9749 GN=CALCRL PE=3 SV=1,9749
+tr|A0A2U4B211|A0A2U4B211_TURTR,calcitonin gene-related peptide type 1 receptor OS=Tursiops truncatus OX=9739 GN=CALCRL PE=3 SV=1,9739
+tr|A0A1S3A5C7|A0A1S3A5C7_ERIEU,calcitonin gene-related peptide type 1 receptor OS=Erinaceus europaeus OX=9365 GN=CALCRL PE=3 SV=1,9365
+sp|Q8WN93|CALRL_PIG,Calcitonin gene-related peptide type 1 receptor OS=Sus scrofa OX=9823 GN=CALCRL PE=1 SV=1,9823
+tr|A0A0G2KBD0|A0A0G2KBD0_PIG,Calcitonin gene-related peptide type 1 receptor OS=Sus scrofa OX=9823 GN=CALCRL PE=3 SV=1,9823
+tr|W5Q4Y4|W5Q4Y4_SHEEP,Calcitonin receptor like receptor OS=Ovis aries OX=9940 GN=CALCRL PE=3 SV=1,9940
+sp|A6QP74|CALRL_BOVIN,Calcitonin gene-related peptide type 1 receptor OS=Bos taurus OX=9913 GN=CALCRL PE=2 SV=2,9913
+tr|H0UV86|H0UV86_CAVPO,Calcitonin receptor like receptor OS=Cavia porcellus OX=10141 GN=CALCRL PE=3 SV=2,10141
+tr|A0A091DYP1|A0A091DYP1_FUKDA,Calcitonin gene-related peptide type 1 receptor OS=Fukomys damarensis OX=885580 GN=H920_10632 PE=3 SV=1,885580
+tr|G5BZH4|G5BZH4_HETGA,Calcitonin gene-related peptide type 1 receptor OS=Heterocephalus glaber OX=10181 GN=GW7_11692 PE=3 SV=1,10181
+tr|G3VXP1|G3VXP1_SARHA,Calcitonin receptor like receptor OS=Sarcophilus harrisii OX=9305 GN=CALCRL PE=3 SV=1,9305
+tr|F7C0S0|F7C0S0_MONDO,Calcitonin receptor like receptor OS=Monodelphis domestica OX=13616 GN=CALCRL PE=3 SV=2,13616
+tr|K7E9D6|K7E9D6_ORNAN,Uncharacterized protein OS=Ornithorhynchus anatinus OX=9258 PE=3 SV=1,9258
+tr|A0A1L8EXE0|A0A1L8EXE0_XENLA,Uncharacterized protein OS=Xenopus laevis OX=8355 GN=calcrl PE=3 SV=1,8355
+sp|Q0P4Y4|CALRL_XENTR,Calcitonin gene-related peptide type 1 receptor OS=Xenopus tropicalis OX=8364 GN=calcrl PE=2 SV=1,8364
+tr|K7FMC3|K7FMC3_PELSI,Calcitonin receptor like receptor OS=Pelodiscus sinensis OX=13735 GN=CALCRL PE=3 SV=1,13735
+tr|A0A1U7RRM1|A0A1U7RRM1_ALLSI,calcitonin gene-related peptide type 1 receptor OS=Alligator sinensis OX=38654 GN=CALCRL PE=3 SV=1,38654
+tr|A0A151NA97|A0A151NA97_ALLMI,Uncharacterized protein OS=Alligator mississippiensis OX=8496 GN=Y1Q_0008860 PE=3 SV=1,8496
+tr|A0A091GHE4|A0A091GHE4_9AVES,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Cuculus canorus OX=55661 GN=N303_01540 PE=3 SV=1,55661
+tr|A0A091W3W1|A0A091W3W1_OPIHO,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Opisthocomus hoazin OX=30419 GN=N306_03186 PE=3 SV=1,30419
+tr|A0A091WEE7|A0A091WEE7_NIPNI,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Nipponia nippon OX=128390 GN=Y956_13846 PE=3 SV=1,128390
+tr|A0A091JJG7|A0A091JJG7_EGRGA,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Egretta garzetta OX=188379 GN=Z169_07100 PE=3 SV=1,188379
+tr|A0A0A0ARY3|A0A0A0ARY3_CHAVO,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Charadrius vociferus OX=50402 GN=N301_02384 PE=3 SV=1,50402
+tr|A0A087QNL5|A0A087QNL5_APTFO,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Aptenodytes forsteri OX=9233 GN=AS27_08754 PE=3 SV=1,9233
+tr|A0A0Q3U406|A0A0Q3U406_AMAAE,Calcitonin gene-related peptide type 1 receptor OS=Amazona aestiva OX=12930 GN=AAES_03716 PE=3 SV=1,12930
+tr|A0A091I736|A0A091I736_CALAN,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Calypte anna OX=9244 GN=N300_13534 PE=3 SV=1,9244
+tr|A0A1V4K8D3|A0A1V4K8D3_PATFA,Calcitonin gene-related peptide type 1 receptor isoform B OS=Patagioenas fasciata monilis OX=372326 GN=CALCRL PE=3 SV=1,37232
+tr|A0A2I0MIN0|A0A2I0MIN0_COLLI,Calcitonin receptor-like OS=Columba livia OX=8932 GN=CALCRL PE=3 SV=1,8932
+tr|A0A093H4H6|A0A093H4H6_STRCA,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Struthio camelus australis OX=441894 GN=N308_05315 PE=3 SV=1,441894
+tr|U3I706|U3I706_ANAPL,Calcitonin receptor like receptor OS=Anas platyrhynchos OX=8839 GN=CALCRL PE=3 SV=1,8839
+tr|A0A099ZGY2|A0A099ZGY2_TINGU,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Tinamus guttatus OX=94827 GN=N309_15117 PE=3 SV=1,94827
+tr|A0A091E6Q4|A0A091E6Q4_CORBR,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Corvus brachyrhynchos OX=85066 GN=N302_09853 PE=3 SV=1,85066
+tr|U3JPH5|U3JPH5_FICAL,Calcitonin receptor like receptor OS=Ficedula albicollis OX=59894 GN=CALCRL PE=3 SV=1,59894
+tr|A0A218UFD0|A0A218UFD0_9PASE,Calcitonin gene-related peptide type 1 receptor OS=Lonchura striata domestica OX=299123 GN=CALCRL PE=3 SV=1,299123
+tr|H0ZLG4|H0ZLG4_TAEGU,Calcitonin receptor like receptor OS=Taeniopygia guttata OX=59729 GN=CALCRL PE=3 SV=1,59729
+tr|A0A093G9J0|A0A093G9J0_DRYPU,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Dryobates pubescens OX=118200 GN=N307_05621 PE=3 SV=1,118200
+tr|A0A226PDG3|A0A226PDG3_COLVI,Uncharacterized protein OS=Colinus virginianus OX=9014 GN=H355_005146 PE=3 SV=1,9014
+tr|A0A226N054|A0A226N054_CALSU,Uncharacterized protein OS=Callipepla squamata OX=9009 GN=ASZ78_009403 PE=3 SV=1,9009
+tr|G1MZI1|G1MZI1_MELGA,Calcitonin receptor like receptor OS=Meleagris gallopavo OX=9103 GN=CALCRL PE=3 SV=2,9103
+tr|C5HV42|C5HV42_CHICK,Calcitonin receptor-like receptor OS=Gallus gallus OX=9031 GN=CALCRL PE=2 SV=1,9031
+tr|H9G4S5|H9G4S5_ANOCA,Calcitonin receptor like receptor OS=Anolis carolinensis OX=28377 GN=CALCRL PE=3 SV=1,28377
+tr|H3A3T7|H3A3T7_LATCH,Calcitonin receptor like receptor OS=Latimeria chalumnae OX=7897 GN=CALCRL PE=3 SV=1,7897

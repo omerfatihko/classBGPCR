@@ -1,0 +1,2 @@
+access_date	url	file  sequence_count
+14.07.2021	https://www.uniprot.org/proteomes/?query=*&fil=taxonomy%3A%22Eukaryota+%5B2759%5D%22+AND+reference%3Ayes	14._07_2021_proteomes-filtered-taxonomy__Eukaryota+[2759]_+AND+reference_yes.tab  29712959

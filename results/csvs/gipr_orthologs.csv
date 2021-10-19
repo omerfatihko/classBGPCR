@@ -1,0 +1,147 @@
+tr|S9X2T2|S9X2T2_CAMFR,Gastric inhibitory polypeptide receptor OS=Camelus ferus OX=419612 GN=CB1_000420010 PE=4 SV=1,419612
+tr|A0A5N4DRI7|A0A5N4DRI7_CAMDR,Gastric inhibitory polypeptide receptor OS=Camelus dromedarius OX=9838 GN=Cadr_000011886 PE=4 SV=1,9838
+tr|A0A6I9IEN4|A0A6I9IEN4_VICPA,LOW QUALITY PROTEIN: gastric inhibitory polypeptide receptor OS=Vicugna pacos OX=30538 GN=GIPR PE=4 SV=1,30538
+tr|A0A2K6PCE6|A0A2K6PCE6_RHIRO,Uncharacterized protein OS=Rhinopithecus roxellana OX=61622 GN=GIPR PE=4 SV=1,61622
+tr|H0UYK5|H0UYK5_CAVPO,Gastric inhibitory polypeptide receptor OS=Cavia porcellus OX=10141 GN=GIPR PE=4 SV=2,10141
+tr|A0A6J3EH35|A0A6J3EH35_AYTFU,gastric inhibitory polypeptide receptor OS=Aythya fuligula OX=219594 GN=GIPR PE=4 SV=1,219594
+tr|A0A484DK35|A0A484DK35_PERFV,Uncharacterized protein OS=Perca flavescens OX=8167 GN=EPR50_G00029990 PE=4 SV=1,8167
+tr|A0A6A5FP59|A0A6A5FP59_PERFL,Uncharacterized protein OS=Perca fluviatilis OX=8168 GN=PFLUV_G00017670 PE=4 SV=1,8168
+tr|A0A2U3Y4N4|A0A2U3Y4N4_LEPWE,gastric inhibitory polypeptide receptor OS=Leptonychotes weddellii OX=9713 GN=GIPR PE=4 SV=1,9713
+tr|A0A2Y9GCN4|A0A2Y9GCN4_NEOSC,gastric inhibitory polypeptide receptor OS=Neomonachus schauinslandi OX=29088 GN=GIPR PE=4 SV=1,29088
+tr|A0A212DCE4|A0A212DCE4_CEREH,Uncharacterized protein OS=Cervus elaphus hippelaphus OX=46360 GN=Celaphus_00004622 PE=4 SV=1,46360
+tr|A0A5J5MZY2|A0A5J5MZY2_MUNRE,Uncharacterized protein OS=Muntiacus reevesi OX=9886 GN=FD755_005900 PE=4 SV=1,9886
+tr|H9GFA6|H9GFA6_ANOCA,Uncharacterized protein OS=Anolis carolinensis OX=28377 GN=LOC100556423 PE=4 SV=1,28377
+tr|A0A6J0T2A1|A0A6J0T2A1_9SAUR,gastric inhibitory polypeptide receptor OS=Pogona vitticeps OX=103695 GN=GIPR PE=4 SV=1,103695
+tr|A0A670J5A9|A0A670J5A9_PODMU,Uncharacterized protein OS=Podarcis muralis OX=64176 GN=LOC114603308 PE=4 SV=1,64176
+tr|A0A341DAU2|A0A341DAU2_NEOAA,gastric inhibitory polypeptide receptor OS=Neophocaena asiaeorientalis asiaeorientalis OX=1706337 GN=GIPR PE=4 SV=1,1706337
+tr|A0A2Y9PCQ4|A0A2Y9PCQ4_DELLE,gastric inhibitory polypeptide receptor isoform X1 OS=Delphinapterus leucas OX=9749 GN=GIPR PE=4 SV=1,9749
+tr|E1B8G5|E1B8G5_BOVIN,Gastric inhibitory polypeptide receptor OS=Bos taurus OX=9913 GN=GIPR PE=4 SV=1,9913
+tr|A0A4W2GMZ1|A0A4W2GMZ1_BOBOX,Gastric inhibitory polypeptide receptor OS=Bos indicus x Bos taurus OX=30522 GN=GIPR PE=4 SV=1,30522
+tr|L8I9G9|L8I9G9_9CETA,Gastric inhibitory polypeptide receptor OS=Bos mutus OX=72004 GN=M91_05736 PE=4 SV=1,72004
+tr|A0A6P3I8U1|A0A6P3I8U1_BISBI,gastric inhibitory polypeptide receptor OS=Bison bison bison OX=43346 GN=GIPR PE=4 SV=1,43346
+tr|A0A6P5DC51|A0A6P5DC51_BOSIN,gastric inhibitory polypeptide receptor OS=Bos indicus OX=9915 GN=GIPR PE=4 SV=1,9915
+tr|W5PKD1|W5PKD1_SHEEP,Uncharacterized protein OS=Ovis aries OX=9940 GN=GIPR PE=4 SV=1,9940
+tr|A0A452FF74|A0A452FF74_CAPHI,Gastric inhibitory polypeptide receptor OS=Capra hircus OX=9925 GN=GIPR PE=4 SV=1,9925
+tr|A0A6J0XWP9|A0A6J0XWP9_ODOVR,gastric inhibitory polypeptide receptor isoform X1 OS=Odocoileus virginianus texanus OX=9880 GN=GIPR PE=4 SV=1,9880
+tr|A0A4U1FYU3|A0A4U1FYU3_MONMO,Uncharacterized protein (Fragment) OS=Monodon monoceros OX=40151 GN=EI555_018449 PE=4 SV=1,40151
+tr|A0A6J3QBZ7|A0A6J3QBZ7_TURTR,gastric inhibitory polypeptide receptor OS=Tursiops truncatus OX=9739 GN=GIPR PE=4 SV=1,9739
+tr|A0A340XEN5|A0A340XEN5_LIPVE,gastric inhibitory polypeptide receptor OS=Lipotes vexillifer OX=118797 GN=GIPR PE=4 SV=1,118797
+tr|A0A2Y9EJG0|A0A2Y9EJG0_PHYMC,gastric inhibitory polypeptide receptor OS=Physeter macrocephalus OX=9755 GN=GIPR PE=4 SV=1,9755
+tr|A0A452C6V5|A0A452C6V5_BALAS,gastric inhibitory polypeptide receptor isoform X1 OS=Balaenoptera acutorostrata scammoni OX=310752 GN=GIPR PE=4 SV=1,310752
+tr|A0A643CEF3|A0A643CEF3_BALPH,G_PROTEIN_RECEP_F2_3 domain-containing protein OS=Balaenoptera physalus OX=9770 GN=E2I00_009950 PE=4 SV=1,9770
+tr|A0A5G2QV54|A0A5G2QV54_PIG,Gastric inhibitory polypeptide receptor OS=Sus scrofa OX=9823 GN=GIPR PE=4 SV=1,9823
+tr|A0A2U3ZGC6|A0A2U3ZGC6_ODORO,gastric inhibitory polypeptide receptor OS=Odobenus rosmarus divergens OX=9708 GN=GIPR PE=4 SV=1,9708
+tr|A0A3Q7MEF5|A0A3Q7MEF5_CALUR,gastric inhibitory polypeptide receptor OS=Callorhinus ursinus OX=34884 GN=GIPR PE=4 SV=1,34884
+tr|M3Y308|M3Y308_MUSPF,Gastric inhibitory polypeptide receptor OS=Mustela putorius furo OX=9669 GN=GIPR PE=4 SV=1,9669
+tr|A0A2Y9L0M5|A0A2Y9L0M5_ENHLU,LOW QUALITY PROTEIN: gastric inhibitory polypeptide receptor OS=Enhydra lutris kenyoni OX=391180 GN=LOC111160805 PE=4 SV=1,391180
+tr|A0A3Q7VIT2|A0A3Q7VIT2_URSAR,gastric inhibitory polypeptide receptor isoform X1 OS=Ursus arctos horribilis OX=116960 GN=GIPR PE=4 SV=1,116960
+tr|A0A452SCV5|A0A452SCV5_URSAM,Gastric inhibitory polypeptide receptor OS=Ursus americanus OX=9643 GN=GIPR PE=4 SV=1,9643
+tr|A0A384BJT7|A0A384BJT7_URSMA,gastric inhibitory polypeptide receptor OS=Ursus maritimus OX=29073 GN=GIPR PE=4 SV=1,29073
+tr|D2I071|D2I071_AILME,Gastric inhibitory polypeptide receptor (Fragment) OS=Ailuropoda melanoleuca OX=9646 GN=GIPR PE=4 SV=1,9646
+tr|E2RIK5|E2RIK5_CANLF,Gastric inhibitory polypeptide receptor OS=Canis lupus familiaris OX=9615 GN=GIPR PE=4 SV=1,9615
+tr|A0A3Q7U8B0|A0A3Q7U8B0_VULVU,gastric inhibitory polypeptide receptor OS=Vulpes vulpes OX=9627 GN=GIPR PE=4 SV=1,9627
+tr|A0A337SBM7|A0A337SBM7_FELCA,Gastric inhibitory polypeptide receptor OS=Felis catus OX=9685 GN=GIPR PE=4 SV=1,9685
+tr|A0A485NL97|A0A485NL97_LYNPA,Gastric inhibitory polypeptide OS=Lynx pardinus OX=191816 GN=LYPA_23C002877 PE=4 SV=1,191816
+tr|A0A6J1XMG1|A0A6J1XMG1_ACIJB,gastric inhibitory polypeptide receptor isoform X1 OS=Acinonyx jubatus OX=32536 GN=GIPR PE=4 SV=1,32536
+tr|A0A6P6H2W3|A0A6P6H2W3_PUMCO,gastric inhibitory polypeptide receptor OS=Puma concolor OX=9696 GN=GIPR PE=4 SV=1,9696
+tr|A0A673V7W5|A0A673V7W5_SURSU,Gastric inhibitory polypeptide receptor OS=Suricata suricatta OX=37032 GN=GIPR PE=4 SV=1,37032
+tr|A0A6G1A9D4|A0A6G1A9D4_CROCR,GIPR protein (Fragment) OS=Crocuta crocuta OX=9678 GN=Gipr PE=4 SV=1,9678
+tr|A0A3M0LD70|A0A3M0LD70_HIRRU,Uncharacterized protein OS=Hirundo rustica rustica OX=333673 GN=DUI87_00013 PE=4 SV=1,333673
+tr|A0A663FIV5|A0A663FIV5_AQUCH,Uncharacterized protein OS=Aquila chrysaetos chrysaetos OX=223781 PE=4 SV=1,223781
+tr|A0A672V6I2|A0A672V6I2_STRHB,Uncharacterized protein OS=Strigops habroptila OX=2489341 PE=4 SV=1,2489341
+tr|A0A3Q2UK12|A0A3Q2UK12_CHICK,Uncharacterized protein OS=Gallus gallus OX=9031 GN=GIPR PE=4 SV=1,9031
+tr|A0A671NWX7|A0A671NWX7_9TELE,Gastric inhibitory polypeptide receptor-like OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107685094 PE=4 SV=1,1608454
+tr|A0A673J205|A0A673J205_9TELE,Gastric inhibitory polypeptide receptor-like OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107756746 PE=4 SV=1,307959
+tr|A0A672R5Z5|A0A672R5Z5_SINGR,Gastric inhibitory polypeptide receptor OS=Sinocyclocheilus grahami OX=75366 GN=gipr PE=4 SV=1,75366
+tr|A0A6P6LCF9|A0A6P6LCF9_CARAU,gastric inhibitory polypeptide receptor-like OS=Carassius auratus OX=7957 GN=LOC113058548 PE=4 SV=1,7957
+tr|A0A3N0XXW4|A0A3N0XXW4_ANAGA,Gastric inhibitory polypeptide receptor OS=Anabarilius grahami OX=495550 GN=DPX16_6512 PE=4 SV=1,495550
+tr|E7FCX8|E7FCX8_DANRE,Gastric inhibitory polypeptide receptor OS=Danio rerio OX=7955 GN=gipr PE=4 SV=2,7955
+tr|A0A553NWH6|A0A553NWH6_9TELE,Uncharacterized protein OS=Danionella translucida OX=623744 GN=DNTS_006016 PE=4 SV=1,623744
+tr|W5KSS3|W5KSS3_ASTMX,Uncharacterized protein OS=Astyanax mexicanus OX=7994 PE=4 SV=1,7994
+tr|A0A5N5M5Z1|A0A5N5M5Z1_PANHP,Uncharacterized protein OS=Pangasianodon hypophthalmus OX=310915 GN=PHYPO_G00053460 PE=4 SV=1,310915
+tr|A0A6P8FQV7|A0A6P8FQV7_CLUHA,glucagon receptor OS=Clupea harengus OX=7950 GN=LOC105909682 PE=4 SV=1,7950
+tr|F6VG30|F6VG30_HORSE,Gastric inhibitory polypeptide receptor OS=Equus caballus OX=9796 GN=GIPR PE=4 SV=2,9796
+tr|A0A060WGN5|A0A060WGN5_ONCMY,Uncharacterized protein OS=Oncorhynchus mykiss OX=8022 GN=GSONMT00074857001 PE=4 SV=1,8022
+tr|A0A4W5QHF7|A0A4W5QHF7_9TELE,Gastric inhibitory polypeptide receptor OS=Hucho hucho OX=62062 PE=4 SV=1,62062
+tr|A0A4X2LVB2|A0A4X2LVB2_VOMUR,Uncharacterized protein OS=Vombatus ursinus OX=29139 PE=4 SV=1,29139
+tr|A0A4X2K7K5|A0A4X2K7K5_VOMUR,Uncharacterized protein OS=Vombatus ursinus OX=29139 PE=4 SV=1,29139
+sp|P48546|GIPR_HUMAN,Gastric inhibitory polypeptide receptor OS=Homo sapiens OX=9606 GN=GIPR PE=1 SV=1,9606
+tr|A0A4W6CV82|A0A4W6CV82_LATCA,Gastric inhibitory polypeptide receptor OS=Lates calcarifer OX=8187 PE=4 SV=1,8187
+tr|A0A670ZP38|A0A670ZP38_PSETE,G_PROTEIN_RECEP_F2_4 domain-containing protein OS=Pseudonaja textilis OX=8673 PE=4 SV=1,8673
+tr|A0A6P9DES0|A0A6P9DES0_PANGU,gastric inhibitory polypeptide receptor OS=Pantherophis guttatus OX=94885 GN=GIPR PE=4 SV=1,94885
+tr|A0A452H8M2|A0A452H8M2_9SAUR,Uncharacterized protein OS=Gopherus agassizii OX=38772 PE=4 SV=1,38772
+tr|A0A4D9DQQ8|A0A4D9DQQ8_9SAUR,Protein Churchill OS=Platysternon megacephalum OX=55544 GN=DR999_PMT17932 PE=4 SV=1,55544
+tr|A0A674I7F6|A0A674I7F6_TERCA,Uncharacterized protein OS=Terrapene carolina triunguis OX=2587831 PE=4 SV=1,2587831
+tr|A0A3Q1CNY4|A0A3Q1CNY4_AMPOC,Gastric inhibitory polypeptide receptor OS=Amphiprion ocellaris OX=80972 PE=4 SV=1,80972
+tr|A0A3P8TCQ1|A0A3P8TCQ1_AMPPE,Gastric inhibitory polypeptide receptor OS=Amphiprion percula OX=161767 PE=4 SV=1,161767
+tr|A0A3Q1F6G5|A0A3Q1F6G5_9TELE,Glucagon receptor-like OS=Acanthochromis polyacanthus OX=80966 PE=4 SV=1,80966
+tr|A0A0D9S1Z4|A0A0D9S1Z4_CHLSB,Uncharacterized protein OS=Chlorocebus sabaeus OX=60711 GN=GIPR PE=4 SV=1,60711
+tr|G1NVA0|G1NVA0_MYOLU,Gastric inhibitory polypeptide receptor OS=Myotis lucifugus OX=59463 GN=GIPR PE=4 SV=1,59463
+tr|A0A669DQ48|A0A669DQ48_ORENI,Gastric inhibitory polypeptide receptor OS=Oreochromis niloticus OX=8128 PE=4 SV=1,8128
+tr|A0A668UVR2|A0A668UVR2_OREAU,Gastric inhibitory polypeptide receptor OS=Oreochromis aureus OX=47969 PE=4 SV=1,47969
+tr|A0A3Q4HG57|A0A3Q4HG57_NEOBR,Gastric inhibitory polypeptide receptor OS=Neolamprologus brichardi OX=32507 PE=4 SV=1,32507
+tr|A0A3P9DEM3|A0A3P9DEM3_9CICH,Gastric inhibitory polypeptide receptor OS=Maylandia zebra OX=106582 PE=4 SV=1,106582
+tr|A0A3Q2V387|A0A3Q2V387_HAPBU,Glucagon receptor-like OS=Haplochromis burtoni OX=8153 PE=4 SV=1,8153
+tr|A0A6P7JF18|A0A6P7JF18_9TELE,gastric inhibitory polypeptide receptor-like OS=Parambassis ranga OX=210632 GN=LOC114444809 PE=4 SV=1,210632
+tr|A0A6J2QZ01|A0A6J2QZ01_COTGO,gastric inhibitory polypeptide receptor-like OS=Cottoperca gobio OX=56716 GN=LOC115017839 PE=4 SV=1,56716
+tr|A0A671WJ94|A0A671WJ94_SPAAU,Glucagon receptor-like OS=Sparus aurata OX=8175 GN=LOC115596922 PE=4 SV=1,8175
+tr|G3RJ74|G3RJ74_GORGO,Gastric inhibitory polypeptide receptor OS=Gorilla gorilla gorilla OX=9595 GN=GIPR PE=4 SV=2,9595
+tr|A0A0A0MX16|A0A0A0MX16_PAPAN,Gastric inhibitory polypeptide receptor OS=Papio anubis OX=9555 GN=GIPR PE=4 SV=1,9555
+tr|A0A2K5N2U6|A0A2K5N2U6_CERAT,Gastric inhibitory polypeptide receptor OS=Cercocebus atys OX=9531 GN=GIPR PE=4 SV=1,9531
+tr|A0A2K6AGC6|A0A2K6AGC6_MANLE,Gastric inhibitory polypeptide receptor OS=Mandrillus leucophaeus OX=9568 GN=GIPR PE=4 SV=1,9568
+tr|A0A2K5VD75|A0A2K5VD75_MACFA,Gastric inhibitory polypeptide receptor OS=Macaca fascicularis OX=9541 GN=GIPR PE=4 SV=2,9541
+tr|A0A2K6CIT3|A0A2K6CIT3_MACNE,Gastric inhibitory polypeptide receptor OS=Macaca nemestrina OX=9545 GN=GIPR PE=4 SV=1,9545
+tr|F7E1R9|F7E1R9_MACMU,Gastric inhibitory polypeptide receptor OS=Macaca mulatta OX=9544 GN=GIPR PE=4 SV=3,9544
+tr|A0A2K6N0C9|A0A2K6N0C9_RHIBE,Uncharacterized protein OS=Rhinopithecus bieti OX=61621 GN=GIPR PE=4 SV=1,61621
+tr|A0A2K5ICL3|A0A2K5ICL3_COLAP,Gastric inhibitory polypeptide receptor OS=Colobus angolensis palliatus OX=336983 PE=4 SV=1,336983
+tr|A0A2I3RBA7|A0A2I3RBA7_PANTR,Gastric inhibitory polypeptide receptor OS=Pan troglodytes OX=9598 GN=GIPR PE=4 SV=1,9598
+tr|A0A2R9A9R5|A0A2R9A9R5_PANPA,Gastric inhibitory polypeptide receptor OS=Pan paniscus OX=9597 GN=GIPR PE=4 SV=1,9597
+tr|H2NZ92|H2NZ92_PONAB,Gastric inhibitory polypeptide receptor OS=Pongo abelii OX=9601 GN=GIPR PE=4 SV=1,9601
+tr|A0A2K5QNV3|A0A2K5QNV3_CEBIM,Gastric inhibitory polypeptide receptor OS=Cebus imitator OX=2715852 GN=GIPR PE=4 SV=1,2715852
+tr|A0A6J3GM54|A0A6J3GM54_SAPAP,gastric inhibitory polypeptide receptor OS=Sapajus apella OX=9515 GN=GIPR PE=4 SV=1,9515
+tr|A0A2K6T3P6|A0A2K6T3P6_SAIBB,Gastric inhibitory polypeptide receptor OS=Saimiri boliviensis boliviensis OX=39432 GN=GIPR PE=4 SV=1,39432
+tr|A0A2K5EE36|A0A2K5EE36_AOTNA,Gastric inhibitory polypeptide receptor OS=Aotus nancymaae OX=37293 GN=GIPR PE=4 SV=1,37293
+tr|F6Y4K4|F6Y4K4_CALJA,Uncharacterized protein OS=Callithrix jacchus OX=9483 GN=GIPR PE=4 SV=1,9483
+tr|G1T265|G1T265_RABIT,Gastric inhibitory polypeptide receptor OS=Oryctolagus cuniculus OX=9986 GN=GIPR PE=4 SV=2,9986
+tr|A0A3Q0EA52|A0A3Q0EA52_CARSF,gastric inhibitory polypeptide receptor isoform X1 OS=Carlito syrichta OX=1868482 GN=GIPR PE=4 SV=1,1868482
+sp|Q0P543|GIPR_MOUSE,Gastric inhibitory polypeptide receptor OS=Mus musculus OX=10090 GN=Gipr PE=1 SV=2,10090
+sp|P43219|GIPR_RAT,Gastric inhibitory polypeptide receptor OS=Rattus norvegicus OX=10116 GN=Gipr PE=2 SV=1,10116
+tr|A0A6I9MGN5|A0A6I9MGN5_PERMB,gastric inhibitory polypeptide receptor OS=Peromyscus maniculatus bairdii OX=230844 GN=Gipr PE=4 SV=1,230844
+sp|P43218|GIPR_MESAU,Gastric inhibitory polypeptide receptor OS=Mesocricetus auratus OX=10036 GN=GIPR PE=2 SV=1,10036
+tr|I3N2F6|I3N2F6_ICTTR,Gastric inhibitory polypeptide receptor OS=Ictidomys tridecemlineatus OX=43179 GN=GIPR PE=4 SV=2,43179
+tr|A0A6P6DKP5|A0A6P6DKP5_OCTDE,gastric inhibitory polypeptide receptor isoform X1 OS=Octodon degus OX=10160 GN=Gipr PE=4 SV=1,10160
+tr|G5AUX3|G5AUX3_HETGA,Gastric inhibitory polypeptide receptor OS=Heterocephalus glaber OX=10181 GN=GW7_18098 PE=4 SV=1,10181
+tr|A0A091CP67|A0A091CP67_FUKDA,Gastric inhibitory polypeptide receptor OS=Fukomys damarensis OX=885580 GN=H920_19639 PE=4 SV=1,885580
+tr|A0A1S3GGP9|A0A1S3GGP9_DIPOR,gastric inhibitory polypeptide receptor OS=Dipodomys ordii OX=10020 GN=Gipr PE=4 SV=1,10020
+tr|H0X783|H0X783_OTOGA,Uncharacterized protein OS=Otolemur garnettii OX=30611 GN=GIPR PE=4 SV=1,30611
+tr|A0A2K6G1A6|A0A2K6G1A6_PROCO,Gastric inhibitory polypeptide receptor OS=Propithecus coquereli OX=379532 GN=GIPR PE=4 SV=1,379532
+tr|A0A3Q3MPM1|A0A3Q3MPM1_9TELE,Gastric inhibitory polypeptide receptor OS=Mastacembelus armatus OX=205130 PE=4 SV=2,205130
+tr|A0A7N6ACK5|A0A7N6ACK5_ANATE,Uncharacterized protein OS=Anabas testudineus OX=64144 PE=4 SV=1,64144
+tr|A0A667YH33|A0A667YH33_9TELE,Gastric inhibitory polypeptide receptor OS=Myripristis murdjan OX=586833 PE=4 SV=1,586833
+tr|A0A1S3NQC3|A0A1S3NQC3_SALSA,glucagon receptor-like isoform X1 OS=Salmo salar OX=8030 GN=LOC106580753 PE=4 SV=1,8030
+tr|A0A673Y4W6|A0A673Y4W6_SALTR,Glucagon receptor-like OS=Salmo trutta OX=8032 GN=LOC115163050 PE=4 SV=1,8032
+tr|A0A6F9CFL8|A0A6F9CFL8_9TELE,Uncharacterized protein (Fragment) OS=Coregonus sp. 'balchen' OX=861768 GN=CSTEINMANNI_LOCUS4187373 PE=4 SV=1,861768
+tr|A0A3P8Y598|A0A3P8Y598_ESOLU,Gastric inhibitory polypeptide receptor OS=Esox lucius OX=8010 PE=4 SV=1,8010
+tr|L5LTC0|L5LTC0_MYODS,Gastric inhibitory polypeptide receptor OS=Myotis davidii OX=225400 GN=MDA_GLEAN10003859 PE=4 SV=1,225400
+tr|S7MNW9|S7MNW9_MYOBR,Gastric inhibitory polypeptide receptor (Fragment) OS=Myotis brandtii OX=109478 GN=D623_10004382 PE=4 SV=1,109478
+tr|A0A6J2N287|A0A6J2N287_9CHIR,gastric inhibitory polypeptide receptor OS=Phyllostomus discolor OX=89673 GN=GIPR PE=4 SV=2,89673
+tr|A0A671EIS0|A0A671EIS0_RHIFE,Gastric inhibitory polypeptide receptor OS=Rhinolophus ferrumequinum OX=59479 GN=GIPR PE=4 SV=1,59479
+tr|L5KQ17|L5KQ17_PTEAL,Gastric inhibitory polypeptide receptor OS=Pteropus alecto OX=9402 GN=PAL_GLEAN10004037 PE=4 SV=1,9402
+tr|A0A6P3QK48|A0A6P3QK48_PTEVA,gastric inhibitory polypeptide receptor isoform X1 OS=Pteropus vampyrus OX=132908 GN=GIPR PE=4 SV=1,132908
+tr|L9LBK3|L9LBK3_TUPCH,Gastric inhibitory polypeptide receptor OS=Tupaia chinensis OX=246437 GN=TREES_T100011525 PE=4 SV=1,246437
+tr|G3UKY6|G3UKY6_LOXAF,Gastric inhibitory polypeptide receptor OS=Loxodonta africana OX=9785 GN=GIPR PE=4 SV=1,9785
+tr|A0A2Y9DWH2|A0A2Y9DWH2_TRIMA,gastric inhibitory polypeptide receptor OS=Trichechus manatus latirostris OX=127582 GN=LOC101342426 PE=4 SV=1,127582
+tr|A0A6I9KDB6|A0A6I9KDB6_CHRAS,gastric inhibitory polypeptide receptor OS=Chrysochloris asiatica OX=185453 GN=GIPR PE=4 SV=1,185453
+tr|A0A1S3ABF6|A0A1S3ABF6_ERIEU,gastric inhibitory polypeptide receptor OS=Erinaceus europaeus OX=9365 GN=GIPR PE=4 SV=1,9365
+tr|A0A6P5JQ27|A0A6P5JQ27_PHACI,gastric inhibitory polypeptide receptor isoform X1 OS=Phascolarctos cinereus OX=38626 GN=GIPR PE=4 SV=1,38626
+tr|F6WUD5|F6WUD5_MONDO,Uncharacterized protein OS=Monodelphis domestica OX=13616 GN=GIPR PE=4 SV=2,13616
+tr|G3VAN1|G3VAN1_SARHA,Gastric inhibitory polypeptide receptor OS=Sarcophilus harrisii OX=9305 GN=GIPR PE=4 SV=2,9305
+tr|A0A6I8NRC9|A0A6I8NRC9_ORNAN,Uncharacterized protein OS=Ornithorhynchus anatinus OX=9258 PE=4 SV=1,9258
+tr|A0A151NK47|A0A151NK47_ALLMI,Gastric inhibitory polypeptide receptor OS=Alligator mississippiensis OX=8496 GN=Y1Q_0016072 PE=4 SV=1,8496
+tr|A0A803JWD0|A0A803JWD0_XENTR,Gastric inhibitory polypeptide receptor OS=Xenopus tropicalis OX=8364 GN=gipr PE=4 SV=1,8364
+tr|A0A6P7ZNN3|A0A6P7ZNN3_9AMPH,gastric inhibitory polypeptide receptor OS=Microcaecilia unicolor OX=1415580 GN=GIPR PE=4 SV=1,1415580
+tr|A0A6P8RZF3|A0A6P8RZF3_GEOSA,gastric inhibitory polypeptide receptor OS=Geotrypetes seraphini OX=260995 GN=GIPR PE=4 SV=1,260995
+tr|H3AGG3|H3AGG3_LATCH,Uncharacterized protein OS=Latimeria chalumnae OX=7897 GN=GIPR PE=4 SV=1,7897
+tr|A0A6J2VMS8|A0A6J2VMS8_CHACN,glucagon receptor-like OS=Chanos chanos OX=29144 GN=LOC115814457 PE=4 SV=1,29144
+tr|W5NC52|W5NC52_LEPOC,Gastric inhibitory polypeptide receptor OS=Lepisosteus oculatus OX=7918 PE=4 SV=1,7918
+tr|A0A444UKL4|A0A444UKL4_ACIRT,Uncharacterized protein OS=Acipenser ruthenus OX=7906 GN=EOD39_3930 PE=4 SV=1,7906

@@ -1,0 +1,77 @@
+sp|P34998|CRFR1_HUMAN,Corticotropin-releasing factor receptor 1 OS=Homo sapiens OX=9606 GN=CRHR1 PE=1 SV=1,9606
+tr|A0A0D9QUU8|A0A0D9QUU8_CHLSB,Uncharacterized protein OS=Chlorocebus sabaeus OX=60711 PE=3 SV=1,60711
+tr|H2NTP8|H2NTP8_PONAB,Uncharacterized protein OS=Pongo abelii OX=9601 PE=3 SV=1,9601
+tr|A0A2I2YKR9|A0A2I2YKR9_GORGO,Uncharacterized protein OS=Gorilla gorilla gorilla OX=9595 PE=3 SV=1,9595
+tr|A0A2R9CTL2|A0A2R9CTL2_PANPA,Uncharacterized protein OS=Pan paniscus OX=9597 PE=3 SV=1,9597
+tr|A0A2K5MEB9|A0A2K5MEB9_CERAT,Uncharacterized protein OS=Cercocebus atys OX=9531 PE=3 SV=1,9531
+tr|A0A2K5XIV4|A0A2K5XIV4_MANLE,Uncharacterized protein OS=Mandrillus leucophaeus OX=9568 PE=3 SV=1,9568
+tr|A0A2K6B0M8|A0A2K6B0M8_MACNE,Uncharacterized protein OS=Macaca nemestrina OX=9545 PE=3 SV=1,9545
+tr|A0A2I3MWY0|A0A2I3MWY0_PAPAN,Uncharacterized protein OS=Papio anubis OX=9555 PE=3 SV=1,9555
+tr|G7PV27|G7PV27_MACFA,Uncharacterized protein (Fragment) OS=Macaca fascicularis OX=9541 GN=EGM_08028 PE=3 SV=1,9541
+tr|A0A2I3TB63|A0A2I3TB63_PANTR,CRHR1 isoform 8 OS=Pan troglodytes OX=9598 GN=CRHR1 PE=3 SV=1,9598
+sp|Q76LL8|CRFR1_MACMU,Corticotropin-releasing factor receptor 1 OS=Macaca mulatta OX=9544 GN=CRHR1 PE=2 SV=1,9544
+tr|A0A1S3A5J7|A0A1S3A5J7_ERIEU,corticotropin-releasing factor receptor 1 isoform X1 OS=Erinaceus europaeus OX=9365 GN=CRHR1 PE=3 SV=1,9365
+tr|A0A287CXX6|A0A287CXX6_ICTTR,Uncharacterized protein OS=Ictidomys tridecemlineatus OX=43179 GN=Crhr1 PE=3 SV=1,43179
+tr|A0A2Y9DHA4|A0A2Y9DHA4_TRIMA,corticotropin-releasing factor receptor 1 isoform X1 OS=Trichechus manatus latirostris OX=127582 GN=LOC101340626 PE=3 SV=1,127582
+tr|G3UEN0|G3UEN0_LOXAF,Uncharacterized protein OS=Loxodonta africana OX=9785 GN=CRHR1 PE=3 SV=1,9785
+tr|F7CLK8|F7CLK8_HORSE,Uncharacterized protein OS=Equus caballus OX=9796 PE=3 SV=1,9796
+tr|L5KS17|L5KS17_PTEAL,Corticotropin-releasing factor receptor 1 (Fragment) OS=Pteropus alecto OX=9402 GN=PAL_GLEAN10004285 PE=3 SV=1,9402
+tr|A0A2U3WPR7|A0A2U3WPR7_ODORO,corticotropin-releasing factor receptor 1 isoform X1 OS=Odobenus rosmarus divergens OX=9708 GN=CRHR1 PE=3 SV=1,9708
+tr|A0A384CBB3|A0A384CBB3_URSMA,LOW QUALITY PROTEIN: corticotropin-releasing factor receptor 1 OS=Ursus maritimus OX=29073 GN=CRHR1 PE=3 SV=1,29073
+tr|G1M7R8|G1M7R8_AILME,Uncharacterized protein OS=Ailuropoda melanoleuca OX=9646 PE=3 SV=1,9646
+tr|A0A337SCM4|A0A337SCM4_FELCA,Uncharacterized protein OS=Felis catus OX=9685 GN=CRHR1 PE=3 SV=1,9685
+tr|E2R9A7|E2R9A7_CANLF,Uncharacterized protein OS=Canis lupus familiaris OX=9615 GN=LOC610380 PE=3 SV=2,9615
+tr|G1PHU2|G1PHU2_MYOLU,Uncharacterized protein (Fragment) OS=Myotis lucifugus OX=59463 GN=CRHR1 PE=3 SV=1,59463
+tr|F1RRS6|F1RRS6_PIG,Uncharacterized protein OS=Sus scrofa OX=9823 GN=CRHR1 PE=3 SV=1,9823
+sp|O62772|CRFR1_SHEEP,Corticotropin-releasing factor receptor 1 OS=Ovis aries OX=9940 GN=CRHR1 PE=2 SV=1,9940
+tr|A0A1U7TAU7|A0A1U7TAU7_TARSY,corticotropin-releasing factor receptor 1 OS=Tarsius syrichta OX=1868482 GN=LOC103253630 PE=4 SV=1,1868482
+tr|F1MCX2|F1MCX2_BOVIN,Corticotropin releasing hormone receptor 1 OS=Bos taurus OX=9913 GN=CRHR1 PE=3 SV=1,9913
+tr|A0A2U3YJ45|A0A2U3YJ45_LEPWE,corticotropin-releasing factor receptor 1-like OS=Leptonychotes weddellii OX=9713 GN=LOC102750183 PE=3 SV=1,9713
+tr|A0A2Y9KPL5|A0A2Y9KPL5_ENHLU,corticotropin-releasing factor receptor 1 OS=Enhydra lutris kenyoni OX=391180 GN=LOC111158111 PE=3 SV=1,391180
+tr|M3Y9Z7|M3Y9Z7_MUSPF,Uncharacterized protein OS=Mustela putorius furo OX=9669 PE=3 SV=1,9669
+tr|A0A2Y9T518|A0A2Y9T518_PHYCD,corticotropin-releasing factor receptor 1 isoform X1 OS=Physeter catodon OX=9755 GN=CRHR1 PE=3 SV=1,9755
+tr|A0A2Y9PCV2|A0A2Y9PCV2_DELLE,corticotropin-releasing factor receptor 1 isoform X1 OS=Delphinapterus leucas OX=9749 GN=CRHR1 PE=3 SV=1,9749
+tr|A0A383ZLC7|A0A383ZLC7_BALAS,corticotropin-releasing factor receptor 1 OS=Balaenoptera acutorostrata scammoni OX=310752 GN=CRHR1 PE=3 SV=1,310752
+tr|A0A2U4C346|A0A2U4C346_TURTR,corticotropin-releasing factor receptor 1 OS=Tursiops truncatus OX=9739 GN=LOC101329834 PE=4 SV=1,9739
+tr|H0V5P5|H0V5P5_CAVPO,Uncharacterized protein OS=Cavia porcellus OX=10141 PE=3 SV=2,10141
+tr|A0A091DBQ8|A0A091DBQ8_FUKDA,Corticotropin-releasing factor receptor 1 OS=Fukomys damarensis OX=885580 GN=H920_10942 PE=3 SV=1,885580
+tr|G5BMY9|G5BMY9_HETGA,Corticotropin-releasing factor receptor 1 OS=Heterocephalus glaber OX=10181 GN=GW7_07672 PE=3 SV=1,10181
+tr|A0A2R8MNW6|A0A2R8MNW6_CALJA,Uncharacterized protein OS=Callithrix jacchus OX=9483 PE=3 SV=1,9483
+tr|A0A2I3GWB7|A0A2I3GWB7_NOMLE,Uncharacterized protein OS=Nomascus leucogenys OX=61853 GN=CRHR1 PE=3 SV=1,61853
+tr|A0A1S3GL25|A0A1S3GL25_DIPOR,corticotropin-releasing factor receptor 1 isoform X1 OS=Dipodomys ordii OX=10020 GN=Crhr1 PE=3 SV=1,10020
+tr|U3KMX0|U3KMX0_RABIT,Uncharacterized protein OS=Oryctolagus cuniculus OX=9986 GN=CRHR1 PE=3 SV=1,9986
+tr|A0A1U8BYF9|A0A1U8BYF9_MESAU,corticotropin-releasing factor receptor 1 isoform X1 OS=Mesocricetus auratus OX=10036 GN=Crhr1 PE=3 SV=1,10036
+sp|P35353|CRFR1_RAT,Corticotropin-releasing factor receptor 1 OS=Rattus norvegicus OX=10116 GN=Crhr1 PE=1 SV=1,10116
+sp|P35347|CRFR1_MOUSE,Corticotropin-releasing factor receptor 1 OS=Mus musculus OX=10090 GN=Crhr1 PE=1 SV=1,10090
+tr|H0WKV8|H0WKV8_OTOGA,Uncharacterized protein OS=Otolemur garnettii OX=30611 PE=3 SV=1,30611
+tr|G3IP19|G3IP19_CRIGR,Corticotropin-releasing factor receptor 1 OS=Cricetulus griseus OX=10029 GN=I79_025720 PE=4 SV=1,10029
+tr|G3WVN3|G3WVN3_SARHA,Uncharacterized protein OS=Sarcophilus harrisii OX=9305 GN=CRHR1 PE=3 SV=1,9305
+tr|F7GHJ7|F7GHJ7_MONDO,Uncharacterized protein OS=Monodelphis domestica OX=13616 GN=CRHR1 PE=3 SV=2,13616
+tr|A0A3Q0G2T7|A0A3Q0G2T7_ALLSI,corticotropin-releasing factor receptor 1 OS=Alligator sinensis OX=38654 GN=CRHR1 PE=4 SV=1,38654
+tr|A0A151PCL7|A0A151PCL7_ALLMI,Uncharacterized protein OS=Alligator mississippiensis OX=8496 GN=Y1Q_0018316 PE=3 SV=1,8496
+tr|A0A2I0LSE1|A0A2I0LSE1_COLLI,Corticotropin releasing hormone receptor 1 OS=Columba livia OX=8932 GN=CRHR1 PE=3 SV=1,8932
+tr|A0A226N030|A0A226N030_CALSU,Uncharacterized protein OS=Callipepla squamata OX=9009 GN=ASZ78_005246 PE=3 SV=1,9009
+tr|A0A226NUS2|A0A226NUS2_COLVI,Uncharacterized protein OS=Colinus virginianus OX=9014 GN=H355_004005 PE=3 SV=1,9014
+tr|A0A091WP34|A0A091WP34_OPIHO,Corticotropin-releasing factor receptor 1 (Fragment) OS=Opisthocomus hoazin OX=30419 GN=N306_08398 PE=3 SV=1,30419
+tr|G1MQV4|G1MQV4_MELGA,Uncharacterized protein OS=Meleagris gallopavo OX=9103 GN=LOC100540152 PE=3 SV=1,9103
+tr|F1NS14|F1NS14_CHICK,Corticotropin-releasing factor receptor 1 OS=Gallus gallus OX=9031 GN=CRHR1 PE=3 SV=1,9031
+tr|A0A218UDU3|A0A218UDU3_9PASE,Corticotropin-releasing factor receptor 1 OS=Lonchura striata domestica OX=299123 GN=CRHR1 PE=3 SV=1,299123
+tr|A0A1V4JQ64|A0A1V4JQ64_PATFA,Corticotropin-releasing factor receptor 1 OS=Patagioenas fasciata monilis OX=372326 GN=CRHR1 PE=3 SV=1,372326
+tr|A0A0Q3TFN3|A0A0Q3TFN3_AMAAE,Corticotropin-releasing factor receptor 1 OS=Amazona aestiva OX=12930 GN=AAES_105130 PE=3 SV=1,12930
+tr|A0A0A0ADV4|A0A0A0ADV4_CHAVO,Corticotropin-releasing factor receptor 1 (Fragment) OS=Charadrius vociferus OX=50402 GN=N301_11520 PE=3 SV=1,50402
+tr|A0A087RIN7|A0A087RIN7_APTFO,Corticotropin-releasing factor receptor 1 (Fragment) OS=Aptenodytes forsteri OX=9233 GN=AS27_06522 PE=3 SV=1,9233
+tr|H0YYC5|H0YYC5_TAEGU,Uncharacterized protein OS=Taeniopygia guttata OX=59729 PE=3 SV=1,59729
+tr|A0A091EQX3|A0A091EQX3_CORBR,Corticotropin-releasing factor receptor 1 (Fragment) OS=Corvus brachyrhynchos OX=85066 GN=N302_16177 PE=3 SV=1,85066
+tr|A0A091V129|A0A091V129_NIPNI,Corticotropin-releasing factor receptor 1 (Fragment) OS=Nipponia nippon OX=128390 GN=Y956_11254 PE=3 SV=1,128390
+tr|A0A091IN59|A0A091IN59_EGRGA,Corticotropin-releasing factor receptor 1 (Fragment) OS=Egretta garzetta OX=188379 GN=Z169_00116 PE=3 SV=1,188379
+tr|A0A099Z7E4|A0A099Z7E4_TINGU,Corticotropin-releasing factor receptor 1 (Fragment) OS=Tinamus guttatus OX=94827 GN=N309_06196 PE=3 SV=1,94827
+tr|U3J0D8|U3J0D8_ANAPL,Uncharacterized protein OS=Anas platyrhynchos OX=8839 GN=LOC101803845 PE=3 SV=1,8839
+tr|K7FNT8|K7FNT8_PELSI,Uncharacterized protein OS=Pelodiscus sinensis OX=13735 PE=3 SV=1,13735
+tr|F6Y159|F6Y159_ORNAN,Uncharacterized protein OS=Ornithorhynchus anatinus OX=9258 PE=3 SV=1,9258
+tr|A0A091HNU7|A0A091HNU7_CALAN,Corticotropin-releasing factor receptor 1 (Fragment) OS=Calypte anna OX=9244 GN=N300_06207 PE=3 SV=1,9244
+tr|A0A093HQW3|A0A093HQW3_STRCA,Corticotropin-releasing factor receptor 1 (Fragment) OS=Struthio camelus australis OX=441894 GN=N308_05050 PE=3 SV=1,441894
+tr|A0A093Q2F9|A0A093Q2F9_9PASS,Corticotropin-releasing factor receptor 1 (Fragment) OS=Manacus vitellinus OX=328815 GN=N305_08256 PE=3 SV=1,328815
+tr|A0A093G1I8|A0A093G1I8_DRYPU,Corticotropin-releasing factor receptor 1 (Fragment) OS=Dryobates pubescens OX=118200 GN=N307_05425 PE=3 SV=1,118200
+tr|U3K060|U3K060_FICAL,Uncharacterized protein OS=Ficedula albicollis OX=59894 GN=CRHR1 PE=3 SV=1,59894
+tr|G1KUI1|G1KUI1_ANOCA,Uncharacterized protein OS=Anolis carolinensis OX=28377 GN=crhr1 PE=3 SV=2,28377
+tr|H3B8N4|H3B8N4_LATCH,Corticotropin releasing hormone receptor 1 OS=Latimeria chalumnae OX=7897 GN=CRHR2 PE=3 SV=1,7897

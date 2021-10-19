@@ -1,0 +1,873 @@
+sp|Q16602|CALRL_HUMAN,sp|Q16602|CALRL_HUMAN,100.000,461,0,0,1,461,1,461,0.0,960,Q16602,Calcitonin gene-related peptide type 1 receptor OS=Homo sapiens OX=9606 GN=CALCRL PE=1 SV=2
+sp|Q16602|CALRL_HUMAN,tr|H2QJ43|H2QJ43_PANTR,99.783,461,1,0,1,461,12,472,0.0,956,H2QJ43,Calcitonin gene-related peptide type 1 receptor OS=Pan troglodytes OX=9598 GN=CALCRL PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A2R9BXQ0|A0A2R9BXQ0_PANPA,99.566,461,2,0,1,461,12,472,0.0,955,A0A2R9BXQ0,Calcitonin gene-related peptide type 1 receptor OS=Pan paniscus OX=9597 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|G1R3Z2|G1R3Z2_NOMLE,99.349,461,3,0,1,461,1,461,0.0,953,G1R3Z2,Calcitonin gene-related peptide type 1 receptor OS=Nomascus leucogenys OX=61853 GN=CALCRL PE=3 SV=3
+sp|Q16602|CALRL_HUMAN,tr|G3QN16|G3QN16_GORGO,99.566,461,2,0,1,461,1,461,0.0,952,G3QN16,Calcitonin gene-related peptide type 1 receptor OS=Gorilla gorilla gorilla OX=9595 GN=CALCRL PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A2K5VQ71|A0A2K5VQ71_MACFA,99.132,461,4,0,1,461,12,472,0.0,952,A0A2K5VQ71,Calcitonin gene-related peptide type 1 receptor OS=Macaca fascicularis OX=9541 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2K5MI98|A0A2K5MI98_CERAT,99.132,461,4,0,1,461,12,472,0.0,952,A0A2K5MI98,Calcitonin gene-related peptide type 1 receptor OS=Cercocebus atys OX=9531 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A0D9RJ74|A0A0D9RJ74_CHLSB,99.132,461,4,0,1,461,12,472,0.0,952,A0A0D9RJ74,Calcitonin gene-related peptide type 1 receptor OS=Chlorocebus sabaeus OX=60711 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A096MW59|A0A096MW59_PAPAN,99.132,461,4,0,1,461,12,472,0.0,952,A0A096MW59,Calcitonin gene-related peptide type 1 receptor OS=Papio anubis OX=9555 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|F6X1C0|F6X1C0_MACMU,99.132,461,4,0,1,461,12,472,0.0,952,F6X1C0,Calcitonin gene-related peptide type 1 receptor OS=Macaca mulatta OX=9544 GN=CALCRL PE=3 SV=3
+sp|Q16602|CALRL_HUMAN,tr|A0A2K5XR27|A0A2K5XR27_MANLE,98.915,461,5,0,1,461,1,461,0.0,951,A0A2K5XR27,Calcitonin gene-related peptide type 1 receptor OS=Mandrillus leucophaeus OX=9568 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2K6CYU7|A0A2K6CYU7_MACNE,98.915,461,5,0,1,461,12,472,0.0,951,A0A2K6CYU7,Calcitonin gene-related peptide type 1 receptor OS=Macaca nemestrina OX=9545 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2K5IJ44|A0A2K5IJ44_COLAP,98.915,461,5,0,1,461,1,461,0.0,948,A0A2K5IJ44,Calcitonin gene-related peptide type 1 receptor OS=Colobus angolensis palliatus OX=336983 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2K6LYG5|A0A2K6LYG5_RHIBE,98.482,461,7,0,1,461,1,461,0.0,947,A0A2K6LYG5,Calcitonin gene-related peptide type 1 receptor OS=Rhinopithecus bieti OX=61621 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2K5D4J8|A0A2K5D4J8_AOTNA,96.746,461,15,0,1,461,12,472,0.0,933,A0A2K5D4J8,Calcitonin gene-related peptide type 1 receptor OS=Aotus nancymaae OX=37293 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J3J1Z2|A0A6J3J1Z2_SAPAP,96.746,461,15,0,1,461,12,472,0.0,931,A0A6J3J1Z2,Calcitonin gene-related peptide type 1 receptor OS=Sapajus apella OX=9515 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|F6YRQ5|F6YRQ5_CALJA,96.746,461,15,0,1,461,12,472,0.0,931,F6YRQ5,Calcitonin gene-related peptide type 1 receptor OS=Callithrix jacchus OX=9483 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A5F7ZG23|A0A5F7ZG23_MACMU,98.444,450,7,0,12,461,9,458,0.0,922,A0A5F7ZG23,Calcitonin gene-related peptide type 1 receptor OS=Macaca mulatta OX=9544 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2K6RUM0|A0A2K6RUM0_RHIRO,96.930,456,12,1,1,456,1,454,0.0,917,A0A2K6RUM0,Calcitonin gene-related peptide type 1 receptor OS=Rhinopithecus roxellana OX=61622 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H2P835|H2P835_PONAB,99.550,444,1,1,18,461,1,443,0.0,915,H2P835,Calcitonin gene-related peptide type 1 receptor OS=Pongo abelii OX=9601 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2I3RAK9|A0A2I3RAK9_PANTR,93.305,478,15,1,1,461,1,478,0.0,914,A0A2I3RAK9,Calcitonin gene-related peptide type 1 receptor OS=Pan troglodytes OX=9598 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2K6RUN0|A0A2K6RUN0_RHIRO,99.095,442,4,0,1,442,12,453,0.0,913,A0A2K6RUN0,Calcitonin gene-related peptide type 1 receptor OS=Rhinopithecus roxellana OX=61622 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2K5QVL0|A0A2K5QVL0_CEBIM,96.529,461,16,0,1,461,12,472,0.0,907,A0A2K5QVL0,Calcitonin gene-related peptide type 1 receptor OS=Cebus imitator OX=2715852 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2K6ULC1|A0A2K6ULC1_SAIBB,96.529,461,16,0,1,461,1,461,0.0,906,A0A2K6ULC1,Calcitonin gene-related peptide type 1 receptor OS=Saimiri boliviensis boliviensis OX=39432 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2R9C0G9|A0A2R9C0G9_PANPA,92.355,484,14,3,1,461,1,484,0.0,886,A0A2R9C0G9,Calcitonin gene-related peptide type 1 receptor OS=Pan paniscus OX=9597 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q7THX3|A0A3Q7THX3_VULVU,93.723,462,28,1,1,461,1,462,0.0,884,A0A3Q7THX3,Calcitonin gene-related peptide type 1 receptor OS=Vulpes vulpes OX=9627 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H0WPT5|H0WPT5_OTOGA,94.156,462,26,1,1,461,2,463,0.0,882,H0WPT5,Calcitonin gene-related peptide type 1 receptor OS=Otolemur garnettii OX=30611 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|F1PI78|F1PI78_CANLF,93.506,462,29,1,1,461,1,462,0.0,882,F1PI78,Calcitonin gene-related peptide type 1 receptor OS=Canis lupus familiaris OX=9615 GN=CALCRL PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|F7BDX2|F7BDX2_HORSE,93.290,462,30,1,1,461,2,463,0.0,879,F7BDX2,Calcitonin gene-related peptide type 1 receptor OS=Equus caballus OX=9796 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A452S6C1|A0A452S6C1_URSAM,93.074,462,31,1,1,461,2,463,0.0,878,A0A452S6C1,Calcitonin gene-related peptide type 1 receptor OS=Ursus americanus OX=9643 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q7V7R0|A0A3Q7V7R0_URSAR,93.074,462,31,1,1,461,2,463,0.0,878,A0A3Q7V7R0,Calcitonin gene-related peptide type 1 receptor OS=Ursus arctos horribilis OX=116960 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A384BTH1|A0A384BTH1_URSMA,93.074,462,31,1,1,461,2,463,0.0,878,A0A384BTH1,Calcitonin gene-related peptide type 1 receptor OS=Ursus maritimus OX=29073 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|G1T6G0|G1T6G0_RABIT,96.095,461,18,0,1,461,2,462,0.0,877,G1T6G0,Calcitonin gene-related peptide type 1 receptor OS=Oryctolagus cuniculus OX=9986 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A337SIF8|A0A337SIF8_FELCA,92.641,462,33,1,1,461,2,463,0.0,877,A0A337SIF8,Calcitonin gene-related peptide type 1 receptor OS=Felis catus OX=9685 GN=CALCRL PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|G1LRN6|G1LRN6_AILME,92.857,462,32,1,1,461,21,482,0.0,876,G1LRN6,Calcitonin gene-related peptide type 1 receptor OS=Ailuropoda melanoleuca OX=9646 GN=CALCRL PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A6P6IRD9|A0A6P6IRD9_PUMCO,92.641,462,33,1,1,461,2,463,0.0,875,A0A6P6IRD9,Calcitonin gene-related peptide type 1 receptor OS=Puma concolor OX=9696 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6I9ZUW8|A0A6I9ZUW8_ACIJB,92.641,462,33,1,1,461,2,463,0.0,875,A0A6I9ZUW8,Calcitonin gene-related peptide type 1 receptor OS=Acinonyx jubatus OX=32536 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|I3M129|I3M129_ICTTR,94.130,460,22,2,1,459,1,456,0.0,874,I3M129,Calcitonin gene-related peptide type 1 receptor OS=Ictidomys tridecemlineatus OX=43179 GN=CALCRL PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A2Y9I4B1|A0A2Y9I4B1_NEOSC,92.641,462,33,1,1,461,1,462,0.0,872,A0A2Y9I4B1,Calcitonin gene-related peptide type 1 receptor OS=Neomonachus schauinslandi OX=29088 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q7MCV8|A0A3Q7MCV8_CALUR,92.641,462,33,1,1,461,2,463,0.0,871,A0A3Q7MCV8,Calcitonin gene-related peptide type 1 receptor OS=Callorhinus ursinus OX=34884 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2U3VCX7|A0A2U3VCX7_ODORO,92.424,462,34,1,1,461,2,463,0.0,870,A0A2U3VCX7,Calcitonin gene-related peptide type 1 receptor OS=Odobenus rosmarus divergens OX=9708 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673U624|A0A673U624_SURSU,91.991,462,36,1,1,461,1,462,0.0,870,A0A673U624,Calcitonin gene-related peptide type 1 receptor OS=Suricata suricatta OX=37032 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A5E4CBY8|A0A5E4CBY8_MARMO,93.696,460,24,2,1,459,1,456,0.0,868,A0A5E4CBY8,Calcitonin gene-related peptide type 1 receptor OS=Marmota monax OX=9995 GN=MONAX_5E044742 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2Y9E2F5|A0A2Y9E2F5_TRIMA,91.361,463,37,1,1,460,2,464,0.0,867,A0A2Y9E2F5,Calcitonin gene-related peptide type 1 receptor OS=Trichechus manatus latirostris OX=127582 GN=LOC101355728 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A384B942|A0A384B942_BALAS,93.723,462,28,1,1,461,2,463,0.0,865,A0A384B942,Calcitonin gene-related peptide type 1 receptor OS=Balaenoptera acutorostrata scammoni OX=310752 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2Y9ILQ1|A0A2Y9ILQ1_ENHLU,92.208,462,35,1,1,461,1,462,0.0,865,A0A2Y9ILQ1,Calcitonin gene-related peptide type 1 receptor OS=Enhydra lutris kenyoni OX=391180 GN=LOC111141074 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2Y9EY64|A0A2Y9EY64_PHYMC,93.723,462,28,1,1,461,2,463,0.0,865,A0A2Y9EY64,Calcitonin gene-related peptide type 1 receptor OS=Physeter macrocephalus OX=9755 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7E6DJ42|A0A7E6DJ42_9CHIR,89.107,459,50,0,1,459,2,460,0.0,864,A0A7E6DJ42,Calcitonin gene-related peptide type 1 receptor OS=Phyllostomus discolor OX=89673 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P4MX22|A0A3P4MX22_GULGU,91.775,462,37,1,1,461,1,462,0.0,864,A0A3P4MX22,Calcitonin gene-related peptide type 1 receptor OS=Gulo gulo OX=48420 GN=BN2614_LOCUS1 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A340YGK6|A0A340YGK6_LIPVE,93.709,461,29,0,1,461,2,462,0.0,863,A0A340YGK6,Calcitonin gene-related peptide type 1 receptor OS=Lipotes vexillifer OX=118797 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q0DLA2|A0A3Q0DLA2_CARSF,94.372,462,25,1,1,461,2,463,0.0,863,A0A3Q0DLA2,Calcitonin gene-related peptide type 1 receptor OS=Carlito syrichta OX=1868482 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2Y9MLQ5|A0A2Y9MLQ5_DELLE,93.492,461,30,0,1,461,2,462,0.0,861,A0A2Y9MLQ5,Calcitonin gene-related peptide type 1 receptor OS=Delphinapterus leucas OX=9749 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2U4B211|A0A2U4B211_TURTR,93.492,461,30,0,1,461,2,462,0.0,861,A0A2U4B211,Calcitonin gene-related peptide type 1 receptor OS=Tursiops truncatus OX=9739 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A484GHX2|A0A484GHX2_SOUCH,94.369,444,25,0,18,461,1,444,0.0,860,A0A484GHX2,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Sousa chinensis OX=103600 GN=DBR06_SOUSAS2810218 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6I9LXC0|A0A6I9LXC0_PERMB,90.948,464,39,1,1,461,2,465,0.0,857,A0A6I9LXC0,Calcitonin gene-related peptide type 1 receptor OS=Peromyscus maniculatus bairdii OX=230844 GN=Calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A341BGB7|A0A341BGB7_NEOAA,93.059,461,32,0,1,461,2,462,0.0,857,A0A341BGB7,Calcitonin gene-related peptide type 1 receptor OS=Neophocaena asiaeorientalis asiaeorientalis OX=1706337 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A287A7L3|A0A287A7L3_PIG,92.641,462,33,1,1,461,2,463,0.0,855,A0A287A7L3,Calcitonin gene-related peptide type 1 receptor OS=Sus scrofa OX=9823 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,sp|Q8WN93|CALRL_PIG,92.641,462,33,1,1,461,1,462,0.0,855,Q8WN93,Calcitonin gene-related peptide type 1 receptor OS=Sus scrofa OX=9823 GN=CALCRL PE=1 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P3J3V5|A0A6P3J3V5_BISBI,92.424,462,34,1,1,461,2,463,0.0,854,A0A6P3J3V5,Calcitonin gene-related peptide type 1 receptor OS=Bison bison bison OX=43346 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|L8J0B2|L8J0B2_9CETA,92.424,462,34,1,1,461,2,463,0.0,854,L8J0B2,Calcitonin gene-related peptide type 1 receptor OS=Bos mutus OX=72004 GN=M91_12676 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|W5Q4Y4|W5Q4Y4_SHEEP,92.424,462,34,1,1,461,2,463,0.0,854,W5Q4Y4,Calcitonin gene-related peptide type 1 receptor OS=Ovis aries OX=9940 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J0API8|A0A6J0API8_VICPA,92.424,462,34,1,1,461,2,463,0.0,852,A0A6J0API8,Calcitonin gene-related peptide type 1 receptor OS=Vicugna pacos OX=30538 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W2F5G3|A0A4W2F5G3_BOBOX,92.208,462,35,1,1,461,2,463,0.0,852,A0A4W2F5G3,Calcitonin gene-related peptide type 1 receptor OS=Bos indicus x Bos taurus OX=30522 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|G3X6P6|G3X6P6_BOVIN,92.208,462,35,1,1,461,2,463,0.0,852,G3X6P6,Calcitonin gene-related peptide type 1 receptor OS=Bos taurus OX=9913 GN=CALCRL PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|H0UV86|H0UV86_CAVPO,90.632,459,43,0,1,459,1,459,0.0,852,H0UV86,Calcitonin gene-related peptide type 1 receptor OS=Cavia porcellus OX=10141 GN=CALCRL PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,sp|A6QP74|CALRL_BOVIN,92.208,462,35,1,1,461,1,462,0.0,852,A6QP74,Calcitonin gene-related peptide type 1 receptor OS=Bos taurus OX=9913 GN=CALCRL PE=2 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A6P5CI97|A0A6P5CI97_BOSIN,92.208,462,35,1,1,461,2,463,0.0,851,A0A6P5CI97,Calcitonin gene-related peptide type 1 receptor OS=Bos indicus OX=9915 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A452EBB5|A0A452EBB5_CAPHI,92.208,462,35,1,1,461,2,463,0.0,850,A0A452EBB5,Calcitonin gene-related peptide type 1 receptor OS=Capra hircus OX=9925 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1U8CN20|A0A1U8CN20_MESAU,89.588,461,48,0,1,461,2,462,0.0,849,A0A1U8CN20,Calcitonin gene-related peptide type 1 receptor OS=Mesocricetus auratus OX=10036 GN=Calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6G1AEQ4|A0A6G1AEQ4_CROCR,93.258,445,29,1,18,461,1,445,0.0,848,A0A6G1AEQ4,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Crocuta crocuta OX=9678 GN=Calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A0G2KBD0|A0A0G2KBD0_PIG,91.170,453,39,1,10,461,8,460,0.0,848,A0A0G2KBD0,Calcitonin gene-related peptide type 1 receptor OS=Sus scrofa OX=9823 GN=CALCRL PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A1S3G8Y6|A0A1S3G8Y6_DIPOR,95.349,430,20,0,32,461,38,467,0.0,845,A0A1S3G8Y6,Calcitonin gene-related peptide type 1 receptor OS=Dipodomys ordii OX=10020 GN=Calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A287AL96|A0A287AL96_PIG,91.775,462,33,2,1,461,2,459,0.0,841,A0A287AL96,Calcitonin gene-related peptide type 1 receptor OS=Sus scrofa OX=9823 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A5F9CLN1|A0A5F9CLN1_RABIT,93.059,461,18,1,1,461,2,448,0.0,840,A0A5F9CLN1,Calcitonin gene-related peptide type 1 receptor OS=Oryctolagus cuniculus OX=9986 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P3PYF0|A0A6P3PYF0_PTEVA,90.672,461,43,0,1,461,2,462,0.0,838,A0A6P3PYF0,Calcitonin gene-related peptide type 1 receptor OS=Pteropus vampyrus OX=132908 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671F5F9|A0A671F5F9_RHIFE,91.991,462,34,2,1,459,2,463,0.0,838,A0A671F5F9,Calcitonin gene-related peptide type 1 receptor OS=Rhinolophus ferrumequinum OX=59479 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P3F3L2|A0A6P3F3L2_OCTDE,89.805,461,47,0,1,461,1,461,0.0,833,A0A6P3F3L2,Calcitonin gene-related peptide type 1 receptor OS=Octodon degus OX=10160 GN=Calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6I9JRH2|A0A6I9JRH2_CHRAS,88.121,463,52,1,1,460,2,464,0.0,832,A0A6I9JRH2,Calcitonin gene-related peptide type 1 receptor OS=Chrysochloris asiatica OX=185453 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A5F4CPC6|A0A5F4CPC6_CANLF,95.952,420,17,0,42,461,1,420,0.0,832,A0A5F4CPC6,Calcitonin gene-related peptide type 1 receptor OS=Canis lupus familiaris OX=9615 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|L5JZ92|L5JZ92_PTEAL,90.807,446,41,0,16,461,39,484,0.0,831,L5JZ92,Calcitonin gene-related peptide type 1 receptor OS=Pteropus alecto OX=9402 GN=PAL_GLEAN10026050 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,sp|Q9R1W5|CALRL_MOUSE,90.022,461,45,1,1,461,1,460,0.0,826,Q9R1W5,Calcitonin gene-related peptide type 1 receptor OS=Mus musculus OX=10090 GN=Calcrl PE=1 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A1S3A5C7|A0A1S3A5C7_ERIEU,88.961,462,50,1,1,461,1,462,0.0,822,A0A1S3A5C7,Calcitonin gene-related peptide type 1 receptor OS=Erinaceus europaeus OX=9365 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,sp|Q63118|CALRL_RAT,90.672,461,42,1,1,461,2,461,0.0,822,Q63118,Calcitonin gene-related peptide type 1 receptor OS=Rattus norvegicus OX=10116 GN=Calcrl PE=2 SV=1
+sp|Q16602|CALRL_HUMAN,tr|F7G725|F7G725_ORNAN,87.041,463,57,1,1,460,1,463,0.0,816,F7G725,Calcitonin gene-related peptide type 1 receptor OS=Ornithorhynchus anatinus OX=9258 GN=CALCRL PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|G3STV8|G3STV8_LOXAF,88.496,452,41,3,16,461,13,459,0.0,811,G3STV8,Calcitonin gene-related peptide type 1 receptor OS=Loxodonta africana OX=9785 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|M3YLF0|M3YLF0_MUSPF,92.130,432,33,1,1,431,1,432,0.0,807,M3YLF0,Calcitonin gene-related peptide type 1 receptor OS=Mustela putorius furo OX=9669 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|G1PQT1|G1PQT1_MYOLU,85.185,459,68,0,1,459,2,460,0.0,801,G1PQT1,Calcitonin gene-related peptide type 1 receptor OS=Myotis lucifugus OX=59463 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P5JQA4|A0A6P5JQA4_PHACI,85.529,463,64,1,1,460,2,464,0.0,800,A0A6P5JQA4,Calcitonin gene-related peptide type 1 receptor OS=Phascolarctos cinereus OX=38626 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091LRU7|A0A091LRU7_CARIC,85.111,450,64,2,15,461,1,450,0.0,800,A0A091LRU7,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Cariama cristata OX=54380 GN=N322_08468 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4X2LP32|A0A4X2LP32_VOMUR,85.313,463,65,1,1,460,2,464,0.0,800,A0A4X2LP32,Calcitonin gene-related peptide type 1 receptor OS=Vombatus ursinus OX=29139 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1U7RRM1|A0A1U7RRM1_ALLSI,82.869,467,74,2,1,461,1,467,0.0,800,A0A1U7RRM1,Calcitonin gene-related peptide type 1 receptor OS=Alligator sinensis OX=38654 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|G5BZH4|G5BZH4_HETGA,91.822,428,21,1,34,461,3,416,0.0,797,G5BZH4,Calcitonin gene-related peptide type 1 receptor OS=Heterocephalus glaber OX=10181 GN=GW7_11692 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4D9ESZ6|A0A4D9ESZ6_9SAUR,81.974,466,78,3,1,460,2,467,0.0,796,A0A4D9ESZ6,Calcitonin gene-related peptide type 1 receptor OS=Platysternon megacephalum OX=55544 GN=DR999_PMT01865 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A151NA97|A0A151NA97_ALLMI,84.667,450,66,2,15,461,2,451,0.0,795,A0A151NA97,Calcitonin gene-related peptide type 1 receptor OS=Alligator mississippiensis OX=8496 GN=Y1Q_0008860 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674IAE3|A0A674IAE3_TERCA,81.330,466,81,3,1,460,2,467,0.0,793,A0A674IAE3,Calcitonin gene-related peptide type 1 receptor OS=Terrapene carolina triunguis OX=2587831 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091E6Q4|A0A091E6Q4_CORBR,84.257,451,67,3,15,461,1,451,0.0,793,A0A091E6Q4,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Corvus brachyrhynchos OX=85066 GN=N302_09853 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|F7C0S0|F7C0S0_MONDO,87.191,445,54,1,19,460,44,488,0.0,792,F7C0S0,Calcitonin gene-related peptide type 1 receptor OS=Monodelphis domestica OX=13616 GN=CALCRL PE=3 SV=3
+sp|Q16602|CALRL_HUMAN,tr|A0A7N4PKP0|A0A7N4PKP0_SARHA,84.665,463,68,1,1,460,1,463,0.0,791,A0A7N4PKP0,Calcitonin gene-related peptide type 1 receptor OS=Sarcophilus harrisii OX=9305 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J2I749|A0A6J2I749_9PASS,84.967,459,63,2,9,461,82,540,0.0,790,A0A6J2I749,Calcitonin gene-related peptide type 1 receptor OS=Pipra filicauda OX=649802 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6I9HSY2|A0A6I9HSY2_GEOFO,82.751,458,76,2,7,461,10,467,0.0,789,A0A6I9HSY2,Calcitonin gene-related peptide type 1 receptor OS=Geospiza fortis OX=48883 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J2I7P8|A0A6J2I7P8_9PASS,84.967,459,63,2,9,461,8,466,0.0,788,A0A6J2I7P8,Calcitonin gene-related peptide type 1 receptor OS=Pipra filicauda OX=649802 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J3D8B9|A0A6J3D8B9_AYTFU,84.279,458,69,2,7,461,43,500,0.0,788,A0A6J3D8B9,Calcitonin gene-related peptide type 1 receptor OS=Aythya fuligula OX=219594 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J3D7H2|A0A6J3D7H2_AYTFU,84.279,458,69,2,7,461,10,467,0.0,788,A0A6J3D7H2,Calcitonin gene-related peptide type 1 receptor OS=Aythya fuligula OX=219594 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|U3I706|U3I706_ANAPP,84.061,458,70,2,7,461,10,467,0.0,786,U3I706,Calcitonin gene-related peptide type 1 receptor OS=Anas platyrhynchos platyrhynchos OX=8840 GN=CALCRL PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A663LU01|A0A663LU01_ATHCN,84.716,458,67,2,7,461,10,467,0.0,786,A0A663LU01,Calcitonin gene-related peptide type 1 receptor OS=Athene cunicularia OX=194338 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A663FH61|A0A663FH61_AQUCH,84.716,458,67,2,7,461,10,467,0.0,785,A0A663FH61,Calcitonin gene-related peptide type 1 receptor OS=Aquila chrysaetos chrysaetos OX=223781 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A093F0J7|A0A093F0J7_TYTAL,85.778,450,61,2,15,461,1,450,0.0,785,A0A093F0J7,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Tyto alba OX=56313 GN=N341_11868 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091W3W1|A0A091W3W1_OPIHO,85.778,450,61,2,15,461,1,450,0.0,785,A0A091W3W1,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Opisthocomus hoazin OX=30419 GN=N306_03186 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A093H4H6|A0A093H4H6_STRCA,85.778,450,61,2,15,461,1,450,0.0,784,A0A093H4H6,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Struthio camelus australis OX=441894 GN=N308_05315 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672UDA5|A0A672UDA5_STRHB,84.498,458,68,2,7,461,10,467,0.0,783,A0A672UDA5,Calcitonin gene-related peptide type 1 receptor OS=Strigops habroptila OX=2489341 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091NZJ7|A0A091NZJ7_HALAL,85.556,450,62,2,15,461,1,450,0.0,783,A0A091NZJ7,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Haliaeetus albicilla OX=8969 GN=Calcrl_0 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A0A0ARY3|A0A0A0ARY3_CHAVO,85.556,450,62,2,15,461,1,450,0.0,783,A0A0A0ARY3,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Charadrius vociferus OX=50402 GN=N301_02384 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091M2Y3|A0A091M2Y3_CATAU,85.556,450,62,2,15,461,1,450,0.0,783,A0A091M2Y3,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Cathartes aura OX=43455 GN=N323_13099 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091JJG7|A0A091JJG7_EGRGA,85.556,450,62,2,15,461,1,450,0.0,783,A0A091JJG7,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Egretta garzetta OX=188379 GN=Z169_07100 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091WEE7|A0A091WEE7_NIPNI,88.046,435,50,1,29,461,16,450,0.0,783,A0A091WEE7,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Nipponia nippon OX=128390 GN=Y956_13846 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A093HJR0|A0A093HJR0_GAVST,85.333,450,63,2,15,461,1,450,0.0,782,A0A093HJR0,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Gavia stellata OX=37040 GN=N328_01419 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091Q2M9|A0A091Q2M9_LEPDC,85.556,450,62,2,15,461,1,450,0.0,782,A0A091Q2M9,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Leptosomus discolor OX=188344 GN=N330_03404 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091QG96|A0A091QG96_MERNU,85.778,450,61,2,15,461,1,450,0.0,782,A0A091QG96,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Merops nubicus OX=57421 GN=N331_06824 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A093NLW7|A0A093NLW7_PYGAD,85.556,450,62,2,15,461,1,450,0.0,782,A0A093NLW7,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Pygoscelis adeliae OX=9238 GN=AS28_05036 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A093G9J0|A0A093G9J0_DRYPU,87.816,435,51,1,29,461,16,450,0.0,782,A0A093G9J0,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Dryobates pubescens OX=118200 GN=N307_05621 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091K2A4|A0A091K2A4_COLST,85.556,450,62,2,15,461,1,450,0.0,782,A0A091K2A4,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Colius striatus OX=57412 GN=N325_07565 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A087QNL5|A0A087QNL5_APTFO,85.556,450,62,2,15,461,1,450,0.0,782,A0A087QNL5,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Aptenodytes forsteri OX=9233 GN=AS27_08754 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091TL32|A0A091TL32_PHALP,85.556,450,62,2,15,461,1,450,0.0,781,A0A091TL32,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Phaethon lepturus OX=97097 GN=N335_13120 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A093T3I2|A0A093T3I2_PHACA,85.333,450,63,2,15,461,1,450,0.0,781,A0A093T3I2,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Phalacrocorax carbo OX=9209 GN=N336_08662 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A094KAG5|A0A094KAG5_ANTCR,85.556,450,62,2,15,461,1,450,0.0,781,A0A094KAG5,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Antrostomus carolinensis OX=279965 GN=N321_04744 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A452GZJ8|A0A452GZJ8_9SAUR,80.258,466,86,3,1,460,2,467,0.0,781,A0A452GZJ8,Calcitonin gene-related peptide type 1 receptor OS=Gopherus agassizii OX=38772 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A218UFD0|A0A218UFD0_9PASE,85.556,450,62,2,15,461,20,469,0.0,781,A0A218UFD0,Calcitonin gene-related peptide type 1 receptor OS=Lonchura striata domestica OX=299123 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A093ITY0|A0A093ITY0_EURHL,85.556,450,62,2,15,461,1,450,0.0,781,A0A093ITY0,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Eurypyga helias OX=54383 GN=N326_12406 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A0Q3U406|A0A0Q3U406_AMAAE,84.061,458,70,2,7,461,10,467,0.0,781,A0A0Q3U406,Calcitonin gene-related peptide type 1 receptor OS=Amazona aestiva OX=12930 GN=AAES_03716 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H0ZLG4|H0ZLG4_TAEGU,85.556,450,62,2,15,461,20,469,0.0,781,H0ZLG4,Calcitonin gene-related peptide type 1 receptor OS=Taeniopygia guttata OX=59729 GN=CALCRL PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A091UAS3|A0A091UAS3_PHORB,85.333,450,63,2,15,461,1,450,0.0,780,A0A091UAS3,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Phoenicopterus ruber ruber OX=9218 GN=N337_09754 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091MQK9|A0A091MQK9_9PASS,85.111,450,64,2,15,461,1,450,0.0,780,A0A091MQK9,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Acanthisitta chloris OX=57068 GN=N310_04957 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091HF03|A0A091HF03_BUCRH,85.111,450,64,2,15,461,1,450,0.0,779,A0A091HF03,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Buceros rhinoceros silvestris OX=175836 GN=N320_12314 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091RR22|A0A091RR22_NESNO,85.111,450,64,2,15,461,1,450,0.0,779,A0A091RR22,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Nestor notabilis OX=176057 GN=N333_02470 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A093BYX9|A0A093BYX9_9AVES,85.333,450,63,2,15,461,5,454,0.0,779,A0A093BYX9,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Pterocles gutturalis OX=240206 GN=N339_09672 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091I736|A0A091I736_CALAN,87.356,435,53,1,29,461,16,450,0.0,778,A0A091I736,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Calypte anna OX=9244 GN=N300_13534 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091GHE4|A0A091GHE4_9AVES,85.111,450,64,2,15,461,1,450,0.0,778,A0A091GHE4,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Cuculus canorus OX=55661 GN=N303_01540 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A093C798|A0A093C798_TAUER,85.111,450,64,2,15,461,1,450,0.0,778,A0A093C798,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Tauraco erythrolophus OX=121530 GN=N340_04678 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1V4K8D3|A0A1V4K8D3_PATFA,82.441,467,72,2,4,460,369,835,0.0,775,A0A1V4K8D3,Calcitonin gene-related peptide type 1 receptor OS=Patagioenas fasciata monilis OX=372326 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A5J5MM65|A0A5J5MM65_MUNRE,86.067,445,34,2,18,461,1,418,0.0,775,A0A5J5MM65,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Muntiacus reevesi OX=9886 GN=FD755_009117 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1V4K6R4|A0A1V4K6R4_PATFA,82.441,467,72,2,4,460,362,828,0.0,774,A0A1V4K6R4,Calcitonin gene-related peptide type 1 receptor OS=Patagioenas fasciata monilis OX=372326 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669R0Q1|A0A669R0Q1_PHACC,83.700,454,71,2,11,461,16,469,0.0,773,A0A669R0Q1,Calcitonin gene-related peptide type 1 receptor OS=Phasianus colchicus OX=9054 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|G1MZI1|G1MZI1_MELGA,82.189,466,73,2,6,461,2,467,0.0,773,G1MZI1,Calcitonin gene-related peptide type 1 receptor OS=Meleagris gallopavo OX=9103 GN=CALCRL PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A674GC24|A0A674GC24_TAEGU,85.111,450,62,3,15,461,20,467,0.0,772,A0A674GC24,Calcitonin gene-related peptide type 1 receptor OS=Taeniopygia guttata OX=59729 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|U3JPH5|U3JPH5_FICAL,82.789,459,73,2,9,461,9,467,0.0,771,U3JPH5,Calcitonin gene-related peptide type 1 receptor OS=Ficedula albicollis OX=59894 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669QLF4|A0A669QLF4_PHACC,84.753,446,64,2,18,461,2,445,0.0,771,A0A669QLF4,Calcitonin gene-related peptide type 1 receptor OS=Phasianus colchicus OX=9054 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3L8SG01|A0A3L8SG01_CHLGU,80.042,481,62,3,15,461,48,528,0.0,766,A0A3L8SG01,Calcitonin gene-related peptide type 1 receptor OS=Chloebia gouldiae OX=44316 GN=DV515_00008435 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2I0MIN0|A0A2I0MIN0_COLLI,80.131,458,72,3,7,461,9,450,0.0,759,A0A2I0MIN0,Calcitonin gene-related peptide type 1 receptor OS=Columba livia OX=8932 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|C5HV42|C5HV42_CHICK,82.159,454,71,3,6,449,2,455,0.0,755,C5HV42,Calcitonin gene-related peptide type 1 receptor OS=Gallus gallus OX=9031 GN=CALCRL PE=2 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A803K353|A0A803K353_XENTR,82.774,447,70,3,20,460,35,480,0.0,753,A0A803K353,Calcitonin gene-related peptide type 1 receptor OS=Xenopus tropicalis OX=8364 GN=calcrl PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,sp|Q0P4Y4|CALRL_XENTR,82.774,447,70,3,20,460,26,471,0.0,753,Q0P4Y4,Calcitonin gene-related peptide type 1 receptor OS=Xenopus tropicalis OX=8364 GN=calcrl PE=2 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6I8T0S3|A0A6I8T0S3_XENTR,82.774,447,70,3,20,460,7,452,0.0,752,A0A6I8T0S3,Calcitonin receptor OS=Xenopus tropicalis OX=8364 GN=calcrl PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|K7FMC3|K7FMC3_PELSI,81.545,466,80,2,1,460,2,467,0.0,749,K7FMC3,Calcitonin gene-related peptide type 1 receptor OS=Pelodiscus sinensis OX=13735 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1L8EXE0|A0A1L8EXE0_XENLA,82.143,448,72,5,18,460,35,479,0.0,746,A0A1L8EXE0,Calcitonin gene-related peptide type 1 receptor OS=Xenopus laevis OX=8355 GN=calcrl.L PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H3A3T7|H3A3T7_LATCH,79.914,463,88,4,1,461,6,465,0.0,743,H3A3T7,Calcitonin gene-related peptide type 1 receptor OS=Latimeria chalumnae OX=7897 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674GI76|A0A674GI76_TAEGU,82.667,450,61,3,15,461,20,455,0.0,743,A0A674GI76,Calcitonin gene-related peptide type 1 receptor OS=Taeniopygia guttata OX=59729 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7YK24|A0A6P7YK24_9AMPH,78.710,465,92,2,1,460,1,463,0.0,743,A0A6P7YK24,Calcitonin gene-related peptide type 1 receptor OS=Microcaecilia unicolor OX=1415580 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A384BSA0|A0A384BSA0_URSMA,93.367,392,25,1,1,391,2,393,0.0,742,A0A384BSA0,Calcitonin gene-related peptide type 1 receptor OS=Ursus maritimus OX=29073 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8QZ59|A0A6P8QZ59_GEOSA,77.516,467,98,2,1,460,54,520,0.0,738,A0A6P8QZ59,Calcitonin gene-related peptide type 1 receptor OS=Geotrypetes seraphini OX=260995 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2U3X6F2|A0A2U3X6F2_LEPWE,93.606,391,24,1,1,390,2,392,0.0,738,A0A2U3X6F2,Calcitonin gene-related peptide type 1 receptor OS=Leptonychotes weddellii OX=9713 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8QS13|A0A6P8QS13_GEOSA,77.516,467,98,2,1,460,1,467,0.0,737,A0A6P8QS13,Calcitonin gene-related peptide type 1 receptor OS=Geotrypetes seraphini OX=260995 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H3A3T8|H3A3T8_LATCH,79.266,463,92,3,1,460,1,462,0.0,737,H3A3T8,Calcitonin gene-related peptide type 1 receptor OS=Latimeria chalumnae OX=7897 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A226N054|A0A226N054_CALSU,83.678,435,55,2,29,461,35,455,0.0,736,A0A226N054,Calcitonin gene-related peptide type 1 receptor OS=Callipepla squamata OX=9009 GN=ASZ78_009403 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3M0LH24|A0A3M0LH24_HIRRU,81.473,448,68,2,15,461,37,470,0.0,734,A0A3M0LH24,Calcitonin gene-related peptide type 1 receptor OS=Hirundo rustica rustica OX=333673 GN=DUI87_04263 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J0Z716|A0A6J0Z716_ODOVR,93.899,377,23,0,85,461,1,377,0.0,720,A0A6J0Z716,Calcitonin gene-related peptide type 1 receptor OS=Odocoileus virginianus texanus OX=9880 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|S7MTC1|S7MTC1_MYOBR,87.909,397,48,0,63,459,1,397,0.0,717,S7MTC1,Calcitonin gene-related peptide type 1 receptor OS=Myotis brandtii OX=109478 GN=D623_10011478 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669QI32|A0A669QI32_PHACC,81.922,437,59,3,15,445,12,434,0.0,716,A0A669QI32,Calcitonin gene-related peptide type 1 receptor OS=Phasianus colchicus OX=9054 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A226PDG3|A0A226PDG3_COLVI,87.065,402,50,1,62,461,24,425,0.0,714,A0A226PDG3,Calcitonin gene-related peptide type 1 receptor OS=Colinus virginianus OX=9014 GN=H355_005146 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|Z4YI91|Z4YI91_DANRE,73.942,449,111,2,16,458,23,471,0.0,710,Z4YI91,Calcitonin gene-related peptide type 1 receptor OS=Danio rerio OX=7955 GN=calcrla PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,sp|Q68EK2|CALRL_DANRE,73.719,449,112,2,16,458,19,467,0.0,708,Q68EK2,Calcitonin gene-related peptide type 1 receptor OS=Danio rerio OX=7955 GN=calcrla PE=2 SV=1
+sp|Q16602|CALRL_HUMAN,tr|G1K3G3|G1K3G3_XENTR,79.418,447,81,4,20,460,31,472,0.0,703,G1K3G3,Calcitonin gene-related peptide type 1 receptor OS=Xenopus tropicalis OX=8364 GN=calcrl PE=3 SV=4
+sp|Q16602|CALRL_HUMAN,tr|F6SBT3|F6SBT3_XENTR,80.876,434,76,3,29,460,9,437,0.0,701,F6SBT3,Calcitonin gene-related peptide type 1 receptor OS=Xenopus tropicalis OX=8364 GN=calcrl PE=3 SV=3
+sp|Q16602|CALRL_HUMAN,tr|A0A401NRT8|A0A401NRT8_SCYTO,73.504,468,115,3,1,459,45,512,0.0,694,A0A401NRT8,Calcitonin gene-related peptide type 1 receptor OS=Scyliorhinus torazame OX=75743 GN=scyTo_0007410 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H2MHJ6|H2MHJ6_ORYLA,73.556,450,112,4,16,458,10,459,0.0,687,H2MHJ6,Calcitonin gene-related peptide type 1 receptor OS=Oryzias latipes OX=8090 GN=calcrl PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A670HVJ2|A0A670HVJ2_PODMU,69.679,498,113,3,1,460,1,498,0.0,686,A0A670HVJ2,Calcitonin gene-related peptide type 1 receptor OS=Podarcis muralis OX=64176 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8QZ63|A0A6P8QZ63_GEOSA,82.469,405,69,1,58,460,23,427,0.0,684,A0A6P8QZ63,Calcitonin gene-related peptide type 1 receptor OS=Geotrypetes seraphini OX=260995 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3B3IIJ1|A0A3B3IIJ1_ORYLA,76.224,429,99,3,33,458,45,473,0.0,684,A0A3B3IIJ1,Calcitonin gene-related peptide type 1 receptor OS=Oryzias latipes OX=8090 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A437C749|A0A437C749_ORYJA,75.638,431,102,3,33,460,109,539,0.0,683,A0A437C749,Calcitonin gene-related peptide type 1 receptor OS=Oryzias javanicus OX=123683 GN=OJAV_G00209260 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N6BH40|A0A7N6BH40_ANATE,71.429,462,126,4,3,458,11,472,0.0,682,A0A7N6BH40,Calcitonin receptor-like a OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A401S973|A0A401S973_CHIPU,75.909,440,96,3,20,455,69,502,0.0,681,A0A401S973,Calcitonin gene-related peptide type 1 receptor OS=Chiloscyllium punctatum OX=137246 GN=chiPu_0005310 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7LFL0|A0A6P7LFL0_BETSP,70.878,467,126,5,1,458,1,466,0.0,681,A0A6P7LFL0,Calcitonin receptor OS=Betta splendens OX=158456 GN=LOC114847469 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W3IXQ6|A0A4W3IXQ6_CALMI,76.027,438,102,2,25,460,40,476,0.0,681,A0A4W3IXQ6,Calcitonin gene-related peptide type 1 receptor OS=Callorhinchus milii OX=7868 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A087V9B3|A0A087V9B3_BALRE,88.391,379,43,1,15,392,1,379,0.0,680,A0A087V9B3,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Balearica regulorum gibbericeps OX=100784 GN=N312_06430 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H9G4S5|H9G4S5_ANOCA,73.434,463,116,5,4,460,4,465,0.0,680,H9G4S5,Calcitonin gene-related peptide type 1 receptor OS=Anolis carolinensis OX=28377 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1I313|A0A3Q1I313_ANATE,73.094,446,113,4,17,458,6,448,0.0,679,A0A3Q1I313,Calcitonin gene-related peptide type 1 receptor OS=Anabas testudineus OX=64144 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A6J0V295|A0A6J0V295_9SAUR,77.294,436,96,2,29,461,46,481,0.0,678,A0A6J0V295,Calcitonin gene-related peptide type 1 receptor OS=Pogona vitticeps OX=103695 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671T2Y6|A0A671T2Y6_9TELE,73.673,452,113,2,13,458,10,461,0.0,678,A0A671T2Y6,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107660651 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N6AR82|A0A7N6AR82_ANATE,71.930,456,121,4,7,458,3,455,0.0,678,A0A7N6AR82,Calcitonin receptor-like a OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N6BZA8|A0A7N6BZA8_ANATE,73.274,449,111,5,16,458,17,462,0.0,678,A0A7N6BZA8,Calcitonin receptor-like a OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N6FLS5|A0A7N6FLS5_ANATE,72.667,450,115,5,13,458,13,458,0.0,677,A0A7N6FLS5,Calcitonin receptor-like a OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N6B1V3|A0A7N6B1V3_ANATE,73.864,440,108,4,23,458,31,467,0.0,677,A0A7N6B1V3,Calcitonin receptor-like a OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671T4B3|A0A671T4B3_9TELE,74.000,450,110,3,16,458,6,455,0.0,676,A0A671T4B3,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107660651 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|W5MG28|W5MG28_LEPOC,71.522,460,125,2,7,460,9,468,0.0,676,W5MG28,Calcitonin gene-related peptide type 1 receptor OS=Lepisosteus oculatus OX=7918 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672S0J1|A0A672S0J1_SINGR,73.719,449,112,2,16,458,3,451,0.0,676,A0A672S0J1,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107602163 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A484CW34|A0A484CW34_PERFV,76.636,428,98,2,33,458,78,505,0.0,675,A0A484CW34,Calcitonin gene-related peptide type 1 receptor OS=Perca flavescens OX=8167 GN=EPR50_G00120850 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671T6J5|A0A671T6J5_9TELE,76.995,426,97,1,34,458,34,459,0.0,675,A0A671T6J5,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107660651 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N5ZQA6|A0A7N5ZQA6_ANATE,75.234,428,101,3,33,458,16,440,0.0,675,A0A7N5ZQA6,Calcitonin receptor-like a OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|W5MG41|W5MG41_LEPOC,72.667,450,117,2,17,460,29,478,0.0,674,W5MG41,Calcitonin gene-related peptide type 1 receptor OS=Lepisosteus oculatus OX=7918 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672RYL5|A0A672RYL5_SINGR,73.556,450,112,3,16,458,23,472,0.0,673,A0A672RYL5,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107602163 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1GKM9|A0A3Q1GKM9_9TELE,77.103,428,96,2,33,458,48,475,0.0,673,A0A3Q1GKM9,Calcitonin gene-related peptide type 1 receptor OS=Acanthochromis polyacanthus OX=80966 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671T5Q1|A0A671T5Q1_9TELE,74.661,442,106,3,19,458,1,438,0.0,673,A0A671T5Q1,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107660651 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1CTC1|A0A3Q1CTC1_AMPOC,77.103,428,96,2,33,458,48,475,0.0,673,A0A3Q1CTC1,Calcitonin gene-related peptide type 1 receptor OS=Amphiprion ocellaris OX=80972 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P6Q4S6|A0A6P6Q4S6_CARAU,73.778,450,111,3,16,458,23,472,0.0,672,A0A6P6Q4S6,Calcitonin gene-related peptide type 1 receptor OS=Carassius auratus OX=7957 GN=LOC113108339 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8S4U9|A0A3P8S4U9_AMPPE,77.103,428,96,2,33,458,35,462,0.0,672,A0A3P8S4U9,Calcitonin gene-related peptide type 1 receptor OS=Amphiprion percula OX=161767 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671T6C6|A0A671T6C6_9TELE,73.171,451,115,3,10,458,8,454,0.0,672,A0A671T6C6,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107660651 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6A5ESY4|A0A6A5ESY4_PERFL,71.520,467,124,3,1,458,9,475,0.0,672,A0A6A5ESY4,Calcitonin gene-related peptide type 1 receptor OS=Perca fluviatilis OX=8168 GN=PFLUV_G00142190 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671T6K0|A0A671T6K0_9TELE,74.830,441,105,3,20,458,10,446,0.0,672,A0A671T6K0,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107660651 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671T6D4|A0A671T6D4_9TELE,74.830,441,105,3,20,458,31,467,0.0,672,A0A671T6D4,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107660651 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672RZA9|A0A672RZA9_SINGR,73.068,453,111,3,12,458,5,452,0.0,671,A0A672RZA9,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107602163 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671T4B8|A0A671T4B8_9TELE,74.830,441,105,3,20,458,19,455,0.0,671,A0A671T4B8,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107660651 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673G2X4|A0A673G2X4_9TELE,71.739,460,124,2,5,458,5,464,0.0,671,A0A673G2X4,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107728927 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665VKR3|A0A665VKR3_ECHNA,76.581,427,98,2,34,458,49,475,0.0,671,A0A665VKR3,Calcitonin gene-related peptide type 1 receptor OS=Echeneis naucrates OX=173247 GN=LOC115062090 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672RZX6|A0A672RZX6_SINGR,76.526,426,99,1,34,458,39,464,0.0,671,A0A672RZX6,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107602163 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672RYN3|A0A672RYN3_SINGR,73.719,449,108,3,16,458,20,464,0.0,671,A0A672RYN3,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107602163 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665VKK4|A0A665VKK4_ECHNA,76.402,428,99,2,33,458,25,452,0.0,670,A0A665VKK4,Calcitonin gene-related peptide type 1 receptor OS=Echeneis naucrates OX=173247 GN=LOC115062090 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P6KTJ5|A0A6P6KTJ5_CARAU,73.009,452,116,2,16,461,23,474,0.0,670,A0A6P6KTJ5,Calcitonin gene-related peptide type 1 receptor OS=Carassius auratus OX=7957 GN=LOC113053700 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673G2W9|A0A673G2W9_9TELE,72.391,460,117,3,5,458,2,457,0.0,670,A0A673G2W9,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107728927 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671W4F9|A0A671W4F9_SPAAU,73.719,449,110,3,18,458,26,474,0.0,670,A0A671W4F9,Calcitonin gene-related peptide type 1 receptor OS=Sparus aurata OX=8175 GN=LOC115588250 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665VLZ3|A0A665VLZ3_ECHNA,72.294,462,118,5,5,458,12,471,0.0,670,A0A665VLZ3,Calcitonin gene-related peptide type 1 receptor OS=Echeneis naucrates OX=173247 GN=LOC115062090 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672RZF6|A0A672RZF6_SINGR,76.526,426,99,1,34,458,29,454,0.0,670,A0A672RZF6,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107602163 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672RZY5|A0A672RZY5_SINGR,73.884,448,107,3,17,458,30,473,0.0,670,A0A672RZY5,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107602163 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665VKN4|A0A665VKN4_ECHNA,72.985,459,114,5,10,458,13,471,0.0,669,A0A665VKN4,Calcitonin gene-related peptide type 1 receptor OS=Echeneis naucrates OX=173247 GN=LOC115062090 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673B288|A0A673B288_9TELE,73.036,471,110,7,2,458,10,477,0.0,669,A0A673B288,Calcitonin gene-related peptide type 1 receptor OS=Sphaeramia orbicularis OX=375764 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672RZX1|A0A672RZX1_SINGR,73.333,450,109,3,15,458,11,455,0.0,669,A0A672RZX1,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107602163 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672RZB6|A0A672RZB6_SINGR,76.526,426,99,1,34,458,15,440,0.0,669,A0A672RZB6,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107602163 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665VKF0|A0A665VKF0_ECHNA,72.294,462,118,5,5,458,17,476,0.0,669,A0A665VKF0,Calcitonin gene-related peptide type 1 receptor OS=Echeneis naucrates OX=173247 GN=LOC115062090 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A087YBN2|A0A087YBN2_POEFO,73.187,455,115,3,13,460,23,477,0.0,668,A0A087YBN2,Calcitonin gene-related peptide type 1 receptor OS=Poecilia formosa OX=48698 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673G2E5|A0A673G2E5_9TELE,73.111,450,114,3,16,458,23,472,0.0,667,A0A673G2E5,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107728927 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665VM65|A0A665VM65_ECHNA,76.815,427,96,3,33,456,22,448,0.0,667,A0A665VM65,Calcitonin gene-related peptide type 1 receptor OS=Echeneis naucrates OX=173247 GN=LOC115062090 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8UXQ9|A0A6P8UXQ9_GYMAC,71.306,467,125,4,1,458,9,475,0.0,667,A0A6P8UXQ9,Calcitonin receptor OS=Gymnodraco acuticeps OX=8218 GN=calcrla PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673B7B6|A0A673B7B6_9TELE,74.607,445,110,3,17,458,1,445,0.0,667,A0A673B7B6,Calcitonin gene-related peptide type 1 receptor OS=Sphaeramia orbicularis OX=375764 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P6KR30|A0A6P6KR30_CARAU,72.848,453,116,3,16,461,23,475,0.0,667,A0A6P6KR30,Calcitonin gene-related peptide type 1 receptor OS=Carassius auratus OX=7957 GN=LOC113053700 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673B785|A0A673B785_9TELE,78.037,428,89,4,33,458,25,449,0.0,667,A0A673B785,Calcitonin gene-related peptide type 1 receptor OS=Sphaeramia orbicularis OX=375764 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673G3L3|A0A673G3L3_9TELE,73.923,441,113,2,20,458,26,466,0.0,667,A0A673G3L3,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107728927 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A315VRU3|A0A315VRU3_GAMAF,73.187,455,115,3,13,460,76,530,0.0,667,A0A315VRU3,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Gambusia affinis OX=33528 GN=CCH79_00013756 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3WD14|A0A3Q3WD14_MOLML,76.457,429,98,3,33,458,23,451,0.0,666,A0A3Q3WD14,Calcitonin gene-related peptide type 1 receptor OS=Mola mola OX=94237 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673FYS2|A0A673FYS2_9TELE,73.274,449,110,3,16,458,2,446,0.0,666,A0A673FYS2,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107728927 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6CZ06|A0A4W6CZ06_LATCA,76.869,428,97,2,33,458,48,475,0.0,666,A0A4W6CZ06,Calcitonin gene-related peptide type 1 receptor OS=Lates calcarifer OX=8187 GN=LOC108887693 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673G3J7|A0A673G3J7_9TELE,73.923,441,113,2,20,458,32,472,0.0,665,A0A673G3J7,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107728927 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6CYE8|A0A4W6CYE8_LATCA,76.869,428,97,2,33,458,32,459,0.0,665,A0A4W6CYE8,Calcitonin gene-related peptide type 1 receptor OS=Lates calcarifer OX=8187 GN=LOC108887693 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6CZ66|A0A4W6CZ66_LATCA,76.869,428,97,2,33,458,20,447,0.0,665,A0A4W6CZ66,Calcitonin gene-related peptide type 1 receptor OS=Lates calcarifer OX=8187 GN=LOC108887693 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P9Q9I6|A0A3P9Q9I6_POERE,72.294,462,121,3,6,460,16,477,0.0,665,A0A3P9Q9I6,Calcitonin gene-related peptide type 1 receptor OS=Poecilia reticulata OX=8081 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673FTY9|A0A673FTY9_9TELE,73.864,440,113,2,21,458,22,461,0.0,665,A0A673FTY9,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107728927 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6CZ75|A0A4W6CZ75_LATCA,77.412,425,94,2,33,455,31,455,0.0,665,A0A4W6CZ75,Calcitonin gene-related peptide type 1 receptor OS=Lates calcarifer OX=8187 GN=LOC108887693 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3B5Q066|A0A3B5Q066_XIPMA,72.198,464,122,3,4,460,14,477,0.0,665,A0A3B5Q066,Uncharacterized protein OS=Xiphophorus maculatus OX=8083 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P9CQ06|A0A6P9CQ06_PANGU,74.942,431,104,3,34,461,47,476,0.0,665,A0A6P9CQ06,Calcitonin gene-related peptide type 1 receptor OS=Pantherophis guttatus OX=94885 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8GSY1|A0A6P8GSY1_CLUHA,75.644,427,102,2,33,458,45,470,0.0,665,A0A6P8GSY1,Calcitonin gene-related peptide type 1 receptor OS=Clupea harengus OX=7950 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J1U7K3|A0A6J1U7K3_9SAUR,74.478,431,106,3,34,461,65,494,0.0,665,A0A6J1U7K3,Calcitonin gene-related peptide type 1 receptor OS=Notechis scutatus OX=8663 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J1TZ72|A0A6J1TZ72_9SAUR,74.478,431,106,3,34,461,47,476,0.0,665,A0A6J1TZ72,Calcitonin gene-related peptide type 1 receptor OS=Notechis scutatus OX=8663 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J1U0D8|A0A6J1U0D8_9SAUR,74.478,431,106,3,34,461,58,487,0.0,665,A0A6J1U0D8,Calcitonin gene-related peptide type 1 receptor OS=Notechis scutatus OX=8663 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A670XWI8|A0A670XWI8_PSETE,74.478,431,106,3,34,461,58,487,0.0,665,A0A670XWI8,Calcitonin gene-related peptide type 1 receptor OS=Pseudonaja textilis OX=8673 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673FYS5|A0A673FYS5_9TELE,76.056,426,101,1,34,458,23,448,0.0,664,A0A673FYS5,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107728927 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|M3ZY64|M3ZY64_XIPMA,73.230,452,114,3,16,460,8,459,0.0,664,M3ZY64,Calcitonin gene-related peptide type 1 receptor OS=Xiphophorus maculatus OX=8083 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A5A9P4B4|A0A5A9P4B4_9TELE,72.383,449,117,3,16,458,19,466,0.0,663,A0A5A9P4B4,Calcitonin gene-related peptide type 1 receptor OS=Triplophysa tibetana OX=1572043 GN=E1301_Tti010105 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J2WIE6|A0A6J2WIE6_CHACN,75.581,430,103,2,33,460,40,469,0.0,663,A0A6J2WIE6,Calcitonin gene-related peptide type 1 receptor OS=Chanos chanos OX=29144 GN=LOC115823210 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J1Z0F7|A0A6J1Z0F7_ACIJB,93.220,354,23,1,1,353,2,355,0.0,662,A0A6J1Z0F7,Calcitonin gene-related peptide type 1 receptor OS=Acinonyx jubatus OX=32536 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N8WMT4|A0A7N8WMT4_9TELE,73.874,444,112,3,22,461,16,459,0.0,662,A0A7N8WMT4,Calcitonin receptor-like a OS=Mastacembelus armatus OX=205130 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2U9C884|A0A2U9C884_SCOMX,75.991,429,101,2,34,460,369,797,0.0,662,A0A2U9C884,Calcitonin gene-related peptide type 1 receptor OS=Scophthalmus maximus OX=52904 GN=SMAX5B_018205 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6Q2YM71|A0A6Q2YM71_ESOLU,76.168,428,100,2,33,458,28,455,0.0,662,A0A6Q2YM71,Calcitonin gene-related peptide type 1 receptor OS=Esox lucius OX=8010 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6Q2Y605|A0A6Q2Y605_ESOLU,76.168,428,100,2,33,458,45,472,0.0,662,A0A6Q2Y605,Calcitonin gene-related peptide type 1 receptor OS=Esox lucius OX=8010 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6Q2YNJ1|A0A6Q2YNJ1_ESOLU,76.168,428,99,3,33,458,48,474,0.0,662,A0A6Q2YNJ1,Calcitonin gene-related peptide type 1 receptor OS=Esox lucius OX=8010 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A667YQZ6|A0A667YQZ6_9TELE,72.331,459,117,5,10,458,30,488,0.0,661,A0A667YQZ6,Calcitonin gene-related peptide type 1 receptor OS=Myripristis murdjan OX=586833 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A667YYG7|A0A667YYG7_9TELE,72.331,459,117,5,10,458,9,467,0.0,661,A0A667YYG7,Calcitonin gene-related peptide type 1 receptor OS=Myripristis murdjan OX=586833 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2P4T722|A0A2P4T722_BAMTH,88.462,364,42,0,29,392,16,379,0.0,661,A0A2P4T722,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Bambusicola thoracicus OX=9083 GN=CIB84_004095 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673G3K2|A0A673G3K2_9TELE,74.541,436,105,3,25,458,21,452,0.0,661,A0A673G3K2,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107728927 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672LX10|A0A672LX10_SINGR,71.610,472,120,4,1,458,10,481,0.0,661,A0A672LX10,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584159 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6G0J7D1|A0A6G0J7D1_LARCR,76.402,428,98,3,33,458,48,474,0.0,661,A0A6G0J7D1,Calcitonin gene-related peptide type 1 receptor OS=Larimichthys crocea OX=215358 GN=D5F01_LYC02028 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8YQP0|A0A3P8YQP0_ESOLU,76.168,428,100,2,33,458,51,478,0.0,661,A0A3P8YQP0,Calcitonin gene-related peptide type 1 receptor OS=Esox lucius OX=8010 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673Y470|A0A673Y470_SALTR,72.377,467,113,5,1,458,1,460,0.0,660,A0A673Y470,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115161319 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672M1U0|A0A672M1U0_SINGR,71.610,472,120,4,1,458,1,472,0.0,660,A0A672M1U0,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584159 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|G3NCR5|G3NCR5_GASAC,75.638,431,100,4,33,458,48,478,0.0,660,G3NCR5,Calcitonin gene-related peptide type 1 receptor OS=Gasterosteus aculeatus OX=69293 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6Q2Z240|A0A6Q2Z240_ESOLU,76.168,428,100,2,33,458,39,466,0.0,660,A0A6Q2Z240,Calcitonin gene-related peptide type 1 receptor OS=Esox lucius OX=8010 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H2SWF2|H2SWF2_TAKRU,75.467,428,103,2,33,458,72,499,0.0,660,H2SWF2,Calcitonin gene-related peptide type 1 receptor OS=Takifugu rubripes OX=31033 GN=calcrl PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A667Z6S0|A0A667Z6S0_9TELE,75.467,428,103,2,33,458,42,469,0.0,659,A0A667Z6S0,Calcitonin gene-related peptide type 1 receptor OS=Myripristis murdjan OX=586833 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672M277|A0A672M277_SINGR,73.246,456,115,3,10,458,22,477,0.0,659,A0A672M277,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584159 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KT10|A0A671KT10_9TELE,73.246,456,115,3,10,458,4,459,0.0,659,A0A671KT10,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107657513 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A5C6PNG0|A0A5C6PNG0_9TELE,75.467,428,103,2,33,458,72,499,0.0,659,A0A5C6PNG0,Calcitonin gene-related peptide type 1 receptor OS=Takifugu flavidus OX=433684 GN=D4764_01G0003040 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8WGD6|A0A3P8WGD6_CYNSE,74.318,440,109,3,23,458,32,471,0.0,659,A0A3P8WGD6,Calcitonin gene-related peptide type 1 receptor OS=Cynoglossus semilaevis OX=244447 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673FYR4|A0A673FYR4_9TELE,74.032,439,107,3,22,458,8,441,0.0,659,A0A673FYR4,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107728927 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672M297|A0A672M297_SINGR,74.000,450,110,3,16,458,17,466,0.0,659,A0A672M297,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584159 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6Q2X6S9|A0A6Q2X6S9_ESOLU,76.224,429,99,3,33,458,40,468,0.0,659,A0A6Q2X6S9,Calcitonin gene-related peptide type 1 receptor OS=Esox lucius OX=8010 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KL29|A0A671KL29_9TELE,74.000,450,110,3,16,458,23,472,0.0,659,A0A671KL29,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107657513 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KMK7|A0A671KMK7_9TELE,74.000,450,110,3,16,458,18,467,0.0,659,A0A671KMK7,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107657513 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6Q2XS25|A0A6Q2XS25_ESOLU,76.224,429,99,3,33,458,16,444,0.0,659,A0A6Q2XS25,Calcitonin gene-related peptide type 1 receptor OS=Esox lucius OX=8010 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673Y4F2|A0A673Y4F2_SALTR,74.222,450,107,4,18,458,10,459,0.0,658,A0A673Y4F2,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115161319 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673Y4C5|A0A673Y4C5_SALTR,74.222,450,107,4,18,458,9,458,0.0,658,A0A673Y4C5,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115161319 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672M659|A0A672M659_SINGR,74.000,450,110,3,16,458,18,467,0.0,658,A0A672M659,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584159 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673Y412|A0A673Y412_SALTR,76.168,428,100,2,33,458,27,454,0.0,658,A0A673Y412,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115161319 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673Y3Q5|A0A673Y3Q5_SALTR,74.222,450,107,4,18,458,26,475,0.0,658,A0A673Y3Q5,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115161319 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673JJP3|A0A673JJP3_9TELE,73.778,450,111,3,16,458,19,468,0.0,657,A0A673JJP3,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107714396 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673JBR8|A0A673JBR8_9TELE,73.026,456,116,3,10,458,4,459,0.0,657,A0A673JBR8,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107714396 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W4ECZ4|A0A4W4ECZ4_ELEEL,70.753,465,122,5,8,459,10,473,0.0,657,A0A4W4ECZ4,Calcitonin gene-related peptide type 1 receptor OS=Electrophorus electricus OX=8005 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N8WRX3|A0A7N8WRX3_9TELE,71.868,455,119,4,16,461,14,468,0.0,657,A0A7N8WRX3,Calcitonin receptor-like a OS=Mastacembelus armatus OX=205130 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H3CTY8|H3CTY8_TETNG,75.935,428,101,2,33,458,48,475,0.0,657,H3CTY8,Calcitonin gene-related peptide type 1 receptor OS=Tetraodon nigroviridis OX=99883 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6CZ90|A0A4W6CZ90_LATCA,74.376,441,106,3,12,445,9,449,0.0,657,A0A4W6CZ90,Calcitonin gene-related peptide type 1 receptor OS=Lates calcarifer OX=8187 GN=LOC108887693 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IDA3|A0A672IDA3_SALFA,72.234,461,119,5,7,458,17,477,0.0,657,A0A672IDA3,Calcitonin gene-related peptide type 1 receptor OS=Salarias fasciatus OX=181472 GN=LOC115402852 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1S3PQQ4|A0A1S3PQQ4_SALSA,73.778,450,109,4,18,458,26,475,0.0,657,A0A1S3PQQ4,Calcitonin gene-related peptide type 1 receptor OS=Salmo salar OX=8030 GN=LOC106586829 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674NDS0|A0A674NDS0_TAKRU,75.467,428,103,2,33,458,27,454,0.0,657,A0A674NDS0,Calcitonin gene-related peptide type 1 receptor OS=Takifugu rubripes OX=31033 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673Y4A6|A0A673Y4A6_SALTR,76.168,428,100,2,33,458,28,455,0.0,656,A0A673Y4A6,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115161319 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673Y3X8|A0A673Y3X8_SALTR,76.168,428,100,2,33,458,47,474,0.0,656,A0A673Y3X8,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115161319 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674PAL1|A0A674PAL1_TAKRU,71.868,455,123,4,9,458,10,464,0.0,656,A0A674PAL1,Calcitonin gene-related peptide type 1 receptor OS=Takifugu rubripes OX=31033 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673Y4G5|A0A673Y4G5_SALTR,72.807,456,116,3,11,458,13,468,0.0,656,A0A673Y4G5,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115161319 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3B3Q4|A0A3Q3B3Q4_KRYMA,75.234,428,104,2,33,458,48,475,0.0,656,A0A3Q3B3Q4,Calcitonin gene-related peptide type 1 receptor OS=Kryptolebias marmoratus OX=37003 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W4EE46|A0A4W4EE46_ELEEL,72.383,449,116,5,18,459,45,492,0.0,655,A0A4W4EE46,Calcitonin gene-related peptide type 1 receptor OS=Electrophorus electricus OX=8005 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N8X1D2|A0A7N8X1D2_9TELE,71.840,451,120,3,16,459,14,464,0.0,655,A0A7N8X1D2,Calcitonin receptor-like a OS=Mastacembelus armatus OX=205130 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7HAY6|A0A6P7HAY6_9TELE,72.985,459,117,3,7,458,17,475,0.0,655,A0A6P7HAY6,Calcitonin gene-related peptide type 1 receptor OS=Parambassis ranga OX=210632 GN=LOC114425988 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KKX4|A0A671KKX4_9TELE,75.114,438,106,3,24,458,34,471,0.0,654,A0A671KKX4,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107657513 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N8XED1|A0A7N8XED1_9TELE,71.523,453,122,3,13,458,23,475,0.0,654,A0A7N8XED1,Calcitonin receptor-like a OS=Mastacembelus armatus OX=205130 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673X1V5|A0A673X1V5_SALTR,73.626,455,113,3,11,458,15,469,0.0,654,A0A673X1V5,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115155936 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673JBR4|A0A673JBR4_9TELE,73.719,449,111,3,17,458,1,449,0.0,654,A0A673JBR4,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107714396 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KSK1|A0A671KSK1_9TELE,72.767,459,118,4,3,458,4,458,0.0,654,A0A671KSK1,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107657513 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W5NJZ0|A0A4W5NJZ0_9TELE,78.118,425,91,2,36,458,48,472,0.0,654,A0A4W5NJZ0,Calcitonin gene-related peptide type 1 receptor OS=Hucho hucho OX=62062 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W5NCY8|A0A4W5NCY8_9TELE,78.118,425,91,2,36,458,32,456,0.0,653,A0A4W5NCY8,Calcitonin gene-related peptide type 1 receptor OS=Hucho hucho OX=62062 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W5NFF8|A0A4W5NFF8_9TELE,78.118,425,91,2,36,458,31,455,0.0,653,A0A4W5NFF8,Calcitonin gene-related peptide type 1 receptor OS=Hucho hucho OX=62062 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2I4CWB0|A0A2I4CWB0_9TELE,73.392,451,118,2,10,458,23,473,0.0,653,A0A2I4CWB0,Calcitonin gene-related peptide type 1 receptor OS=Austrofundulus limnaeus OX=52670 GN=LOC106532711 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J2RWC4|A0A6J2RWC4_COTGO,71.949,467,122,4,1,458,9,475,0.0,653,A0A6J2RWC4,Calcitonin gene-related peptide type 1 receptor OS=Cottoperca gobio OX=56716 GN=LOC115026133 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KNX2|A0A671KNX2_9TELE,74.434,442,110,3,20,458,17,458,0.0,653,A0A671KNX2,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107657513 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A060VQ86|A0A060VQ86_ONCMY,78.118,425,91,2,36,458,51,475,0.0,653,A0A060VQ86,Calcitonin gene-related peptide type 1 receptor OS=Oncorhynchus mykiss OX=8022 GN=GSONMT00067722001 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673WQW3|A0A673WQW3_SALTR,74.330,448,108,3,18,458,12,459,0.0,652,A0A673WQW3,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115155936 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673WQV8|A0A673WQV8_SALTR,73.407,455,114,3,11,458,2,456,0.0,652,A0A673WQV8,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115155936 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KNH2|A0A671KNH2_9TELE,73.708,445,111,3,16,458,30,470,0.0,652,A0A671KNH2,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107657513 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W5NHZ4|A0A4W5NHZ4_9TELE,78.118,425,91,2,36,458,51,475,0.0,652,A0A4W5NHZ4,Calcitonin gene-related peptide type 1 receptor OS=Hucho hucho OX=62062 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6G1PXX4|A0A6G1PXX4_9TELE,70.870,460,127,3,6,458,16,475,0.0,652,A0A6G1PXX4,Calcitonin gene-related peptide type 1 receptor OS=Channa argus OX=215402 GN=EXN66_Car010801 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673X0J0|A0A673X0J0_SALTR,73.846,455,111,4,11,458,1,454,0.0,652,A0A673X0J0,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115155936 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A668U8H4|A0A668U8H4_OREAU,72.234,461,116,4,2,458,3,455,0.0,652,A0A668U8H4,Calcitonin gene-related peptide type 1 receptor OS=Oreochromis aureus OX=47969 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672LX13|A0A672LX13_SINGR,75.057,437,106,3,25,458,21,457,0.0,652,A0A672LX13,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584159 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q2DHU7|A0A3Q2DHU7_CYPVA,72.294,462,121,3,6,460,16,477,0.0,652,A0A3Q2DHU7,Calcitonin gene-related peptide type 1 receptor OS=Cyprinodon variegatus OX=28743 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1S3NXD7|A0A1S3NXD7_SALSA,74.554,448,107,3,18,458,28,475,0.0,652,A0A1S3NXD7,Calcitonin gene-related peptide type 1 receptor OS=Salmo salar OX=8030 GN=LOC106581932 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669EEM4|A0A669EEM4_ORENI,72.234,461,116,4,2,458,3,455,0.0,652,A0A669EEM4,Calcitonin gene-related peptide type 1 receptor OS=Oreochromis niloticus OX=8128 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673WR35|A0A673WR35_SALTR,77.647,425,93,2,36,458,21,445,0.0,651,A0A673WR35,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115155936 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6Q2Z2U5|A0A6Q2Z2U5_ESOLU,77.163,416,93,2,33,446,22,437,0.0,651,A0A6Q2Z2U5,Calcitonin gene-related peptide type 1 receptor OS=Esox lucius OX=8010 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672M654|A0A672M654_SINGR,71.584,461,122,4,3,458,1,457,0.0,650,A0A672M654,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584159 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673WQS6|A0A673WQS6_SALTR,74.330,448,108,3,18,458,28,475,0.0,650,A0A673WQS6,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115155936 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A668UA23|A0A668UA23_OREAU,73.333,450,113,3,16,458,26,475,0.0,649,A0A668UA23,Calcitonin gene-related peptide type 1 receptor OS=Oreochromis aureus OX=47969 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|I3JAC3|I3JAC3_ORENI,73.333,450,113,3,16,458,26,475,0.0,649,I3JAC3,Calcitonin gene-related peptide type 1 receptor OS=Oreochromis niloticus OX=8128 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P9CCJ9|A0A3P9CCJ9_9CICH,73.333,450,113,3,16,458,26,475,0.0,648,A0A3P9CCJ9,Calcitonin gene-related peptide type 1 receptor OS=Maylandia zebra OX=106582 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q2W2Y0|A0A3Q2W2Y0_HAPBU,73.333,450,113,3,16,458,26,475,0.0,648,A0A3Q2W2Y0,Calcitonin gene-related peptide type 1 receptor OS=Haplochromis burtoni OX=8153 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N8YAP8|A0A7N8YAP8_9TELE,74.533,428,104,3,33,458,37,461,0.0,648,A0A7N8YAP8,Calcitonin receptor-like a OS=Mastacembelus armatus OX=205130 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N8Y9S0|A0A7N8Y9S0_9TELE,73.516,438,110,4,24,458,13,447,0.0,648,A0A7N8Y9S0,Calcitonin receptor-like a OS=Mastacembelus armatus OX=205130 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3EM31|A0A3Q3EM31_9LABR,75.935,428,101,2,33,458,48,475,0.0,647,A0A3Q3EM31,Calcitonin gene-related peptide type 1 receptor OS=Labrus bergylta OX=56723 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A668UBJ6|A0A668UBJ6_OREAU,74.099,444,113,2,17,458,13,456,0.0,647,A0A668UBJ6,Calcitonin gene-related peptide type 1 receptor OS=Oreochromis aureus OX=47969 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N8Y0A2|A0A7N8Y0A2_9TELE,74.533,428,104,3,33,458,34,458,0.0,647,A0A7N8Y0A2,Calcitonin receptor-like a OS=Mastacembelus armatus OX=205130 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669BNQ9|A0A669BNQ9_ORENI,74.099,444,113,2,17,458,13,456,0.0,647,A0A669BNQ9,Calcitonin gene-related peptide type 1 receptor OS=Oreochromis niloticus OX=8128 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A668U681|A0A668U681_OREAU,73.348,454,113,5,10,458,6,456,0.0,644,A0A668U681,Calcitonin gene-related peptide type 1 receptor OS=Oreochromis aureus OX=47969 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669BQ34|A0A669BQ34_ORENI,73.348,454,113,5,10,458,6,456,0.0,644,A0A669BQ34,Calcitonin gene-related peptide type 1 receptor OS=Oreochromis niloticus OX=8128 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q4HFU2|A0A3Q4HFU2_NEOBR,73.111,450,114,4,16,458,26,475,0.0,644,A0A3Q4HFU2,Calcitonin gene-related peptide type 1 receptor OS=Neolamprologus brichardi OX=32507 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N8WXR9|A0A7N8WXR9_9TELE,73.059,438,110,4,16,445,14,451,0.0,644,A0A7N8WXR9,Calcitonin receptor-like a OS=Mastacembelus armatus OX=205130 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KMG0|A0A671KMG0_9TELE,73.111,450,111,4,16,458,13,459,0.0,642,A0A671KMG0,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107657513 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672M618|A0A672M618_SINGR,73.111,450,111,4,16,458,13,459,0.0,642,A0A672M618,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584159 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671T2Z6|A0A671T2Z6_9TELE,74.239,427,102,3,34,458,8,428,0.0,641,A0A671T2Z6,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107660651 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A5N5PCR0|A0A5N5PCR0_PANHP,67.579,475,134,6,1,461,2,470,0.0,641,A0A5N5PCR0,Calcitonin gene-related peptide type 1 receptor OS=Pangasianodon hypophthalmus OX=310915 GN=PHYPO_G00209220 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A668U6B0|A0A668U6B0_OREAU,73.333,450,110,5,19,458,3,452,0.0,640,A0A668U6B0,Calcitonin gene-related peptide type 1 receptor OS=Oreochromis aureus OX=47969 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669D3P5|A0A669D3P5_ORENI,73.333,450,110,5,19,458,3,452,0.0,640,A0A669D3P5,Calcitonin gene-related peptide type 1 receptor OS=Oreochromis niloticus OX=8128 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J2W0M3|A0A6J2W0M3_CHACN,69.330,463,133,3,8,461,18,480,0.0,639,A0A6J2W0M3,Calcitonin gene-related peptide type 1 receptor OS=Chanos chanos OX=29144 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A667WIW1|A0A667WIW1_9TELE,68.080,448,138,2,16,458,26,473,0.0,632,A0A667WIW1,Calcitonin gene-related peptide type 1 receptor OS=Myripristis murdjan OX=586833 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674D425|A0A674D425_SALTR,69.063,459,137,3,5,458,3,461,0.0,631,A0A674D425,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115179343 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674NCK3|A0A674NCK3_TAKRU,73.598,428,104,3,33,458,43,463,0.0,630,A0A674NCK3,Calcitonin gene-related peptide type 1 receptor OS=Takifugu rubripes OX=31033 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674A5K5|A0A674A5K5_SALTR,72.390,431,114,3,33,458,41,471,0.0,630,A0A674A5K5,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115196431 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674D562|A0A674D562_SALTR,73.050,423,112,2,33,453,43,465,0.0,629,A0A674D562,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115179343 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674D4L9|A0A674D4L9_SALTR,72.390,431,114,3,33,458,41,471,0.0,629,A0A674D4L9,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115179343 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674A4J8|A0A674A4J8_SALTR,69.824,454,127,3,10,453,6,459,0.0,629,A0A674A4J8,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115196431 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674A6T3|A0A674A6T3_SALTR,69.783,460,127,6,9,458,46,503,0.0,629,A0A674A6T3,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115196431 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673B4T3|A0A673B4T3_9TELE,78.554,401,83,3,60,458,31,430,0.0,629,A0A673B4T3,Calcitonin gene-related peptide type 1 receptor OS=Sphaeramia orbicularis OX=375764 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W5NJV4|A0A4W5NJV4_9TELE,73.598,428,108,4,36,458,38,465,0.0,628,A0A4W5NJV4,Calcitonin gene-related peptide type 1 receptor OS=Hucho hucho OX=62062 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8EUF1|A0A6P8EUF1_CLUHA,65.376,465,145,5,9,460,5,466,0.0,628,A0A6P8EUF1,Calcitonin gene-related peptide type 1 receptor OS=Clupea harengus OX=7950 GN=LOC105894539 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IB93|A0A672IB93_SALFA,74.126,429,103,5,34,458,71,495,0.0,627,A0A672IB93,Calcitonin gene-related peptide type 1 receptor OS=Salarias fasciatus OX=181472 GN=LOC115402852 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672NQ75|A0A672NQ75_SINGR,66.738,466,143,5,1,460,1,460,0.0,627,A0A672NQ75,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584849 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672JVE5|A0A672JVE5_SINGR,67.615,457,143,3,9,460,11,467,0.0,627,A0A672JVE5,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107555409 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672JVI4|A0A672JVI4_SINGR,70.698,430,124,2,33,460,44,473,0.0,626,A0A672JVI4,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107555409 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IB84|A0A672IB84_SALFA,71.239,452,117,7,16,458,16,463,0.0,626,A0A672IB84,Calcitonin gene-related peptide type 1 receptor OS=Salarias fasciatus OX=181472 GN=LOC115402852 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672ICR3|A0A672ICR3_SALFA,74.126,429,103,5,34,458,18,442,0.0,625,A0A672ICR3,Calcitonin gene-related peptide type 1 receptor OS=Salarias fasciatus OX=181472 GN=LOC115402852 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674IZV8|A0A674IZV8_TERCA,67.206,433,132,2,25,455,34,458,0.0,625,A0A674IZV8,Calcitonin receptor OS=Terrapene carolina triunguis OX=2587831 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672NM46|A0A672NM46_SINGR,66.958,457,146,3,9,460,11,467,0.0,625,A0A672NM46,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584849 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P6KC83|A0A6P6KC83_CARAU,69.266,436,132,2,27,460,32,467,0.0,625,A0A6P6KC83,Calcitonin gene-related peptide type 1 receptor OS=Carassius auratus OX=7957 GN=LOC113050818 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672JVI1|A0A672JVI1_SINGR,70.698,430,124,2,33,460,16,445,0.0,625,A0A672JVI1,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107555409 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673JBT8|A0A673JBT8_9TELE,70.175,456,124,4,10,458,4,454,0.0,624,A0A673JBT8,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107714396 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672NME6|A0A672NME6_SINGR,69.037,436,133,2,27,460,18,453,0.0,624,A0A672NME6,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584849 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672NMD3|A0A672NMD3_SINGR,69.037,436,133,2,27,460,49,484,0.0,624,A0A672NMD3,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584849 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672NMZ1|A0A672NMZ1_SINGR,69.037,436,133,2,27,460,14,449,0.0,624,A0A672NMZ1,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584849 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673GPR8|A0A673GPR8_9TELE,67.391,460,144,4,7,460,16,475,0.0,623,A0A673GPR8,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107743566 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A498NN84|A0A498NN84_LABRO,69.725,436,130,2,27,460,37,472,0.0,623,A0A498NN84,Calcitonin gene-related peptide type 1 receptor OS=Labeo rohita OX=84645 GN=ROHU_015550 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KQS8|A0A671KQS8_9TELE,67.920,452,139,4,15,460,6,457,0.0,623,A0A671KQS8,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107677557 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A498LT70|A0A498LT70_LABRO,69.725,436,130,2,27,460,37,472,0.0,623,A0A498LT70,Calcitonin gene-related peptide type 1 receptor OS=Labeo rohita OX=84645 GN=ROHU_031067 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P6P1F1|A0A6P6P1F1_CARAU,70.233,430,126,2,33,460,38,467,0.0,622,A0A6P6P1F1,Calcitonin gene-related peptide type 1 receptor OS=Carassius auratus OX=7957 GN=LOC113092943 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673WZH2|A0A673WZH2_SALTR,78.218,404,86,2,57,458,106,509,0.0,622,A0A673WZH2,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115155936 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672NPZ0|A0A672NPZ0_SINGR,70.163,429,126,2,34,460,1,429,0.0,622,A0A672NPZ0,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584849 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673GPY5|A0A673GPY5_9TELE,70.465,430,125,2,33,460,85,514,0.0,622,A0A673GPY5,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107743566 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673GPS0|A0A673GPS0_9TELE,70.465,430,125,2,33,460,38,467,0.0,622,A0A673GPS0,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107743566 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673Y414|A0A673Y414_SALTR,71.333,450,106,5,18,458,26,461,0.0,621,A0A673Y414,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115161319 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673GQ14|A0A673GQ14_9TELE,70.465,430,125,2,33,460,23,452,0.0,621,A0A673GQ14,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107743566 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W4EC92|A0A4W4EC92_ELEEL,69.933,449,121,6,18,459,25,466,0.0,621,A0A4W4EC92,Calcitonin gene-related peptide type 1 receptor OS=Electrophorus electricus OX=8005 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1S3MX65|A0A1S3MX65_SALSA,70.179,446,113,4,33,458,41,486,0.0,621,A0A1S3MX65,Calcitonin gene-related peptide type 1 receptor OS=Salmo salar OX=8030 GN=LOC106575686 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673GPT4|A0A673GPT4_9TELE,70.465,430,125,2,33,460,14,443,0.0,621,A0A673GPT4,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107743566 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KTM4|A0A671KTM4_9TELE,67.249,458,144,4,9,460,11,468,0.0,621,A0A671KTM4,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107677557 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|I3IRX3|I3IRX3_DANRE,65.880,466,152,4,1,460,1,465,0.0,621,I3IRX3,Calcitonin receptor-like b OS=Danio rerio OX=7955 GN=calcrlb PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4U5U0R1|A0A4U5U0R1_COLLU,73.023,430,99,4,33,460,200,614,0.0,620,A0A4U5U0R1,Calcitonin gene-related peptide type 1 receptor OS=Collichthys lucidus OX=240159 GN=D9C73_001059 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1V4KD75|A0A1V4KD75_PATFA,67.139,423,137,1,35,455,106,528,0.0,620,A0A1V4KD75,Calcitonin receptor OS=Patagioenas fasciata monilis OX=372326 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J0SWL7|A0A6J0SWL7_9SAUR,67.447,427,137,1,31,455,37,463,0.0,620,A0A6J0SWL7,Calcitonin receptor OS=Pogona vitticeps OX=103695 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KLA7|A0A671KLA7_9TELE,68.667,450,122,4,16,458,13,450,0.0,620,A0A671KLA7,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107657513 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W4EC55|A0A4W4EC55_ELEEL,69.690,452,123,6,15,459,17,461,0.0,620,A0A4W4EC55,Calcitonin gene-related peptide type 1 receptor OS=Electrophorus electricus OX=8005 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674GCQ8|A0A674GCQ8_TAEGU,67.299,422,136,1,36,455,202,623,0.0,620,A0A674GCQ8,Calcitonin receptor OS=Taeniopygia guttata OX=59729 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6F9CDB1|A0A6F9CDB1_9TELE,78.218,404,86,2,60,461,8,411,0.0,620,A0A6F9CDB1,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Coregonus sp. 'balchen' OX=861768 GN=CSTEINMANNI_LOCUS3957229 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672M293|A0A672M293_SINGR,68.667,450,122,4,16,458,13,450,0.0,620,A0A672M293,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584159 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A553QQH9|A0A553QQH9_9TELE,68.261,460,120,5,1,458,1,436,0.0,620,A0A553QQH9,Calcitonin gene-related peptide type 1 receptor OS=Danionella translucida OX=623744 GN=DNTS_029081 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1U7RU26|A0A1U7RU26_ALLSI,67.619,420,134,1,38,455,27,446,0.0,620,A0A1U7RU26,Calcitonin receptor OS=Alligator sinensis OX=38654 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A151MQ56|A0A151MQ56_ALLMI,67.619,420,134,1,38,455,67,486,0.0,620,A0A151MQ56,Calcitonin receptor OS=Alligator mississippiensis OX=8496 GN=CALCRL PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|K7G4C8|K7G4C8_PELSI,67.857,420,133,1,38,455,85,504,0.0,620,K7G4C8,Calcitonin receptor OS=Pelodiscus sinensis OX=13735 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7R5L3S7|A0A7R5L3S7_9PASS,66.667,423,139,1,35,455,78,500,0.0,619,A0A7R5L3S7,calcitonin receptor isoform X1 OS=Pipra filicauda OX=649802 GN=CALCR PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673X2D9|A0A673X2D9_SALTR,78.947,399,82,2,62,458,32,430,0.0,619,A0A673X2D9,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115155936 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KS99|A0A671KS99_9TELE,70.302,431,125,3,33,460,14,444,0.0,619,A0A671KS99,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107677557 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W4ECB5|A0A4W4ECB5_ELEEL,72.093,430,110,4,33,459,33,455,0.0,619,A0A4W4ECB5,Calcitonin gene-related peptide type 1 receptor OS=Electrophorus electricus OX=8005 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W4EEB0|A0A4W4EEB0_ELEEL,72.093,430,110,4,33,459,38,460,0.0,619,A0A4W4EEB0,Calcitonin gene-related peptide type 1 receptor OS=Electrophorus electricus OX=8005 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674H902|A0A674H902_TAEGU,67.139,423,137,1,35,455,41,463,0.0,619,A0A674H902,Calcitonin receptor OS=Taeniopygia guttata OX=59729 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J2IZ61|A0A6J2IZ61_9PASS,66.667,423,139,1,35,455,41,463,0.0,618,A0A6J2IZ61,Calcitonin receptor OS=Pipra filicauda OX=649802 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A670JPU0|A0A670JPU0_PODMU,67.857,420,133,1,38,455,44,463,0.0,618,A0A670JPU0,Calcitonin receptor OS=Podarcis muralis OX=64176 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672JYI6|A0A672JYI6_SINGR,70.465,430,122,3,33,460,17,443,0.0,618,A0A672JYI6,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107555409 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W4EC97|A0A4W4EC97_ELEEL,72.093,430,110,4,33,459,23,445,0.0,618,A0A4W4EC97,Calcitonin gene-related peptide type 1 receptor OS=Electrophorus electricus OX=8005 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|U3ISB2|U3ISB2_ANAPP,67.139,423,137,1,35,455,73,495,0.0,618,U3ISB2,Calcitonin receptor OS=Anas platyrhynchos platyrhynchos OX=8840 GN=CALCR PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|G1KNG6|G1KNG6_ANOCA,68.258,419,131,1,39,455,45,463,0.0,618,G1KNG6,Calcitonin receptor OS=Anolis carolinensis OX=28377 GN=CALCR PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A6J3CP62|A0A6J3CP62_AYTFU,67.139,423,137,1,35,455,41,463,0.0,618,A0A6J3CP62,Calcitonin receptor OS=Aythya fuligula OX=219594 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673B3U5|A0A673B3U5_9TELE,78.030,396,80,3,65,458,5,395,0.0,618,A0A673B3U5,Calcitonin gene-related peptide type 1 receptor OS=Sphaeramia orbicularis OX=375764 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N8XIS5|A0A7N8XIS5_9TELE,69.111,450,128,4,16,458,14,459,0.0,618,A0A7N8XIS5,Calcitonin receptor-like a OS=Mastacembelus armatus OX=205130 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A218V191|A0A218V191_9PASE,66.903,423,138,1,35,455,41,463,0.0,618,A0A218V191,Calcitonin receptor OS=Lonchura striata domestica OX=299123 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2I0MRA1|A0A2I0MRA1_COLLI,67.139,423,137,1,35,455,41,463,0.0,618,A0A2I0MRA1,Calcitonin receptor OS=Columba livia OX=8932 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6I9XLP9|A0A6I9XLP9_9SAUR,63.124,461,164,2,1,455,1,461,0.0,617,A0A6I9XLP9,Calcitonin receptor OS=Thamnophis sirtalis OX=35019 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|R0M0N8|R0M0N8_ANAPL,67.139,423,137,1,35,455,31,453,0.0,617,R0M0N8,Calcitonin receptor (Fragment) OS=Anas platyrhynchos OX=8839 GN=Anapl_02583 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|U3K726|U3K726_FICAL,66.667,423,139,1,35,455,41,463,0.0,617,U3K726,Calcitonin receptor OS=Ficedula albicollis OX=59894 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673WZU8|A0A673WZU8_SALTR,79.293,396,80,2,65,458,7,402,0.0,617,A0A673WZU8,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115155936 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674IY04|A0A674IY04_TERCA,65.837,442,132,3,25,455,34,467,0.0,617,A0A674IY04,Calcitonin receptor OS=Terrapene carolina triunguis OX=2587831 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674IXY1|A0A674IXY1_TERCA,65.837,442,132,3,25,455,58,491,0.0,617,A0A674IXY1,Calcitonin receptor OS=Terrapene carolina triunguis OX=2587831 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672U5Q4|A0A672U5Q4_STRHB,66.903,423,138,1,35,455,41,463,0.0,617,A0A672U5Q4,Calcitonin receptor OS=Strigops habroptila OX=2489341 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674A7U4|A0A674A7U4_SALTR,72.028,429,112,4,37,461,14,438,0.0,616,A0A674A7U4,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115196431 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|F1P5E1|F1P5E1_CHICK,66.667,423,139,1,35,455,41,463,0.0,616,F1P5E1,Calcitonin receptor OS=Gallus gallus OX=9031 GN=CALCR PE=3 SV=4
+sp|Q16602|CALRL_HUMAN,tr|A0A0Q3TZQ3|A0A0Q3TZQ3_AMAAE,67.139,423,137,1,35,455,53,475,0.0,616,A0A0Q3TZQ3,Calcitonin receptor OS=Amazona aestiva OX=12930 GN=AAES_21466 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P9AQE5|A0A6P9AQE5_PANGU,66.589,428,141,1,30,455,34,461,0.0,615,A0A6P9AQE5,Calcitonin receptor OS=Pantherophis guttatus OX=94885 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4D9EKD2|A0A4D9EKD2_9SAUR,65.820,433,138,2,25,455,39,463,0.0,614,A0A4D9EKD2,Calcitonin receptor OS=Platysternon megacephalum OX=55544 GN=DR999_PMT09511 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J1UKU5|A0A6J1UKU5_9SAUR,62.473,461,167,2,1,455,1,461,0.0,613,A0A6J1UKU5,Calcitonin receptor OS=Notechis scutatus OX=8663 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672M0F6|A0A672M0F6_SINGR,77.387,398,89,1,62,458,97,494,0.0,613,A0A672M0F6,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584159 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674N2J7|A0A674N2J7_TAKRU,71.495,428,115,3,33,458,35,457,0.0,613,A0A674N2J7,Calcitonin gene-related peptide type 1 receptor OS=Takifugu rubripes OX=31033 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KSA2|A0A671KSA2_9TELE,70.070,431,123,4,33,460,19,446,0.0,612,A0A671KSA2,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107677557 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KQG8|A0A671KQG8_9TELE,74.641,418,94,3,53,458,1,418,0.0,611,A0A671KQG8,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107657513 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669C5F3|A0A669C5F3_ORENI,67.209,430,139,1,33,460,30,459,0.0,611,A0A669C5F3,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A663LSJ1|A0A663LSJ1_ATHCN,64.989,437,137,2,35,455,24,460,0.0,610,A0A663LSJ1,Calcitonin receptor OS=Athene cunicularia OX=194338 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P9BM27|A0A3P9BM27_9CICH,67.209,430,139,1,33,460,378,807,0.0,610,A0A3P9BM27,Calcitonin receptor OS=Maylandia zebra OX=106582 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P9BM27|A0A3P9BM27_9CICH,55.556,99,44,0,40,138,255,353,2.20e-32,139,A0A3P9BM27,Calcitonin receptor OS=Maylandia zebra OX=106582 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P9BM27|A0A3P9BM27_9CICH,49.242,132,58,4,13,142,133,257,3.40e-30,133,A0A3P9BM27,Calcitonin receptor OS=Maylandia zebra OX=106582 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P9BM27|A0A3P9BM27_9CICH,35.780,109,62,2,12,113,9,116,5.84e-11,74.3,A0A3P9BM27,Calcitonin receptor OS=Maylandia zebra OX=106582 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A0P7WDK9|A0A0P7WDK9_SCLFO,65.502,458,120,4,10,461,155,580,0.0,610,A0A0P7WDK9,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Scleropages formosus OX=113540 GN=Z043_122736 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669DGV4|A0A669DGV4_ORENI,67.209,430,139,1,33,460,294,723,0.0,610,A0A669DGV4,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669DGV4|A0A669DGV4_ORENI,54.545,99,45,0,40,138,171,269,3.40e-32,139,A0A669DGV4,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669DGV4|A0A669DGV4_ORENI,38.690,168,58,5,13,142,13,173,2.31e-24,115,A0A669DGV4,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669F2L0|A0A669F2L0_ORENI,67.209,430,139,1,33,460,294,723,0.0,610,A0A669F2L0,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669F2L0|A0A669F2L0_ORENI,54.545,99,45,0,40,138,171,269,2.71e-32,139,A0A669F2L0,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669F2L0|A0A669F2L0_ORENI,37.647,170,65,4,10,142,8,173,1.05e-24,116,A0A669F2L0,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3C9N8|A0A3Q3C9N8_HAPBU,67.209,430,139,1,33,460,378,807,0.0,610,A0A3Q3C9N8,Calcitonin receptor OS=Haplochromis burtoni OX=8153 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3C9N8|A0A3Q3C9N8_HAPBU,55.556,99,44,0,40,138,255,353,1.15e-32,140,A0A3Q3C9N8,Calcitonin receptor OS=Haplochromis burtoni OX=8153 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3C9N8|A0A3Q3C9N8_HAPBU,49.242,132,58,4,13,142,133,257,3.43e-30,133,A0A3Q3C9N8,Calcitonin receptor OS=Haplochromis burtoni OX=8153 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3C9N8|A0A3Q3C9N8_HAPBU,34.862,109,63,2,12,113,9,116,3.66e-10,71.6,A0A3Q3C9N8,Calcitonin receptor OS=Haplochromis burtoni OX=8153 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|I3JXK1|I3JXK1_ORENI,67.209,430,139,1,33,460,378,807,0.0,610,I3JXK1,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|I3JXK1|I3JXK1_ORENI,54.545,99,45,0,40,138,255,353,5.93e-32,138,I3JXK1,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|I3JXK1|I3JXK1_ORENI,49.242,132,58,4,13,142,133,257,3.04e-30,133,I3JXK1,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|I3JXK1|I3JXK1_ORENI,37.615,109,60,2,12,113,9,116,2.81e-12,78.6,I3JXK1,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A668V603|A0A668V603_OREAU,67.209,430,139,1,33,460,336,765,0.0,609,A0A668V603,Calcitonin receptor OS=Oreochromis aureus OX=47969 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A668V603|A0A668V603_OREAU,56.436,101,42,2,35,134,126,225,5.46e-29,129,A0A668V603,Calcitonin receptor OS=Oreochromis aureus OX=47969 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A668V603|A0A668V603_OREAU,61.842,76,29,0,63,138,236,311,7.77e-27,123,A0A668V603,Calcitonin receptor OS=Oreochromis aureus OX=47969 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A668V603|A0A668V603_OREAU,38.710,93,56,1,21,113,3,94,2.59e-11,75.5,A0A668V603,Calcitonin receptor OS=Oreochromis aureus OX=47969 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W4HCT4|A0A4W4HCT4_ELEEL,66.302,457,152,2,6,460,6,462,0.0,609,A0A4W4HCT4,Calcitonin gene-related peptide type 1 receptor OS=Electrophorus electricus OX=8005 GN=LOC113582754 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q4MH23|A0A3Q4MH23_NEOBR,67.209,430,139,1,33,460,338,767,0.0,609,A0A3Q4MH23,Calcitonin receptor OS=Neolamprologus brichardi OX=32507 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q4MH23|A0A3Q4MH23_NEOBR,60.494,81,32,0,58,138,233,313,9.85e-28,125,A0A3Q4MH23,Calcitonin receptor OS=Neolamprologus brichardi OX=32507 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q4MH23|A0A3Q4MH23_NEOBR,40.000,115,44,3,35,124,133,247,1.48e-17,94.7,A0A3Q4MH23,Calcitonin receptor OS=Neolamprologus brichardi OX=32507 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q4MH23|A0A3Q4MH23_NEOBR,39.080,87,52,1,27,113,21,106,5.07e-10,71.2,A0A3Q4MH23,Calcitonin receptor OS=Neolamprologus brichardi OX=32507 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669B2V9|A0A669B2V9_ORENI,67.209,430,139,1,33,460,349,778,0.0,609,A0A669B2V9,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669B2V9|A0A669B2V9_ORENI,56.436,101,42,2,35,134,140,239,5.47e-29,129,A0A669B2V9,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669B2V9|A0A669B2V9_ORENI,60.759,79,31,0,60,138,246,324,2.28e-27,124,A0A669B2V9,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669B2V9|A0A669B2V9_ORENI,37.615,109,60,2,12,113,6,113,2.48e-12,78.6,A0A669B2V9,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672JYK1|A0A672JYK1_SINGR,71.739,414,115,2,33,444,21,434,0.0,608,A0A672JYK1,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107555409 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3CX42|A0A3Q3CX42_HAPBU,67.209,430,139,1,33,460,299,728,0.0,608,A0A3Q3CX42,Calcitonin receptor OS=Haplochromis burtoni OX=8153 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3CX42|A0A3Q3CX42_HAPBU,55.556,99,44,0,40,138,176,274,5.05e-33,141,A0A3Q3CX42,Calcitonin receptor OS=Haplochromis burtoni OX=8153 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3CX42|A0A3Q3CX42_HAPBU,41.129,124,29,2,62,142,56,178,6.36e-19,99.0,A0A3Q3CX42,Calcitonin receptor OS=Haplochromis burtoni OX=8153 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665UEX0|A0A665UEX0_ECHNA,64.811,449,155,2,15,460,22,470,0.0,608,A0A665UEX0,Calcitonin receptor OS=Echeneis naucrates OX=173247 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W4ECC6|A0A4W4ECC6_ELEEL,72.512,422,106,4,41,459,2,416,0.0,608,A0A4W4ECC6,Calcitonin gene-related peptide type 1 receptor OS=Electrophorus electricus OX=8005 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669B7L8|A0A669B7L8_ORENI,67.517,431,136,2,34,460,71,501,0.0,607,A0A669B7L8,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673WRJ1|A0A673WRJ1_SALTR,78.535,396,78,3,65,458,57,447,0.0,606,A0A673WRJ1,Calcitonin gene-related peptide type 1 receptor OS=Salmo trutta OX=8032 GN=LOC115155936 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W4ECX9|A0A4W4ECX9_ELEEL,77.344,384,86,1,62,444,5,388,0.0,606,A0A4W4ECX9,Calcitonin gene-related peptide type 1 receptor OS=Electrophorus electricus OX=8005 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A5A9NTL2|A0A5A9NTL2_9TELE,68.349,436,132,3,27,460,32,463,0.0,606,A0A5A9NTL2,Calcitonin gene-related peptide type 1 receptor OS=Triplophysa tibetana OX=1572043 GN=E1301_Tti023293 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669BXG5|A0A669BXG5_ORENI,63.057,471,157,3,6,461,2,470,0.0,606,A0A669BXG5,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4X2LVZ1|A0A4X2LVZ1_VOMUR,63.393,448,160,2,1,444,1,448,0.0,605,A0A4X2LVZ1,Calcitonin receptor OS=Vombatus ursinus OX=29139 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4Z2FUW5|A0A4Z2FUW5_9TELE,71.028,428,102,4,33,458,44,451,0.0,605,A0A4Z2FUW5,Calcitonin gene-related peptide type 1 receptor OS=Liparis tanakae OX=230148 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1G967|A0A3Q1G967_9TELE,64.509,448,150,2,22,460,387,834,0.0,604,A0A3Q1G967,Calcitonin receptor OS=Acanthochromis polyacanthus OX=80966 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1G967|A0A3Q1G967_9TELE,53.608,97,44,1,37,133,207,302,1.87e-26,122,A0A3Q1G967,Calcitonin receptor OS=Acanthochromis polyacanthus OX=80966 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1G967|A0A3Q1G967_9TELE,58.333,72,30,0,67,138,309,380,7.41e-20,102,A0A3Q1G967,Calcitonin receptor OS=Acanthochromis polyacanthus OX=80966 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1G967|A0A3Q1G967_9TELE,34.906,106,66,2,10,113,66,170,1.66e-08,66.6,A0A3Q1G967,Calcitonin receptor OS=Acanthochromis polyacanthus OX=80966 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3M0K170|A0A3M0K170_HIRRU,63.657,443,139,2,35,455,44,486,0.0,604,A0A3M0K170,Calcitonin receptor OS=Hirundo rustica rustica OX=333673 GN=DUI87_18180 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1CN90|A0A3Q1CN90_AMPOC,64.286,448,151,2,22,460,326,773,0.0,603,A0A3Q1CN90,Calcitonin receptor OS=Amphiprion ocellaris OX=80972 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1CN90|A0A3Q1CN90_AMPOC,50.495,101,50,0,38,138,219,319,4.48e-26,120,A0A3Q1CN90,Calcitonin receptor OS=Amphiprion ocellaris OX=80972 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1CN90|A0A3Q1CN90_AMPOC,51.485,101,45,3,35,134,118,215,1.57e-23,113,A0A3Q1CN90,Calcitonin receptor OS=Amphiprion ocellaris OX=80972 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1CN90|A0A3Q1CN90_AMPOC,40.230,87,51,1,27,113,6,91,1.32e-11,76.3,A0A3Q1CN90,Calcitonin receptor OS=Amphiprion ocellaris OX=80972 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1GBJ3|A0A3Q1GBJ3_9TELE,64.509,448,150,2,22,460,358,805,0.0,603,A0A3Q1GBJ3,Calcitonin receptor OS=Acanthochromis polyacanthus OX=80966 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1GBJ3|A0A3Q1GBJ3_9TELE,53.608,97,44,1,37,133,151,246,2.31e-26,121,A0A3Q1GBJ3,Calcitonin receptor OS=Acanthochromis polyacanthus OX=80966 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1GBJ3|A0A3Q1GBJ3_9TELE,47.170,106,56,0,33,138,246,351,1.40e-25,119,A0A3Q1GBJ3,Calcitonin receptor OS=Acanthochromis polyacanthus OX=80966 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1GBJ3|A0A3Q1GBJ3_9TELE,37.931,87,51,2,27,113,31,114,3.99e-08,65.5,A0A3Q1GBJ3,Calcitonin receptor OS=Acanthochromis polyacanthus OX=80966 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A087Y5N4|A0A087Y5N4_POEFO,64.798,446,154,2,18,460,350,795,0.0,603,A0A087Y5N4,Calcitonin receptor OS=Poecilia formosa OX=48698 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A087Y5N4|A0A087Y5N4_POEFO,53.409,88,41,0,40,127,243,330,1.02e-24,116,A0A087Y5N4,Calcitonin receptor OS=Poecilia formosa OX=48698 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A087Y5N4|A0A087Y5N4_POEFO,46.226,106,55,2,37,141,140,244,8.13e-23,110,A0A087Y5N4,Calcitonin receptor OS=Poecilia formosa OX=48698 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A087Y5N4|A0A087Y5N4_POEFO,41.818,55,31,1,59,113,52,105,1.39e-05,57.4,A0A087Y5N4,Calcitonin receptor OS=Poecilia formosa OX=48698 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673GQ65|A0A673GQ65_9TELE,72.048,415,113,3,33,444,21,435,0.0,602,A0A673GQ65,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107743566 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8TMG0|A0A3P8TMG0_AMPPE,64.286,448,151,2,22,460,316,763,0.0,602,A0A3P8TMG0,Calcitonin receptor OS=Amphiprion percula OX=161767 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8TMG0|A0A3P8TMG0_AMPPE,54.455,101,44,2,35,134,106,205,2.33e-27,124,A0A3P8TMG0,Calcitonin receptor OS=Amphiprion percula OX=161767 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8TMG0|A0A3P8TMG0_AMPPE,50.495,101,50,0,38,138,209,309,4.18e-26,120,A0A3P8TMG0,Calcitonin receptor OS=Amphiprion percula OX=161767 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8TMG0|A0A3P8TMG0_AMPPE,44.286,70,38,1,44,113,4,72,1.58e-09,69.7,A0A3P8TMG0,Calcitonin receptor OS=Amphiprion percula OX=161767 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N6AT22|A0A7N6AT22_ANATE,66.511,427,141,1,36,460,45,471,0.0,602,A0A7N6AT22,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6G1QYJ8|A0A6G1QYJ8_9TELE,67.062,422,137,1,36,455,394,815,0.0,602,A0A6G1QYJ8,Calcitonin receptor OS=Channa argus OX=215402 GN=EXN66_Car000730 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6G1QYJ8|A0A6G1QYJ8_9TELE,60.976,82,32,0,60,141,288,369,9.95e-28,125,A0A6G1QYJ8,Calcitonin receptor OS=Channa argus OX=215402 GN=EXN66_Car000730 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6G1QYJ8|A0A6G1QYJ8_9TELE,38.947,95,52,2,22,111,89,182,1.01e-10,73.6,A0A6G1QYJ8,Calcitonin receptor OS=Channa argus OX=215402 GN=EXN66_Car000730 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N5ZVC1|A0A7N5ZVC1_ANATE,64.018,453,151,2,10,460,1,443,0.0,602,A0A7N5ZVC1,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H2LGV1|H2LGV1_ORYLA,64.853,441,152,2,23,460,2,442,0.0,601,H2LGV1,Calcitonin receptor OS=Oryzias latipes OX=8090 GN=calcr PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A6P5JJ13|A0A6P5JJ13_PHACI,64.220,436,153,2,27,459,29,464,0.0,601,A0A6P5JJ13,Calcitonin receptor OS=Phascolarctos cinereus OX=38626 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N5ZVD9|A0A7N5ZVD9_ANATE,66.511,427,141,1,36,460,312,738,0.0,601,A0A7N5ZVD9,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N5ZVD9|A0A7N5ZVD9_ANATE,53.922,102,47,0,40,141,186,287,6.01e-31,135,A0A7N5ZVD9,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N5ZVD9|A0A7N5ZVD9_ANATE,45.679,81,42,2,62,142,110,188,3.02e-13,81.3,A0A7N5ZVD9,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N6ALU1|A0A7N6ALU1_ANATE,65.596,436,145,2,27,460,14,446,0.0,601,A0A7N6ALU1,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N5ZVE7|A0A7N5ZVE7_ANATE,65.596,436,145,2,27,460,10,442,0.0,601,A0A7N5ZVE7,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|M3ZEN5|M3ZEN5_XIPMA,65.158,442,151,2,22,460,364,805,0.0,601,M3ZEN5,Calcitonin receptor OS=Xiphophorus maculatus OX=8083 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|M3ZEN5|M3ZEN5_XIPMA,54.545,88,40,0,40,127,253,340,2.13e-25,118,M3ZEN5,Calcitonin receptor OS=Xiphophorus maculatus OX=8083 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|M3ZEN5|M3ZEN5_XIPMA,46.667,105,55,1,37,141,151,254,9.35e-24,114,M3ZEN5,Calcitonin receptor OS=Xiphophorus maculatus OX=8083 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|M3ZEN5|M3ZEN5_XIPMA,33.962,106,69,1,8,113,12,116,5.08e-12,77.8,M3ZEN5,Calcitonin receptor OS=Xiphophorus maculatus OX=8083 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1IWZ0|A0A3Q1IWZ0_ANATE,66.511,427,141,1,36,460,395,821,0.0,600,A0A3Q1IWZ0,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1IWZ0|A0A3Q1IWZ0_ANATE,53.922,102,47,0,40,141,269,370,1.05e-30,134,A0A3Q1IWZ0,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1IWZ0|A0A3Q1IWZ0_ANATE,38.686,137,65,3,24,142,136,271,4.21e-22,108,A0A3Q1IWZ0,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1IWZ0|A0A3Q1IWZ0_ANATE,31.250,112,71,2,11,117,9,119,5.74e-09,68.2,A0A3Q1IWZ0,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N6AH81|A0A7N6AH81_ANATE,63.576,453,154,2,19,460,12,464,0.0,600,A0A7N6AH81,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1S3MX90|A0A1S3MX90_SALSA,66.446,453,141,5,18,460,28,479,0.0,600,A0A1S3MX90,Calcitonin gene-related peptide type 1 receptor OS=Salmo salar OX=8030 GN=LOC106575712 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IPA8|A0A672IPA8_SALFA,65.367,436,149,1,27,460,371,806,0.0,600,A0A672IPA8,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IPA8|A0A672IPA8_SALFA,56.566,99,43,0,40,138,255,353,4.39e-31,135,A0A672IPA8,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IPA8|A0A672IPA8_SALFA,48.958,96,49,0,41,136,157,252,6.35e-25,117,A0A672IPA8,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IPA8|A0A672IPA8_SALFA,34.711,121,66,4,12,120,9,128,6.39e-12,77.4,A0A672IPA8,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|V8NQF0|V8NQF0_OPHHA,65.783,415,140,1,30,442,82,496,0.0,600,V8NQF0,Calcitonin receptor OS=Ophiophagus hannah OX=8665 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3B5Q0Y2|A0A3B5Q0Y2_XIPMA,65.158,442,151,2,22,460,290,731,0.0,600,A0A3B5Q0Y2,Calcitonin receptor OS=Xiphophorus maculatus OX=8083 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3B5Q0Y2|A0A3B5Q0Y2_XIPMA,54.545,88,40,0,40,127,179,266,2.04e-25,118,A0A3B5Q0Y2,Calcitonin receptor OS=Xiphophorus maculatus OX=8083 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3B5Q0Y2|A0A3B5Q0Y2_XIPMA,52.326,86,40,1,56,141,96,180,4.08e-21,105,A0A3B5Q0Y2,Calcitonin receptor OS=Xiphophorus maculatus OX=8083 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671KQT8|A0A671KQT8_9TELE,69.037,436,128,5,16,444,1,436,0.0,600,A0A671KQT8,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus anshuiensis OX=1608454 GN=LOC107677557 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W3JTW7|A0A4W3JTW7_CALMI,68.315,445,131,4,25,460,12,455,0.0,600,A0A4W3JTW7,Calcitonin gene-related peptide type 1 receptor OS=Callorhinchus milii OX=7868 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P5JSB5|A0A6P5JSB5_PHACI,64.368,435,152,2,28,459,28,462,0.0,599,A0A6P5JSB5,Calcitonin receptor OS=Phascolarctos cinereus OX=38626 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N6BS60|A0A7N6BS60_ANATE,67.062,422,137,1,36,455,54,475,0.0,599,A0A7N6BS60,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674IZY3|A0A674IZY3_TERCA,65.967,429,144,1,29,455,17,445,0.0,599,A0A674IZY3,Calcitonin receptor OS=Terrapene carolina triunguis OX=2587831 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091MUC5|A0A091MUC5_9PASS,70.202,396,116,1,62,455,4,399,0.0,599,A0A091MUC5,Calcitonin receptor (Fragment) OS=Acanthisitta chloris OX=57068 GN=N310_05544 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6EVI4|A0A4W6EVI4_LATCA,65.057,435,150,1,28,460,33,467,0.0,598,A0A4W6EVI4,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3GHX2|A0A3Q3GHX2_9LABR,64.286,448,151,2,22,460,366,813,0.0,598,A0A3Q3GHX2,Calcitonin receptor OS=Labrus bergylta OX=56723 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3GHX2|A0A3Q3GHX2_9LABR,58.586,99,41,0,40,138,260,358,1.64e-32,140,A0A3Q3GHX2,Calcitonin receptor OS=Labrus bergylta OX=56723 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3GHX2|A0A3Q3GHX2_9LABR,48.454,97,50,0,41,137,162,258,3.01e-26,121,A0A3Q3GHX2,Calcitonin receptor OS=Labrus bergylta OX=56723 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3GHX2|A0A3Q3GHX2_9LABR,26.974,152,95,4,15,159,10,152,3.85e-09,68.6,A0A3Q3GHX2,Calcitonin receptor OS=Labrus bergylta OX=56723 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J2WJ23|A0A6J2WJ23_CHACN,65.688,443,143,3,22,455,217,659,0.0,598,A0A6J2WJ23,Calcitonin receptor OS=Chanos chanos OX=29144 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J2WJ23|A0A6J2WJ23_CHACN,37.956,137,72,4,9,136,77,209,1.55e-18,97.8,A0A6J2WJ23,Calcitonin receptor OS=Chanos chanos OX=29144 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A437CVG3|A0A437CVG3_ORYJA,64.334,443,155,2,21,460,263,705,0.0,598,A0A437CVG3,Calcitonin receptor OS=Oryzias javanicus OX=123683 GN=OJAV_G00112460 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A437CVG3|A0A437CVG3_ORYJA,47.664,107,54,1,29,133,141,247,7.78e-28,125,A0A437CVG3,Calcitonin receptor OS=Oryzias javanicus OX=123683 GN=OJAV_G00112460 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A437CVG3|A0A437CVG3_ORYJA,34.483,87,56,1,27,113,31,116,4.79e-09,68.2,A0A437CVG3,Calcitonin receptor OS=Oryzias javanicus OX=123683 GN=OJAV_G00112460 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P9N2L2|A0A3P9N2L2_POERE,64.932,442,152,2,22,460,367,808,0.0,597,A0A3P9N2L2,Calcitonin receptor OS=Poecilia reticulata OX=8081 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P9N2L2|A0A3P9N2L2_POERE,48.544,103,48,1,25,127,246,343,6.19e-25,117,A0A3P9N2L2,Calcitonin receptor OS=Poecilia reticulata OX=8081 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P9N2L2|A0A3P9N2L2_POERE,44.762,105,58,0,37,141,151,255,2.70e-23,112,A0A3P9N2L2,Calcitonin receptor OS=Poecilia reticulata OX=8081 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P9N2L2|A0A3P9N2L2_POERE,33.019,106,70,1,8,113,12,116,1.43e-09,70.1,A0A3P9N2L2,Calcitonin receptor OS=Poecilia reticulata OX=8081 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|F1R4K2|F1R4K2_DANRE,65.158,442,151,2,21,460,157,597,0.0,597,F1R4K2,Calcitonin receptor OS=Danio rerio OX=7955 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|F1R4K2|F1R4K2_DANRE,41.525,118,60,5,22,137,31,141,1.46e-17,94.4,F1R4K2,Calcitonin receptor OS=Danio rerio OX=7955 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6ESC2|A0A4W6ESC2_LATCA,65.057,435,150,1,28,460,378,812,0.0,597,A0A4W6ESC2,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6ESC2|A0A4W6ESC2_LATCA,58.586,99,41,0,40,138,260,358,1.24e-31,137,A0A4W6ESC2,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6ESC2|A0A4W6ESC2_LATCA,46.774,124,63,2,13,134,132,254,2.73e-29,130,A0A4W6ESC2,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6ESC2|A0A4W6ESC2_LATCA,43.750,80,39,2,44,118,47,125,8.32e-11,73.9,A0A4W6ESC2,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A093PHR2|A0A093PHR2_PYGAD,69.949,396,117,1,62,455,1,396,0.0,597,A0A093PHR2,Calcitonin receptor (Fragment) OS=Pygoscelis adeliae OX=9238 GN=AS28_06580 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6ET89|A0A4W6ET89_LATCA,65.057,435,150,1,28,460,378,812,0.0,597,A0A4W6ET89,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6ET89|A0A4W6ET89_LATCA,58.586,99,41,0,40,138,260,358,1.46e-31,137,A0A4W6ET89,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6ET89|A0A4W6ET89_LATCA,46.774,124,63,2,13,134,132,254,3.08e-29,130,A0A4W6ET89,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6ET89|A0A4W6ET89_LATCA,43.750,80,39,2,44,118,47,125,9.25e-11,73.6,A0A4W6ET89,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091ILV1|A0A091ILV1_EGRGA,69.949,396,117,1,62,455,1,396,0.0,597,A0A091ILV1,Calcitonin receptor (Fragment) OS=Egretta garzetta OX=188379 GN=Z169_07227 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H3DK74|H3DK74_TETNG,66.511,427,141,1,36,460,372,798,0.0,597,H3DK74,Calcitonin receptor OS=Tetraodon nigroviridis OX=99883 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H3DK74|H3DK74_TETNG,49.495,99,50,0,40,138,246,344,8.79e-27,122,H3DK74,Calcitonin receptor OS=Tetraodon nigroviridis OX=99883 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H3DK74|H3DK74_TETNG,48.958,96,47,2,48,142,154,248,1.17e-22,110,H3DK74,Calcitonin receptor OS=Tetraodon nigroviridis OX=99883 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H3DK74|H3DK74_TETNG,33.036,112,65,4,15,120,11,118,1.02e-06,60.8,H3DK74,Calcitonin receptor OS=Tetraodon nigroviridis OX=99883 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665UE60|A0A665UE60_ECHNA,66.511,427,138,2,19,443,2,425,0.0,596,A0A665UE60,Calcitonin receptor OS=Echeneis naucrates OX=173247 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A087RFP9|A0A087RFP9_APTFO,69.697,396,118,1,62,455,1,396,0.0,596,A0A087RFP9,Calcitonin receptor (Fragment) OS=Aptenodytes forsteri OX=9233 GN=AS27_12165 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673GQ48|A0A673GQ48_9TELE,69.070,430,122,4,33,460,4,424,0.0,596,A0A673GQ48,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107743566 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6EVF2|A0A4W6EVF2_LATCA,65.057,435,150,1,28,460,361,795,0.0,596,A0A4W6EVF2,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6EVF2|A0A4W6EVF2_LATCA,64.474,76,27,0,63,138,266,341,2.43e-26,121,A0A4W6EVF2,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6EVF2|A0A4W6EVF2_LATCA,45.545,101,47,1,25,125,160,252,2.75e-21,106,A0A4W6EVF2,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6EVF2|A0A4W6EVF2_LATCA,43.902,82,39,3,59,134,89,169,1.12e-08,67.0,A0A4W6EVF2,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A0A0A4A8|A0A0A0A4A8_CHAVO,69.697,396,118,1,62,455,1,396,0.0,596,A0A0A0A4A8,Calcitonin receptor (Fragment) OS=Charadrius vociferus OX=50402 GN=N301_07732 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091V5M6|A0A091V5M6_NIPNI,69.173,399,121,1,59,455,1,399,0.0,596,A0A091V5M6,Calcitonin receptor (Fragment) OS=Nipponia nippon OX=128390 GN=Y956_11281 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IMX5|A0A672IMX5_SALFA,63.982,447,152,2,23,460,17,463,0.0,595,A0A672IMX5,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671TNU3|A0A671TNU3_SPAAU,63.393,448,153,2,19,455,20,467,0.0,595,A0A671TNU3,Calcitonin receptor OS=Sparus aurata OX=8175 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A667WTT1|A0A667WTT1_9TELE,65.848,448,142,4,16,458,20,461,0.0,595,A0A667WTT1,Calcitonin gene-related peptide type 1 receptor OS=Myripristis murdjan OX=586833 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A094KD92|A0A094KD92_ANTCR,69.697,396,118,1,62,455,1,396,0.0,595,A0A094KD92,Calcitonin receptor (Fragment) OS=Antrostomus carolinensis OX=279965 GN=N321_09931 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2U9CYT9|A0A2U9CYT9_SCOMX,66.276,427,142,1,36,460,535,961,0.0,595,A0A2U9CYT9,Calcitonin receptor OS=Scophthalmus maximus OX=52904 GN=SMAX5B_009601 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2U9CYT9|A0A2U9CYT9_SCOMX,59.596,99,40,0,40,138,409,507,1.24e-31,137,A0A2U9CYT9,Calcitonin receptor OS=Scophthalmus maximus OX=52904 GN=SMAX5B_009601 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2U9CYT9|A0A2U9CYT9_SCOMX,47.191,89,46,1,54,142,324,411,1.20e-19,101,A0A2U9CYT9,Calcitonin receptor OS=Scophthalmus maximus OX=52904 GN=SMAX5B_009601 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091GKK5|A0A091GKK5_9AVES,69.444,396,119,1,62,455,1,396,0.0,595,A0A091GKK5,Calcitonin receptor (Fragment) OS=Cuculus canorus OX=55661 GN=N303_13974 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H2UQC1|H2UQC1_TAKRU,63.677,446,151,2,18,452,12,457,0.0,595,H2UQC1,Calcitonin receptor OS=Takifugu rubripes OX=31033 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7NSV6|A0A6P7NSV6_BETSP,66.118,425,142,1,38,460,294,718,0.0,595,A0A6P7NSV6,Calcitonin receptor OS=Betta splendens OX=158456 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7NSV6|A0A6P7NSV6_BETSP,40.411,146,64,1,19,141,126,271,7.65e-28,125,A0A6P7NSV6,Calcitonin receptor OS=Betta splendens OX=158456 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7NSV6|A0A6P7NSV6_BETSP,43.243,74,41,1,44,117,38,110,4.63e-11,74.3,A0A6P7NSV6,Calcitonin receptor OS=Betta splendens OX=158456 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7NY98|A0A6P7NY98_BETSP,66.118,425,142,1,38,460,295,719,0.0,595,A0A6P7NY98,Calcitonin receptor OS=Betta splendens OX=158456 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7NY98|A0A6P7NY98_BETSP,40.411,146,64,1,19,141,127,272,8.18e-28,125,A0A6P7NY98,Calcitonin receptor OS=Betta splendens OX=158456 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7NY98|A0A6P7NY98_BETSP,43.243,74,41,1,44,117,38,110,4.80e-11,74.3,A0A6P7NY98,Calcitonin receptor OS=Betta splendens OX=158456 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671TKP2|A0A671TKP2_SPAAU,65.138,436,147,2,27,460,19,451,0.0,595,A0A671TKP2,Calcitonin receptor OS=Sparus aurata OX=8175 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3LKN4|A0A3Q3LKN4_9TELE,67.681,427,136,1,36,460,393,819,0.0,595,A0A3Q3LKN4,Calcitonin receptor OS=Mastacembelus armatus OX=205130 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3LKN4|A0A3Q3LKN4_9TELE,50.926,108,53,0,40,147,267,374,2.09e-30,134,A0A3Q3LKN4,Calcitonin receptor OS=Mastacembelus armatus OX=205130 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3LKN4|A0A3Q3LKN4_9TELE,44.538,119,52,3,35,142,154,269,2.34e-21,106,A0A3Q3LKN4,Calcitonin receptor OS=Mastacembelus armatus OX=205130 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3LKN4|A0A3Q3LKN4_9TELE,35.088,114,68,3,5,113,8,120,7.08e-13,80.5,A0A3Q3LKN4,Calcitonin receptor OS=Mastacembelus armatus OX=205130 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A091M200|A0A091M200_CATAU,69.444,396,119,1,62,455,1,396,0.0,595,A0A091M200,Calcitonin receptor (Fragment) OS=Cathartes aura OX=43455 GN=N323_06657 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091V3J6|A0A091V3J6_PHORB,69.444,396,119,1,62,455,1,396,0.0,595,A0A091V3J6,Calcitonin receptor (Fragment) OS=Phoenicopterus ruber ruber OX=9218 GN=N337_08076 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IPY0|A0A672IPY0_SALFA,64.334,443,149,2,27,460,21,463,0.0,594,A0A672IPY0,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A5C6NF97|A0A5C6NF97_9TELE,63.636,451,153,2,21,460,376,826,0.0,594,A0A5C6NF97,Calcitonin receptor (Fragment) OS=Takifugu flavidus OX=433684 GN=D4764_21G0006260 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A5C6NF97|A0A5C6NF97_9TELE,42.727,110,63,0,18,127,153,262,1.41e-25,119,A0A5C6NF97,Calcitonin receptor (Fragment) OS=Takifugu flavidus OX=433684 GN=D4764_21G0006260 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A5C6NF97|A0A5C6NF97_9TELE,51.064,94,46,0,45,138,279,372,4.45e-25,117,A0A5C6NF97,Calcitonin receptor (Fragment) OS=Takifugu flavidus OX=433684 GN=D4764_21G0006260 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A5C6NF97|A0A5C6NF97_9TELE,31.858,113,67,4,15,122,45,152,9.41e-08,64.3,A0A5C6NF97,Calcitonin receptor (Fragment) OS=Takifugu flavidus OX=433684 GN=D4764_21G0006260 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6EVH9|A0A4W6EVH9_LATCA,63.636,440,158,1,13,450,10,449,0.0,594,A0A4W6EVH9,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A093Q3A4|A0A093Q3A4_9PASS,69.444,396,119,1,62,455,1,396,0.0,594,A0A093Q3A4,Calcitonin receptor (Fragment) OS=Manacus vitellinus OX=328815 GN=N305_10929 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A093R6W3|A0A093R6W3_PHACA,69.444,396,119,1,62,455,1,396,0.0,594,A0A093R6W3,Calcitonin receptor (Fragment) OS=Phalacrocorax carbo OX=9209 GN=N336_03252 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674NX00|A0A674NX00_TAKRU,63.576,453,152,3,21,460,13,465,0.0,594,A0A674NX00,Calcitonin receptor OS=Takifugu rubripes OX=31033 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IN03|A0A672IN03_SALFA,66.038,424,142,1,23,444,26,449,0.0,594,A0A672IN03,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672NMG7|A0A672NMG7_SINGR,71.393,402,114,1,60,460,39,440,0.0,594,A0A672NMG7,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584849 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672NL61|A0A672NL61_SINGR,71.393,402,114,1,60,460,43,444,0.0,594,A0A672NL61,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107584849 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N5ZQ18|A0A7N5ZQ18_ANATE,63.839,448,153,3,15,460,5,445,0.0,594,A0A7N5ZQ18,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P6RFR1|A0A6P6RFR1_CARAU,64.706,442,153,2,21,460,157,597,0.0,593,A0A6P6RFR1,Calcitonin receptor OS=Carassius auratus OX=7957 GN=LOC113119370 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P6RFR1|A0A6P6RFR1_CARAU,43.878,98,50,3,41,137,48,141,3.28e-16,90.5,A0A6P6RFR1,Calcitonin receptor OS=Carassius auratus OX=7957 GN=LOC113119370 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3EGF8|A0A3Q3EGF8_KRYMA,64.989,437,150,2,27,460,410,846,0.0,593,A0A3Q3EGF8,Calcitonin receptor OS=Kryptolebias marmoratus OX=37003 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3EGF8|A0A3Q3EGF8_KRYMA,44.800,125,66,2,17,141,177,298,1.33e-28,128,A0A3Q3EGF8,Calcitonin receptor OS=Kryptolebias marmoratus OX=37003 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3EGF8|A0A3Q3EGF8_KRYMA,47.222,108,57,0,31,138,288,395,5.56e-27,123,A0A3Q3EGF8,Calcitonin receptor OS=Kryptolebias marmoratus OX=37003 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3EGF8|A0A3Q3EGF8_KRYMA,36.364,99,62,1,15,113,64,161,4.52e-12,77.8,A0A3Q3EGF8,Calcitonin receptor OS=Kryptolebias marmoratus OX=37003 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091HYQ8|A0A091HYQ8_CALAN,69.444,396,119,1,62,455,1,396,0.0,593,A0A091HYQ8,Calcitonin receptor (Fragment) OS=Calypte anna OX=9244 GN=N300_00970 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674D9T8|A0A674D9T8_SALTR,65.463,443,149,3,21,460,172,613,0.0,593,A0A674D9T8,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115174020 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674D9T8|A0A674D9T8_SALTR,28.788,132,58,5,38,136,5,133,4.90e-06,58.5,A0A674D9T8,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115174020 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2I4C7B4|A0A2I4C7B4_9TELE,64.270,445,153,3,22,460,355,799,0.0,593,A0A2I4C7B4,Calcitonin receptor OS=Austrofundulus limnaeus OX=52670 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2I4C7B4|A0A2I4C7B4_9TELE,51.456,103,50,0,36,138,246,348,5.75e-26,120,A0A2I4C7B4,Calcitonin receptor OS=Austrofundulus limnaeus OX=52670 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2I4C7B4|A0A2I4C7B4_9TELE,57.317,82,34,1,55,136,167,247,6.60e-25,117,A0A2I4C7B4,Calcitonin receptor OS=Austrofundulus limnaeus OX=52670 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2I4C7B4|A0A2I4C7B4_9TELE,37.273,110,64,3,8,113,6,114,3.22e-12,78.2,A0A2I4C7B4,Calcitonin receptor OS=Austrofundulus limnaeus OX=52670 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2I4C780|A0A2I4C780_9TELE,64.270,445,153,3,22,460,354,798,0.0,593,A0A2I4C780,Calcitonin receptor OS=Austrofundulus limnaeus OX=52670 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2I4C780|A0A2I4C780_9TELE,51.456,103,50,0,36,138,245,347,5.74e-26,120,A0A2I4C780,Calcitonin receptor OS=Austrofundulus limnaeus OX=52670 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2I4C780|A0A2I4C780_9TELE,57.317,82,34,1,55,136,166,246,6.54e-25,117,A0A2I4C780,Calcitonin receptor OS=Austrofundulus limnaeus OX=52670 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2I4C780|A0A2I4C780_9TELE,36.364,110,64,4,8,113,6,113,4.08e-10,71.6,A0A2I4C780,Calcitonin receptor OS=Austrofundulus limnaeus OX=52670 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A093HEB8|A0A093HEB8_STRCA,69.697,396,118,1,62,455,1,396,0.0,593,A0A093HEB8,Calcitonin receptor (Fragment) OS=Struthio camelus australis OX=441894 GN=N308_12072 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091EE64|A0A091EE64_CORBR,69.192,396,120,1,62,455,1,396,0.0,593,A0A091EE64,Calcitonin receptor (Fragment) OS=Corvus brachyrhynchos OX=85066 GN=N302_03078 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W5LIU2|A0A4W5LIU2_9TELE,65.237,443,150,3,21,460,181,622,0.0,593,A0A4W5LIU2,Calcitonin receptor OS=Hucho hucho OX=62062 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W5LIU2|A0A4W5LIU2_9TELE,26.950,141,58,3,38,136,5,142,9.61e-09,67.0,A0A4W5LIU2,Calcitonin receptor OS=Hucho hucho OX=62062 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N5ZSN7|A0A7N5ZSN7_ANATE,64.853,441,145,3,27,460,48,485,0.0,593,A0A7N5ZSN7,Calcitonin receptor OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|M3XJ31|M3XJ31_LATCH,66.970,439,140,2,20,458,27,460,0.0,593,M3XJ31,Calcitonin receptor OS=Latimeria chalumnae OX=7897 GN=LOC102358806 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H3BIL3|H3BIL3_LATCH,66.970,439,140,2,20,458,27,460,0.0,593,H3BIL3,Calcitonin receptor OS=Latimeria chalumnae OX=7897 GN=LOC102358806 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665UFA7|A0A665UFA7_ECHNA,64.653,447,142,4,27,460,31,474,0.0,592,A0A665UFA7,Calcitonin receptor OS=Echeneis naucrates OX=173247 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1S3Q274|A0A1S3Q274_SALSA,65.237,443,150,3,21,460,201,642,0.0,592,A0A1S3Q274,Calcitonin receptor OS=Salmo salar OX=8030 GN=LOC106588943 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1S3Q274|A0A1S3Q274_SALSA,36.364,121,68,3,21,136,23,139,2.10e-15,87.8,A0A1S3Q274,Calcitonin receptor OS=Salmo salar OX=8030 GN=LOC106588943 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A093FZB8|A0A093FZB8_DRYPU,68.922,399,122,1,59,455,1,399,0.0,592,A0A093FZB8,Calcitonin receptor (Fragment) OS=Dryobates pubescens OX=118200 GN=N307_08887 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671TKE4|A0A671TKE4_SPAAU,66.042,427,143,1,36,460,370,796,0.0,592,A0A671TKE4,Calcitonin receptor OS=Sparus aurata OX=8175 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671TKE4|A0A671TKE4_SPAAU,55.556,99,43,1,40,138,245,342,7.91e-29,129,A0A671TKE4,Calcitonin receptor OS=Sparus aurata OX=8175 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671TKE4|A0A671TKE4_SPAAU,46.903,113,59,1,22,134,128,239,2.80e-27,124,A0A671TKE4,Calcitonin receptor OS=Sparus aurata OX=8175 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671TKE4|A0A671TKE4_SPAAU,34.545,110,64,5,10,113,8,115,8.12e-07,61.2,A0A671TKE4,Calcitonin receptor OS=Sparus aurata OX=8175 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6A5ESX9|A0A6A5ESX9_PERFL,66.042,427,143,1,36,460,387,813,0.0,592,A0A6A5ESX9,Calcitonin receptor OS=Perca fluviatilis OX=8168 GN=PFLUV_G00154630 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6A5ESX9|A0A6A5ESX9_PERFL,54.902,102,46,0,40,141,261,362,3.75e-31,135,A0A6A5ESX9,Calcitonin receptor OS=Perca fluviatilis OX=8168 GN=PFLUV_G00154630 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6A5ESX9|A0A6A5ESX9_PERFL,42.424,132,73,3,13,142,133,263,3.48e-24,115,A0A6A5ESX9,Calcitonin receptor OS=Perca fluviatilis OX=8168 GN=PFLUV_G00154630 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6A5ESX9|A0A6A5ESX9_PERFL,30.719,153,89,4,10,155,7,149,9.63e-12,76.6,A0A6A5ESX9,Calcitonin receptor OS=Perca fluviatilis OX=8168 GN=PFLUV_G00154630 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6D8F1|A0A4W6D8F1_LATCA,62.719,456,163,4,1,449,1,456,0.0,592,A0A4W6D8F1,Calcitonin gene-related peptide type 1 receptor-like OS=Lates calcarifer OX=8187 GN=LOC108873082 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091NT74|A0A091NT74_APAVI,69.444,396,119,1,62,455,1,396,0.0,592,A0A091NT74,Calcitonin receptor (Fragment) OS=Apaloderma vittatum OX=57397 GN=N311_00971 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674D9Y3|A0A674D9Y3_SALTR,65.982,438,145,3,21,455,172,608,0.0,592,A0A674D9Y3,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115174020 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674D9Y3|A0A674D9Y3_SALTR,28.788,132,58,5,38,136,5,133,4.93e-06,58.5,A0A674D9Y3,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115174020 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DRI5|A0A674DRI5_SALTR,64.222,450,157,3,14,460,24,472,0.0,592,A0A674DRI5,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115175528 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A099ZTK0|A0A099ZTK0_TINGU,69.444,396,119,1,62,455,1,396,0.0,592,A0A099ZTK0,Calcitonin receptor (Fragment) OS=Tinamus guttatus OX=94827 GN=N309_08205 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091WB06|A0A091WB06_OPIHO,69.444,396,119,1,62,455,1,396,0.0,592,A0A091WB06,Calcitonin receptor (Fragment) OS=Opisthocomus hoazin OX=30419 GN=N306_06584 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674MPN7|A0A674MPN7_TAKRU,63.261,460,153,3,5,460,28,475,0.0,592,A0A674MPN7,Calcitonin receptor OS=Takifugu rubripes OX=31033 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P6LV82|A0A6P6LV82_CARAU,63.377,456,159,3,13,460,142,597,0.0,591,A0A6P6LV82,Calcitonin receptor OS=Carassius auratus OX=7957 GN=LOC113062047 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P6LV82|A0A6P6LV82_CARAU,39.568,139,69,5,10,137,7,141,6.05e-17,92.4,A0A6P6LV82,Calcitonin receptor OS=Carassius auratus OX=7957 GN=LOC113062047 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DRR2|A0A674DRR2_SALTR,63.596,456,162,3,8,460,77,531,0.0,591,A0A674DRR2,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115175528 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DRR2|A0A674DRR2_SALTR,45.333,75,37,2,62,136,9,79,6.65e-11,73.6,A0A674DRR2,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115175528 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665UE99|A0A665UE99_ECHNA,65.525,438,138,3,36,460,113,550,0.0,591,A0A665UE99,Calcitonin receptor OS=Echeneis naucrates OX=173247 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665UE99|A0A665UE99_ECHNA,49.438,89,45,0,52,140,1,89,3.14e-24,114,A0A665UE99,Calcitonin receptor OS=Echeneis naucrates OX=173247 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672KFM1|A0A672KFM1_SINGR,62.796,465,163,4,6,460,11,475,0.0,591,A0A672KFM1,Calcitonin receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107558586 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A484CKH4|A0A484CKH4_PERFV,66.042,427,143,1,36,460,387,813,0.0,591,A0A484CKH4,Calcitonin receptor OS=Perca flavescens OX=8167 GN=EPR50_G00150160 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A484CKH4|A0A484CKH4_PERFV,56.863,102,44,0,40,141,261,362,5.82e-32,138,A0A484CKH4,Calcitonin receptor OS=Perca flavescens OX=8167 GN=EPR50_G00150160 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A484CKH4|A0A484CKH4_PERFV,46.729,107,56,1,36,142,158,263,1.59e-23,113,A0A484CKH4,Calcitonin receptor OS=Perca flavescens OX=8167 GN=EPR50_G00150160 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A484CKH4|A0A484CKH4_PERFV,33.058,121,71,3,28,148,32,142,2.15e-11,75.5,A0A484CKH4,Calcitonin receptor OS=Perca flavescens OX=8167 GN=EPR50_G00150160 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1S3M534|A0A1S3M534_SALSA,63.938,452,159,3,12,460,148,598,0.0,591,A0A1S3M534,Calcitonin receptor OS=Salmo salar OX=8030 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1S3M534|A0A1S3M534_SALSA,33.333,183,100,7,38,216,4,168,4.08e-15,87.0,A0A1S3M534,Calcitonin receptor OS=Salmo salar OX=8030 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A091I521|A0A091I521_BUCRH,69.192,396,120,1,62,455,4,399,0.0,591,A0A091I521,Calcitonin receptor (Fragment) OS=Buceros rhinoceros silvestris OX=175836 GN=N320_03082 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2R8Q4E0|A0A2R8Q4E0_DANRE,65.158,442,150,3,21,460,150,589,0.0,591,A0A2R8Q4E0,Calcitonin receptor OS=Danio rerio OX=7955 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2R8Q4E0|A0A2R8Q4E0_DANRE,39.583,96,37,4,55,137,47,134,8.14e-11,73.6,A0A2R8Q4E0,Calcitonin receptor OS=Danio rerio OX=7955 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DRH3|A0A674DRH3_SALTR,64.222,450,157,3,14,460,108,556,0.0,591,A0A674DRH3,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115175528 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DRH3|A0A674DRH3_SALTR,48.387,62,31,1,62,123,12,72,2.03e-10,72.4,A0A674DRH3,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115175528 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671TMG0|A0A671TMG0_SPAAU,66.042,427,143,1,36,460,389,815,0.0,591,A0A671TMG0,Calcitonin receptor OS=Sparus aurata OX=8175 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671TMG0|A0A671TMG0_SPAAU,54.255,94,42,1,41,134,147,239,5.29e-28,126,A0A671TMG0,Calcitonin receptor OS=Sparus aurata OX=8175 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671TMG0|A0A671TMG0_SPAAU,46.610,118,43,2,40,138,245,361,3.44e-25,118,A0A671TMG0,Calcitonin receptor OS=Sparus aurata OX=8175 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671TMG0|A0A671TMG0_SPAAU,35.398,113,69,3,4,113,2,113,2.08e-10,72.4,A0A671TMG0,Calcitonin receptor OS=Sparus aurata OX=8175 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IMV4|A0A672IMV4_SALFA,66.348,419,139,1,36,452,16,434,0.0,590,A0A672IMV4,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2R8QAR3|A0A2R8QAR3_DANRE,65.158,442,150,3,21,460,119,558,0.0,590,A0A2R8QAR3,Calcitonin receptor OS=Danio rerio OX=7955 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2R8QAR3|A0A2R8QAR3_DANRE,41.463,82,31,3,69,137,26,103,1.20e-08,66.6,A0A2R8QAR3,Calcitonin receptor OS=Danio rerio OX=7955 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672KE02|A0A672KE02_SINGR,62.179,468,167,4,1,460,4,469,0.0,590,A0A672KE02,Calcitonin receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107558586 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674MFR8|A0A674MFR8_TAKRU,63.858,451,144,4,21,460,27,469,0.0,590,A0A674MFR8,Calcitonin receptor OS=Takifugu rubripes OX=31033 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8PDM5|A0A6P8PDM5_GEOSA,66.822,428,140,1,35,460,55,482,0.0,590,A0A6P8PDM5,Calcitonin receptor OS=Geotrypetes seraphini OX=260995 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8PSX8|A0A6P8PSX8_GEOSA,66.822,428,140,1,35,460,28,455,0.0,590,A0A6P8PSX8,Calcitonin receptor OS=Geotrypetes seraphini OX=260995 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8QHY3|A0A6P8QHY3_GEOSA,66.822,428,140,1,35,460,26,453,0.0,589,A0A6P8QHY3,Calcitonin receptor OS=Geotrypetes seraphini OX=260995 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8QJX1|A0A6P8QJX1_GEOSA,66.822,428,140,1,35,460,24,451,0.0,589,A0A6P8QJX1,Calcitonin receptor OS=Geotrypetes seraphini OX=260995 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669QPP6|A0A669QPP6_PHACC,68.939,396,121,1,62,455,33,428,0.0,589,A0A669QPP6,Calcitonin receptor OS=Phasianus colchicus OX=9054 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8YYE6|A0A3P8YYE6_ESOLU,63.274,452,153,3,3,448,109,553,0.0,588,A0A3P8YYE6,Calcitonin receptor OS=Esox lucius OX=8010 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8YYE6|A0A3P8YYE6_ESOLU,45.161,62,33,1,62,123,41,101,6.06e-10,70.9,A0A3P8YYE6,Calcitonin receptor OS=Esox lucius OX=8010 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A0P7XC04|A0A0P7XC04_SCLFO,66.744,430,141,1,33,460,170,599,0.0,588,A0A0P7XC04,Calcitonin receptor OS=Scleropages formosus OX=113540 GN=Z043_106988 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A0P7XC04|A0A0P7XC04_SCLFO,53.333,60,22,1,64,123,67,120,1.80e-13,82.0,A0A0P7XC04,Calcitonin receptor OS=Scleropages formosus OX=113540 GN=Z043_106988 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6EU99|A0A4W6EU99_LATCA,65.796,421,142,1,28,446,29,449,0.0,588,A0A4W6EU99,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6Q2XYS6|A0A6Q2XYS6_ESOLU,65.358,433,147,2,18,448,74,505,0.0,588,A0A6Q2XYS6,Calcitonin receptor OS=Esox lucius OX=8010 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6Q2XYS6|A0A6Q2XYS6_ESOLU,39.437,71,39,2,69,139,2,68,1.28e-07,63.5,A0A6Q2XYS6,Calcitonin receptor OS=Esox lucius OX=8010 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673GPZ5|A0A673GPZ5_9TELE,67.674,430,123,3,33,460,38,453,0.0,588,A0A673GPZ5,Calcitonin gene-related peptide type 1 receptor OS=Sinocyclocheilus rhinocerous OX=307959 GN=LOC107743566 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H2TZ08|H2TZ08_TAKRU,79.387,359,74,0,34,392,48,406,0.0,588,H2TZ08,Calcitonin gene-related peptide type 1 receptor OS=Takifugu rubripes OX=31033 GN=calcrl PE=3 SV=3
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q2ZSE5|A0A3Q2ZSE5_KRYMA,64.399,441,150,3,27,460,354,794,0.0,587,A0A3Q2ZSE5,Calcitonin receptor OS=Kryptolebias marmoratus OX=37003 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q2ZSE5|A0A3Q2ZSE5_KRYMA,47.863,117,58,2,25,141,129,242,2.22e-28,127,A0A3Q2ZSE5,Calcitonin receptor OS=Kryptolebias marmoratus OX=37003 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q2ZSE5|A0A3Q2ZSE5_KRYMA,47.222,108,57,0,31,138,232,339,7.98e-27,123,A0A3Q2ZSE5,Calcitonin receptor OS=Kryptolebias marmoratus OX=37003 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q2ZSE5|A0A3Q2ZSE5_KRYMA,47.826,69,35,1,45,113,39,106,3.41e-11,75.1,A0A3Q2ZSE5,Calcitonin receptor OS=Kryptolebias marmoratus OX=37003 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1S3M5N2|A0A1S3M5N2_SALSA,63.736,455,158,5,12,460,148,601,0.0,587,A0A1S3M5N2,Calcitonin receptor OS=Salmo salar OX=8030 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1S3M5N2|A0A1S3M5N2_SALSA,33.333,183,100,7,38,216,4,168,3.82e-15,87.0,A0A1S3M5N2,Calcitonin receptor OS=Salmo salar OX=8030 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1S3M4W6|A0A1S3M4W6_SALSA,63.736,455,158,5,12,460,125,578,0.0,587,A0A1S3M4W6,Calcitonin receptor OS=Salmo salar OX=8030 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1S3M4W6|A0A1S3M4W6_SALSA,41.584,101,53,3,38,136,4,100,1.19e-14,85.5,A0A1S3M4W6,Calcitonin receptor OS=Salmo salar OX=8030 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7JTE2|A0A6P7JTE2_9TELE,65.574,427,145,1,36,460,367,793,0.0,586,A0A6P7JTE2,Calcitonin receptor OS=Parambassis ranga OX=210632 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7JTE2|A0A6P7JTE2_9TELE,53.774,106,46,1,36,138,234,339,6.14e-29,129,A0A6P7JTE2,Calcitonin receptor OS=Parambassis ranga OX=210632 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7JTE2|A0A6P7JTE2_9TELE,48.718,117,57,2,23,139,122,235,8.41e-29,129,A0A6P7JTE2,Calcitonin receptor OS=Parambassis ranga OX=210632 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7JTE2|A0A6P7JTE2_9TELE,33.663,101,64,2,15,113,11,110,3.30e-10,72.0,A0A6P7JTE2,Calcitonin receptor OS=Parambassis ranga OX=210632 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7JPK2|A0A6P7JPK2_9TELE,65.574,427,145,1,36,460,369,795,0.0,586,A0A6P7JPK2,Calcitonin receptor OS=Parambassis ranga OX=210632 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7JPK2|A0A6P7JPK2_9TELE,53.774,106,46,1,36,138,236,341,5.71e-29,129,A0A6P7JPK2,Calcitonin receptor OS=Parambassis ranga OX=210632 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7JPK2|A0A6P7JPK2_9TELE,48.718,117,57,2,23,139,124,237,8.83e-29,129,A0A6P7JPK2,Calcitonin receptor OS=Parambassis ranga OX=210632 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7JPK2|A0A6P7JPK2_9TELE,36.782,87,54,1,27,113,27,112,3.33e-10,72.0,A0A6P7JPK2,Calcitonin receptor OS=Parambassis ranga OX=210632 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671TKF6|A0A671TKF6_SPAAU,63.393,448,147,3,27,460,44,488,0.0,586,A0A671TKF6,Calcitonin receptor OS=Sparus aurata OX=8175 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A667WIZ9|A0A667WIZ9_9TELE,72.152,395,105,2,65,458,25,415,0.0,586,A0A667WIZ9,Calcitonin gene-related peptide type 1 receptor OS=Myripristis murdjan OX=586833 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J2QQ68|A0A6J2QQ68_COTGO,63.229,446,161,2,18,460,398,843,0.0,585,A0A6J2QQ68,Calcitonin receptor OS=Cottoperca gobio OX=56716 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J2QQ68|A0A6J2QQ68_COTGO,48.000,125,64,1,18,141,268,392,1.07e-31,137,A0A6J2QQ68,Calcitonin receptor OS=Cottoperca gobio OX=56716 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J2QQ68|A0A6J2QQ68_COTGO,46.847,111,59,0,31,141,152,262,7.58e-27,123,A0A6J2QQ68,Calcitonin receptor OS=Cottoperca gobio OX=56716 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J2QQ68|A0A6J2QQ68_COTGO,36.975,119,63,4,10,117,7,124,1.64e-11,75.9,A0A6J2QQ68,Calcitonin receptor OS=Cottoperca gobio OX=56716 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674NGU0|A0A674NGU0_TAKRU,65.367,436,138,4,27,460,7,431,0.0,585,A0A674NGU0,Calcitonin receptor OS=Takifugu rubripes OX=31033 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674P8W2|A0A674P8W2_TAKRU,65.367,436,138,4,27,460,10,434,0.0,585,A0A674P8W2,Calcitonin receptor OS=Takifugu rubripes OX=31033 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8T3J1|A0A6P8T3J1_GYMAC,61.726,452,163,5,1,449,1,445,0.0,584,A0A6P8T3J1,calcitonin gene-related peptide type 1 receptor-like OS=Gymnodraco acuticeps OX=8218 GN=LOC117537031 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671TM61|A0A671TM61_SPAAU,63.991,436,146,2,21,445,101,536,0.0,584,A0A671TM61,Calcitonin receptor OS=Sparus aurata OX=8175 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671TM61|A0A671TM61_SPAAU,55.102,98,43,1,41,138,1,97,4.04e-29,128,A0A671TM61,Calcitonin receptor OS=Sparus aurata OX=8175 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|W5L4I9|W5L4I9_ASTMX,64.640,444,150,2,24,460,2,445,0.0,584,W5L4I9,Calcitonin receptor OS=Astyanax mexicanus OX=7994 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8VZR0|A0A6P8VZR0_GYMAC,65.574,427,145,1,36,460,386,812,0.0,583,A0A6P8VZR0,Calcitonin receptor OS=Gymnodraco acuticeps OX=8218 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8VZR0|A0A6P8VZR0_GYMAC,50.926,108,53,0,40,147,260,367,1.12e-28,128,A0A6P8VZR0,Calcitonin receptor OS=Gymnodraco acuticeps OX=8218 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8VZR0|A0A6P8VZR0_GYMAC,43.704,135,67,3,13,142,132,262,2.28e-26,121,A0A6P8VZR0,Calcitonin receptor OS=Gymnodraco acuticeps OX=8218 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8VZR0|A0A6P8VZR0_GYMAC,32.414,145,82,4,10,148,7,141,2.58e-12,78.6,A0A6P8VZR0,Calcitonin receptor OS=Gymnodraco acuticeps OX=8218 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7XTT2|A0A6P7XTT2_9AMPH,66.589,428,141,1,35,460,38,465,0.0,583,A0A6P7XTT2,Calcitonin receptor OS=Microcaecilia unicolor OX=1415580 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7XV69|A0A6P7XV69_9AMPH,66.589,428,141,1,35,460,44,471,0.0,583,A0A6P7XV69,Calcitonin receptor OS=Microcaecilia unicolor OX=1415580 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8WGY9|A0A6P8WGY9_GYMAC,65.574,427,145,1,36,460,229,655,0.0,582,A0A6P8WGY9,Calcitonin receptor OS=Gymnodraco acuticeps OX=8218 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8WGY9|A0A6P8WGY9_GYMAC,51.961,102,49,0,40,141,103,204,6.51e-29,129,A0A6P8WGY9,Calcitonin receptor OS=Gymnodraco acuticeps OX=8218 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8WGY9|A0A6P8WGY9_GYMAC,51.961,102,48,1,41,142,5,105,4.70e-26,120,A0A6P8WGY9,Calcitonin receptor OS=Gymnodraco acuticeps OX=8218 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6I8PR90|A0A6I8PR90_XENTR,65.340,427,146,1,36,460,51,477,0.0,582,A0A6I8PR90,Calcitonin receptor OS=Xenopus tropicalis OX=8364 GN=calcr PE=4 SV=2
+sp|Q16602|CALRL_HUMAN,tr|G3PQ03|G3PQ03_GASAC,60.613,457,171,4,1,449,2,457,0.0,582,G3PQ03,Calcitonin receptor-like a OS=Gasterosteus aculeatus OX=69293 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|G3NSK8|G3NSK8_GASAC,64.206,447,151,2,23,460,364,810,0.0,581,G3NSK8,Calcitonin receptor OS=Gasterosteus aculeatus OX=69293 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|G3NSK8|G3NSK8_GASAC,50.000,102,51,0,40,141,258,359,1.07e-27,125,G3NSK8,Calcitonin receptor OS=Gasterosteus aculeatus OX=69293 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|G3NSK8|G3NSK8_GASAC,47.748,111,54,2,35,142,151,260,1.53e-26,122,G3NSK8,Calcitonin receptor OS=Gasterosteus aculeatus OX=69293 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|G3NSK8|G3NSK8_GASAC,42.045,88,42,3,35,117,41,124,9.55e-10,70.5,G3NSK8,Calcitonin receptor OS=Gasterosteus aculeatus OX=69293 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A452GG85|A0A452GG85_9SAUR,64.762,420,132,2,38,455,44,449,0.0,580,A0A452GG85,Calcitonin receptor OS=Gopherus agassizii OX=38772 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672KAY2|A0A672KAY2_SINGR,62.664,458,152,3,21,460,44,500,0.0,580,A0A672KAY2,Calcitonin receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107558586 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|W5MXV9|W5MXV9_LEPOC,65.837,442,148,2,21,460,27,467,0.0,580,W5MXV9,Calcitonin receptor OS=Lepisosteus oculatus OX=7918 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W3JTY3|A0A4W3JTY3_CALMI,79.379,354,72,1,25,378,40,392,0.0,579,A0A4W3JTY3,Calcitonin gene-related peptide type 1 receptor OS=Callorhinchus milii OX=7868 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6D7M5|A0A4W6D7M5_LATCA,65.777,412,138,2,37,445,3,414,0.0,579,A0A4W6D7M5,Calcitonin gene-related peptide type 1 receptor-like OS=Lates calcarifer OX=8187 GN=LOC108873082 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1L8FQY8|A0A1L8FQY8_XENLA,65.105,427,147,1,36,460,49,475,0.0,578,A0A1L8FQY8,Calcitonin receptor OS=Xenopus laevis OX=8355 GN=calcr.S PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N6C327|A0A7N6C327_ANATE,76.944,360,81,2,101,458,11,370,0.0,578,A0A7N6C327,Calcitonin receptor-like a OS=Anabas testudineus OX=64144 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A663DSQ7|A0A663DSQ7_AQUCH,66.998,403,126,3,44,440,37,438,0.0,577,A0A663DSQ7,Calcitonin receptor OS=Aquila chrysaetos chrysaetos OX=223781 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672K906|A0A672K906_SINGR,61.017,472,160,5,1,450,4,473,0.0,577,A0A672K906,Calcitonin receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107558586 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6I9P7A4|A0A6I9P7A4_9TELE,61.522,460,161,5,1,449,1,455,0.0,577,A0A6I9P7A4,calcitonin gene-related peptide type 1 receptor-like OS=Notothenia coriiceps OX=8208 GN=LOC104960215 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672JZC6|A0A672JZC6_SINGR,63.812,467,138,6,7,460,55,503,0.0,577,A0A672JZC6,Calcitonin gene-related peptide type 1 receptor-like OS=Sinocyclocheilus grahami OX=75366 GN=LOC107555409 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A553PXQ6|A0A553PXQ6_9TELE,63.261,460,148,5,8,460,52,497,0.0,577,A0A553PXQ6,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Danionella translucida OX=623744 GN=DNTS_029957 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A553RI18|A0A553RI18_9TELE,62.780,446,154,3,22,460,152,592,0.0,576,A0A553RI18,Calcitonin receptor OS=Danionella translucida OX=623744 GN=DNTS_004274 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A553RI18|A0A553RI18_9TELE,46.939,98,47,3,41,137,48,141,2.99e-17,93.6,A0A553RI18,Calcitonin receptor OS=Danionella translucida OX=623744 GN=DNTS_004274 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6F9CQG6|A0A6F9CQG6_9TELE,63.883,443,150,4,21,460,209,644,0.0,576,A0A6F9CQG6,Calcitonin receptor (Fragment) OS=Coregonus sp. 'balchen' OX=861768 GN=CSTEINMANNI_LOCUS4562514 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6F9CQG6|A0A6F9CQG6_9TELE,28.095,210,132,4,27,218,14,222,2.68e-15,87.8,A0A6F9CQG6,Calcitonin receptor (Fragment) OS=Coregonus sp. 'balchen' OX=861768 GN=CSTEINMANNI_LOCUS4562514 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DAU4|A0A674DAU4_SALTR,65.446,437,143,5,26,455,2,437,0.0,575,A0A674DAU4,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115174020 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A5N5KKC4|A0A5N5KKC4_PANHP,65.661,431,145,2,20,448,33,462,0.0,575,A0A5N5KKC4,Calcitonin receptor OS=Pangasianodon hypophthalmus OX=310915 GN=PHYPO_G00133830 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A553PXR0|A0A553PXR0_9TELE,63.717,452,146,4,13,460,48,485,0.0,575,A0A553PXR0,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Danionella translucida OX=623744 GN=DNTS_029957 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6D8G2|A0A4W6D8G2_LATCA,62.168,452,161,4,1,449,1,445,0.0,575,A0A4W6D8G2,Calcitonin gene-related peptide type 1 receptor-like OS=Lates calcarifer OX=8187 GN=LOC108873082 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669F9X5|A0A669F9X5_ORENI,60.851,470,155,3,6,460,2,457,0.0,575,A0A669F9X5,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W4HDB1|A0A4W4HDB1_ELEEL,65.079,441,147,3,22,460,2,437,0.0,575,A0A4W4HDB1,Calcitonin gene-related peptide type 1 receptor OS=Electrophorus electricus OX=8005 GN=LOC113582754 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W6EPX2|A0A4W6EPX2_LATCA,65.848,407,139,0,28,434,38,444,0.0,575,A0A4W6EPX2,Calcitonin receptor OS=Lates calcarifer OX=8187 GN=LOC108877613 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A484BY84|A0A484BY84_PERFV,61.926,457,165,5,1,449,1,456,0.0,574,A0A484BY84,Uncharacterized protein OS=Perca flavescens OX=8167 GN=EPR50_G00236300 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8VZY4|A0A3P8VZY4_CYNSE,62.295,427,145,2,36,460,374,786,0.0,574,A0A3P8VZY4,Calcitonin receptor OS=Cynoglossus semilaevis OX=244447 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8VZY4|A0A3P8VZY4_CYNSE,43.750,112,62,1,24,134,134,245,1.09e-25,119,A0A3P8VZY4,Calcitonin receptor OS=Cynoglossus semilaevis OX=244447 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8VZY4|A0A3P8VZY4_CYNSE,46.667,90,48,0,38,127,248,337,1.81e-22,109,A0A3P8VZY4,Calcitonin receptor OS=Cynoglossus semilaevis OX=244447 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8VZY4|A0A3P8VZY4_CYNSE,34.483,116,67,3,12,119,7,121,2.63e-09,68.9,A0A3P8VZY4,Calcitonin receptor OS=Cynoglossus semilaevis OX=244447 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6J2R8A5|A0A6J2R8A5_COTGO,62.281,456,164,5,1,449,6,460,0.0,573,A0A6J2R8A5,Calcitonin gene-related peptide type 1 receptor OS=Cottoperca gobio OX=56716 GN=LOC115021043 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A315UVQ7|A0A315UVQ7_GAMAF,67.742,403,128,1,60,460,247,649,0.0,573,A0A315UVQ7,Calcitonin receptor OS=Gambusia affinis OX=33528 GN=CCH79_00008467 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A315UVQ7|A0A315UVQ7_GAMAF,45.536,112,56,1,40,151,144,250,9.10e-26,119,A0A315UVQ7,Calcitonin receptor OS=Gambusia affinis OX=33528 GN=CCH79_00008467 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A315UVQ7|A0A315UVQ7_GAMAF,50.980,51,23,2,91,141,97,145,8.63e-04,51.2,A0A315UVQ7,Calcitonin receptor OS=Gambusia affinis OX=33528 GN=CCH79_00008467 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W5K8B8|A0A4W5K8B8_9TELE,66.444,450,98,5,18,458,3,408,0.0,573,A0A4W5K8B8,Uncharacterized protein OS=Hucho hucho OX=62062 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DAF9|A0A674DAF9_SALTR,69.270,397,119,2,62,455,48,444,0.0,573,A0A674DAF9,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115174020 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3B3HZL2|A0A3B3HZL2_ORYLA,62.528,443,158,3,21,460,13,450,0.0,572,A0A3B3HZL2,Calcitonin receptor OS=Oryzias latipes OX=8090 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3NJG4|A0A3Q3NJG4_9TELE,62.281,456,163,5,10,457,4,458,0.0,572,A0A3Q3NJG4,Calcitonin receptor-like b OS=Mastacembelus armatus OX=205130 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A3B3ICV4|A0A3B3ICV4_ORYLA,62.528,443,158,3,21,460,287,724,0.0,572,A0A3B3ICV4,Calcitonin receptor OS=Oryzias latipes OX=8090 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3B3ICV4|A0A3B3ICV4_ORYLA,50.617,81,39,1,56,136,194,273,1.49e-21,107,A0A3B3ICV4,Calcitonin receptor OS=Oryzias latipes OX=8090 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3B3ICV4|A0A3B3ICV4_ORYLA,44.444,54,29,1,60,113,51,103,4.13e-07,62.0,A0A3B3ICV4,Calcitonin receptor OS=Oryzias latipes OX=8090 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DA19|A0A674DA19_SALTR,67.805,410,129,2,49,455,11,420,0.0,572,A0A674DA19,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115174020 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DB53|A0A674DB53_SALTR,69.270,397,119,2,62,455,78,474,0.0,571,A0A674DB53,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115174020 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A7N8X2C4|A0A7N8X2C4_9TELE,62.335,454,165,4,1,449,1,453,0.0,571,A0A7N8X2C4,Calcitonin receptor-like b OS=Mastacembelus armatus OX=205130 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3B1JU81|A0A3B1JU81_ASTMX,71.285,397,111,2,65,460,42,436,0.0,571,A0A3B1JU81,Uncharacterized protein OS=Astyanax mexicanus OX=7994 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669C6X0|A0A669C6X0_ORENI,76.800,375,85,1,19,391,6,380,0.0,571,A0A669C6X0,Calcitonin gene-related peptide type 1 receptor OS=Oreochromis niloticus OX=8128 GN=calcrl PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3XP77|A0A3Q3XP77_MOLML,63.972,433,148,2,30,460,359,785,0.0,571,A0A3Q3XP77,Calcitonin receptor OS=Mola mola OX=94237 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3XP77|A0A3Q3XP77_MOLML,53.922,102,47,0,40,141,239,340,1.31e-30,134,A0A3Q3XP77,Calcitonin receptor OS=Mola mola OX=94237 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3XP77|A0A3Q3XP77_MOLML,53.846,104,47,1,31,134,131,233,1.82e-29,130,A0A3Q3XP77,Calcitonin receptor OS=Mola mola OX=94237 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3XP77|A0A3Q3XP77_MOLML,37.864,103,62,2,10,111,10,111,7.76e-10,70.9,A0A3Q3XP77,Calcitonin receptor OS=Mola mola OX=94237 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A673A4Q6|A0A673A4Q6_9TELE,63.087,447,153,5,15,449,15,461,0.0,570,A0A673A4Q6,Uncharacterized protein OS=Sphaeramia orbicularis OX=375764 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IMW0|A0A672IMW0_SALFA,62.727,440,158,3,23,460,33,468,0.0,570,A0A672IMW0,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A556TPM7|A0A556TPM7_BAGYA,65.116,430,148,2,20,448,116,544,0.0,570,A0A556TPM7,Calcitonin receptor OS=Bagarius yarrelli OX=175774 GN=Baya_3571 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A556TPM7|A0A556TPM7_BAGYA,39.535,43,23,1,96,138,67,106,9.1,38.5,A0A556TPM7,Calcitonin receptor OS=Bagarius yarrelli OX=175774 GN=Baya_3571 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8YXK6|A0A3P8YXK6_ESOLU,65.942,414,140,1,18,431,74,486,0.0,570,A0A3P8YXK6,Calcitonin receptor OS=Esox lucius OX=8010 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8YXK6|A0A3P8YXK6_ESOLU,39.437,71,39,2,69,139,2,68,1.08e-07,63.5,A0A3P8YXK6,Calcitonin receptor OS=Esox lucius OX=8010 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3N9Q4|A0A3Q3N9Q4_9TELE,62.946,448,157,4,3,449,9,448,0.0,569,A0A3Q3N9Q4,Calcitonin receptor-like b OS=Mastacembelus armatus OX=205130 PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A674DBT5|A0A674DBT5_SALTR,69.192,396,119,2,63,455,3,398,0.0,569,A0A674DBT5,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115174020 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DS16|A0A674DS16_SALTR,67.322,407,130,2,57,460,33,439,0.0,568,A0A674DS16,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115175528 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671WA65|A0A671WA65_SPAAU,78.830,359,75,1,101,458,8,366,0.0,568,A0A671WA65,Calcitonin gene-related peptide type 1 receptor OS=Sparus aurata OX=8175 GN=LOC115588250 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4W4H9P6|A0A4W4H9P6_ELEEL,64.853,441,143,4,22,460,25,455,0.0,568,A0A4W4H9P6,Calcitonin gene-related peptide type 1 receptor OS=Electrophorus electricus OX=8005 GN=LOC113582754 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DS23|A0A674DS23_SALTR,67.322,407,130,2,57,460,18,424,0.0,568,A0A674DS23,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115175528 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DRQ8|A0A674DRQ8_SALTR,67.322,407,130,2,57,460,67,473,0.0,568,A0A674DRQ8,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115175528 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A669B5T2|A0A669B5T2_ORENI,61.623,456,150,4,6,446,2,447,0.0,568,A0A669B5T2,Calcitonin receptor OS=Oreochromis niloticus OX=8128 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8X7U9|A0A3P8X7U9_ESOLU,65.333,450,146,5,18,458,26,474,0.0,567,A0A3P8X7U9,Calcitonin gene-related peptide type 1 receptor OS=Esox lucius OX=8010 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6Q2XT57|A0A6Q2XT57_ESOLU,64.924,459,146,6,9,458,10,462,0.0,567,A0A6Q2XT57,Calcitonin gene-related peptide type 1 receptor OS=Esox lucius OX=8010 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IQJ1|A0A672IQJ1_SALFA,63.073,436,155,3,27,460,364,795,0.0,566,A0A672IQJ1,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IQJ1|A0A672IQJ1_SALFA,56.566,99,43,0,40,138,248,346,5.20e-31,135,A0A672IQJ1,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IQJ1|A0A672IQJ1_SALFA,47.000,100,49,1,41,136,146,245,5.54e-23,111,A0A672IQJ1,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IQJ1|A0A672IQJ1_SALFA,41.176,85,44,2,41,120,45,128,1.02e-11,76.6,A0A672IQJ1,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IPZ5|A0A672IPZ5_SALFA,62.727,440,158,3,23,460,340,775,0.0,566,A0A672IPZ5,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IPZ5|A0A672IPZ5_SALFA,63.750,80,29,0,59,138,247,326,4.58e-28,126,A0A672IPZ5,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IPZ5|A0A672IPZ5_SALFA,46.078,102,50,1,41,142,138,234,2.02e-22,109,A0A672IPZ5,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IPZ5|A0A672IPZ5_SALFA,41.176,85,44,2,41,120,35,118,9.30e-12,76.6,A0A672IPZ5,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DAA1|A0A674DAA1_SALTR,67.568,407,128,2,49,451,19,425,0.0,566,A0A674DAA1,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115174020 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672KDS8|A0A672KDS8_SINGR,67.830,401,127,1,62,460,45,445,0.0,566,A0A672KDS8,Calcitonin receptor OS=Sinocyclocheilus grahami OX=75366 GN=LOC107558586 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IMX7|A0A672IMX7_SALFA,63.700,427,149,3,36,460,20,442,0.0,565,A0A672IMX7,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q3LJ30|A0A3Q3LJ30_9LABR,62.277,448,161,4,10,449,10,457,0.0,565,A0A3Q3LJ30,Calcitonin gene-related peptide type 1 receptor-like OS=Labrus bergylta OX=56723 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A672IQJ6|A0A672IQJ6_SALFA,63.700,427,149,3,36,460,28,450,0.0,565,A0A672IQJ6,Calcitonin receptor OS=Salarias fasciatus OX=181472 GN=LOC115409606 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DBV7|A0A674DBV7_SALTR,70.052,384,113,1,62,443,23,406,0.0,565,A0A674DBV7,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115174020 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665UDV4|A0A665UDV4_ECHNA,64.403,427,146,3,36,460,113,535,0.0,564,A0A665UDV4,Calcitonin receptor OS=Echeneis naucrates OX=173247 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665UDV4|A0A665UDV4_ECHNA,49.438,89,45,0,52,140,1,89,3.96e-24,114,A0A665UDV4,Calcitonin receptor OS=Echeneis naucrates OX=173247 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q2D226|A0A3Q2D226_CYPVA,61.269,457,151,4,11,460,11,448,0.0,564,A0A3Q2D226,Calcitonin receptor OS=Cyprinodon variegatus OX=28743 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DS71|A0A674DS71_SALTR,66.829,410,130,3,57,460,26,435,0.0,564,A0A674DS71,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115175528 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|W5MCX6|W5MCX6_LEPOC,64.085,426,140,5,30,445,48,470,0.0,564,W5MCX6,Calcitonin receptor OS=Lepisosteus oculatus OX=7918 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A671YVH9|A0A671YVH9_SPAAU,60.307,456,174,3,1,449,6,461,0.0,563,A0A671YVH9,Calcitonin gene-related peptide type 1 receptor-like OS=Sparus aurata OX=8175 GN=LOC115577083 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A1L8FVV6|A0A1L8FVV6_XENLA,59.574,470,145,2,36,460,65,534,0.0,563,A0A1L8FVV6,Calcitonin receptor OS=Xenopus laevis OX=8355 GN=XELAEV_18030867mg PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|H0YTE5|H0YTE5_TAEGU,71.348,356,102,0,35,390,41,396,0.0,563,H0YTE5,Calcitonin receptor OS=Taeniopygia guttata OX=59729 GN=CALCR PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A6I8NKV2|A0A6I8NKV2_ORNAN,66.010,406,136,1,54,457,3,408,0.0,563,A0A6I8NKV2,Calcitonin receptor OS=Ornithorhynchus anatinus OX=9258 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8GVQ9|A0A6P8GVQ9_CLUHA,62.415,439,160,2,27,460,198,636,0.0,562,A0A6P8GVQ9,Calcitonin receptor OS=Clupea harengus OX=7950 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P8GVQ9|A0A6P8GVQ9_CLUHA,34.247,146,81,4,6,137,51,195,2.49e-16,90.9,A0A6P8GVQ9,Calcitonin receptor OS=Clupea harengus OX=7950 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P3VZ32|A0A6P3VZ32_CLUHA,62.415,439,160,2,27,460,151,589,0.0,561,A0A6P3VZ32,Calcitonin receptor OS=Clupea harengus OX=7950 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P3VZ32|A0A6P3VZ32_CLUHA,34.247,146,81,4,6,137,4,148,3.03e-16,90.5,A0A6P3VZ32,Calcitonin receptor OS=Clupea harengus OX=7950 GN=calcr PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DS80|A0A674DS80_SALTR,65.072,418,143,2,27,442,1,417,0.0,561,A0A674DS80,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115175528 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6I8NTC5|A0A6I8NTC5_ORNAN,66.418,402,133,1,58,457,10,411,0.0,561,A0A6I8NTC5,Calcitonin receptor OS=Ornithorhynchus anatinus OX=9258 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4U1F3W8|A0A4U1F3W8_MONMO,94.558,294,16,0,168,461,1,294,0.0,559,A0A4U1F3W8,G_PROTEIN_RECEP_F2_4 domain-containing protein (Fragment) OS=Monodon monoceros OX=40151 GN=EI555_015736 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7JRY7|A0A6P7JRY7_9TELE,60.633,442,161,6,17,449,24,461,0.0,558,A0A6P7JRY7,calcitonin gene-related peptide type 1 receptor-like isoform X1 OS=Parambassis ranga OX=210632 GN=LOC114447533 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A667W8B4|A0A667W8B4_9TELE,62.045,440,144,6,25,458,15,437,0.0,558,A0A667W8B4,Calcitonin gene-related peptide type 1 receptor OS=Myripristis murdjan OX=586833 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6P7JVY9|A0A6P7JVY9_9TELE,60.771,441,161,6,17,449,24,460,0.0,558,A0A6P7JVY9,calcitonin gene-related peptide type 1 receptor-like isoform X2 OS=Parambassis ranga OX=210632 GN=LOC114447533 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6A5E0M1|A0A6A5E0M1_PERFL,61.488,457,167,5,1,449,1,456,0.0,558,A0A6A5E0M1,Uncharacterized protein OS=Perca fluviatilis OX=8168 GN=PFLUV_G00270050 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1FI76|A0A3Q1FI76_9TELE,61.013,454,165,5,1,449,7,453,0.0,558,A0A3Q1FI76,Calcitonin gene-related peptide type 1 receptor-like OS=Acanthochromis polyacanthus OX=80966 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A6I8NEX0|A0A6I8NEX0_ORNAN,67.003,397,129,1,63,457,20,416,0.0,557,A0A6I8NEX0,Calcitonin receptor OS=Ornithorhynchus anatinus OX=9258 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A498N2H3|A0A498N2H3_LABRO,61.991,442,151,3,21,460,116,542,0.0,557,A0A498N2H3,Calcitonin receptor OS=Labeo rohita OX=84645 GN=ROHU_020693 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A498N2H3|A0A498N2H3_LABRO,45.918,98,48,3,41,137,7,100,4.04e-17,92.8,A0A498N2H3,Calcitonin receptor OS=Labeo rohita OX=84645 GN=ROHU_020693 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665UEX1|A0A665UEX1_ECHNA,62.998,427,142,2,36,460,285,697,0.0,556,A0A665UEX1,Calcitonin receptor OS=Echeneis naucrates OX=173247 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665UEX1|A0A665UEX1_ECHNA,52.439,82,39,0,59,140,180,261,1.21e-22,110,A0A665UEX1,Calcitonin receptor OS=Echeneis naucrates OX=173247 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A665UEX1|A0A665UEX1_ECHNA,37.805,82,40,2,44,120,29,104,1.33e-06,60.5,A0A665UEX1,Calcitonin receptor OS=Echeneis naucrates OX=173247 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A060YS14|A0A060YS14_ONCMY,68.579,401,123,3,60,458,18,417,0.0,556,A0A060YS14,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Oncorhynchus mykiss OX=8022 GN=GSONMT00032123001 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3P8SGY2|A0A3P8SGY2_AMPPE,61.161,448,165,5,7,449,3,446,0.0,555,A0A3P8SGY2,Uncharacterized protein OS=Amphiprion percula OX=161767 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3Q1CBR0|A0A3Q1CBR0_AMPOC,61.384,448,165,5,7,449,3,447,0.0,555,A0A3Q1CBR0,Calcitonin gene-related peptide type 1 receptor-like OS=Amphiprion ocellaris OX=80972 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A0P7WIG9|A0A0P7WIG9_SCLFO,59.919,494,123,4,18,460,81,550,0.0,555,A0A0P7WIG9,Calcitonin gene-related peptide type 1 receptor OS=Scleropages formosus OX=113540 GN=Z043_120974 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4U5TY23|A0A4U5TY23_COLLU,61.184,456,165,5,1,449,6,456,0.0,554,A0A4U5TY23,Calcitonin gene-related peptide type 1 receptor OS=Collichthys lucidus OX=240159 GN=D9C73_000456 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A674DBF8|A0A674DBF8_SALTR,62.584,449,144,5,15,455,10,442,0.0,554,A0A674DBF8,Calcitonin receptor OS=Salmo trutta OX=8032 GN=LOC115174020 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2U9AWA5|A0A2U9AWA5_SCOMX,59.341,455,178,4,1,449,1,454,0.0,554,A0A2U9AWA5,Calcitonin gene-related peptide type 1 receptor OS=Scophthalmus maximus OX=52904 GN=SMAX5B_006960 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A4U5TYI1|A0A4U5TYI1_COLLU,61.184,456,165,5,1,449,6,456,0.0,552,A0A4U5TYI1,Calcitonin gene-related peptide type 1 receptor OS=Collichthys lucidus OX=240159 GN=D9C73_000444 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A3B1K9W8|A0A3B1K9W8_ASTMX,75.487,359,73,2,101,458,2,346,0.0,551,A0A3B1K9W8,G_PROTEIN_RECEP_F2_4 domain-containing protein OS=Astyanax mexicanus OX=7994 PE=4 SV=1
+sp|Q16602|CALRL_HUMAN,tr|G1TV01|G1TV01_RABIT,61.929,394,150,0,36,429,60,453,0.0,551,G1TV01,Calcitonin receptor OS=Oryctolagus cuniculus OX=9986 GN=CALCR PE=3 SV=3
+sp|Q16602|CALRL_HUMAN,tr|H2TZ07|H2TZ07_TAKRU,61.851,443,160,4,11,449,9,446,0.0,550,H2TZ07,Uncharacterized protein OS=Takifugu rubripes OX=31033 GN=LOC101075671 PE=3 SV=3
+sp|Q16602|CALRL_HUMAN,tr|A0A5F9D2T7|A0A5F9D2T7_RABIT,61.929,394,150,0,36,429,30,423,0.0,550,A0A5F9D2T7,Calcitonin receptor OS=Oryctolagus cuniculus OX=9986 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A2K5R2C0|A0A2K5R2C0_CEBIM,63.281,384,141,0,36,419,43,426,0.0,550,A0A2K5R2C0,Calcitonin receptor OS=Cebus imitator OX=2715852 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A553PXQ2|A0A553PXQ2_9TELE,59.513,452,153,5,13,460,48,473,0.0,549,A0A553PXQ2,Calcitonin gene-related peptide type 1 receptor (Fragment) OS=Danionella translucida OX=623744 GN=DNTS_029957 PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A096NZZ1|A0A096NZZ1_PAPAN,61.425,407,154,1,12,418,66,469,0.0,549,A0A096NZZ1,Calcitonin receptor OS=Papio anubis OX=9555 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|A0A0C4DG16|A0A0C4DG16_HUMAN,59.857,421,160,2,4,418,8,425,0.0,549,A0A0C4DG16,Calcitonin receptor OS=Homo sapiens OX=9606 GN=CALCR PE=1 SV=1
+sp|Q16602|CALRL_HUMAN,sp|P30988|CALCR_HUMAN,57.753,445,179,2,4,442,8,449,0.0,549,P30988,Calcitonin receptor OS=Homo sapiens OX=9606 GN=CALCR PE=1 SV=3
+sp|Q16602|CALRL_HUMAN,tr|A0A2J8L470|A0A2J8L470_PANTR,57.753,445,179,2,4,442,8,449,0.0,549,A0A2J8L470,Calcitonin receptor OS=Pan troglodytes OX=9598 GN=CALCR PE=3 SV=1
+sp|Q16602|CALRL_HUMAN,tr|G3SDU9|G3SDU9_GORGO,57.753,445,179,2,4,442,8,449,0.0,549,G3SDU9,Calcitonin receptor OS=Gorilla gorilla gorilla OX=9595 GN=CALCR PE=3 SV=2
+sp|Q16602|CALRL_HUMAN,tr|A0A2R8ZQM0|A0A2R8ZQM0_PANPA,58.701,431,175,1,12,442,11,438,0.0,549,A0A2R8ZQM0,Calcitonin receptor OS=Pan paniscus OX=9597 GN=CALCR PE=3 SV=1
