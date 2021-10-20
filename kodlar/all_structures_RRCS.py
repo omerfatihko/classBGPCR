@@ -80,7 +80,7 @@ python /cta/users/ofkonar/work/kodlar/RRCS-master/RRCS.py /cta/users/ofkonar/wor
 #transform the results to a more practival form
 
 files = [f for f in listdir(structurepath) if isfile(join(structurepath, f))]
-scorefiles = [x for x in files if "score" in x and "csv" if "csv" not in x]
+scorefiles = [x for x in files if "score" in x and "csv" not in x]
 
 for file in scorefiles:
 	score = pd.read_csv(structurepath + file, delim_whitespace=True, header=None, engine="python") #variable white space seperated files
@@ -104,9 +104,8 @@ for file in scorefiles:
 		ele2 = oneletter2 + pos2
 		rrcs = line[2]
 		result = result.append({"chain_1" : chain1, "residue_1" : ele1, "chain_2" : chain2, "residue_2" : ele2, "RRCS" : rrcs}, ignore_index = True)
-	result.to_csv(structurepath + file + ".csv", index = False)	
+	result.to_csv(structurepath + file + ".csv", index = False)
 """
-
 #read the results for each GPCR, get global consensus and special residue interactions. Later, we will form a network with them and 
 #supplement it with possible PP-interaction data.
 #first we will work on active structures since most of the GPCRs have active structures while not all have inactive structures
@@ -161,7 +160,7 @@ temp = calcrdf.groupby(["chain_1","residue_1","chain_2","residue_2"]).mean() #gr
 temp.reset_index(inplace = True) #reset the indexes back to columns 
 temp.to_csv("/cta/users/ofkonar/work/results/rrcs/all/" + "calr_rrcs_combined.csv", index = False)
 """
-
+"""
 #calrl
 
 #RAMP1, single structure # lets add its own consensus residues
@@ -216,7 +215,7 @@ temp = calrldf.groupby(["chain_1","residue_1","chain_2","residue_2"]).mean() #gr
 temp.reset_index(inplace = True) #reset the indexes back to columns
 print(temp)
 temp.to_csv("/cta/users/ofkonar/work/results/rrcs/all/" + "calrl_RAMP1_rrcs_combined.csv", index = False)
-
+"""
 
 #RAMP2, single structure
 """
