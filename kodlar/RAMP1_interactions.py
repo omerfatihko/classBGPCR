@@ -20,5 +20,24 @@ for f in bincompfiles:
     tempdf = pd.read_csv(csvpath + f)
     localconsensus = tempdf.iloc[:,[3,4,5,6]]
     globalconsensus = pd.concat([globalconsensus, localconsensus], axis=1)
-globalconsensus.to_csv(csvpath + "class_B1_all_consensus_seqs.csv", index=False)
+#globalconsensus.to_csv(csvpath + "class_B1_all_consensus_seqs.csv", index=False)
+
+#read 6E3Y score file to get residues interacting with RAMP1
+scoredf = pd.read_csv("/cta/users/ofkonar/work/structures/all_structures/6e3y.pdb.cscore.csv")
+filter1 = scoredf.loc[(scoredf["chain_1"] == "RAMP1") & (scoredf["chain_2"] == "R")]
+reslist1 = filter1["residue_2"].tolist()
+filter2 = scoredf.loc[(scoredf["chain_1"] == "R") & (scoredf["chain_2"] == "RAMP1")]
+reslist2 = filter2["residue_1"].tolist()
+reslist = sorted(list(set(reslist1 +reslist2)))
+
+#get the subset of residues that interact with RAMP1
+selected  = globalconsensus.loc[globalconsensus["calrl_seq"].isin(reslist)]
+#selected.to_csv(csvpath + "selected.csv", index=False)
+
+ramp1interacting = ["calcr", "calrl", "gcgr", "gipr", "glp1r", "glp2r", "pacr", "pth1r", "pth2r", "sctr", "vipr2"]
+ramp1notinteracting = ["crfr1", "ghrhr", "vipr1"]
+onlyramp3interacting = ["crfr2"]
+
+ramp1orthologs = sorted([f for f in onlyfiles if mf.FilterSeq(f, ramp1interacting) if "orthologs" in f])
+print(ramp1orthologs)
 print("My program took", time.time() - start_time, "seconds to run")
