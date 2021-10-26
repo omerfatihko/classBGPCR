@@ -304,6 +304,27 @@ def consensus(df, limit):
 
 	return consensus_seq
 
+def residuecontent(df):
+	#get the dimensions of original dataframe to iterate over rows
+	dims = df.shape
+	#create an empty dataframe to add consensus sequence with the frequency of the residues 
+	contenttable = pd.DataFrame(columns = ["residue1", "frequency1", "residue2", "frequency2", "residue3", "frequency3"], index=list(range(dims[0])))
+
+	for i in range(dims[0]):
+		#get the values of the row (each row has the residue at that position for every protein)
+		x = df.iloc[i].astype(str).tolist()
+		residuefrequencies = {}
+		for j in set(x):
+			residuefrequencies[j] = x.count(j)/len(x)
+		orderedfrequencies = {k: v for k, v in sorted(residuefrequencies.items(), key=lambda item: item[1], reverse=True)}
+		first3pairs = {k: orderedfrequencies[k] for k in list(orderedfrequencies)[:3]}
+		keylist = list(first3pairs.keys())
+		for ii in range(len(keylist)):
+			contenttable.at[i,"residue" + str(ii+1)] = keylist[ii]
+			contenttable.at[i, "frequency" + str(ii+1)] = first3pairs[keylist[ii]]
+			# contenttable = contenttable.append({"residue1" :keylist[0], "residue2" :keylist[1], "residue3" :keylist[2], "frequency1": first3pairs[keylist[0]], "frequency2": first3pairs[keylist[1]], "frequency3": first3pairs[keylist[2]]}, ignore_index=True) 
+	return contenttable
+
 def consensus_posadjusted(df_ort, df):
 	"""This function adjusts the positions of the residues from
 	function"""

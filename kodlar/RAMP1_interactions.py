@@ -31,11 +31,12 @@ reslist1 = filter1["residue_2"].tolist()
 filter2 = scoredf1.loc[(scoredf1["chain_1"] == "R") & (scoredf1["chain_2"] == "RAMP1")]
 reslist2 = filter2["residue_1"].tolist()
 collectedlist1 = set(reslist1 +reslist2)
-
+print(len(collectedlist1))
 #get the subset of residues that interact with RAMP1
 selected1  = globalconsensus.loc[globalconsensus["calrl_seq"].isin(collectedlist1)]
+print(selected1.shape)
 ramp1indexes = globalconsensus.index[globalconsensus["calrl_seq"].isin(collectedlist1)].tolist()
-
+print(ramp1indexes)
 #selected1.to_csv(csvpath + "selected1.csv", index=False)
 
 #read 6UUN score file to get residues interacting with RAMP2
@@ -108,5 +109,10 @@ flattenedramp1fastalist = [item for sublist in ramp1interactingfastas for item i
 ramp1interactingdf = mf.fasta_to_dataframe(flattenedramp1fastalist)
 ramp1consensus = mf.consensus(ramp1interactingdf, 0.9)
 print(ramp1consensus.iloc[ramp1indexes])
+print("------------------------------------------------------------------------------------------")
+a = mf.residuecontent(ramp1interactingdf)
+#print(a)
+print(a.iloc[ramp1indexes])
+
 
 print("My program took", time.time() - start_time, "seconds to run")
