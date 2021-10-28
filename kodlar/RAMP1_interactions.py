@@ -111,7 +111,6 @@ ramp1consensus = mf.consensus(ramp1interactingdf, 0.9)
 print(ramp1consensus.iloc[ramp1indexes])
 print("------------------------------------------------------------------------------------------")
 a = mf.residuecontent(ramp1interactingdf)
-#print(a)
 print(a.iloc[ramp1indexes])
 
 
