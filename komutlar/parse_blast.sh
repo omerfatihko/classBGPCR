@@ -25,7 +25,7 @@
 #
 # -= Resources =-
 #
-#SBATCH --job-name=prune_all_class_B1_orthologs
+#SBATCH --job-name=filter_ramp3_orthologs
 #SBATCH --account=investor
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
@@ -33,7 +33,7 @@
 #SBATCH --qos=mid_investor
 #SBATCH --partition=mid_investor
 #SBATCH --time=1-0:0
-#SBATCH --output=%j-prune_all_class_B1_orthologs.out
+#SBATCH --output=%j-filter_ramp3_orthologs.out
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=omerfatihkonar@sabanciuniv.edu
 
@@ -41,4 +41,4 @@ module load python-3.7.4-gcc-9.2.0-qom5xda
 module load py-numpy-1.17.3-gcc-9.2.0-sk2xj77
 module load py-pandas-0.25.1-gcc-9.2.0-divscg7
 
-python /cta/users/ofkonar/work/kodlar/others.py
+python /cta/users/ofkonar/work/kodlar/deneme.py

@@ -25,7 +25,7 @@
 #
 # -= Resources =-
 #
-#SBATCH --job-name=blast_crfr1_top1200_canonical
+#SBATCH --job-name=blast_ramp3_canonical
 #SBATCH --account=investor
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
@@ -33,8 +33,8 @@
 #SBATCH --qos=short_investor
 #SBATCH --partition=short_investor
 #SBATCH --time=120
-#SBATCH --output=%j-blast_crfr1_top1200_canonical.out
+#SBATCH --output=%j-blast_ramp3_canonical.out
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=omerfatihkonar@sabanciuniv.edu
 module load blast-plus-2.9.0-gcc-9.2.0-k73hoo5
-blastp -query /cta/users/ofkonar/work/resources/class_B1/crfr1_human.fasta -db /cta/users/ofkonar/work/database/canonical_blast_database/uniprot_reference_proteomes_canonical_db -max_target_seqs 1200 -out /cta/users/ofkonar/work/results/crfr1_blast_results_top1000.csv -outfmt "10 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore sacc stitle"
+blastp -query /cta/users/ofkonar/work/resources/ramps/ramp3_human.fasta -db /cta/users/ofkonar/work/database/canonical_blast_database/uniprot_reference_proteomes_canonical_db -max_target_seqs 1200 -out /cta/users/ofkonar/work/results/csvs/ramp3_blast_results.csv -outfmt "10 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore sacc stitle"

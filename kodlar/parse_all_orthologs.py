@@ -5,7 +5,7 @@ unified_fasta_path = "/cta/users/ofkonar/work/resources/fasta/unified_fasta.fast
 
 #all_orthologs = mf.select_csv("/cta/users/ofkonar/work/results/all_orthologs.csv", 0)
 #all_orthologs_fastas = mf.filter_fasta(all_orthologs, unified_fasta_path)
-#mf.write_fasta("/cta/users/ofkonar/work/resources/fasta/all_orthologs.fasta", all_orthologs_fastas
+#mf.write_fasta("/cta/users/ofkonar/work/resources/fasta/all_orthologs.fasta", all_orthologs_fastas)
 """
 all_orthologs = mf.read_fasta("/cta/users/ofkonar/work/resources/fasta/msa_all_orthologs.fasta")
 
