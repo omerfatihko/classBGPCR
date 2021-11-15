@@ -305,6 +305,8 @@ def consensus(df, limit):
 	return consensus_seq
 
 def residuecontent(df):
+	"""Returns the most common 3 residues and their frequency for every position in the table of
+	aligned proteins, gaps are considered"""
 	#get the dimensions of original dataframe to iterate over rows
 	dims = df.shape
 	#create an empty dataframe to add consensus sequence with the frequency of the residues 
@@ -376,8 +378,7 @@ def special_residues(df1, df2):
 	1. df1 residue should not be a gap and
 	2. df1 residue has to be different than df2	residue 
 	!!!MAKE SURE THAT DATAFRAMES SHARE SAME DIMENSIONS AND HAD THE SAME LIMIT (consensus function limit)!!!
-	Later, special residues are ranked according to blosum80 scores; residues with lowest scores (most unlikely change) are
-	ranked higher. Results are returned as a dataframe"""
+	NO RANKING IS DONE! Results are returned as a dataframe"""
 
 	#read blosum80 table
 	blosum80 = pd.read_csv("/cta/users/ofkonar/work/resources/blosum80.csv", index_col = 0)

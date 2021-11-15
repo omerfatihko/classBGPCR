@@ -25,18 +25,18 @@
 #
 # -= Resources =-
 #
-#SBATCH --job-name=msa2_class_B1_orthologs
+#SBATCH --job-name=msa_ramp3_blast
 #SBATCH --account=investor
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=24
-#SBATCH --qos=long_investor
-#SBATCH --partition=long_investor
-#SBATCH --time=7-0:0
-#SBATCH --output=%j-msa2_class_B1_orthologs.out
+#SBATCH --qos=mid_investor
+#SBATCH --partition=mid_investor
+#SBATCH --time=1-0:0
+#SBATCH --output=%j-msa_ramp3_blast.out
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=omerfatihkonar@sabanciuniv.edu
 
 module load mafft-7.407-gcc-9.2.0-fww6zrx
 
-einsi --thread -1 /cta/users/ofkonar/work/resources/class_B1/canonical/class_B1_all_orthologs.fasta > /cta/users/ofkonar/work/resources/class_B1/canonical/class_B1_all_orthologs_msa_2.fasta
+einsi --thread -1 /cta/users/ofkonar/work/resources/ramps/ramp3_filtered_fastas_blast.fasta > /cta/users/ofkonar/work/resources/ramps/ramp3_filtered_fastas_blast_msa.fasta

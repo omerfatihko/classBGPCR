@@ -1,3 +1,4 @@
+from numpy import empty
 from functions import my_functions as mf
 import pandas as pd
 import time
@@ -31,12 +32,13 @@ reslist1 = filter1["residue_2"].tolist()
 filter2 = scoredf1.loc[(scoredf1["chain_1"] == "R") & (scoredf1["chain_2"] == "RAMP1")]
 reslist2 = filter2["residue_1"].tolist()
 collectedlist1 = set(reslist1 +reslist2)
-print(len(collectedlist1))
+#print(len(collectedlist1))
 #get the subset of residues that interact with RAMP1
 selected1  = globalconsensus.loc[globalconsensus["calrl_seq"].isin(collectedlist1)]
-print(selected1.shape)
+#print(selected1.shape)
+#get the positions of residues that interact with RAMP1
 ramp1indexes = globalconsensus.index[globalconsensus["calrl_seq"].isin(collectedlist1)].tolist()
-print(ramp1indexes)
+#print(ramp1indexes)
 #selected1.to_csv(csvpath + "selected1.csv", index=False)
 
 #read 6UUN score file to get residues interacting with RAMP2
@@ -47,7 +49,7 @@ filter4 = scoredf2.loc[(scoredf2["chain_1"] == "R") & (scoredf2["chain_2"] == "R
 reslist4 = filter4["residue_1"].tolist()
 collectedlist2 = set(reslist3 +reslist4)
 
-#get the subset of residues that interact with RAMP1
+#get the subset of residues that interact with RAMP2
 selected2  = globalconsensus.loc[globalconsensus["calrl_seq"].isin(collectedlist2)]
 #selected2.to_csv(csvpath + "selected2.csv", index=False)
 
@@ -62,13 +64,13 @@ filter8 = scoredf4.loc[(scoredf4["chain_1"]=="R")&(scoredf4["chain_2"]=="RAMP3")
 collected6uva = sorted(list(set(filter7+filter8)))
 collectedlist3 = set(collected6uva+collected6uus)
 
-#get the subset of residues that interact with RAMP1
+#get the subset of residues that interact with RAMP3
 selected3  = globalconsensus.loc[globalconsensus["calrl_seq"].isin(collectedlist3)]
-selected3.to_csv(csvpath + "selected3.csv", index=False)
+#selected3.to_csv(csvpath + "selected3.csv", index=False)
 
-print(collectedlist3)
-print(collectedlist2)
 print(collectedlist1)
+print(collectedlist2)
+print(collectedlist3)
 allofthem = (collectedlist1.intersection(collectedlist2)).intersection(collectedlist3)
 print("intersection of all three: ", allofthem)
 print("------------------------------------------------------------------------------------------")
@@ -93,25 +95,53 @@ print("-------------------------------------------------------------------------
 
 #check whether they share a common aminoacid for said residue positions
 allclassB = ["calcr", "calrl", "crfr1", "crfr2", "gcgr", "ghrhr", "gipr", "glp1r", "glp2r", "pacr", "pth1r", "pth2r", "sctr", "vipr1","vipr2"]
-ramp1interacting = ["calcr", "calrl", "gcgr", "gipr", "glp1r", "glp2r", "pacr", "pth1r", "pth2r", "sctr", "vipr2"]
-ramp1notinteracting = ["crfr1", "ghrhr", "vipr1"]
+ramp1interacting = ["calcr", "calrl", "gcgr", "gipr", "glp1r", "glp2r", "pacr", "pth1r", "pth2r", "sctr", "vipr1", "vipr2"]
+ramp1notinteracting = ["crfr1", "ghrhr", "crfr2"]
 onlyramp3interacting = ["crfr2"]
 fastapath = "/cta/users/ofkonar/work/resources/class_B1/canonical/"
 onlyfiles = [f for f in listdir(fastapath) if isfile(join(fastapath, f))]
 orthologfiles = sorted([f for f in onlyfiles if mf.FilterSeq(f, allclassB) if "orthologs" in f])
+#read the fasta files containing aligned orthologs and collect them in a dictionary
 fastadict = {}
 for i in orthologfiles:
     prtname = i.split("_")[0]
     fastadict[prtname] = mf.read_fasta(fastapath+i)
 
+#get ramp1 interacting GPCR orthologs (list of lists)
 ramp1interactingfastas = [fastadict.get(key) for key in ramp1interacting]
+#flatten the list
 flattenedramp1fastalist = [item for sublist in ramp1interactingfastas for item in sublist]
+#get the global consensus of RAMP1 interacting GPCRs
 ramp1interactingdf = mf.fasta_to_dataframe(flattenedramp1fastalist)
 ramp1consensus = mf.consensus(ramp1interactingdf, 0.9)
+#check whether there are conserved residues at RAMP1 interacting positions
 print(ramp1consensus.iloc[ramp1indexes])
 print("------------------------------------------------------------------------------------------")
+#check the residue content of the RAMP1 interacting positions
 a = mf.residuecontent(ramp1interactingdf)
 print(a.iloc[ramp1indexes])
+print("------------------------------------------------------------------------------------------")
 
+#compare RAMP1 interacting GPCRs' global consensus against not interacting GPCRs' global consensus 
+notramp1interactingfastas = [fastadict.get(key) for key in ramp1notinteracting]
+flattenednotramp1fastalist = [item for sublist in notramp1interactingfastas for item in sublist]
+human = [i for i in flattenednotramp1fastalist if "human" in i.lower()]
+#get global consensus of RAMP1 not interacting fastas
+ramp1notinteractingdf = mf.fasta_to_dataframe(flattenednotramp1fastalist)
+notramp1consensus = mf.consensus(ramp1notinteractingdf, 0.9)
+#compare global consensus of RAMP1 interacting residues vs RAMP1 not interacting residues
+specials = mf.special_residues(ramp1consensus, notramp1consensus)
+print(specials)
+print("------------------------------------------------------------------------------------------")
+
+#compare RAMP1 interacting GPCRs' global consensus to individual RAMP1 not interacting GPCRs
+emptydf = pd.DataFrame()
+for i in ramp1notinteracting:
+    target = fastadict.get(i)
+    targetdf = mf.fasta_to_dataframe(target)
+    targetcon = mf.consensus(targetdf, 0.9)
+    targetcomp = mf.special_residues(ramp1consensus, targetcon)
+    emptydf = pd.concat([emptydf, targetcomp], axis=1)
+emptydf.to_csv("/cta/users/ofkonar/work/tae/compresults.csv")
 
 print("My program took", time.time() - start_time, "seconds to run")
