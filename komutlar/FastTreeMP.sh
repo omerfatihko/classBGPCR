@@ -37,6 +37,6 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=omerfatihkonar@sabanciuniv.edu
 
-module load cdhit-4.8.1-gcc-9.2.0-yp5pkad
+module load fasttree-2.1.10-gcc-9.2.0-b5pgbi6
 
-cd-hit -i /cta/users/ofkonar/work/resources/class_B1/canonical/vipr2_clade.fasta -o /cta/users/ofkonar/work/resources/class_B1/canonical/vipr2_clade_cdhit_07.fasta -c 0.7
+FastTreeMP /cta/users/ofkonar/work/resources/class_B1/canonical/Class_B1_cdhit_07_msa.fasta > 
