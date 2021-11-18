@@ -25,7 +25,7 @@
 #
 # -= Resources =-
 #
-#SBATCH --job-name=msa_ramp3_blast
+#SBATCH --job-name=msa_classB1_cdhit_07
 #SBATCH --account=investor
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
@@ -33,10 +33,10 @@
 #SBATCH --qos=mid_investor
 #SBATCH --partition=mid_investor
 #SBATCH --time=1-0:0
-#SBATCH --output=%j-msa_ramp3_blast.out
+#SBATCH --output=%j-msa_classB1_cdhit_07.out
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=omerfatihkonar@sabanciuniv.edu
 
 module load mafft-7.407-gcc-9.2.0-fww6zrx
 
-einsi --thread -1 /cta/users/ofkonar/work/resources/ramps/ramp3_filtered_fastas_blast.fasta > /cta/users/ofkonar/work/resources/ramps/ramp3_filtered_fastas_blast_msa.fasta
+einsi --thread -1 /cta/users/ofkonar/work/resources/class_B1/canonical/Class_B1_cdhit_07.fasta > /cta/users/ofkonar/work/resources/class_B1/canonical/Class_B1_cdhit_07_msa.fasta
