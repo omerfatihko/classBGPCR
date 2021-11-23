@@ -239,3 +239,7 @@ TIME TREE RECONSTRUCTION:
   --date-outlier NUM   Z-score cutoff to remove outlier tips/nodes (e.g. 3)
   --date-options ".."  Extra options passing directly to LSD2
   --dating STRING      Dating method: LSD for least square dating (default)
+
+options I use:
+  -b 100 --tbe
+  -B 2000 --nmax 2100 -alrt 2000 -nm 2100

@@ -25,18 +25,18 @@
 #
 # -= Resources =-
 #
-#SBATCH --job-name=msa_classB1_cdhit_07
+#SBATCH --job-name=msa_classB1_cdhit_07_withoutgroup
 #SBATCH --account=investor
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=24
+#SBATCH --cpus-per-task=12
 #SBATCH --qos=mid_investor
 #SBATCH --partition=mid_investor
 #SBATCH --time=1-0:0
-#SBATCH --output=%j-msa_classB1_cdhit_07.out
+#SBATCH --output=%j-msa_classB1_cdhit_07_withoutgroup.out
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=omerfatihkonar@sabanciuniv.edu
 
 module load mafft-7.407-gcc-9.2.0-fww6zrx
 
-einsi --thread -1 /cta/users/ofkonar/work/resources/class_B1/canonical/Class_B1_cdhit_07.fasta > /cta/users/ofkonar/work/resources/class_B1/canonical/Class_B1_cdhit_07_msa.fasta
+einsi --thread -1 /cta/users/ofkonar/work/resources/class_B1/canonical/Class_B1_cdhit_07_withoutgroup.fasta > /cta/users/ofkonar/work/resources/class_B1/canonical/Class_B1_cdhit_07_withoutgroup_msa.fasta

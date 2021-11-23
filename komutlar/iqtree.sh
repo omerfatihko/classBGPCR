@@ -25,7 +25,7 @@
 #
 # -= Resources =-
 #
-#SBATCH --job-name=ramp3_iqtree_boostrap_modelfinder
+#SBATCH --job-name=Class_B1_clade_iqtree_fboostrap_modelfinder
 #SBATCH --account=investor
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
@@ -33,11 +33,11 @@
 #SBATCH --qos=long_investor
 #SBATCH --partition=long_investor
 #SBATCH --time=7-0:0
-#SBATCH --output=%j-ramp3_iqtree_boostrap_modelfinder.out
+#SBATCH --output=%j-Class_B1_clade_iqtree_fboostrap_modelfinder.out
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=omerfatihkonar@sabanciuniv.edu
-#SBATCH --chdir=/cta/users/ofkonar/work/results/trees/ramp2_iqtree/
+#SBATCH --chdir=/cta/users/ofkonar/work/results/trees/class_B1_clades_iqtree_fast/
 
 module load iq-tree-2.0.6-gcc-9.2.0-fufn5ou
 
-iqtree2 -s /cta/users/ofkonar/work/resources/ramps/ramp3_filtered_fastas_blast_msa.fasta -B 2000 --nmax 2100 -alrt 2000 -nm 2100 -T AUTO --threads-max 24 --prefix ramp3_iqtree_boostrap_modelfinder
+iqtree2 -s /cta/users/ofkonar/work/resources/class_B1/canonical/Class_B1_cdhit_07_withoutgroup_msa.fasta -B 2000 --nmax 2100 -alrt 2000 -nm 2100 -T AUTO --threads-max 24 --prefix clB1clades_iqtree_fboostrap_modelfinder

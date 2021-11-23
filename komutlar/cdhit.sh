@@ -25,7 +25,7 @@
 #
 # -= Resources =-
 #
-#SBATCH --job-name=cdhit_vipr2
+#SBATCH --job-name=cdhit_vipr1
 #SBATCH --account=investor
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
@@ -33,10 +33,10 @@
 #SBATCH --qos=short_investor
 #SBATCH --partition=short_investor
 #SBATCH --time=120
-#SBATCH --output=%j-cdhit_vipr2_065.out
+#SBATCH --output=%j-cdhit_vipr1_07.out
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=omerfatihkonar@sabanciuniv.edu
 
 module load cdhit-4.8.1-gcc-9.2.0-yp5pkad
 
-cd-hit -i /cta/users/ofkonar/work/resources/class_B1/canonical/vipr2_clade.fasta -o /cta/users/ofkonar/work/resources/class_B1/canonical/vipr2_clade_cdhit_07.fasta -c 0.7
+cd-hit -i /cta/users/ofkonar/work/resources/class_B1/canonical/vipr1_clade.fasta -o /cta/users/ofkonar/work/resources/class_B1/canonical/vipr1_clade_cdhit_07.fasta -c 0.7

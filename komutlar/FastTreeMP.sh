@@ -25,7 +25,7 @@
 #
 # -= Resources =-
 #
-#SBATCH --job-name=cdhit_vipr2
+#SBATCH --job-name=FastTreeMP_classB1_withoutgroup
 #SBATCH --account=investor
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
@@ -33,10 +33,10 @@
 #SBATCH --qos=short_investor
 #SBATCH --partition=short_investor
 #SBATCH --time=120
-#SBATCH --output=%j-cdhit_vipr2_065.out
+#SBATCH --output=%j-FastTreeMP_classB1_withoutgroup.out
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=omerfatihkonar@sabanciuniv.edu
 
 module load fasttree-2.1.10-gcc-9.2.0-b5pgbi6
 
-FastTreeMP /cta/users/ofkonar/work/resources/class_B1/canonical/Class_B1_cdhit_07_msa.fasta > 
+FastTreeMP /cta/users/ofkonar/work/resources/class_B1/canonical/Class_B1_cdhit_07_withoutgroup_msa.fasta > /cta/users/ofkonar/work/results/trees/class_B1_clades_FastTreeMP/class_B1_clades_FastTreeMP.treefile
