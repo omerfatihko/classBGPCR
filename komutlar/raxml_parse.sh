@@ -40,4 +40,4 @@
 
 module load raxml-ng-1.0.3
 
-raxml-ng --parse --msa /cta/users/ofkonar/work/resources/class_B1/canonical/Class_B1_cdhit_07_withoutgroup_msa.fasta --model JTT+R10 --prefix class_B1_raxml_parse
+raxml-ng --parse --msa /cta/users/ofkonar/work/tae/raxml_parsable.fasta --model JTT+R10 --prefix class_B1_raxml_parse

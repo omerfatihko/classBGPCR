@@ -1,0 +1,60 @@
+
+RAxML-NG v. 1.0.3 released on 21.07.2021 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz, 36 cores, 251 GB RAM
+
+RAxML-NG was called at 24-Nov-2021 13:59:33 as follows:
+
+raxml-ng --parse --msa /cta/users/ofkonar/work/tae/raxml_parsable.fasta --model JTT+R10 --prefix class_B1_raxml_parse
+
+Analysis options:
+  run mode: Alignment parsing and compression
+  start tree(s): 
+  random seed: 1637751573
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+[00:00:00] Reading alignment from file: /cta/users/ofkonar/work/tae/raxml_parsable.fasta
+[00:00:00] Loaded alignment with 466 taxa and 11243 sites
+
+WARNING: Fully undetermined columns found: 42
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /cta/users/ofkonar/work/results/trees/class_B1_raxmlng/class_B1_raxml_parse.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 7319 patterns
+
+Partition 0: noname
+Model: JTT+R10
+Alignment sites / patterns: 11201 / 7319
+Gaps: 95.49 %
+Invariant sites: 50.92 %
+
+
+NOTE: Binary MSA file created: class_B1_raxml_parse.raxml.rba
+
+* Estimated memory requirements                : 10387 MB
+
+* Recommended number of threads / MPI processes: 20
+
+Please note that numbers given above are rough estimates only. 
+Actual memory consumption and parallel performance on your system may differ!
+
+Alignment can be successfully read by RAxML-NG.
+
+
+Execution log saved to: /cta/users/ofkonar/work/results/trees/class_B1_raxmlng/class_B1_raxml_parse.raxml.log
+
+Analysis started: 24-Nov-2021 13:59:33 / finished: 24-Nov-2021 13:59:33
+
+Elapsed time: 0.168 seconds
+

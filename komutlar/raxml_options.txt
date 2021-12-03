@@ -106,4 +106,5 @@ EXAMPLES:
 
      raxml-ng --threads 5 --search --data-type AA --model JTT+I+G4+F --force msa_dups --force msa_names --seed 2 -msa $protein"_subtreeMSA"$date".fasta"  --prefix $protein"_subtree_"$date # --redo #--bs-metric tbe,fbp
      raxml-ng --threads 4 --search --data-type AA --model JTT+I+G4+F --force msa_dups --force msa_names --seed 2 -msa $protein"_subtreeMSA"$date"_trimmed.fasta"  --prefix $protein"_subtree_"
+     raxml-ng --all --msa /cta/users/ofkonar/work/results/trees/class_B1_raxmlng/class_B1_raxml_parse.raxml.reduced.phy --model JTT+R10 --prefix class_B1_raxml_tree --seed 777 --threads auto{20} --bs-metric fbp,tbe benimki
      

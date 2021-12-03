@@ -1,0 +1,55 @@
+
+RAxML-NG v. 1.0.3 released on 21.07.2021 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz, 36 cores, 251 GB RAM
+
+RAxML-NG was called at 24-Nov-2021 17:11:41 as follows:
+
+raxml-ng --all --msa /cta/users/ofkonar/work/results/trees/class_B1_raxmlng/class_B1_raxml_parse.raxml.reduced.phy --model JTT+R10 --prefix class_B1_raxml_tree --seed 777 --threads 20 --bs-metric fbp,tbe
+
+Analysis options:
+  run mode: ML tree search + bootstrapping (Felsenstein Bootstrap + Transfer Bootstrap)
+  start tree(s): random (10) + parsimony (10)
+  bootstrap replicates: max: 1000 + bootstopping (autoMRE, cutoff: 0.030000)
+  random seed: 777
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (20 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: /cta/users/ofkonar/work/results/trees/class_B1_raxmlng/class_B1_raxml_parse.raxml.reduced.phy
+[00:00:00] Loaded alignment with 466 taxa and 11201 sites
+
+Alignment comprises 1 partitions and 7319 patterns
+
+Partition 0: noname
+Model: JTT+R10
+Alignment sites / patterns: 11201 / 7319
+Gaps: 95.49 %
+Invariant sites: 50.92 %
+
+
+NOTE: Binary MSA file created: class_B1_raxml_tree.raxml.rba
+
+Parallelization scheme autoconfig: 2 worker(s) x 10 thread(s)
+
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Generating 10 random starting tree(s) with 466 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 466 taxa
+[00:00:06] Data distribution: max. partitions/sites/weight per thread: 1 / 732 / 146400
+[00:00:07] Data distribution: max. searches per worker: 510
+
+ERROR: CPU core oversubscription detected! RAxML-NG will terminate now to avoid wasting resources.
+NOTE:  Details: https://github.com/amkozlov/raxml-ng/wiki/Parallelization#core-oversubscription
+NOTE:  You can use '--force perf_threads' to disable this check, but ONLY if you are 200% sure this is a false alarm!
+
+terminate called after throwing an instance of 'terminate called recursively
+/var/spool/slurm/d/job615745/slurm_script: line 43: 446181 Aborted                 (core dumped) raxml-ng --all --msa /cta/users/ofkonar/work/results/trees/class_B1_raxmlng/class_B1_raxml_parse.raxml.reduced.phy --model JTT+R10 --prefix class_B1_raxml_tree --seed 777 --threads 20 --bs-metric fbp,tbe

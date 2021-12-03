@@ -1,0 +1,79 @@
+
+RAxML-NG v. 1.0.3 released on 21.07.2021 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz, 36 cores, 251 GB RAM
+
+RAxML-NG was called at 03-Dec-2021 14:28:36 as follows:
+
+raxml-ng --search --msa /cta/users/ofkonar/work/results/trees/class_B1_raxmlng/class_B1_raxml_parse.raxml.reduced.phy --model JTT+R10 --prefix class_B1_raxml_tree --seed 777 --threads auto{20}
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 777
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+WARNING: The model you specified on the command line (JTT+R10) will be ignored 
+         since the binary MSA file already contains a model definition.
+         If you want to change the model, please re-run RAxML-NG 
+         with the original PHYLIP/FASTA alignment and --redo option.
+
+[00:00:00] Loading binary alignment from file: class_B1_raxml_tree.raxml.rba
+[00:00:00] Alignment comprises 466 taxa, 1 partitions and 7319 patterns
+
+Partition 0: noname
+Model: JTT+R10
+Alignment sites / patterns: 11201 / 7319
+Gaps: 95.49 %
+Invariant sites: 50.92 %
+
+
+Parallelization scheme autoconfig: 2 worker(s) x 10 thread(s)
+
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] NOTE: Resuming execution from checkpoint (logLH: -287862.83, ML trees: 20, bootstraps: 0)
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 732 / 146400
+[00:00:00] Data distribution: max. searches per worker: 1
+
+Starting ML tree search with 20 distinct starting trees
+
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: FREE (10 cats, mean),  weights&rates: (0.021561,0.031546) (0.038511,0.067697) (0.055740,0.118493) (0.037298,0.171819) (0.096421,0.252857) (0.133105,0.361189) (0.107838,0.518958) (0.162507,0.855904) (0.209093,1.376401) (0.137926,3.105972) 
+   Base frequencies (model): 0.076748 0.051691 0.042645 0.051544 0.019803 0.040752 0.061830 0.073152 0.022944 0.053761 0.091904 0.058676 0.023826 0.040126 0.050901 0.068765 0.058565 0.014261 0.032102 0.066005 
+   Substitution rates (model): 58.000000 54.000000 81.000000 56.000000 57.000000 105.000000 179.000000 27.000000 36.000000 30.000000 35.000000 54.000000 15.000000 194.000000 378.000000 475.000000 9.000000 11.000000 298.000000 45.000000 16.000000 113.000000 310.000000 29.000000 137.000000 328.000000 22.000000 38.000000 646.000000 44.000000 5.000000 74.000000 101.000000 64.000000 126.000000 20.000000 17.000000 528.000000 34.000000 86.000000 58.000000 81.000000 391.000000 47.000000 12.000000 263.000000 30.000000 10.000000 15.000000 503.000000 232.000000 8.000000 70.000000 16.000000 10.000000 49.000000 767.000000 130.000000 112.000000 11.000000 7.000000 26.000000 15.000000 4.000000 15.000000 59.000000 38.000000 4.000000 46.000000 31.000000 9.000000 5.000000 59.000000 69.000000 17.000000 23.000000 7.000000 31.000000 78.000000 14.000000 223.000000 42.000000 115.000000 209.000000 62.000000 323.000000 26.000000 597.000000 9.000000 72.000000 292.000000 43.000000 4.000000 164.000000 53.000000 51.000000 18.000000 24.000000 20.000000 119.000000 26.000000 12.000000 9.000000 181.000000 18.000000 5.000000 18.000000 30.000000 32.000000 10.000000 7.000000 45.000000 23.000000 6.000000 6.000000 27.000000 14.000000 5.000000 24.000000 201.000000 33.000000 55.000000 8.000000 47.000000 16.000000 56.000000 45.000000 33.000000 40.000000 115.000000 73.000000 46.000000 8.000000 573.000000 11.000000 229.000000 21.000000 479.000000 89.000000 10.000000 40.000000 245.000000 9.000000 32.000000 961.000000 14.000000 388.000000 248.000000 102.000000 59.000000 25.000000 52.000000 24.000000 180.000000 65.000000 4.000000 21.000000 47.000000 103.000000 10.000000 8.000000 14.000000 43.000000 16.000000 29.000000 226.000000 24.000000 18.000000 323.000000 17.000000 92.000000 12.000000 53.000000 536.000000 62.000000 285.000000 118.000000 6.000000 10.000000 23.000000 477.000000 35.000000 63.000000 38.000000 12.000000 21.000000 112.000000 71.000000 25.000000 16.000000 
+
+
+Final LogLikelihood: 0.000000
+
+AIC score: 1894.000000 / AICc score: 2069.120648 / BIC score: 8829.599147
+Free parameters (model + branch lengths): 947
+
+WARNING: Best ML tree contains 16 near-zero branches!
+
+Best ML tree with collapsed near-zero branches saved to: /cta/users/ofkonar/work/results/trees/class_B1_raxmlng/class_B1_raxml_tree.raxml.bestTreeCollapsed
+Best ML tree saved to: /cta/users/ofkonar/work/results/trees/class_B1_raxmlng/class_B1_raxml_tree.raxml.bestTree
+All ML trees saved to: /cta/users/ofkonar/work/results/trees/class_B1_raxmlng/class_B1_raxml_tree.raxml.mlTrees
+Optimized model saved to: /cta/users/ofkonar/work/results/trees/class_B1_raxmlng/class_B1_raxml_tree.raxml.bestModel
+
+Execution log saved to: /cta/users/ofkonar/work/results/trees/class_B1_raxmlng/class_B1_raxml_tree.raxml.log
+
+Analysis started: 03-Dec-2021 14:28:36 / finished: 03-Dec-2021 14:28:37
+
+Elapsed time: 0.462 seconds (this run) / 601870.590 seconds (total with restarts)
+
