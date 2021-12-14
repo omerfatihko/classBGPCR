@@ -40,4 +40,4 @@
 
 module load raxml-ng-1.0.3
 
-raxml-ng --search --msa /cta/users/ofkonar/work/results/trees/class_B1_raxmlng/class_B1_raxml_parse.raxml.reduced.phy --model JTT+R10 --prefix class_B1_raxml_tree --seed 777 --threads auto{20}
+raxml-ng --all --msa /cta/users/ofkonar/work/results/trees/class_B1_raxmlng/class_B1_raxml_parse.raxml.reduced.phy --model JTT+R10 --prefix class_B1_raxml_tree --seed 777 --threads auto{20} --bs-metric fbp,tbe
