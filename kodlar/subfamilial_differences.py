@@ -2,7 +2,7 @@ from numpy import empty
 from functions import my_functions as mf
 import pandas as pd
 import time
-from os import access, listdir
+from os import access, listdir, path
 from os.path import isfile, join
 pd.set_option("display.max_rows", None, "display.max_columns", None)
 
@@ -11,6 +11,7 @@ start_time = time.time()
 #read the files that would be used most of the analyses, define the directories that will be used
 B1consensus = pd.read_csv("/cta/users/ofkonar/work/results/csvs/class_B1_all_consensus_seqs.csv")
 fastadir = "/cta/users/ofkonar/work/resources/class_B1/canonical/"
+#csvdir = "/cta/users/ofkonar/work/results/csvs/"
 onlyfiles = [f for f in listdir(fastadir) if isfile(join(fastadir, f))] #files in fasta directory
 
 #define the subfamilies
@@ -97,7 +98,7 @@ targetresidues = B1consensus.iloc[calcrsubspecidx]
 #whole consensus vs whole consensus
 targetresidues.to_csv("/cta/users/ofkonar/work/tae/birbakalim.csv", index = False)
 """
-
+"""
 #BURAYI FOR LOOP İLE TEKRAR YAPMAK LAZIM, HER SEFERİNDE TEK TEK RESEPTÖR İSMİ Mİ YAZACAĞIM!
 #compare calcr subfamily members between themselves and keep the residues that agree for all
 #compare calcr subfamily members and pth subfamily members one by one and keep residues that disagree for all
@@ -148,4 +149,72 @@ print("#########################################################################
 group2 = B1consensus.loc[(B1consensus["calcr_status"] == "C") & (B1consensus["calrl_status"] == "C") & (B1consensus["calcr_residue"] == B1consensus["calrl_residue"]) & (B1consensus["crfr1_status"] == "NC") & (B1consensus["crfr2_status"] == "NC")]
 print(group2)
 print("######################################################################################################################")
+"""
+#define the class B1 family tree
+#        _______n0______
+#       /               \
+#    n1            ______n2________
+#    /\           /                \
+#glp2r n3       n4              ____n5___
+#      /\      / \             /         \
+#  glp1r n6 sctr  n7         n8        ___n9___
+#        /\       /\         /\       /        \
+#    gipr gcgr pacr n10 pth1r pth2r n11         n12
+#                   /\              /\          /\
+#               vipr2 n13       crfr2 crfr1 calcr calrl
+#                     /\  
+#                 ghrhr vipr1
+
+ghrhr = mf.Node("ghrhr")
+vipr1 = mf.Node("vipr1")
+vipr2 = mf.Node("vipr2")
+n13 = mf.Node("n13", left = ghrhr, right = vipr1)
+crfr2 = mf.Node("crfr2")
+crfr1 = mf.Node("crfr1")
+calcr = mf.Node("calcr")
+calrl = mf.Node("calrl")
+gipr = mf.Node("gipr")
+gcgr = mf.Node("gcgr")
+pacr = mf.Node("pacr")
+n10 = mf.Node("n10", left = vipr2, right = n13)
+pth1r = mf.Node("pth1r")
+pth2r = mf.Node("pth2r")
+n11 = mf.Node("n11", left = crfr2, right = crfr1)
+n12 = mf.Node("n12", left = calcr, right = calrl)
+glp1r = mf.Node("glp1r")
+n6 = mf.Node("n6", left = gipr, right = gcgr)
+sctr = mf.Node("sctr")
+n7 = mf.Node("n7", left = pacr, right = n10)
+n8 = mf.Node("n8", left = pth1r, right = pth2r)
+n9 = mf.Node("n9", left = n11, right = n12)
+glp2r = mf.Node("glp2r")
+n3 = mf.Node("n3", left = glp1r, right = n6)
+n4 = mf.Node("n4", left = sctr, right = n7)
+n5 = mf.Node("n5", left = n8, right = n9)
+n1 = mf.Node("n1", left = glp2r, right = n3)
+n2 = mf.Node("n2", left = n4, right = n5)
+n0 = mf.Node("n0", left = n1, right = n2)
+
+leaflist = []
+mf.GetLeafList(n0, leaflist)
+#print(leaflist)
+#print("######################################################################################################################")
+
+colnames = B1consensus.columns.tolist()
+for i in leaflist:
+    targetcolnames = [j for j in colnames if i.name in j]
+    data = B1consensus.loc[:,targetcolnames]
+    i.data = data
+    #print(i.data)
+#print("######################################################################################################################")
+
+leafdictpopulated = {}
+mf.GetLeafData(n9, leafdictpopulated)
+print(leafdictpopulated)
+print("######################################################################################################################")
+
+print(mf.innercheck(leafdictpopulated))
+a = mf.innercheck(leafdictpopulated)
+print(B1consensus.iloc[a])
+
 print("My program took", time.time() - start_time, "seconds to run")
