@@ -1,10 +1,11 @@
-from numpy import empty
+from numpy import empty, inner
 from functions import my_functions as mf
 import pandas as pd
 import time
-from os import access, listdir, path
+from os import X_OK, access, listdir, path
 from os.path import isfile, join
-pd.set_option("display.max_rows", None, "display.max_columns", None)
+#from kodlar.functions.my_functions import inner_check
+#pd.set_option("display.max_rows", None, "display.max_columns", None)
 
 start_time = time.time()
 
@@ -195,26 +196,198 @@ n1 = mf.Node("n1", left = glp2r, right = n3)
 n2 = mf.Node("n2", left = n4, right = n5)
 n0 = mf.Node("n0", left = n1, right = n2)
 
-leaflist = []
-mf.GetLeafList(n0, leaflist)
-#print(leaflist)
-#print("######################################################################################################################")
-
+#returns the list of leaf node objects
+leaflist = mf.get_leaf_list(n0)
+#fill the leaves with the data (dataframe)
 colnames = B1consensus.columns.tolist()
 for i in leaflist:
     targetcolnames = [j for j in colnames if i.name in j]
     data = B1consensus.loc[:,targetcolnames]
     i.data = data
-    #print(i.data)
+
+#returns list of all node objects
+allnodes = mf.get_node_list(n0)
+
+for i in allnodes:
+    #fill all nodes with inner check results
+    nodedata = mf.get_leaf_data(i) # get the data of all leaves of the node
+    nodeinnercheck = mf.inner_check(nodedata) #get inner check indexes
+    nodemetadata = {"inner_check" : nodeinnercheck} #form a metadata dict
+    i.metadata = nodemetadata #assign metadata dict to the node
+
+for i in allnodes:    
+    #fill all nodes with emergence, divergence, and difference check results (various comparisons of sister nodes)
+    left = i.left #left sister
+    right = i.right #right sister
+    leftdata = mf.get_leaf_data(left) #get leaf data of the left sister
+    rightdata = mf.get_leaf_data(right) #get leaf data of the right sister
+    selfleaves = mf.get_leaf_list(i) #get leaf list of the major node
+    selfleavesdata = mf.get_leaf_data(i) #get leaf data of the major node
+    rest = [j for j in leaflist if j not in selfleaves] #get leaves that do not belong to the target node
+    restdata = {}
+    for j in rest:
+        restdata.update(mf.get_leaf_data(j)) #get leaf data of rest of the leaves (do not belong to the major node)
+    
+    if left and right: #node should have children (not leaf), no need to check for metadata anymore, there is some for sure
+        lefttorightdiv = mf.divergence(leftdata, rightdata) #divergence of the left sister
+        leftorightem = mf.emergence(leftdata, rightdata) #emergence of the left sister
+        lefttorightdif = mf.outer_check(leftdata, rightdata) #difference of the left sister
+        left.metadata["divergence"] = lefttorightdiv
+        left.metadata["emergence"] = leftorightem
+        left.metadata["difference"] = lefttorightdif
+        righttoleftdiv = mf.divergence(rightdata, leftdata) #divergence of the right sister
+        righttoleftem = mf.emergence(rightdata, leftdata) #emergence of the right sister
+        righttoleftdif = mf.outer_check(rightdata, leftdata) #difference of the right sister 
+        right.metadata["divergence"] = righttoleftdiv
+        right.metadata["emergence"] = righttoleftem
+        right.metadata["difference"] = righttoleftdif
+        if restdata: #if restdata is not empty (if i is not root)
+            leftoutercheck = mf.outer_check(leftdata, restdata) #outer check of the left sister
+            left.metadata["outer_check"] = leftoutercheck
+            rightoutercheck = mf.outer_check(rightdata, restdata) #outer check of the right sister
+            right.metadata["outer_check"] = rightoutercheck
+
+#add Ogun Hoca's outer check idea (closest that is not sister as outgroup)
+for i in allnodes:
+    left = i.left
+    right = i.right
+    if left and right: #first, a node should have 2 children
+        #for left
+        leftsleft = left.left
+        leftsright = left.right
+        if leftsleft or leftsright: # if left node has any children
+            #instead of rest of the tree becoming the control for outer check, aunt node becomes the outgroup (sister of the ancestor node)
+            outgroupdata = mf.get_leaf_data(right)
+            if leftsleft:
+                targetdata = mf.get_leaf_data(leftsleft)
+                smalloutercheck = mf.outer_check(targetdata, outgroupdata)
+                leftsleft.metadata["Ogun's_outer_check"] = smalloutercheck
+            if leftsright:
+                targetdata = mf.get_leaf_data(leftsright)
+                smalloutercheck = mf.outer_check(targetdata, outgroupdata)
+                leftsright.metadata["Ogun's_outer_check"] = smalloutercheck
+        #for right
+        rightsleft = right.left
+        rightsright = right.right
+        if rightsleft or rightsright:
+            outgroupdata = mf.get_leaf_data(left)
+            if rightsleft:
+                targetdata = mf.get_leaf_data(rightsleft)
+                smalloutercheck = mf.outer_check(targetdata, outgroupdata)
+                rightsleft.metadata["Ogun's_outer_check"] = smalloutercheck
+            if rightsright:
+                targetdata =mf.get_leaf_data(rightsright)
+                smalloutercheck = mf.outer_check(targetdata, outgroupdata)
+                rightsright.metadata["Ogun's_outer_check"] = smalloutercheck
+
+#for i in allnodes:
+#    print(i.name)
+#    metadata = i.metadata
+#    for key in metadata:
+#        print(key)
+#        print(metadata[key])
+#    print("\n")
+
+for i in allnodes:
+    print(i.name)
+    #emergence
+    #without outer check
+    if "emergence" in i.metadata:
+        nakedemergence = [j for j in i.metadata["emergence"] if j in i.metadata["inner_check"]]
+        print("emergence without outer check: ")
+        print(nakedemergence)
+    #with outer check
+    if "outer_check" in i.metadata:
+        temp1 = [i.metadata["inner_check"], i.metadata["emergence"], i.metadata["outer_check"]]
+        dressedemergence = set(temp1[0]).intersection(*temp1)
+        print("emergence with outer check: ")
+        print(dressedemergence)
+    #with Ogun's outer check
+    if "Ogun's_outer_check" in i.metadata:
+        temp11 = [i.metadata["inner_check"], i.metadata["emergence"], i.metadata["Ogun's_outer_check"]]
+        ogunsemergence = set(temp11[0]).intersection(*temp11)
+        print("emergence with Ogun's outer check: ")
+        print(ogunsemergence)
+        print("\n")
+    #divergence
+    #without outer check
+    if "divergence" in i.metadata:
+        nakeddivergence = [j for j in i.metadata["divergence"] if j in i.metadata["inner_check"]]
+        print("divergence without outer check: ")
+        print(nakeddivergence)
+    #with outer check
+    if "outer_check" in i.metadata:
+        temp2 = [i.metadata["inner_check"], i.metadata["divergence"], i.metadata["outer_check"]]
+        dresseddivergence = set(temp2[0]).intersection(*temp2)
+        print("divergence with outer check: ")
+        print(dresseddivergence)
+    #with Ogun's outer check
+    if "Ogun's_outer_check" in i.metadata:
+        temp22 = [i.metadata["inner_check"], i.metadata["divergence"], i.metadata["Ogun's_outer_check"]]
+        ogunsdivergence = set(temp22[0]).intersection(*temp22)
+        print("divergence with Ogun's outer check: ")
+        print(ogunsdivergence)
+        print("\n")
+    #difference
+    #without outer check
+    if "difference" in i.metadata:
+        nakeddifference = [j for j in i.metadata["difference"] if j in i.metadata["inner_check"]]
+        print("difference without outer check: ")
+        print(nakeddifference)
+    #with outer check
+    if "outer_check" in i.metadata:
+        temp3 = [i.metadata["inner_check"], i.metadata["difference"], i.metadata["outer_check"]]
+        dresseddifference = set(temp3[0]).intersection(*temp3)
+        print("difference with outer check: ")
+        print(dresseddifference)
+    #with Ogun's outer check
+    if "Ogun's_outer_check" in i.metadata:
+        temp33 = [i.metadata["inner_check"], i.metadata["difference"], i.metadata["Ogun's_outer_check"]]
+        ogunsdifference = set(temp33[0]).intersection(*temp33)
+        print("difference with Ogun's outer check: ")
+        print(ogunsdifference)
+        print("\n")
+    print("######################################################################################################################")
+    print("\n")
+
+
+#for i in allnodes:
+#    print("node", i.name)
+#    for key, value in i.metadata.items():
+#        print(key)
+#        print(value)
+#    print("\n")
 #print("######################################################################################################################")
+#subdf = B1consensus.loc[B1consensus["pth1r_status"] == "NC"]
+#print(list(subdf.index))
+#subdf = subdf.loc[subdf["pth2r_status"] == "NC"]
+#print(list(subdf.index))
+#subdf = subdf.loc[subdf["crfr2_residue"] == subdf["crfr1_residue"]]
+#print(list(subdf.index))
+#subdf = subdf.loc[subdf["crfr1_residue"] == subdf["calcr_residue"]]
+#print(list(subdf.index))
+#subdf = subdf.loc[subdf["calcr_residue"] == subdf["calrl_residue"]]
+#print(list(subdf.index))
+#subdf = subdf.loc[subdf["crfr2_status"] == "C"]
+#print(list(subdf.index))
+#subdf = subdf.loc[subdf["crfr1_status"] == "C"]
+#print(list(subdf.index))
+#subdf = subdf.loc[subdf["calcr_status"] == "C"]
+#print(list(subdf.index))
+#subdf = subdf.loc[subdf["calrl_status"] == "C"]
+#print(list(subdf.index))
+#subdf = subdf.loc[subdf["pacr_status"] == "NC"]
+#print(list(subdf.index))
+#subdf = subdf.loc[subdf["vipr2_status"] == "NC"]
+#print(list(subdf.index))
+#subdf = subdf.loc[subdf["ghrhr_status"] == "NC"]
+#print(list(subdf.index))
+#subdf = subdf.loc[subdf["vipr1_status"] == "NC"]
+#print(list(subdf.index))
+#subdf = subdf.loc[subdf["pth2r_status"] == "NC"]
+#print(list(subdf.index))
 
-leafdictpopulated = {}
-mf.GetLeafData(n9, leafdictpopulated)
-print(leafdictpopulated)
-print("######################################################################################################################")
+#print(subdf)
 
-print(mf.innercheck(leafdictpopulated))
-a = mf.innercheck(leafdictpopulated)
-print(B1consensus.iloc[a])
 
 print("My program took", time.time() - start_time, "seconds to run")

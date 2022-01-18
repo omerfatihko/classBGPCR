@@ -7,18 +7,20 @@ from typing import List, Dict
 class Node:
     """define a node class. A node has at most 2 children (left and right), a name,
     and a data. A node with no children is called a leaf"""
-    def __init__(self, name, left = None, right = None, data = None):
+    def __init__(self, name, left = None, right = None, data = None, metadata = None):
         self.data = data
+        self.metadata = metadata
         self.name = name
         self.left = left
         self.right = right
 
-def GetLeafData(root: Node, leafdict: Dict) -> None:
+def get_leaf_data(root: Node) -> Dict: #, leafdict: Dict
     """returns a dictionary where keys are leaf names and values are leaf data"""
     # If node is null, return
+    leafdict = {}
     if (not root):
-        return
-
+        return leafdict
+    
     # If node is leaf node,
     # key --> leaf name, value --> leaf data
     if (not root.left and not root.right):
@@ -26,23 +28,28 @@ def GetLeafData(root: Node, leafdict: Dict) -> None:
         #leaflist.append(root.name)
         #print(root.data,
         #	end = " ")
-        return
+        return leafdict
 
     # If left child exists,
     # check for leaf recursively
     if root.left:
-        GetLeafData(root.left, leafdict)
+        temp = get_leaf_data(root.left)
+        leafdict.update(temp)
 
     # If right child exists,
     # check for leaf recursively
     if root.right:
-        GetLeafData(root.right, leafdict)
+        temp = get_leaf_data(root.right)
+        leafdict.update(temp)
+    
+    return leafdict
 
-def GetLeafList(root: Node, leaflist: List) -> None:
+def get_leaf_list(root: Node) -> List:
     """returns a list of node objects (leaves)"""
+    leaflist = []
     # If node is null, return
     if (not root):
-        return
+        return leaflist
 
     # If node is leaf node,
     # get the node
@@ -51,20 +58,72 @@ def GetLeafList(root: Node, leaflist: List) -> None:
         #leaflist.append(root.name)
         #print(root.data,
         #	end = " ")
-        return
+        return leaflist
 
     # If left child exists,
     # check for leaf recursively
     if root.left:
-        GetLeafList(root.left, leaflist)
+        leaflist.extend(get_leaf_list(root.left))
 
     # If right child exists,
     # check for leaf recursively
     if root.right:
-        GetLeafList(root.right, leaflist)
+        leaflist.extend(get_leaf_list(root.right))
 
-def innercheck(datadict):
-    """this function will take a dictionary of dataframes. Columns of dataframe are
+    return leaflist
+
+def get_node_list(root: Node) -> List:
+    "returns a list of node objects (in order traversal)"
+    #if node is null, return
+    nodelist = []
+    if (not root):
+        return nodelist
+
+    #left -> root -> right
+    else:
+        nodelist.extend(get_node_list(root.left))
+        nodelist.append(root)
+        nodelist.extend(get_node_list(root.right))
+        return nodelist
+
+def get_inner_node_list(root: Node) -> List:
+    """get inner nodes (nodes that are not leaves) of the binary tree"""
+    nodelist = get_node_list(root)
+    leaflist = get_leaf_list(root)
+    innernodelist = [k for k in nodelist if k not in leaflist]
+    return innernodelist
+
+def df_same(df1: pd.DataFrame, ind1: int, df2: pd.DataFrame, ind2: int) -> List:
+    """return indexes of rows of two columns where two elements of the columns at the
+    row are equal"""
+    colnames1 = list(df1.columns)
+    colnames2 = list(df2.columns)
+    newdf = pd.concat([df1, df2], axis=1) #concatanate dfs to subset them together
+    subdf = newdf.loc[newdf[colnames1[ind1]] == newdf[colnames2[ind2]]]
+    idx = list(subdf.index)
+    return idx
+
+def df_equalto(df: pd.DataFrame, idx: int, ele) -> List:
+    """return indexes of rows of a column where the element of the column at the
+    row is equal to given element"""
+    colnames = list(df.columns)
+    subdf = df.loc[df[colnames[idx]] == ele]
+    idx = list(subdf.index)
+    return idx    
+    pass
+
+def df_diff(df1: pd.DataFrame, ind1: int, df2: pd.DataFrame, ind2:int) -> List:
+    """return indexes of rows of two columns where two elements of the columns at the
+    row are not equal"""
+    colnames1 = list(df1.columns)
+    colnames2 = list(df2.columns)
+    newdf = pd.concat([df1, df2], axis=1) #concatanate dfs to subset them together
+    subdf = newdf.loc[newdf[colnames1[ind1]] != newdf[colnames2[ind2]]]
+    idx = list(subdf.index)
+    return idx
+
+def inner_check(datadict: Dict) -> List:
+    """this function will take a dictionary of dataframes. Columns of dataframes are
     0 - sequence, 1 - residue, 2 - frequency, 3 - status. This function will test
     1. residues are the same
     2. status is "C" or conserved (frequency above 0.9).
@@ -72,26 +131,80 @@ def innercheck(datadict):
     Function returns the indexes of said residues."""
     #get the keys of the dictionary
     keys = sorted(datadict.keys())
-    #returndf = datadict[keys[0]]
-    #colnames = ["seq", "residue", "frequency", "status"]
-    #returndf.columns = colnames
+    #create a list to hold indexes that satisfy given conditions
     listofidx = []
-    for i in range(len(keys) - 1):
-        keypair = keys[i:i+2]
-        df1 = datadict[keypair[0]]
-        colnames1 = list(df1.columns)
-        df2 = datadict[keypair[1]]
-        colnames2 = list(df2.columns)
-        newdf = pd.concat([df1, df2], axis=1)
-        subdf = newdf.loc[newdf[colnames1[3]] == "C"]
-        subdf = subdf.loc[subdf[colnames2[3]] == "C"]
-        subdf = subdf.loc[subdf[colnames1[1]] == subdf[colnames2[1]]]
-        idx = list(subdf.index)
-        listofidx.append(idx)
+    #if there is only single dataframe, return indexes of the df
+    if len(keys) == 1:
+        dfsingle = datadict[keys[0]]
+        idx = df_equalto(dfsingle, 3, "C") #list(dfsingle.index)
+        idx.sort()
+        return idx
+    else: #more than one dataframe
+        for i in range(len(keys) - 1): #iterate over two elements at a time
+            keypair = keys[i:i+2]
+            df1 = datadict[keypair[0]] #first df
+            df2 = datadict[keypair[1]] #second df
+            temp =[df_same(df1, 1, df2, 1), df_equalto(df1, 3, "C"), df_equalto(df2, 3, "C")]
+            idx = set(temp[0]).intersection(*temp)
+            listofidx.append(idx)
+        #return the indexes that satisfy the conditions for all dataframes at the same time
+        commonels = list(set.intersection(*[set(x) for x in listofidx]))
+        commonels.sort()
+        return commonels
+
+def divergence(datadict1: Dict, datadict2: Dict) -> List:
+    """this function will take two dictionaries of dataframes. Columns of dataframes are
+    0 - sequence, 1 - residue, 2 - frequency, 3 - status. This function will test
+    1. residues are not the same
+    2. status is "C" or conserved (frequency above 0.9).
+    We will iterate over keys 2 at a time and check for the given conditions.
+    Function returns the indexes of said residues."""
+    listofidx = []
+    for value1 in datadict1.values(): #iterate over two dicts
+        for value2 in datadict2.values():
+            temp = [df_diff(value1, 1, value2, 1), df_equalto(value1, 3, "C"), df_equalto(value2, 3, "C")]
+            idx = set(temp[0]).intersection(*temp)
+            listofidx.append(idx)
+    #return the indexes that satisfy the conditions for all dataframes at the same time
     commonels = list(set.intersection(*[set(x) for x in listofidx]))
+    commonels.sort()
     return commonels
 
+def emergence(datadict1: Dict, datadict2: Dict) -> List:
+    """this function will take two dictionaries of dataframes. Columns of dataframes are
+    0 - sequence, 1 - residue, 2 - frequency, 3 - status. This function will test
+    1. residues are not the same
+    2. status is "C" or conserved for first dict and "NC" or nonconserved
+    for second dict. (frequency above 0.9). We will iterate over keys 2 at a time and 
+    check for the given conditions. Function returns the indexes of said residues."""
+    listofidx = []
+    for value1 in datadict1.values():
+        for value2 in datadict2.values():
+            temp = [df_diff(value1, 1, value2, 1), df_equalto(value1, 3, "C"), df_equalto(value2, 3, "NC")]
+            idx = set(temp[0]).intersection(*temp)
+            listofidx.append(idx)
+    #return the indexes that satisfy the conditions for all dataframes at the same time
+    commonels = list(set.intersection(*[set(x) for x in listofidx]))
+    commonels.sort()
+    return commonels
 
+def outer_check(datadict1: Dict, datadict2: Dict) -> List:
+    """this function will take two dictionaries of dataframes. Columns of dataframes are
+    0 - sequence, 1 - residue, 2 - frequency, 3 - status. This function will test
+    1. residues are not the same
+    2. status is "C" or conserved for first dict (frequency above 0.9).
+    We will iterate over keys 2 at a time and 
+    check for the given conditions. Function returns the indexes of said residues."""
+    listofidx = []
+    for value1 in datadict1.values():
+        for value2 in datadict2.values():
+            temp = [df_diff(value1, 1, value2, 1), df_equalto(value1, 3, "C")]
+            idx = set(temp[0]).intersection(*temp)
+            listofidx.append(idx)
+    #return the indexes that satisfy the conditions for all dataframes at the same time
+    commonels = list(set.intersection(*[set(x) for x in listofidx]))
+    commonels.sort()
+    return commonels
 
 def chisquare(observed, expected):
     """This function takes two lists and perform chi square test using lists,
