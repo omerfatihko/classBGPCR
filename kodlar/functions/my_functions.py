@@ -14,7 +14,10 @@ class Node:
         self.left = left
         self.right = right
 
-def get_leaf_data(root: Node) -> Dict: #, leafdict: Dict
+def to_dictionary(nodele: Node) -> Dict:
+    pass
+
+def get_leaf_data(root: Node) -> Dict:
     """returns a dictionary where keys are leaf names and values are leaf data"""
     # If node is null, return
     leafdict = {}

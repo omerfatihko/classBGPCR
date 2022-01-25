@@ -1,11 +1,15 @@
-from numpy import empty, inner
+#import re
+#from tracemalloc import DomainFilter
+#from numpy import empty, inner
 from functions import my_functions as mf
 import pandas as pd
 import time
-from os import X_OK, access, listdir, path
+from os import listdir #X_OK, access, ctermid, path
 from os.path import isfile, join
+#import statistics as stat
+#from statistics import mean
 #from kodlar.functions.my_functions import inner_check
-#pd.set_option("display.max_rows", None, "display.max_columns", None)
+pd.set_option("display.max_rows", None, "display.max_columns", None)
 
 start_time = time.time()
 
@@ -288,7 +292,7 @@ for i in allnodes:
 #        print(metadata[key])
 #    print("\n")
 
-for i in allnodes:
+""" for i in allnodes:
     print(i.name)
     #emergence
     #without outer check
@@ -348,8 +352,130 @@ for i in allnodes:
         print(ogunsdifference)
         print("\n")
     print("######################################################################################################################")
+    print("\n") """
+#statistic test, which domains (ECD, TMD, ICD) the residues come from?
+#get domain info file
+domaininfo = pd.read_csv("/cta/users/ofkonar/work/resources/class_B1_domains.csv", index_col = 0)
+#ancestral trail of each receptor
+glp2rlist = [glp2r, n1, n0]
+glp1rlist = [glp1r, n3, n1, n0]
+giprlist = [gipr, n6, n3, n1, n0]
+gcgrlist = [gcgr, n6, n3, n1, n0]
+sctrlist = [sctr, n4, n2, n0]
+pacrlist = [pacr, n7, n4, n2, n0]
+vipr2list = [vipr2, n10, n7, n4, n2, n0]
+ghrhrlist = [ghrhr, n13, n10, n7, n4, n2, n0]
+vipr1list = [vipr1, n13, n10, n7, n4, n2, n0]
+pth1rlist = [pth1r, n8, n5, n2, n0]
+pth2rlist = [pth2r, n8, n5, n2, n0]
+crfr2list = [crfr2, n11, n9, n5, n2, n0]
+crfr1list = [crfr1, n11, n9, n5, n2, n0]
+calcrlist = [calcr, n12, n9, n5, n2, n0]
+calrllist = [calrl, n12, n9, n5, n2, n0]
+ancestrydict = {"glp2r" : glp2rlist, "glp1r" : glp1rlist, "gipr" : giprlist, "gcgr" : gcgrlist, "sctr" : sctrlist, "pacr" : pacrlist, "vipr2" : vipr2list, "ghrhr" : ghrhrlist, 
+"vipr1" : vipr1list, "pth1r" : pth1rlist, "pth2r" : pth2rlist, "crfr2" : crfr2list, "crfr1" : crfr1list, "calcr" : calcrlist, "calrl" : calrllist}
+
+#we will perform a chi square analysis to see whether a domain is favored at any level of the tree, for more on the chi square analysis
+#visit https://www.statisticshowto.com/probability-and-statistics/chi-square/
+for key in ancestrydict: #key is also the receptor's name
+    ancestraltraillist = ancestrydict[key] #a leaf's ancestral trail (from leaf to the root)
+    print(key)
+    for node in ancestraltraillist:
+        nodename = node.name
+        print(nodename)
+        if "Ogun's_outer_check" in node.metadata:
+        #Difference with Ogun's outer check
+            temp = [node.metadata["inner_check"], node.metadata["difference"], node.metadata["Ogun's_outer_check"]]
+            ogunsdifference = list(set(temp[0]).intersection(*temp))
+            ogunsdifference.sort()
+            #get receptor length from domain info file
+            reclength = domaininfo.loc["C-ter", key.upper()]
+            #keep domain lengths in one list [N-ter, 7TM, C-ter]
+            domainlenghts = []
+            Nter = domaininfo.loc["N-ter", key.upper()]
+            domainlenghts.append(Nter)
+            TM7 = domaininfo.loc["TM7", key.upper()]
+            corelength = TM7 - Nter
+            domainlenghts.append(corelength)
+            Cter = reclength - TM7
+            domainlenghts.append(Cter)
+            domainindexes = [] #where the domain ends
+            domainindexes.append(domainlenghts[0])
+            domainindexes.append(domainlenghts[0] + domainlenghts[1])
+            domainindexes.append(domainlenghts[0] + domainlenghts[1] + domainlenghts[2])
+            #turn the domain lengths into expected values(if we chose n residues how many would have
+            # been from a given domain where n is number of residues we get from ogunsdifference)
+            expected = [(x/reclength)*len(ogunsdifference) for x in domainlenghts]
+            #print(expected)
+           
+            #now lets see what we observed
+            observed = [0, 0, 0] #shares indexes with expected [N-ter, 7TM, C-ter]
+            for i in ogunsdifference:
+                residue = B1consensus.loc[i, key + "_seq"]
+                if residue != "-":
+                    resindex = int(residue[1:])
+                    if resindex <= domainindexes[0]: #if residue index is within N-ter
+                        observed[0] = observed[0] + 1
+                    elif (domainindexes[0] < resindex) & (resindex <= domainindexes[1]):
+                        observed[1] = observed[1] + 1
+                    elif (domainindexes[1] < resindex) & (resindex <= domainindexes[2]):
+                        observed[2] = observed[2] + 1
+                    else:
+                        print("receptor ", key, " has indexing issues")
+                else:
+                    observed[1] = observed[1] + 1
+            #print(observed)
+            if sum(observed) != 0:
+                chiresults = mf.chisquare(observed, expected)
+                chitable = pd.DataFrame([observed, expected],columns= ["N-ter", "7TM", "C-ter"])
+                chitable.rename(index={0: "observed", 1: "expected"}, inplace=True)
+                print(chitable.round(2))
+                if chiresults[0] > 5.991:
+                    print("p-value < 0.05 ", chiresults[0])
+                else:
+                    print("p-value is not significant")
+            else:
+                print("no observation")
+        else:
+            print("no Ogun's outer check")
+                
+
+    print("\n")
+print("######################################################################################################################")
+
+#like in "/cta/users/ofkonar/work/tae/deneme2.py" use residue indexes to get a pymol script
+#example script to select list of residues from a chain
+"select deneme, chain A and resi 22+24+48+206"
+"color white, chain A"
+"hide (chain A)"
+base_string = "select 11, chain R and resi "
+for key in ancestrydict: #key is also the receptor's name
+    ancestraltraillist = ancestrydict[key] #a leaf's ancestral trail (from leaf to the root)
+    print(key)
+    for node in ancestraltraillist:
+        nodename = node.name
+        print(nodename)
+        if "Ogun's_outer_check" in node.metadata:
+        #Difference with Ogun's outer check
+            temp = [node.metadata["inner_check"], node.metadata["difference"], node.metadata["Ogun's_outer_check"]]
+            ogunsdifference = list(set(temp[0]).intersection(*temp))
+            ogunsdifference.sort()
+            if ogunsdifference: #check if empty
+                #get the selected residues for given receptor at each level (each ancestral node)
+                selectedresidues = B1consensus.loc[ogunsdifference, key + "_seq"].tolist()
+                selectedindexes = [x[1:] for x in selectedresidues if x != "-"]
+                indexstring = ""
+                for idx in selectedindexes:
+                    indexstring += idx
+                    indexstring += "+"
+                indexstring = "select " + nodename + ", chain R and resi " + indexstring
+                indexstring = indexstring[:-1]
+                print(indexstring)
     print("\n")
 
+
+#print(vars(n0))
+#print(vars(gcgr))
 
 #for i in allnodes:
 #    print("node", i.name)
@@ -357,19 +483,24 @@ for i in allnodes:
 #        print(key)
 #        print(value)
 #    print("\n")
-#print("######################################################################################################################")
-#subdf = B1consensus.loc[B1consensus["pth1r_status"] == "NC"]
+print("######################################################################################################################")
+#subdf = B1consensus.loc[B1consensus["pacr_status"] == "C"]
 #print(list(subdf.index))
-#subdf = subdf.loc[subdf["pth2r_status"] == "NC"]
+#subdf = subdf.loc[subdf["vipr2_status"] == "C"]
 #print(list(subdf.index))
-#subdf = subdf.loc[subdf["crfr2_residue"] == subdf["crfr1_residue"]]
+#subdf = subdf.loc[subdf["ghrhr_status"] == "C"]
 #print(list(subdf.index))
-#subdf = subdf.loc[subdf["crfr1_residue"] == subdf["calcr_residue"]]
+#subdf = subdf.loc[subdf["vipr1_status"] == "C"]
 #print(list(subdf.index))
-#subdf = subdf.loc[subdf["calcr_residue"] == subdf["calrl_residue"]]
+#subdf = subdf.loc[subdf["pacr_residue"] != subdf["sctr_residue"]]
 #print(list(subdf.index))
-#subdf = subdf.loc[subdf["crfr2_status"] == "C"]
+#subdf = subdf.loc[subdf["vipr2_residue"] != subdf["sctr_residue"]]
 #print(list(subdf.index))
+#subdf = subdf.loc[subdf["ghrhr_residue"] != subdf["sctr_residue"]]
+#print(list(subdf.index))
+#subdf = subdf.loc[subdf["vipr1_residue"] != subdf["sctr_residue"]]
+#print(list(subdf.index))
+#print(subdf)
 #subdf = subdf.loc[subdf["crfr1_status"] == "C"]
 #print(list(subdf.index))
 #subdf = subdf.loc[subdf["calcr_status"] == "C"]
