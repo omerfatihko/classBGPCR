@@ -7,7 +7,8 @@ from typing import List, Dict
 class Node:
     """define a node class. A node has at most 2 children (left and right), a name,
     and a data. A node with no children is called a leaf"""
-    def __init__(self, name, left = None, right = None, data = None, metadata = None):
+    def __init__(self, name, left = None, right = None, rawdata = None, data = None, metadata = None):
+        self.rawdata = rawdata
         self.data = data
         self.metadata = metadata
         self.name = name
@@ -16,6 +17,42 @@ class Node:
 
 def to_dictionary(nodele: Node) -> Dict:
     pass
+
+def is_leaf(node: Node) -> bool:
+    if(not node.left and not node.right):
+        return True
+    else:
+        return False
+
+def get_leaf_rawdata(root: Node) -> Dict:
+    """returns a dictionary where keys are leaf names and values are leaf raw data"""
+    # If node is null, return
+    leafdict = {}
+    if (not root):
+        return leafdict
+    
+    # If node is leaf node,
+    # key --> leaf name, value --> leaf data
+    if (not root.left and not root.right):
+        leafdict[root.name] = root.rawdata
+        #leaflist.append(root.name)
+        #print(root.data,
+        #	end = " ")
+        return leafdict
+
+    # If left child exists,
+    # check for leaf recursively
+    if root.left:
+        temp = get_leaf_rawdata(root.left)
+        leafdict.update(temp)
+
+    # If right child exists,
+    # check for leaf recursively
+    if root.right:
+        temp = get_leaf_rawdata(root.right)
+        leafdict.update(temp)
+    
+    return leafdict
 
 def get_leaf_data(root: Node) -> Dict:
     """returns a dictionary where keys are leaf names and values are leaf data"""

@@ -9,7 +9,7 @@ from os.path import isfile, join
 #import statistics as stat
 #from statistics import mean
 #from kodlar.functions.my_functions import inner_check
-pd.set_option("display.max_rows", None, "display.max_columns", None)
+#pd.set_option("display.max_rows", None, "display.max_columns", None)
 
 start_time = time.time()
 
@@ -155,6 +155,7 @@ group2 = B1consensus.loc[(B1consensus["calcr_status"] == "C") & (B1consensus["ca
 print(group2)
 print("######################################################################################################################")
 """
+"""
 #define the class B1 family tree
 #        _______n0______
 #       /               \
@@ -292,7 +293,7 @@ for i in allnodes:
 #        print(metadata[key])
 #    print("\n")
 
-""" for i in allnodes:
+for i in allnodes:
     print(i.name)
     #emergence
     #without outer check
@@ -352,7 +353,7 @@ for i in allnodes:
         print(ogunsdifference)
         print("\n")
     print("######################################################################################################################")
-    print("\n") """
+    print("\n")
 #statistic test, which domains (ECD, TMD, ICD) the residues come from?
 #get domain info file
 domaininfo = pd.read_csv("/cta/users/ofkonar/work/resources/class_B1_domains.csv", index_col = 0)
@@ -441,7 +442,7 @@ for key in ancestrydict: #key is also the receptor's name
                 
 
     print("\n")
-print("######################################################################################################################")
+ print("######################################################################################################################")
 
 #like in "/cta/users/ofkonar/work/tae/deneme2.py" use residue indexes to get a pymol script
 #example script to select list of residues from a chain
@@ -460,6 +461,8 @@ for key in ancestrydict: #key is also the receptor's name
             temp = [node.metadata["inner_check"], node.metadata["difference"], node.metadata["Ogun's_outer_check"]]
             ogunsdifference = list(set(temp[0]).intersection(*temp))
             ogunsdifference.sort()
+            print(ogunsdifference)
+            print(len(ogunsdifference), " residues")
             if ogunsdifference: #check if empty
                 #get the selected residues for given receptor at each level (each ancestral node)
                 selectedresidues = B1consensus.loc[ogunsdifference, key + "_seq"].tolist()
@@ -483,6 +486,7 @@ for key in ancestrydict: #key is also the receptor's name
 #        print(key)
 #        print(value)
 #    print("\n")
+
 print("######################################################################################################################")
 #subdf = B1consensus.loc[B1consensus["pacr_status"] == "C"]
 #print(list(subdf.index))
@@ -519,6 +523,160 @@ print("#########################################################################
 #print(list(subdf.index))
 
 #print(subdf)
+"""
+#lets try again
+#define the class B1 family tree
+#        _______n0______
+#       /               \
+#    n1            ______n2________
+#    /\           /                \
+#glp2r n3       n4              ____n5___
+#      /\      / \             /         \
+#  glp1r n6 sctr  n7         n8        ___n9___
+#        /\       /\         /\       /        \
+#    gipr gcgr pacr n10 pth1r pth2r n11         n12
+#                   /\              /\          /\
+#               vipr2 n13       crfr2 crfr1 calcr calrl
+#                     /\  
+#                 ghrhr vipr1
 
+#node initiation
+ghrhr = mf.Node("ghrhr")
+vipr1 = mf.Node("vipr1")
+vipr2 = mf.Node("vipr2")
+n13 = mf.Node("n13", left = ghrhr, right = vipr1)
+crfr2 = mf.Node("crfr2")
+crfr1 = mf.Node("crfr1")
+calcr = mf.Node("calcr")
+calrl = mf.Node("calrl")
+gipr = mf.Node("gipr")
+gcgr = mf.Node("gcgr")
+pacr = mf.Node("pacr")
+n10 = mf.Node("n10", left = vipr2, right = n13)
+pth1r = mf.Node("pth1r")
+pth2r = mf.Node("pth2r")
+n11 = mf.Node("n11", left = crfr2, right = crfr1)
+n12 = mf.Node("n12", left = calcr, right = calrl)
+glp1r = mf.Node("glp1r")
+n6 = mf.Node("n6", left = gipr, right = gcgr)
+sctr = mf.Node("sctr")
+n7 = mf.Node("n7", left = pacr, right = n10)
+n8 = mf.Node("n8", left = pth1r, right = pth2r)
+n9 = mf.Node("n9", left = n11, right = n12)
+glp2r = mf.Node("glp2r")
+n3 = mf.Node("n3", left = glp1r, right = n6)
+n4 = mf.Node("n4", left = sctr, right = n7)
+n5 = mf.Node("n5", left = n8, right = n9)
+n1 = mf.Node("n1", left = glp2r, right = n3)
+n2 = mf.Node("n2", left = n4, right = n5)
+n0 = mf.Node("n0", left = n1, right = n2)
+
+#fill the leaves with fasta raw data
+#returns the list of leaf node objects
+leaflist = mf.get_leaf_list(n0)
+for leaf in leaflist:
+    #read the raw data. raw data directory example:
+    #"/cta/users/ofkonar/work/resources/class_B1/canonical/calcr_orthologs_msa_pruned.fasta"
+    rawdata = mf.read_fasta(fastadir + leaf.name + "_orthologs_msa_pruned.fasta")
+    rawdatadf = mf.fasta_to_dataframe(rawdata)
+    leaf.rawdata = rawdatadf
+
+#fill the nodes with data, consensus of all leaves under the node
+#also fill the nodes with metadata inner_check, where the positions are consensus
+#get list of nodes
+nodelist = mf.get_node_list(n0)
+for node in nodelist:
+    #for internal nodes, data is consensus of combination of leaves under the node
+    if not mf.is_leaf(node):
+        #get raw data of all leaves under
+        noderawdatadict = mf.get_leaf_rawdata(node)
+        #combine the sequences of leaves
+        noderawdatalist = [noderawdatadict[key] for key in noderawdatadict]
+        noderawdatadf = pd.concat(noderawdatalist, axis=1)
+        #get the consensus of combined sequences
+        nodeconsensus = mf.consensus(noderawdatadf, 0.9)
+        #add node name to the data (to prevent confusion down the line)
+        suffix = "_" + node.name
+        nodeconsensus = nodeconsensus.add_suffix(suffix)
+        #assign data to the node
+        node.data = nodeconsensus
+        node_con_psts = mf.df_equalto(nodeconsensus, 2, "C")
+        node_metadata = {"internal_check" : node_con_psts}
+        node.metadata = node_metadata
+
+    else: #if the node is a leaf, we don't have to combine multiple leaves, rest is the same with inner nodes
+        noderawdatadict = mf.get_leaf_rawdata(node)
+        noderawdatadf = noderawdatadict[node.name]
+        nodeconsensus = mf.consensus(noderawdatadf, 0.9)
+        suffix = "_" + node.name
+        nodeconsensus = nodeconsensus.add_suffix(suffix)
+        node.data = nodeconsensus
+        node_con_psts = mf.df_equalto(nodeconsensus, 2, "C")
+        node_metadata = {"internal_check" : node_con_psts}
+        node.metadata = node_metadata
+
+#define ancestral trails
+#ancestral trail of each receptor
+glp2rlist = [n0, n1, glp2r]
+glp1rlist = [n0, n1, n3, glp1r]
+giprlist = [n0, n1, n3, n6, gipr]
+gcgrlist = [n0, n1, n3, n6, gcgr]
+sctrlist = [n0, n2, n4, sctr]
+pacrlist = [n0, n2, n4, n7, pacr]
+vipr2list = [n0, n2, n4, n7, n10, vipr2]
+ghrhrlist = [n0, n2, n4, n7, n10, n13, ghrhr]
+vipr1list = [n0, n2, n4, n7, n10, n13, vipr1]
+pth1rlist = [n0, n2, n5, n8, pth1r]
+pth2rlist = [n0, n2, n5, n8, pth2r]
+crfr2list = [n0, n2, n5, n9, n11, crfr2]
+crfr1list = [n0, n2, n5, n9, n11, crfr1]
+calcrlist = [n0, n2, n5, n9, n12, calcr]
+calrllist = [n0, n2, n5, n9, n12, calrl]
+
+ancestrydict = {"glp2r" : glp2rlist, "glp1r" : glp1rlist, "gipr" : giprlist, "gcgr" : gcgrlist, "sctr" : sctrlist, "pacr" : pacrlist, "vipr2" : vipr2list, "ghrhr" : ghrhrlist, 
+"vipr1" : vipr1list, "pth1r" : pth1rlist, "pth2r" : pth2rlist, "crfr2" : crfr2list, "crfr1" : crfr1list, "calcr" : calcrlist, "calrl" : calrllist}
+
+for key in ancestrydict: #we will traverse from root to the node (follow the ancestral trail)
+    ancestrylist = ancestrydict[key] #get the ancestral trail
+    print("current ancestral trail leaf: ", key)
+    seen = [] #nodes that are alraady seen while traversing the trail
+    for i in range(len(ancestrylist)): #iterate over the trail
+        current_node = ancestrylist[i] #current node that we want to compare with its ancestors
+        print("current node to compare: ", current_node.name)
+        if seen: #if there is any node in the seen list
+            current_consensus = current_node.metadata["internal_check"] #get the consensus positions of the current node
+            differences = [] #node vs ancestor list
+            for j in seen: #iterate over seen nodes (ancestors)
+                diff = mf.df_diff(current_node.data, 0, j.data, 0) #get the node vs ancestor difference
+                checked_diff = [ele for ele in diff if ele in current_consensus] #get position that are different and consensus
+                differences.append(checked_diff) #add them to the differences list
+            total_ancestral_diff = list(set.intersection(*[set(x) for x in differences])) #get the intersections of all differences
+            total_ancestral_diff.sort()
+            current_node.metadata["total_ancestral_diff"] = total_ancestral_diff #assign the total ancestral difference to the metadata
+            print(total_ancestral_diff)            
+        seen.append(current_node)
+    print("\n")
+
+#compare each node with its sister
+for node in nodelist:
+    if not mf.is_leaf(node): #if node is a leaf it has no children to compare each other to
+        left_children = node.left #get the left child
+        left_consensus = left_children.metadata["internal_check"] #get the left consensus
+        left_data = left_children.data #get the left data
+        right_children = node.right
+        right_consensus = right_children.metadata["internal_check"]
+        right_data = right_children.data
+        left_vs_right = mf.df_diff(left_data, 0, right_data, 0) #compare left and right
+        leftdif = [ele for ele in left_vs_right if ele in left_consensus] #take positions that are different and consensus
+        left_children.metadata["sister_difference"] = leftdif #add to the metadata
+        right_vs_left = mf.df_diff(right_data, 0, left_data, 0)
+        rightdif = [ele for ele in right_vs_left if ele in right_consensus]
+        right_children.metadata["sister_difference"] = rightdif
+
+for node in nodelist:
+    if node != n0:
+        print("node name: ", node.name)
+        print([ele for ele in node.metadata["total_ancestral_diff"] if ele in node.metadata["sister_difference"]])
+        print("\n")
 
 print("My program took", time.time() - start_time, "seconds to run")
